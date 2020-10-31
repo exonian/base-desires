@@ -25,10 +25,12 @@ if __name__ == "__main__":
         with open(text_file_path, 'r') as f:
             for line in f:
                 words = line.split()
+                notes = ""
                 if words[-1][-1] == ")":
                     opening_bracket = [words.index(word) for word in words if word.startswith('(')][-1]
-                    name = ' '.join(words[:opening_bracket])
-                    size = ' '.join(words[opening_bracket:])
+                    notes = ' '.join(words[opening_bracket:])
+                    words = words[:opening_bracket]
+
                 if len(words) >=2 and words[-2] == "x":
                     name = ' '.join(words[:-3])
                     size = ' '.join(words[-3:])
@@ -38,7 +40,7 @@ if __name__ == "__main__":
                 else:
                     name = ' '.join(words[:-1])
                     size = words[-1]
-                warscrolls.append((name, size))
+                warscrolls.append((name, size, notes))
                 sizes.update([size])
 
         with open(ts_file_path, 'w') as f:
@@ -46,11 +48,12 @@ if __name__ == "__main__":
 import { TWarscrolls } from "../types";
 
 const Warscrolls: TWarscrolls = {""")
-            for name, size in warscrolls:
+            for name, size, notes in warscrolls:
                 f.write("""
     "{name}" : {{
         baseSize: "{size}",
-    }},""".format(name=name, size=size))
+        notes: "{notes}",
+    }},""".format(name=name, size=size, notes=notes))
             f.write("""
 }
 export default Warscrolls""")

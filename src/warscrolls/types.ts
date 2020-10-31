@@ -6,10 +6,17 @@ export type TBaseSize =
     | "60mm"
     | "65mm"
     | "100mm"
+    | "130mm"
+    | "160mm"
+    | "170mm"
     | "60 x 35mm"
     | "75 x 42mm"
     | "90 x 52mm"
+    | "105 x 70mm"
+    | "120 x 92mm"
     | "170 x 105mm"
+    | "280 x 210mm"
+    | "Use model"
 
 export type TWarscroll = {
     baseSize: TBaseSize
