@@ -1,41 +1,55 @@
-import { camelCase, startCase } from 'lodash'
-import React from 'react';
+import React, { useState } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   useHistory,
   useParams,
+  useLocation,
 } from 'react-router-dom';
 
 import './App.css';
 import { Warscrolls } from './warscrolls/data';
 import { toDisplay, toStandard } from './utils';
-import { exact } from 'prop-types';
 
 const App = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/"><Search /></Route>
+        <Route exact path="/"><SearchResults /></Route>
         <Route strict path="/:slug/" children={<Warscroll />} />
-        <Route path="/:slug" children={<Search />} />
+        <Route path="/:slug" children={<SearchResults />} />
       </Switch>
     </Router>
   )
 }
 
-const Search = () => {
+const SearchBox: React.FC = () => {
+  const history = useHistory()
+  const location = useLocation()
+  const [searchTerm, setSearchTerm] = useState('')
+
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const value = event.target.value
+    setSearchTerm(value)
+    history.push(toStandard(`/${value}`))
+  }
+
+  return (
+    <input value={searchTerm} onChange={handleChange} autoFocus />
+  )
+}
+
+const SearchResults = () => {
   const history = useHistory()
   const { slug } = useParams()
   const standardisedSlug = slug ? toStandard(slug) : ""
   const matchNames = Object.keys(Warscrolls).filter(name => toStandard(name).includes(standardisedSlug))
-  // const exactMatch = matchNames.filter(name => toStandard(name) == standardisedSlug)
 
-  // if (exactMatch.length) history.push(`/${exactMatch}/`)
-  if (matchNames.length == 1) history.push(`/${toStandard(matchNames[0])}/`)
+  // if (matchNames.length == 1) history.push(`/${toStandard(matchNames[0])}/`)
   return (
     <div className="App">
+      <SearchBox />
       <header>
         <h1>Warscrolls</h1>
       </header>
@@ -49,20 +63,20 @@ const Search = () => {
 }
 
 const Warscroll = () => {
-  const history = useHistory()
   const { slug } = useParams()
   const standardisedSlug = slug ? toStandard(slug) : ""
   const exactMatch = Object.keys(Warscrolls).find(name => toStandard(name) == standardisedSlug)
 
   return exactMatch ? (
     <div className="App">
+      <SearchBox />
       <header>
         <h1>{ toDisplay(exactMatch) }</h1>
       </header>
     </div>
   )
   :
-  Search()
+  SearchResults()
 }
 
 export default App;
