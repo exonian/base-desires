@@ -8,7 +8,7 @@ import {
   useLocation,
   Link,
 } from 'react-router-dom';
-import { FaLink} from 'react-icons/fa'
+import { FaLink, FaHome} from 'react-icons/fa'
 
 import './App.css';
 import { Warscrolls } from './warscrolls/data';
@@ -61,7 +61,7 @@ const SearchResults = () => {
       <ul>
         {Object.entries(warscrolls).map(([name, warscroll]) =>
           <li key={name}>
-            <h2>{name} <Link to={`/${toStandard(name)}/`}><FaLink /></Link></h2>
+            <p><Link to={`/${toStandard(name)}/`}>{name}</Link></p>
             <p>{ warscroll.baseSize }</p>
             { warscroll.notes && <p>{ warscroll.notes }</p>}
           </li>
@@ -79,7 +79,7 @@ const Warscroll = () => {
 
   return (warscrollName && warscroll) ? (
     <div className="App">
-      <SearchBox />
+      <Link to={"/"}><FaHome /></Link>
       <header>
         <h1>{ warscrollName }</h1>
         <h2>{ warscroll.baseSize }</h2>
