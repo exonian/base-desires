@@ -15,6 +15,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
+        <Route exact path="/"><Page /></Route>
         <Route path="/:slug" children={<Page />} />
       </Switch>
     </Router>
