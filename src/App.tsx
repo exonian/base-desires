@@ -6,7 +6,9 @@ import {
   useHistory,
   useParams,
   useLocation,
+  Link,
 } from 'react-router-dom';
+import { FaLink} from 'react-icons/fa'
 
 import './App.css';
 import { Warscrolls } from './warscrolls/data';
@@ -41,7 +43,6 @@ const SearchBox: React.FC = () => {
 }
 
 const SearchResults = () => {
-  const history = useHistory()
   const { slug } = useParams()
   const standardisedSlug = slug ? toStandard(slug) : ""
   const matchNames = Object.keys(Warscrolls).filter(name => toStandard(name).includes(standardisedSlug))
@@ -55,7 +56,7 @@ const SearchResults = () => {
       </header>
       <ul>
         {matchNames.map((warscroll) =>
-          <li key={warscroll}>{warscroll}</li>
+          <li key={warscroll}>{warscroll} <Link to={`/${toStandard(warscroll)}/`}><FaLink /></Link></li>
         )}
       </ul>
     </div>
