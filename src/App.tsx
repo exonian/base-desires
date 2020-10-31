@@ -10,6 +10,8 @@ import {
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import { Warscrolls } from './warscrolls/data';
+import { toDisplay, toStandard } from './utils';
 
 const App = () => {
   return (
@@ -24,12 +26,15 @@ const App = () => {
 
 const Page = () => {
   const { slug } = useParams()
-  const pageName = startCase(camelCase(slug))
+  const standardisedSlug = toStandard(slug)
+  const matches = Object.keys(Warscrolls).filter(name => toStandard(name).includes(standardisedSlug))
+  const pageName = toDisplay(slug)
 
   return (
     <div className="App">
       <header className="App-header">
         <h1>{ pageName }</h1>
+        <p>{ matches }</p>
       </header>
     </div>
   );
