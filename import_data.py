@@ -66,7 +66,7 @@ export default Warscrolls""")
     print(', '.join(module_names))
     print('')
     with open(DATA_FILE, 'w') as f:
-        f.write("""import { TWarscrolls } from "./types";\n""")
+        f.write("""import { TWarscrolls } from "./types";\n\n""")
         for module in module_names:
             f.write('''import {module_title}Warscrolls from "./data/{module}"\n'''.format(module=module, module_title=module.title()))
         f.write("\n")

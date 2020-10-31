@@ -5,6 +5,7 @@ export type TBaseSize =
     | "50mm"
     | "60mm"
     | "65mm"
+    | "80mm"
     | "100mm"
     | "130mm"
     | "160mm"
