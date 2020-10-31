@@ -13,4 +13,11 @@ export const Warscrolls: TWarscrolls = {
     "Lord-Celestant on Stardrake" : {
         baseSize: "170 x 105mm",
     },
+    "Vanguard-Raptors with Hurricane Crossbows" : {
+        baseSize: "40mm",
+    },
+    "Vanguard-Raptors with Longstrike Crossbows" : {
+        baseSize: "60 x 35mm",
+        notes: "The Prime comes on a 40mm base",
+    },
 }

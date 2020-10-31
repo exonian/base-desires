@@ -13,6 +13,7 @@ import { FaLink} from 'react-icons/fa'
 import './App.css';
 import { Warscrolls } from './warscrolls/data';
 import { toDisplay, toStandard } from './utils';
+import { TWarscroll, TWarscrolls } from './warscrolls/types';
 
 const App = () => {
   return (
@@ -45,9 +46,12 @@ const SearchBox: React.FC = () => {
 const SearchResults = () => {
   const { slug } = useParams()
   const standardisedSlug = slug ? toStandard(slug) : ""
-  const matchNames = Object.keys(Warscrolls).filter(name => toStandard(name).includes(standardisedSlug))
+  const warscrollNames = Object.keys(Warscrolls).filter(name => toStandard(name).includes(standardisedSlug))
+  const warscrolls = warscrollNames.reduce((accum, warscrollName) => {
+    accum[warscrollName] = Warscrolls[warscrollName]
+    return accum
+  }, {} as TWarscrolls)
 
-  // if (matchNames.length == 1) history.push(`/${toStandard(matchNames[0])}/`)
   return (
     <div className="App">
       <SearchBox />
@@ -55,8 +59,12 @@ const SearchResults = () => {
         <h1>Warscrolls</h1>
       </header>
       <ul>
-        {matchNames.map((warscroll) =>
-          <li key={warscroll}>{warscroll} <Link to={`/${toStandard(warscroll)}/`}><FaLink /></Link></li>
+        {Object.entries(warscrolls).map(([name, warscroll]) =>
+          <li key={name}>
+            <h2>{name} <Link to={`/${toStandard(name)}/`}><FaLink /></Link></h2>
+            <p>{ warscroll.baseSize }</p>
+            { warscroll.notes && <p>{ warscroll.notes }</p>}
+          </li>
         )}
       </ul>
     </div>
@@ -66,13 +74,16 @@ const SearchResults = () => {
 const Warscroll = () => {
   const { slug } = useParams()
   const standardisedSlug = slug ? toStandard(slug) : ""
-  const exactMatch = Object.keys(Warscrolls).find(name => toStandard(name) == standardisedSlug)
+  const warscrollName = Object.keys(Warscrolls).find(name => toStandard(name) == standardisedSlug)
+  const warscroll = warscrollName && Warscrolls[warscrollName]
 
-  return exactMatch ? (
+  return (warscrollName && warscroll) ? (
     <div className="App">
       <SearchBox />
       <header>
-        <h1>{ toDisplay(exactMatch) }</h1>
+        <h1>{ warscrollName }</h1>
+        <h2>{ warscroll.baseSize }</h2>
+        { warscroll.notes && <p>{ warscroll.notes }</p>}
       </header>
     </div>
   )
