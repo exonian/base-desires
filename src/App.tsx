@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,8 +9,9 @@ import {
 } from 'react-router-dom';
 import { FaSearch, FaTwitter, FaGithub} from 'react-icons/fa'
 
+import { logPageView, logToGA } from './utils/analytics'
+import { toStandard } from './utils/text';
 import { Warscrolls } from './warscrolls/data';
-import { toStandard } from './utils';
 import { TWarscrolls, TWarscroll } from './warscrolls/types';
 
 const App = () => {
@@ -37,6 +38,26 @@ const SearchBox: React.FC = () => {
     history.push(toStandard(`/${value}`))
   }
 
+  const handleBlur = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const value = event.target.value
+    logToGA({
+      category: `Unit name`,
+      action: `Search blur`,
+      label: `${value}`,
+    })
+  }
+
+  const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === 'Enter') {
+      const target = event.target as HTMLInputElement
+      logToGA({
+        category: `Unit name`,
+        action: `Search enter`,
+        label: `${target.value}`,
+      })
+    }
+  }
+
   return (
     <div className="form-row align-items-center">
       <div className="col"></div>
@@ -45,7 +66,7 @@ const SearchBox: React.FC = () => {
           <div className="input-group-prepend">
             <div className="input-group-text"><FaSearch /></div>
           </div>
-          <input className="form-control" value={searchTerm} onChange={handleChange} autoFocus />
+          <input className="form-control" value={searchTerm} onChange={handleChange} onBlur={handleBlur} onKeyDown={handleKeyDown} autoFocus />
         </div>
       </div>
       <div className="col"></div>
@@ -112,6 +133,10 @@ const Page: React.FC<IPageProps> = props => {
   const { warscrolls, showSearch, linkToWarscrolls } = props
 
   const cardColumnStyle = (Object.keys(warscrolls).length > 1) ? "col-md-6" : "col-12"
+
+  useEffect(() => {
+    logPageView()
+  }, [])
 
   return (
     <div className="d-flex flex-column min-vh-100">
