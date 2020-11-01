@@ -115,7 +115,7 @@ const Page: React.FC<IPageProps> = props => {
     <div className="d-flex flex-column min-vh-100">
       <div className="container pt-3 flex-fill">
         <h1><Link to={"/"}>Base Desires</Link></h1>
-        <div className="sticky-top bg-white">
+        <div className="sticky-top bg-body">
           { showSearch && <SearchBox /> }
         </div>
         <div className="row">
