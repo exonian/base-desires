@@ -159,6 +159,7 @@ const Page: React.FC<IPageProps> = props => {
           <a className="social-link" href="https://twitter.com/rogue_michael"><FaTwitter /> @rogue_michael</a>
           <a className="social-link" href="https://github.com/exonian"><FaGithub /> exonian</a>
         </p>
+        <p>v0.0.1</p>
       </footer>
     </div>
   )
