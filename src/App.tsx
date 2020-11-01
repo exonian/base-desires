@@ -7,7 +7,7 @@ import {
   useParams,
   Link,
 } from 'react-router-dom';
-import { FaSearch} from 'react-icons/fa'
+import { FaSearch, FaTwitter, FaGithub} from 'react-icons/fa'
 
 import { Warscrolls } from './warscrolls/data';
 import { toStandard } from './utils';
@@ -129,7 +129,11 @@ const Page: React.FC<IPageProps> = props => {
         </div>
       </div>
       <footer className="footer text-center">
-        <p>A silly name followed by a weekend project.</p>
+        <p>A silly name followed by a weekend project</p>
+        <p>By Michael Blatherwick
+          <a className="social-link" href="https://twitter.com/rogue_michael"><FaTwitter /> @rogue_michael</a>
+          <a className="social-link" href="https://github.com/exonian"><FaGithub /> exonian</a>
+        </p>
       </footer>
     </div>
   )
