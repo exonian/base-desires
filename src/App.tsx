@@ -5,15 +5,13 @@ import {
   Route,
   useHistory,
   useParams,
-  useLocation,
   Link,
 } from 'react-router-dom';
-import { FaLink, FaHome} from 'react-icons/fa'
+import { FaSearch} from 'react-icons/fa'
 
-import './App.css';
 import { Warscrolls } from './warscrolls/data';
-import { toDisplay, toStandard } from './utils';
-import { TWarscroll, TWarscrolls } from './warscrolls/types';
+import { toStandard } from './utils';
+import { TWarscrolls, TWarscroll } from './warscrolls/types';
 
 const App = () => {
   return (
@@ -29,7 +27,6 @@ const App = () => {
 
 const SearchBox: React.FC = () => {
   const history = useHistory()
-  const location = useLocation()
   const [searchTerm, setSearchTerm] = useState('')
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -39,7 +36,38 @@ const SearchBox: React.FC = () => {
   }
 
   return (
-    <input value={searchTerm} onChange={handleChange} autoFocus />
+    <div className="form-row align-items-center">
+      <div className="col"></div>
+      <div className="col-8">
+        <div className="input-group mb-3 mt-3">
+          <div className="input-group-prepend">
+            <div className="input-group-text"><FaSearch /></div>
+          </div>
+          <input className="form-control" value={searchTerm} onChange={handleChange} autoFocus />
+        </div>
+      </div>
+      <div className="col"></div>
+    </div>
+  )
+}
+
+interface ICardProps {
+  key: string
+  name: string
+  warscroll: TWarscroll
+  link: boolean
+}
+
+const Card: React.FC<ICardProps> = props => {
+  const { key, name, warscroll, link } = props
+  return (
+    <div className="card warscroll-card mb-3" key={key}>
+      <div className="card-body">
+        <h2>{ link ? <Link to={`/${toStandard(name)}/`}>{name}</Link> : <>{name}</>}</h2>
+        <p className="card-text">{ warscroll.baseSize }</p>
+        { warscroll.notes && <p className="card-notes">{ warscroll.notes }</p>}
+      </div>
+    </div>
   )
 }
 
@@ -53,42 +81,51 @@ const SearchResults = () => {
   }, {} as TWarscrolls)
 
   return (
-    <div className="App">
-      <SearchBox />
-      <header>
-        <h1>Warscrolls</h1>
-      </header>
-      <ul>
-        {Object.entries(warscrolls).map(([name, warscroll]) =>
-          <li key={name}>
-            <p><Link to={`/${toStandard(name)}/`}>{name}</Link></p>
-            <p>{ warscroll.baseSize }</p>
-            { warscroll.notes && <p>{ warscroll.notes }</p>}
-          </li>
-        )}
-      </ul>
-    </div>
+    <Page warscrolls={warscrolls} showSearch={true} linkToWarscrolls={true} />
   )
 }
 
 const Warscroll = () => {
   const { slug } = useParams()
   const standardisedSlug = slug ? toStandard(slug) : ""
-  const warscrollName = Object.keys(Warscrolls).find(name => toStandard(name) == standardisedSlug)
-  const warscroll = warscrollName && Warscrolls[warscrollName]
+  const name = Object.keys(Warscrolls).find(name => toStandard(name) === standardisedSlug)
+  const warscroll = name && Warscrolls[name]
+  const warscrolls: TWarscrolls = {}
+  if (name && warscroll) warscrolls[name] = warscroll
 
-  return (warscrollName && warscroll) ? (
-    <div className="App">
-      <Link to={"/"}><FaHome /></Link>
-      <header>
-        <h1>{ warscrollName }</h1>
-        <h2>{ warscroll.baseSize }</h2>
-        { warscroll.notes && <p>{ warscroll.notes }</p>}
-      </header>
-    </div>
+  return (name && warscroll) ? (
+    <Page warscrolls={warscrolls} showSearch={false} linkToWarscrolls={false} />
   )
   :
   SearchResults()
+}
+
+interface IPageProps {
+  warscrolls: TWarscrolls
+  showSearch: boolean
+  linkToWarscrolls: boolean
+}
+
+const Page: React.FC<IPageProps> = props => {
+  const { warscrolls, showSearch, linkToWarscrolls } = props
+
+  const cardColumnStyle = (Object.keys(warscrolls).length > 1) ? "col-md-6" : "col-12"
+
+  return (
+    <div className="container pt-3">
+      <h1><Link to={"/"}>Base Desires</Link></h1>
+      <div className="sticky-top bg-white">
+        { showSearch && <SearchBox /> }
+      </div>
+      <div className="row">
+        {Object.entries(warscrolls).map(([name, warscroll]) =>
+          <div className={cardColumnStyle}>
+            <Card name={name} warscroll={warscroll} key={name} link={linkToWarscrolls} />
+          </div>
+        )}
+      </div>
+    </div>
+  )
 }
 
 export default App;
