@@ -112,18 +112,23 @@ const Page: React.FC<IPageProps> = props => {
   const cardColumnStyle = (Object.keys(warscrolls).length > 1) ? "col-md-6" : "col-12"
 
   return (
-    <div className="container pt-3">
-      <h1><Link to={"/"}>Base Desires</Link></h1>
-      <div className="sticky-top bg-white">
-        { showSearch && <SearchBox /> }
+    <div className="d-flex flex-column min-vh-100">
+      <div className="container pt-3 flex-fill">
+        <h1><Link to={"/"}>Base Desires</Link></h1>
+        <div className="sticky-top bg-white">
+          { showSearch && <SearchBox /> }
+        </div>
+        <div className="row">
+          {Object.entries(warscrolls).map(([name, warscroll]) =>
+            <div className={cardColumnStyle}>
+              <Card name={name} warscroll={warscroll} key={name} link={linkToWarscrolls} />
+            </div>
+          )}
+        </div>
       </div>
-      <div className="row">
-        {Object.entries(warscrolls).map(([name, warscroll]) =>
-          <div className={cardColumnStyle}>
-            <Card name={name} warscroll={warscroll} key={name} link={linkToWarscrolls} />
-          </div>
-        )}
-      </div>
+      <footer className="footer text-center">
+        <p>A silly name followed by a weekend project.</p>
+      </footer>
     </div>
   )
 }
