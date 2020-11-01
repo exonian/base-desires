@@ -27,7 +27,9 @@ const App = () => {
 
 const SearchBox: React.FC = () => {
   const history = useHistory()
+  const { slug } = useParams()
   const [searchTerm, setSearchTerm] = useState('')
+  if (!searchTerm && slug) setSearchTerm(slug)
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value
