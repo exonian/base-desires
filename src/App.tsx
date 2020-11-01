@@ -54,16 +54,16 @@ const SearchBox: React.FC = () => {
 }
 
 interface ICardProps {
-  key: string
   name: string
   warscroll: TWarscroll
   link: boolean
 }
 
 const Card: React.FC<ICardProps> = props => {
-  const { key, name, warscroll, link } = props
+  const { name, warscroll, link } = props
+
   return (
-    <div className="card warscroll-card mb-3" key={key}>
+    <div className="card warscroll-card mb-3">
       <div className="card-body">
         <h2>{ link ? <Link to={`/${toStandard(name)}/`}>{name}</Link> : <>{name}</>}</h2>
         <p className="card-text">{ warscroll.baseSize }</p>
@@ -122,8 +122,8 @@ const Page: React.FC<IPageProps> = props => {
         </div>
         <div className="row">
           {Object.entries(warscrolls).map(([name, warscroll]) =>
-            <div className={cardColumnStyle}>
-              <Card name={name} warscroll={warscroll} key={name} link={linkToWarscrolls} />
+            <div className={cardColumnStyle} key={name}>
+              <Card name={name} warscroll={warscroll} link={linkToWarscrolls} />
             </div>
           )}
         </div>
