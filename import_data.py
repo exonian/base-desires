@@ -22,9 +22,11 @@ if __name__ == "__main__":
     overrides = defaultdict(defaultdict)
     with open(OVERRIDES_FILE, 'r') as f:
         for line in f:
-            name, value, size, notes = line.split(" || ")
+            if not line.strip() or line.strip().startswith == "Name":
+                continue
+            name, expected, size, notes = line.split(" || ")
             name = name.strip()
-            overrides[name]['if_value_equals'] = value.strip()
+            overrides[name]['expected_size'] = expected.strip()
             if size.strip():
                 overrides[name]['size'] = size.strip()
             if notes.strip():
@@ -55,9 +57,14 @@ if __name__ == "__main__":
                 else:
                     name = ' '.join(words[:-1])
                     size = words[-1]
-                if size == overrides[name].get('if_value_equals'):
+                expected_size = overrides[name].get('expected_size')
+                if size == expected_size:
                     size = overrides[name].get('size') or size
                     notes = overrides[name].get('notes') or notes
+                elif expected_size:
+                    raise Exception('Refusing to override {name}: expected size "{expected}" but got "{actual}"'.format(
+                        name=name, expected=expected_size, actual=size
+                    ))
                 warscrolls.append((name, size, notes))
                 sizes.update([size])
 

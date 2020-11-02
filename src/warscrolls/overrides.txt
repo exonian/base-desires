@@ -1,3 +1,5 @@
+Name                        ||  Expected size   ||  Override size           ||  Override notes
+
 Aethervoid Pendulum         ||  Use model       ||  64 x 42mm oval          ||  FAQ says 'Use model'
 Balewind Vortex             ||  Use model       ||  90 - 108mm across       ||  FAQ says 'Use model'
 The Burning Head            ||  Use model       ||  50mm                    ||  FAQ says 'Use model'
