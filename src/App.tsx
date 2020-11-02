@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,7 +7,8 @@ import {
   useParams,
   Link,
 } from 'react-router-dom';
-import { FaSearch, FaTwitter, FaGithub} from 'react-icons/fa'
+import { FaSearch, FaTwitter, FaGithub } from 'react-icons/fa'
+import { MdClear } from 'react-icons/md'
 
 import { logPageView, logToGA } from './utils/analytics'
 import { toStandard } from './utils/text';
@@ -27,6 +28,7 @@ const App = () => {
 }
 
 const SearchBox: React.FC = () => {
+  const inputElement = useRef<HTMLInputElement>(null)
   const history = useHistory()
   const { slug } = useParams()
   const [searchTerm, setSearchTerm] = useState('')
@@ -58,6 +60,17 @@ const SearchBox: React.FC = () => {
     }
   }
 
+  const handleClear = () => {
+    setSearchTerm('')
+    inputElement?.current?.focus()
+    history.push('')
+    logToGA({
+      category: `Unit name`,
+      action: `Search clear`,
+      label: ``,
+    })
+  }
+
   return (
     <div className="form-row align-items-center">
       <div className="col"></div>
@@ -66,7 +79,12 @@ const SearchBox: React.FC = () => {
           <div className="input-group-prepend">
             <div className="input-group-text"><FaSearch /></div>
           </div>
-          <input className="form-control" value={searchTerm} onChange={handleChange} onBlur={handleBlur} onKeyDown={handleKeyDown} autoFocus />
+          <input className="form-control" ref={inputElement} value={searchTerm} onChange={handleChange} onBlur={handleBlur} onKeyDown={handleKeyDown} autoFocus />
+          { searchTerm && (
+            <div className="input-group-append">
+              <button className="input-group-text btn btn-outline-secondary" type="button" onClick={handleClear} ><MdClear /></button>
+            </div>
+          )}
         </div>
       </div>
       <div className="col"></div>
