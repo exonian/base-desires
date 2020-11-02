@@ -18,6 +18,10 @@ export type TBaseSize =
     | "170 x 105mm"
     | "280 x 210mm"
     | "Use model"
+    | "64 x 42mm oval"
+    | "90 - 108mm across"
+    | "Irregular 170 x 85mm"
+    | "Irregular 175 x 32mm"
 
 export type TWarscroll = {
     baseSize: TBaseSize

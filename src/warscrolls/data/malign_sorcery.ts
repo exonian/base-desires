@@ -3,60 +3,60 @@ import { TWarscrolls } from "../types";
 
 const Warscrolls: TWarscrolls = {
     "Aethervoid Pendulum" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "64 x 42mm oval",
+        notes: "FAQ says 'Use model'",
     },
     "Balewind Vortex" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "90 - 108mm across",
+        notes: "FAQ says 'Use model'",
     },
     "The Burning Head" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "50mm",
+        notes: "FAQ says 'Use model'",
     },
     "Chronomantic Cogs" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "40mm",
+        notes: "FAQ says 'Use model'",
     },
     "Emerald Lifeswarm" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "64 x 42mm oval",
+        notes: "FAQ says 'Use model'",
     },
     "Geminids of Uhl-Gysh" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "40mm",
+        notes: "FAQ says 'Use model'",
     },
     "Malevolent Maelstrom" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "50mm",
+        notes: "FAQ says 'Use model'",
     },
     "Prismatic Palisade" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "Irregular 175 x 32mm",
+        notes: "FAQ says 'Use model'",
     },
     "Purple Sun of Shyish" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "105 x 70mm",
+        notes: "FAQ says 'Use model'",
     },
     "Quicksilver Swords" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "40mm",
+        notes: "FAQ says 'Use model'",
     },
     "Ravenak’s Gnashing Jaws" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "105 x 70mm",
+        notes: "FAQ says 'Use model'",
     },
     "Soulsnare Shackles" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "40mm",
+        notes: "FAQ says 'Use model'",
     },
     "Suffocating Gravetide" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "Irregular 170 x 85mm",
+        notes: "FAQ says 'Use model'",
     },
     "Umbral Spellportal" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "40mm",
+        notes: "FAQ says 'Use model'",
     },
 }
 export default Warscrolls

@@ -2,12 +2,15 @@
 
 import glob
 import os
+from collections import defaultdict
 
 if __name__ == "__main__":
     SKIP_ALREADY_IMPORTED = False
-    SOURCE_DATA_DIR = os.path.join(os.path.dirname(__file__), 'src', 'warscrolls', 'text_data')
-    DEST_DATA_DIR = os.path.join(os.path.dirname(__file__), 'src', 'warscrolls', 'data')
-    DATA_FILE = os.path.join(os.path.dirname(__file__), 'src', 'warscrolls', 'data.ts')
+    WARSCROLLS_DIR = os.path.join(os.path.dirname(__file__), 'src', 'warscrolls')
+    SOURCE_DATA_DIR = os.path.join(WARSCROLLS_DIR, 'text_data')
+    DEST_DATA_DIR = os.path.join(WARSCROLLS_DIR, 'data')
+    DATA_FILE = os.path.join(WARSCROLLS_DIR, 'data.ts')
+    OVERRIDES_FILE = os.path.join(WARSCROLLS_DIR, 'overrides.txt')
 
     text_files = glob.glob(os.path.join(SOURCE_DATA_DIR, '*.txt'))
     print('Found the following source data files:')
@@ -16,6 +19,15 @@ if __name__ == "__main__":
 
     sizes = set()
 
+    overrides = defaultdict(defaultdict)
+    with open(OVERRIDES_FILE, 'r') as f:
+        for line in f:
+            name, size, notes = line.split(" || ")
+            if size.strip():
+                overrides[name.strip()]['size'] = size.strip()
+            if notes.strip():
+                overrides[name.strip()]['notes'] = notes.strip()
+    
     for text_file_path in text_files:
         ts_file_path = text_file_path.replace(SOURCE_DATA_DIR, DEST_DATA_DIR).replace('.txt', '.ts')
         if SKIP_ALREADY_IMPORTED and os.path.isfile(ts_file_path):
@@ -41,6 +53,8 @@ if __name__ == "__main__":
                 else:
                     name = ' '.join(words[:-1])
                     size = words[-1]
+                size = overrides[name].get('size') or size
+                notes = overrides[name].get('notes') or notes
                 warscrolls.append((name, size, notes))
                 sizes.update([size])
 
