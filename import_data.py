@@ -22,11 +22,13 @@ if __name__ == "__main__":
     overrides = defaultdict(defaultdict)
     with open(OVERRIDES_FILE, 'r') as f:
         for line in f:
-            name, size, notes = line.split(" || ")
+            name, value, size, notes = line.split(" || ")
+            name = name.strip()
+            overrides[name]['if_value_equals'] = value.strip()
             if size.strip():
-                overrides[name.strip()]['size'] = size.strip()
+                overrides[name]['size'] = size.strip()
             if notes.strip():
-                overrides[name.strip()]['notes'] = notes.strip()
+                overrides[name]['notes'] = notes.strip()
     
     for text_file_path in text_files:
         ts_file_path = text_file_path.replace(SOURCE_DATA_DIR, DEST_DATA_DIR).replace('.txt', '.ts')
@@ -53,8 +55,9 @@ if __name__ == "__main__":
                 else:
                     name = ' '.join(words[:-1])
                     size = words[-1]
-                size = overrides[name].get('size') or size
-                notes = overrides[name].get('notes') or notes
+                if size == overrides[name].get('if_value_equals'):
+                    size = overrides[name].get('size') or size
+                    notes = overrides[name].get('notes') or notes
                 warscrolls.append((name, size, notes))
                 sizes.update([size])
 
