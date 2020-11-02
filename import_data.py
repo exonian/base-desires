@@ -5,10 +5,11 @@ import os
 
 if __name__ == "__main__":
     SKIP_ALREADY_IMPORTED = False
-    DATA_DIR = os.path.join(os.path.dirname(__file__), 'src', 'warscrolls', 'data')
+    SOURCE_DATA_DIR = os.path.join(os.path.dirname(__file__), 'src', 'warscrolls', 'text_data')
+    DEST_DATA_DIR = os.path.join(os.path.dirname(__file__), 'src', 'warscrolls', 'data')
     DATA_FILE = os.path.join(os.path.dirname(__file__), 'src', 'warscrolls', 'data.ts')
 
-    text_files = glob.glob(os.path.join(DATA_DIR, '*.txt'))
+    text_files = glob.glob(os.path.join(SOURCE_DATA_DIR, '*.txt'))
     print('Found the following source data files:')
     print(text_files)
     print('')
@@ -16,7 +17,7 @@ if __name__ == "__main__":
     sizes = set()
 
     for text_file_path in text_files:
-        ts_file_path = text_file_path.replace('.txt', '.ts')
+        ts_file_path = text_file_path.replace(SOURCE_DATA_DIR, DEST_DATA_DIR).replace('.txt', '.ts')
         if SKIP_ALREADY_IMPORTED and os.path.isfile(ts_file_path):
             print ("{} already exists: skipping".format(ts_file_path))
             continue
@@ -59,8 +60,8 @@ const Warscrolls: TWarscrolls = {""")
 export default Warscrolls""")
             print ("{} created".format(ts_file_path))
 
-    ts_files = glob.glob(os.path.join(DATA_DIR, '*.ts'))
-    module_names = sorted([os.path.relpath(f, DATA_DIR).split(".ts")[0] for f in ts_files])
+    ts_files = glob.glob(os.path.join(DEST_DATA_DIR, '*.ts'))
+    module_names = sorted([os.path.relpath(f, DEST_DATA_DIR).split(".ts")[0] for f in ts_files])
     print('')
     print('Updating combined data file to import the following typescript data files:')
     print(', '.join(module_names))
