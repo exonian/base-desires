@@ -1,14 +1,13 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import { Provider } from 'react-redux';
-import { store } from './app/store';
 import App from './App';
+import { AppStatusProvider } from './context/useAppStatus';
 
 test('renders learn react link', () => {
   const { getByText } = render(
-    <Provider store={store}>
+    <AppStatusProvider>
       <App />
-    </Provider>
+    </AppStatusProvider>
   );
 
   expect(getByText(/liberators/i)).toBeInTheDocument();
