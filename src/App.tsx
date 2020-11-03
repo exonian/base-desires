@@ -9,11 +9,13 @@ import {
 } from 'react-router-dom';
 import { FaSearch, FaTwitter, FaGithub } from 'react-icons/fa'
 import { MdClear } from 'react-icons/md'
+import qs from 'qs'
 
 import { logPageView, logToGA } from './utils/analytics'
 import { toStandard } from './utils/text';
 import { Warscrolls } from './warscrolls/data';
 import { TWarscrolls, TWarscroll } from './warscrolls/types';
+import { useAppStatus } from './context/useAppStatus';
 
 const App = () => {
   return (
@@ -28,6 +30,7 @@ const App = () => {
 }
 
 const SearchBox: React.FC = () => {
+
   const inputElement = useRef<HTMLInputElement>(null)
   const history = useHistory()
   const { slug } = useParams()
@@ -156,6 +159,9 @@ const Page: React.FC<IPageProps> = props => {
     logPageView()
   }, [])
 
+  const { isOnline } = useAppStatus()
+  const { showStatus = false } = qs.parse(window.location.search, { ignoreQueryPrefix: true })
+
   return (
     <div className="d-flex flex-column min-vh-100">
       <div className="container pt-3 flex-fill">
@@ -180,6 +186,7 @@ const Page: React.FC<IPageProps> = props => {
           <p className="mb-0">"basedesires.com. Haha can you imagine if that was a website about Warhammer bases…"</p>
           <footer className="blockquote-footer">Me a few days ago...</footer>
         </blockquote>
+        { showStatus && <p className={`badge badge-primary badge-${ isOnline ? 'success' : 'warning' }`}>{ isOnline ? "Online" : "Offline" }</p> }
       </footer>
     </div>
   )
