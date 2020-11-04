@@ -1,7 +1,7 @@
 Name                        ||  Expected size   ||  Override size           ||  Override notes
 
 Aethervoid Pendulum         ||  Use model       ||  64 x 42mm oval          ||  FAQ says 'Use model'
-Balewind Vortex             ||  Use model       ||  90 - 108mm across       ||  FAQ says 'Use model'
+Balewind Vortex             ||  Use model       ||  About 90 - 108mm across ||  FAQ says 'Use model'
 The Burning Head            ||  Use model       ||  50mm                    ||  FAQ says 'Use model'
 Chronomantic Cogs           ||  Use model       ||  40mm                    ||  FAQ says 'Use model'
 Emerald Lifeswarm           ||  Use model       ||  64 x 42mm oval          ||  FAQ says 'Use model'
@@ -14,3 +14,14 @@ Ravenak’s Gnashing Jaws     ||  Use model       ||  105 x 70mm              ||
 Soulsnare Shackles          ||  Use model       ||  40mm                    ||  FAQ says 'Use model'
 Suffocating Gravetide       ||  Use model       ||  Irregular 170 x 85mm    ||  FAQ says 'Use model'
 Umbral Spellportal          ||  Use model       ||  40mm                    ||  FAQ says 'Use model'
+
+Wheels of Excruciation      ||  Use model       ||  90 x 52mm               ||  FAQ says 'Use model'
+Gladewyrm                   ||  Use model       ||                          ||  FAQ says 'Use model'
+Scuttletide                 ||  Use model       ||                          ||  FAQ says 'Use model'
+Cadaverous Barricade        ||  Use model       ||                          ||  FAQ says 'Use model'
+Runic Fyrewall              ||  Use model       ||                          ||  FAQ says 'Use model'
+Zharrgron Flame-spitter     ||  Use model       ||                          ||  FAQ says 'Use model'
+
+Feculent Gnarlmaw           ||  Use model       ||                          ||  FAQ says 'Use model'
+Sylvaneth Wyldwood          ||  Use model       ||                          ||  FAQ says 'Use model'
+Gloomtide Shipwreck         ||  Use model       ||                          ||  FAQ says 'Use model'
