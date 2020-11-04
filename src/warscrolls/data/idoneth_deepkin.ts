@@ -31,7 +31,7 @@ const Warscrolls: TWarscrolls = {
         notes: "",
     },
     "Gloomtide Shipwreck" : {
-        baseSize: "Use model",
+        baseSize: "No base",
         notes: "",
     },
     "Isharann Soulrender" : {

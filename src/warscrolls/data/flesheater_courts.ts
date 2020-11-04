@@ -19,7 +19,7 @@ const Warscrolls: TWarscrolls = {
         notes: "",
     },
     "Cadaverous Barricade" : {
-        baseSize: "Use model",
+        baseSize: "Custom base",
         notes: "",
     },
     "Chalice of Ushoran" : {

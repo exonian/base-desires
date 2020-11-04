@@ -103,7 +103,7 @@ const Warscrolls: TWarscrolls = {
         notes: "",
     },
     "Scuttletide" : {
-        baseSize: "Use model",
+        baseSize: "Custom base",
         notes: "",
     },
     "Shootas" : {

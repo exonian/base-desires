@@ -75,8 +75,8 @@ const Warscrolls: TWarscrolls = {
         notes: "",
     },
     "Wheels of Excruciation" : {
-        baseSize: "Use model",
-        notes: "",
+        baseSize: "Custom base",
+        notes: "90 x 53mm",
     },
 }
 export default Warscrolls

@@ -22,7 +22,7 @@ if __name__ == "__main__":
     overrides = defaultdict(defaultdict)
     with open(OVERRIDES_FILE, 'r') as f:
         for line in f:
-            if not line.strip() or line.strip().startswith == "Name":
+            if not line.strip() or line.strip().startswith == "# ":
                 continue
             name, expected, size, notes = line.split(" || ")
             name = name.strip()

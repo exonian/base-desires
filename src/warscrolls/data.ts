@@ -27,6 +27,7 @@ import Malign_SorceryWarscrolls from "./data/malign_sorcery"
 import Monsters_Of_ChaosWarscrolls from "./data/monsters_of_chaos"
 import Monsters_Of_DestructionWarscrolls from "./data/monsters_of_destruction"
 import Monsters_Of_OrderWarscrolls from "./data/monsters_of_order"
+import New__Lumineth_RealmlordsWarscrolls from "./data/new__lumineth_realmlords"
 import New__Sons_Of_BehematWarscrolls from "./data/new__sons_of_behemat"
 import NighthauntWarscrolls from "./data/nighthaunt"
 import Ogor_MawtribesWarscrolls from "./data/ogor_mawtribes"
@@ -69,6 +70,7 @@ export const Warscrolls: TWarscrolls = {
     ...Monsters_Of_ChaosWarscrolls,
     ...Monsters_Of_DestructionWarscrolls,
     ...Monsters_Of_OrderWarscrolls,
+    ...New__Lumineth_RealmlordsWarscrolls,
     ...New__Sons_Of_BehematWarscrolls,
     ...NighthauntWarscrolls,
     ...Ogor_MawtribesWarscrolls,

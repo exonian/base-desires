@@ -19,7 +19,7 @@ const Warscrolls: TWarscrolls = {
         notes: "",
     },
     "Gladewyrm" : {
-        baseSize: "Use model",
+        baseSize: "Custom base",
         notes: "",
     },
     "Kurnoth Hunters" : {
@@ -43,7 +43,7 @@ const Warscrolls: TWarscrolls = {
         notes: "",
     },
     "Sylvaneth Wyldwood" : {
-        baseSize: "Use model",
+        baseSize: "No base",
         notes: "",
     },
     "Tree-Revenants" : {

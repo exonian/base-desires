@@ -19,7 +19,7 @@ const Warscrolls: TWarscrolls = {
         notes: "",
     },
     "Feculent Gnarlmaw" : {
-        baseSize: "Use model",
+        baseSize: "No base",
         notes: "",
     },
     "Festus the Leechlord" : {

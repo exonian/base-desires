@@ -63,7 +63,7 @@ const Warscrolls: TWarscrolls = {
         notes: "",
     },
     "Runic Fyrewall" : {
-        baseSize: "Use model",
+        baseSize: "Custom base",
         notes: "",
     },
     "Vulkite Berzerkers" : {
@@ -71,7 +71,7 @@ const Warscrolls: TWarscrolls = {
         notes: "",
     },
     "Zharrgron Flame-spitter" : {
-        baseSize: "Use model",
+        baseSize: "Custom base",
         notes: "",
     },
 }

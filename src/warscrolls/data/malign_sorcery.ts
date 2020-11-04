@@ -3,12 +3,12 @@ import { TWarscrolls } from "../types";
 
 const Warscrolls: TWarscrolls = {
     "Aethervoid Pendulum" : {
-        baseSize: "64 x 42mm oval",
-        notes: "FAQ says 'Use model'",
+        baseSize: "Custom base",
+        notes: "64 x 42mm",
     },
     "Balewind Vortex" : {
-        baseSize: "90 - 108mm across",
-        notes: "FAQ says 'Use model'",
+        baseSize: "No base",
+        notes: "Model is about 90 - 108mm across",
     },
     "The Burning Head" : {
         baseSize: "50mm",
@@ -19,8 +19,8 @@ const Warscrolls: TWarscrolls = {
         notes: "FAQ says 'Use model'",
     },
     "Emerald Lifeswarm" : {
-        baseSize: "64 x 42mm oval",
-        notes: "FAQ says 'Use model'",
+        baseSize: "Custom base",
+        notes: "64 x 42mm",
     },
     "Geminids of Uhl-Gysh" : {
         baseSize: "40mm",
@@ -31,8 +31,8 @@ const Warscrolls: TWarscrolls = {
         notes: "FAQ says 'Use model'",
     },
     "Prismatic Palisade" : {
-        baseSize: "Irregular 175 x 32mm",
-        notes: "FAQ says 'Use model'",
+        baseSize: "Custom base",
+        notes: "Irregular 175 x 32mm",
     },
     "Purple Sun of Shyish" : {
         baseSize: "105 x 70mm",
@@ -51,8 +51,8 @@ const Warscrolls: TWarscrolls = {
         notes: "FAQ says 'Use model'",
     },
     "Suffocating Gravetide" : {
-        baseSize: "Irregular 170 x 85mm",
-        notes: "FAQ says 'Use model'",
+        baseSize: "Custom base",
+        notes: "Irregular 170 x 85mm",
     },
     "Umbral Spellportal" : {
         baseSize: "40mm",
