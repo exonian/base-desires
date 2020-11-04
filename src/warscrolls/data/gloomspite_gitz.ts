@@ -22,10 +22,6 @@ const Warscrolls: TWarscrolls = {
         baseSize: "32mm",
         notes: "",
     },
-    "Bonegrinder Gargant" : {
-        baseSize: "120 x 92mm",
-        notes: "",
-    },
     "Brewgit" : {
         baseSize: "32mm",
         notes: "",
