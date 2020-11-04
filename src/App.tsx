@@ -124,11 +124,13 @@ const Card: React.FC<ICardProps> = props => {
 const SearchResults = () => {
   const { slug } = useParams()
   const standardisedSlug = slug ? toStandard(slug) : ""
-  const warscrolls = Object.entries(Warscrolls).reduce((accum, [name, warscroll]) => {
-    const toSearch = `${name} || ${warscroll.faction} || ${warscroll.baseSize} || ${warscroll.notes}`
-    if (toStandard(toSearch).includes(standardisedSlug)) accum[name] = warscroll
+  const matches = Object.entries(Warscrolls).reduce((accum, [name, warscroll]) => {
+    const otherFields = `${warscroll.faction} || ${warscroll.baseSize} || ${warscroll.notes}`
+    if (toStandard(name).includes(standardisedSlug)) accum['name'][name] = warscroll
+    else if (toStandard(otherFields).includes(standardisedSlug)) accum['other'][name] = warscroll
     return accum
-  }, {} as TWarscrolls)
+  }, {'name': {}, 'other': {}} as {'name': TWarscrolls, 'other': TWarscrolls})
+  const warscrolls = { ...matches['name'], ...matches['other']}
 
   return (
     <Page warscrolls={warscrolls} showSearch={true} linkToWarscrolls={true} slug={standardisedSlug} />
@@ -168,7 +170,9 @@ const Page: React.FC<IPageProps> = props => {
 
   const { isOnline } = useAppStatus()
   const { showStatus = false } = qs.parse(window.location.search, { ignoreQueryPrefix: true })
-  const showFaction = (warscroll: TWarscroll): boolean => (slug.length > 0 && toStandard(warscroll.faction).includes(slug))
+  const showFaction = (name: string, warscroll: TWarscroll): boolean => {
+    return (slug.length > 0 && toStandard(warscroll.faction).includes(slug) && !toStandard(name).includes(slug))
+  }
 
   return (
     <div className="d-flex flex-column min-vh-100">
@@ -180,7 +184,7 @@ const Page: React.FC<IPageProps> = props => {
         <div className="row">
           {Object.entries(warscrolls).map(([name, warscroll]) =>
             <div className={cardColumnStyle} key={name}>
-              <Card name={name} warscroll={warscroll} link={linkToWarscrolls} showFaction={showFaction(warscroll)} />
+              <Card name={name} warscroll={warscroll} link={linkToWarscrolls} showFaction={showFaction(name, warscroll)} />
             </div>
           )}
         </div>

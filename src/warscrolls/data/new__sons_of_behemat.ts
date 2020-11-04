@@ -3,7 +3,7 @@
 import { TFactionWarscrolls } from "../types";
 
 const Warscrolls: TFactionWarscrolls = {
-    faction: "new  sons of behemat",
+    faction: "sons of behemat",
     warscrolls: {
         "Mancrusher Gargants" : {
             baseSize: "90 x 52mm",

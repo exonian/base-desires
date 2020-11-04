@@ -3,7 +3,7 @@
 import { TFactionWarscrolls } from "../types";
 
 const Warscrolls: TFactionWarscrolls = {
-    faction: "new  lumineth realmlords",
+    faction: "lumineth realmlords",
     warscrolls: {
         "Alarith Spirit of the Mountain" : {
             baseSize: "100mm",

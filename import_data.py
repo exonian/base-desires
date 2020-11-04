@@ -39,7 +39,7 @@ if __name__ == "__main__":
             print ("{} already exists: skipping".format(ts_file_path))
             continue
 
-        faction_name = Path(text_file_path).stem.replace('_', ' ')
+        faction_name = Path(text_file_path).stem.replace('new__', '').replace('_', ' ')
         warscrolls = []
         with open(text_file_path, 'r') as f:
             for line in f:
