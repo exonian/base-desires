@@ -21,6 +21,7 @@ import Kharadron_OverlordsWarscrolls from "./data/kharadron_overlords"
 import Legions_Of_AzgorhWarscrolls from "./data/legions_of_azgorh"
 import Legions_Of_NagashWarscrolls from "./data/legions_of_nagash"
 import Lion_RangersWarscrolls from "./data/lion_rangers"
+import Lumineth_RealmlordsWarscrolls from "./data/lumineth_realmlords"
 import Maggotkin_Of_NurgleWarscrolls from "./data/maggotkin_of_nurgle"
 import Malign_SorceryWarscrolls from "./data/malign_sorcery"
 import Monsters_Of_ChaosWarscrolls from "./data/monsters_of_chaos"
@@ -62,6 +63,7 @@ export const Warscrolls: TWarscrolls = {
     ...Legions_Of_AzgorhWarscrolls,
     ...Legions_Of_NagashWarscrolls,
     ...Lion_RangersWarscrolls,
+    ...Lumineth_RealmlordsWarscrolls,
     ...Maggotkin_Of_NurgleWarscrolls,
     ...Malign_SorceryWarscrolls,
     ...Monsters_Of_ChaosWarscrolls,
