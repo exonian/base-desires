@@ -36,6 +36,7 @@ import SeraphonWarscrolls from "./data/seraphon"
 import SkavenWarscrolls from "./data/skaven"
 import Slaves_To_DarknessWarscrolls from "./data/slaves_to_darkness"
 import StormcastWarscrolls from "./data/stormcast"
+import Stormcast_EternalsWarscrolls from "./data/stormcast_eternals"
 import SylvanethWarscrolls from "./data/sylvaneth"
 import Tamurkhans_HordeWarscrolls from "./data/tamurkhans_horde"
 
@@ -76,6 +77,7 @@ export const Warscrolls: TWarscrolls = {
     ...SkavenWarscrolls,
     ...Slaves_To_DarknessWarscrolls,
     ...StormcastWarscrolls,
+    ...Stormcast_EternalsWarscrolls,
     ...SylvanethWarscrolls,
     ...Tamurkhans_HordeWarscrolls,
 }
