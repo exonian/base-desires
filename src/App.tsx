@@ -12,7 +12,7 @@ import { MdClear } from 'react-icons/md'
 import qs from 'qs'
 
 import { logPageView, logToGA } from './utils/analytics'
-import { toStandard } from './utils/text';
+import { toStandard, toDisplay } from './utils/text';
 import { Warscrolls } from './warscrolls/data';
 import { TWarscrolls, TWarscroll } from './warscrolls/types';
 import { useAppStatus } from './context/useAppStatus';

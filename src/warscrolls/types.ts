@@ -20,9 +20,17 @@ export type TBaseSize =
     | "Custom base"
     | "No base"
 
-export type TWarscroll = {
+export type TUntaggedWarscroll = {
     baseSize: TBaseSize
     notes?: string
 }
+export type TUntaggedWarscrolls = Record<string, TUntaggedWarscroll>
+export type TFactionWarscrolls = {
+    faction: string
+    warscrolls: TUntaggedWarscrolls
+}
 
+export type TWarscroll = TUntaggedWarscroll & {
+    faction: string
+}
 export type TWarscrolls = Record<string, TWarscroll>
