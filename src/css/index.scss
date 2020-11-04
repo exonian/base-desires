@@ -15,10 +15,12 @@ p.card-text {
   font-size: 1.2em;
 }
 
+p.card-notes, p.card-faction {
+  font-size: 0.9rem;
+}
+
 p.card-notes {
-  font-size: 0.9em;
-  font-variant: small-caps;
-  margin-top: -0.5em;
+  margin-top: -0.5rem;
 }
 
 .bg-body {

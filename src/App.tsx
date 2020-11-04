@@ -12,7 +12,7 @@ import { MdClear } from 'react-icons/md'
 import qs from 'qs'
 
 import { logPageView, logToGA } from './utils/analytics'
-import { toStandard } from './utils/text';
+import { toStandard, toDisplay } from './utils/text';
 import { Warscrolls } from './warscrolls/data';
 import { TWarscrolls, TWarscroll } from './warscrolls/types';
 import { useAppStatus } from './context/useAppStatus';
@@ -99,10 +99,11 @@ interface ICardProps {
   name: string
   warscroll: TWarscroll
   link: boolean
+  showFaction: boolean
 }
 
 const Card: React.FC<ICardProps> = props => {
-  const { name, warscroll, link } = props
+  const { name, warscroll, link, showFaction } = props
 
   return (
     <div className="card warscroll-card mb-3">
@@ -111,6 +112,11 @@ const Card: React.FC<ICardProps> = props => {
         <p className="card-text">{ warscroll.baseSize }</p>
         { warscroll.notes && <p className="card-text card-notes">{ warscroll.notes }</p>}
       </div>
+      { showFaction &&
+        <div className="card-footer">
+          <p className="card-text text-center card-faction">{ toDisplay(warscroll.faction) }</p>
+        </div>
+      }
     </div>
   )
 }
@@ -125,7 +131,7 @@ const SearchResults = () => {
   }, {} as TWarscrolls)
 
   return (
-    <Page warscrolls={warscrolls} showSearch={true} linkToWarscrolls={true} />
+    <Page warscrolls={warscrolls} showSearch={true} linkToWarscrolls={true} slug={standardisedSlug} />
   )
 }
 
@@ -138,7 +144,7 @@ const Warscroll = () => {
   if (name && warscroll) warscrolls[name] = warscroll
 
   return (name && warscroll) ? (
-    <Page warscrolls={warscrolls} showSearch={false} linkToWarscrolls={false} />
+    <Page warscrolls={warscrolls} showSearch={false} linkToWarscrolls={false} slug={standardisedSlug} />
   )
   :
   SearchResults()
@@ -148,10 +154,11 @@ interface IPageProps {
   warscrolls: TWarscrolls
   showSearch: boolean
   linkToWarscrolls: boolean
+  slug: string
 }
 
 const Page: React.FC<IPageProps> = props => {
-  const { warscrolls, showSearch, linkToWarscrolls } = props
+  const { warscrolls, showSearch, linkToWarscrolls, slug } = props
 
   const cardColumnStyle = (Object.keys(warscrolls).length > 1) ? "col-md-6" : "col-12"
 
@@ -161,6 +168,7 @@ const Page: React.FC<IPageProps> = props => {
 
   const { isOnline } = useAppStatus()
   const { showStatus = false } = qs.parse(window.location.search, { ignoreQueryPrefix: true })
+  const showFaction = (warscroll: TWarscroll): boolean => (slug.length > 0 && toStandard(warscroll.faction).includes(slug))
 
   return (
     <div className="d-flex flex-column min-vh-100">
@@ -172,7 +180,7 @@ const Page: React.FC<IPageProps> = props => {
         <div className="row">
           {Object.entries(warscrolls).map(([name, warscroll]) =>
             <div className={cardColumnStyle} key={name}>
-              <Card name={name} warscroll={warscroll} link={linkToWarscrolls} />
+              <Card name={name} warscroll={warscroll} link={linkToWarscrolls} showFaction={showFaction(warscroll)} />
             </div>
           )}
         </div>
