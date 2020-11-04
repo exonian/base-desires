@@ -12,7 +12,7 @@ import { MdClear } from 'react-icons/md'
 import qs from 'qs'
 
 import { logPageView, logToGA } from './utils/analytics'
-import { toStandard, toDisplay } from './utils/text';
+import { toStandard } from './utils/text';
 import { Warscrolls } from './warscrolls/data';
 import { TWarscrolls, TWarscroll } from './warscrolls/types';
 import { useAppStatus } from './context/useAppStatus';
@@ -118,9 +118,9 @@ const Card: React.FC<ICardProps> = props => {
 const SearchResults = () => {
   const { slug } = useParams()
   const standardisedSlug = slug ? toStandard(slug) : ""
-  const warscrollNames = Object.keys(Warscrolls).filter(name => toStandard(name).includes(standardisedSlug))
-  const warscrolls = warscrollNames.reduce((accum, warscrollName) => {
-    accum[warscrollName] = Warscrolls[warscrollName]
+  const warscrolls = Object.entries(Warscrolls).reduce((accum, [name, warscroll]) => {
+    const toSearch = `${name} || ${warscroll.faction} || ${warscroll.baseSize} || ${warscroll.notes}`
+    if (toStandard(toSearch).includes(standardisedSlug)) accum[name] = warscroll
     return accum
   }, {} as TWarscrolls)
 
