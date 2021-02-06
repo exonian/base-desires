@@ -37,6 +37,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
+        "Endrinmaster with Dirigible Suit" : {
+            baseSize: "40mm",
+            notes: "",
+        },
         "Endrinriggers" : {
             baseSize: "32mm",
             notes: "",
