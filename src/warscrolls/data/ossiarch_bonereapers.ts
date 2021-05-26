@@ -9,6 +9,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "80mm",
             notes: "",
         },
+        "Arkhan the Black, Mortarch of Sacrament" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
         "Bone-tithe Shrieker" : {
             baseSize: "90 x 52mm",
             notes: "",
@@ -31,6 +35,14 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Liege-Kavalos" : {
             baseSize: "80mm",
+            notes: "",
+        },
+        "Morghast Archai" : {
+            baseSize: "60mm",
+            notes: "",
+        },
+        "Morghast Harbingers" : {
+            baseSize: "60mm",
             notes: "",
         },
         "Mortek Crawler" : {

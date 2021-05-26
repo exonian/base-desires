@@ -7,6 +7,7 @@ import AelfWarscrolls from "./data/aelf"
 import Beasts_Of_ChaosWarscrolls from "./data/beasts_of_chaos"
 import Blades_Of_KhorneWarscrolls from "./data/blades_of_khorne"
 import Cities_Of_SigmarWarscrolls from "./data/cities_of_sigmar"
+import Cursed_CityWarscrolls from "./data/cursed_city"
 import Daemons_Of_ChaosWarscrolls from "./data/daemons_of_chaos"
 import Daughters_Of_KhaineWarscrolls from "./data/daughters_of_khaine"
 import Disciples_Of_TzeentchWarscrolls from "./data/disciples_of_tzeentch"
@@ -39,6 +40,7 @@ import Ossiarch_BonereapersWarscrolls from "./data/ossiarch_bonereapers"
 import SeraphonWarscrolls from "./data/seraphon"
 import SkavenWarscrolls from "./data/skaven"
 import Slaves_To_DarknessWarscrolls from "./data/slaves_to_darkness"
+import Soulblight_GravelordsWarscrolls from "./data/soulblight_gravelords"
 import Stormcast_EternalsWarscrolls from "./data/stormcast_eternals"
 import SylvanethWarscrolls from "./data/sylvaneth"
 import Tamurkhans_HordeWarscrolls from "./data/tamurkhans_horde"
@@ -48,6 +50,7 @@ export const Warscrolls: TWarscrolls = tagAndCombine([
     Beasts_Of_ChaosWarscrolls,
     Blades_Of_KhorneWarscrolls,
     Cities_Of_SigmarWarscrolls,
+    Cursed_CityWarscrolls,
     Daemons_Of_ChaosWarscrolls,
     Daughters_Of_KhaineWarscrolls,
     Disciples_Of_TzeentchWarscrolls,
@@ -80,6 +83,7 @@ export const Warscrolls: TWarscrolls = tagAndCombine([
     SeraphonWarscrolls,
     SkavenWarscrolls,
     Slaves_To_DarknessWarscrolls,
+    Soulblight_GravelordsWarscrolls,
     Stormcast_EternalsWarscrolls,
     SylvanethWarscrolls,
     Tamurkhans_HordeWarscrolls,
