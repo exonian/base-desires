@@ -1,22 +1,12 @@
 import { UntaggedWarscrolls } from "../../warscrolls/data";
-import { TFactionWarscrolls, TWarscrolls } from "../../warscrolls/types";
+import { listWarscrolls } from "../data";
 
 const find_duplicates = () => {
-  console.log('Finding duplicates')
-  const warscrollsAndFactions: Record<string, string[]> = {}
+    console.log('Finding duplicates')
 
-  UntaggedWarscrolls.forEach(faction => {
-    Object.keys(faction.warscrolls).forEach(name => {
-      const match = warscrollsAndFactions[name]
-      if (match) {
-        console.log(`${name} in ${faction.faction} is already present in ${match}`)
-        warscrollsAndFactions[name] = [...match, faction.faction]
-      }
-      else {
-        warscrollsAndFactions[name] = [faction.faction]
-      }
+    Object.entries(listWarscrolls(UntaggedWarscrolls)).forEach(([name, factions]) => {
+        if (factions.length > 1) console.log(`${name} is in ${factions}`)
     })
-  })
 }
 
 find_duplicates()
