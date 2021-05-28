@@ -33,7 +33,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "find-duplicates": "ts-node-dev --compiler-options '{ \"module\": \"commonjs\"}' --transpile-only src/utils/dev/find_duplicates.ts"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -49,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.6"
   }
 }
