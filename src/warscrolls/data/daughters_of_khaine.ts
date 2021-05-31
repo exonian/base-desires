@@ -45,6 +45,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
+        "Melusai Ironscale" : {
+            baseSize: "40mm",
+            notes: "",
+        },
         "Morathi, High Oracle of Khaine" : {
             baseSize: "40mm",
             notes: "",

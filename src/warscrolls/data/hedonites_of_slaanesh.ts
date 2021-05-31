@@ -13,6 +13,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25mm",
             notes: "",
         },
+        "Dexcessa, the Talon of Slaanesh" : {
+            baseSize: "105 x 70mm",
+            notes: "",
+        },
         "Dreadful Visage" : {
             baseSize: "90 x 52mm",
             notes: "",
@@ -71,6 +75,10 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Seekers of Slaanesh" : {
             baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Synessa, the Voice of Slaanesh" : {
+            baseSize: "105 x 70mm",
             notes: "",
         },
         "The Masque of Slaanesh" : {

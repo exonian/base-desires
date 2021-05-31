@@ -65,6 +65,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "105 x 70mm",
             notes: "",
         },
+        "Warsong Revenant" : {
+            baseSize: "105 x 70mm",
+            notes: "",
+        },
     }
 }
 export default Warscrolls

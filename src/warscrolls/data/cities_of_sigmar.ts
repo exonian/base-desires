@@ -57,6 +57,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "75 x 42mm",
             notes: "",
         },
+        "Doralia ven Denst" : {
+            baseSize: "28mm",
+            notes: "",
+        },
         "Drakespawn Chariots" : {
             baseSize: "120 x 92mm",
             notes: "",
@@ -123,6 +127,10 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Frostheart Phoenix" : {
             baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Galen ven Denst" : {
+            baseSize: "28mm",
             notes: "",
         },
         "Gyrobombers" : {

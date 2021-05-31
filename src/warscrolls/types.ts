@@ -1,5 +1,6 @@
 export type TBaseSize =
     | "25mm"
+    | "28mm"
     | "32mm"
     | "40mm"
     | "50mm"

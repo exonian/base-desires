@@ -26,8 +26,8 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Lord Kroak" : {
-            baseSize: "50mm",
-            notes: "",
+            baseSize: "80mm",
+            notes: "(was 50mm)",
         },
         "Razordons" : {
             baseSize: "60 x 35mm",

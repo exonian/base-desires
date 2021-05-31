@@ -10,6 +10,7 @@ import Cities_Of_SigmarWarscrolls from "./data/cities_of_sigmar"
 import Cursed_CityWarscrolls from "./data/cursed_city"
 import Daemons_Of_ChaosWarscrolls from "./data/daemons_of_chaos"
 import Daughters_Of_KhaineWarscrolls from "./data/daughters_of_khaine"
+import DestructionWarscrolls from "./data/destruction"
 import Disciples_Of_TzeentchWarscrolls from "./data/disciples_of_tzeentch"
 import Eldritch_CouncilWarscrolls from "./data/eldritch_council"
 import FimirWarscrolls from "./data/fimir"
@@ -25,21 +26,22 @@ import Kharadron_OverlordsWarscrolls from "./data/kharadron_overlords"
 import Legions_Of_AzgorhWarscrolls from "./data/legions_of_azgorh"
 import Legions_Of_NagashWarscrolls from "./data/legions_of_nagash"
 import Lion_RangersWarscrolls from "./data/lion_rangers"
+import Lumineth_RealmlordsWarscrolls from "./data/lumineth_realmlords"
 import Maggotkin_Of_NurgleWarscrolls from "./data/maggotkin_of_nurgle"
 import Malign_SorceryWarscrolls from "./data/malign_sorcery"
 import Monsters_Of_ChaosWarscrolls from "./data/monsters_of_chaos"
 import Monsters_Of_DestructionWarscrolls from "./data/monsters_of_destruction"
 import Monsters_Of_OrderWarscrolls from "./data/monsters_of_order"
-import New__Lumineth_RealmlordsWarscrolls from "./data/new__lumineth_realmlords"
-import New__Sons_Of_BehematWarscrolls from "./data/new__sons_of_behemat"
 import NighthauntWarscrolls from "./data/nighthaunt"
 import Ogor_MawtribesWarscrolls from "./data/ogor_mawtribes"
+import OrderWarscrolls from "./data/order"
 import Order_DraconisWarscrolls from "./data/order_draconis"
 import Orruk_WarclansWarscrolls from "./data/orruk_warclans"
 import Ossiarch_BonereapersWarscrolls from "./data/ossiarch_bonereapers"
 import SeraphonWarscrolls from "./data/seraphon"
 import SkavenWarscrolls from "./data/skaven"
 import Slaves_To_DarknessWarscrolls from "./data/slaves_to_darkness"
+import Sons_Of_BehematWarscrolls from "./data/sons_of_behemat"
 import Soulblight_GravelordsWarscrolls from "./data/soulblight_gravelords"
 import Stormcast_EternalsWarscrolls from "./data/stormcast_eternals"
 import SylvanethWarscrolls from "./data/sylvaneth"
@@ -53,6 +55,7 @@ export const UntaggedWarscrolls: TFactionWarscrolls[] = [
     Cursed_CityWarscrolls,
     Daemons_Of_ChaosWarscrolls,
     Daughters_Of_KhaineWarscrolls,
+    DestructionWarscrolls,
     Disciples_Of_TzeentchWarscrolls,
     Eldritch_CouncilWarscrolls,
     FimirWarscrolls,
@@ -68,21 +71,22 @@ export const UntaggedWarscrolls: TFactionWarscrolls[] = [
     Legions_Of_AzgorhWarscrolls,
     Legions_Of_NagashWarscrolls,
     Lion_RangersWarscrolls,
+    Lumineth_RealmlordsWarscrolls,
     Maggotkin_Of_NurgleWarscrolls,
     Malign_SorceryWarscrolls,
     Monsters_Of_ChaosWarscrolls,
     Monsters_Of_DestructionWarscrolls,
     Monsters_Of_OrderWarscrolls,
-    New__Lumineth_RealmlordsWarscrolls,
-    New__Sons_Of_BehematWarscrolls,
     NighthauntWarscrolls,
     Ogor_MawtribesWarscrolls,
+    OrderWarscrolls,
     Order_DraconisWarscrolls,
     Orruk_WarclansWarscrolls,
     Ossiarch_BonereapersWarscrolls,
     SeraphonWarscrolls,
     SkavenWarscrolls,
     Slaves_To_DarknessWarscrolls,
+    Sons_Of_BehematWarscrolls,
     Soulblight_GravelordsWarscrolls,
     Stormcast_EternalsWarscrolls,
     SylvanethWarscrolls,

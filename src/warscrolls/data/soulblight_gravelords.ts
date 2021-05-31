@@ -53,6 +53,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25mm",
             notes: "",
         },
+        "Hexwraiths" : {
+            baseSize: "60 x 35mm",
+            notes: "",
+        },
         "Kritza, The Rat Prince" : {
             baseSize: "60mm",
             notes: "",
