@@ -1,4 +1,5 @@
 Aetherwings 32mm
+Annihilators 40mm
 Astreia Solbright 90 x 52mm
 Aventis Firestrike, Magister of Hammerhal 100mm
 Castigators 40mm
@@ -16,8 +17,9 @@ Everblaze Comet 65mm
 Evocators 40mm
 Evocators on Dracolines 90 x 52mm
 Gavriel Sureheart 40mm
-Gryph-hounds 40mm
+Gryph-hounds 40mm (some heroes have small ones on 32mm)
 Judicators 40mm
+Knight-Arcanum 40mm
 Knight-Azyros 50mm
 Knight-Heraldor 40mm
 Knight-Incantor 40mm
@@ -36,6 +38,7 @@ Lord-Celestant 40mm
 Lord-Celestant on Dracoth 90 x 52mm
 Lord-Celestant on Stardrake 170 x 105mm
 Lord-Exorcist 40mm
+Lord-Imperatant 40mm
 Lord-Ordinator Vorrus Starstrike 40mm
 Lord-Relictor 40mm
 Lord-Veritant 40mm
@@ -43,6 +46,7 @@ Neave Blacktalon 40mm
 Paladin Decimators 40mm
 Paladin Protectors 40mm
 Paladin Retributors 40mm
+Praetors 40mm
 Prosecutors 40mm
 Raptor-Prime with Longstrike Crossbow 40mm
 Sequitors 40mm
@@ -53,3 +57,5 @@ Vanguard-Hunters 40mm
 Vanguard-Palladors 75 x 42mm
 Vanguard-Raptors 40mm
 Vanguard-Raptors with Longstrike Crossbows 60 x 35mm
+Vindictors 40mm
+Yndrasta, the Celestial Spear 65mm

@@ -9,6 +9,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
+        "Annihilators" : {
+            baseSize: "40mm",
+            notes: "",
+        },
         "Astreia Solbright" : {
             baseSize: "90 x 52mm",
             notes: "",
@@ -79,9 +83,13 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Gryph-hounds" : {
             baseSize: "40mm",
-            notes: "",
+            notes: "(some heroes have small ones on 32mm)",
         },
         "Judicators" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Knight-Arcanum" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -157,6 +165,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
+        "Lord-Imperatant" : {
+            baseSize: "40mm",
+            notes: "",
+        },
         "Lord-Ordinator Vorrus Starstrike" : {
             baseSize: "40mm",
             notes: "",
@@ -182,6 +194,10 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Paladin Retributors" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Praetors" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -223,6 +239,14 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Vanguard-Raptors with Longstrike Crossbows" : {
             baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Vindictors" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Yndrasta, the Celestial Spear" : {
+            baseSize: "65mm",
             notes: "",
         },
     }

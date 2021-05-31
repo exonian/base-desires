@@ -23,6 +23,7 @@ import GreenskinzWarscrolls from "./data/greenskinz"
 import Hedonites_Of_SlaaneshWarscrolls from "./data/hedonites_of_slaanesh"
 import Idoneth_DeepkinWarscrolls from "./data/idoneth_deepkin"
 import Kharadron_OverlordsWarscrolls from "./data/kharadron_overlords"
+import KruleboyzWarscrolls from "./data/kruleboyz"
 import Legions_Of_AzgorhWarscrolls from "./data/legions_of_azgorh"
 import Legions_Of_NagashWarscrolls from "./data/legions_of_nagash"
 import Lion_RangersWarscrolls from "./data/lion_rangers"
@@ -68,6 +69,7 @@ export const UntaggedWarscrolls: TFactionWarscrolls[] = [
     Hedonites_Of_SlaaneshWarscrolls,
     Idoneth_DeepkinWarscrolls,
     Kharadron_OverlordsWarscrolls,
+    KruleboyzWarscrolls,
     Legions_Of_AzgorhWarscrolls,
     Legions_Of_NagashWarscrolls,
     Lion_RangersWarscrolls,
