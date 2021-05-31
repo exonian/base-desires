@@ -25,8 +25,28 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "100mm",
             notes: "",
         },
+        "Ellania and Ellathor, Eclipsian Warsages" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Hurakan Spirit of the Wind" : {
+            baseSize: "60mm",
+            notes: "",
+        },
+        "Hurakan Windchargers" : {
+            baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Hurakan Windmage" : {
+            baseSize: "60 x 35mm",
+            notes: "",
+        },
         "Hyshian Twinstones" : {
             baseSize: "50mm",
+            notes: "",
+        },
+        "Lyrior Uthralle, Warden of Ymetrica" : {
+            baseSize: "90 x 52.5mm",
             notes: "",
         },
         "Rune of Petrification" : {
@@ -37,8 +57,20 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "Custom base",
             notes: "",
         },
+        "Scinari Calligrave" : {
+            baseSize: "32mm",
+            notes: "",
+        },
         "Scinari Cathallar" : {
             baseSize: "32mm",
+            notes: "",
+        },
+        "Scinari Loreseeker" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Sevireth, Lord of the Seventh Wind" : {
+            baseSize: "60mm",
             notes: "",
         },
         "The Light of Eltharion" : {
@@ -53,8 +85,24 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
+        "Vanari Bannerblade" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Vanari Bladelords" : {
+            baseSize: "32mm",
+            notes: "",
+        },
         "Vanari Dawnriders" : {
             baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Vanari Lord Regent" : {
+            baseSize: "90 x 52.5mm",
+            notes: "",
+        },
+        "Vanari Starshard Ballista" : {
+            baseSize: "80mm",
             notes: "",
         },
     }
