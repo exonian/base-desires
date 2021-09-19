@@ -55,7 +55,7 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Snatchaboss on Sludgeraker Beast" : {
             baseSize: "120 x 92mm",
-            notes: "(listed as "Large oval", I think this is right)",
+            notes: "(listed as 'Large oval', I think this is right)",
         },
         "Stab-grot" : {
             baseSize: "25mm",
@@ -67,7 +67,7 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Swampboss Skumdrekk" : {
             baseSize: "120 x 92mm",
-            notes: "(listed as "Large oval", I think this is right)",
+            notes: "(listed as 'Large oval', I think this is right)",
         },
     }
 }
