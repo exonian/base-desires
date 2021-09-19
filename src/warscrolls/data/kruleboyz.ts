@@ -5,6 +5,18 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "kruleboyz",
     warscrolls: {
+        "Beast-skewer Killbow" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Breaka-boss on Mirebrute Troggoth" : {
+            baseSize: "80mm",
+            notes: "",
+        },
+        "Gobsprakk, The Mouth of Mork" : {
+            baseSize: "130mm",
+            notes: "",
+        },
         "Gutrippaz" : {
             baseSize: "32mm",
             notes: "",
@@ -17,12 +29,20 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
+        "Killaboss on Corpse-rippa Vulcha" : {
+            baseSize: "130mm",
+            notes: "",
+        },
         "Killaboss on Great Gnashtoof" : {
             baseSize: "105 x 70mm",
             notes: "",
         },
         "Man-skewer Boltboyz" : {
             baseSize: "32mm",
+            notes: "",
+        },
+        "Marshcrawla Sloggoth" : {
+            baseSize: "105 x 70mm",
             notes: "",
         },
         "Murknob with Belcha-banna" : {
@@ -33,6 +53,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25mm",
             notes: "",
         },
+        "Snatchaboss on Sludgeraker Beast" : {
+            baseSize: "120 x 92mm",
+            notes: "(listed as "Large oval", I think this is right)",
+        },
         "Stab-grot" : {
             baseSize: "25mm",
             notes: "",
@@ -40,6 +64,10 @@ const Warscrolls: TFactionWarscrolls = {
         "Swampcalla Shaman" : {
             baseSize: "40mm",
             notes: "",
+        },
+        "Swampboss Skumdrekk" : {
+            baseSize: "120 x 92mm",
+            notes: "(listed as "Large oval", I think this is right)",
         },
     }
 }

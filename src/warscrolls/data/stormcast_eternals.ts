@@ -105,6 +105,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
+        "Knight-Judicator" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
         "Knight-Questor" : {
             baseSize: "40mm",
             notes: "",
@@ -216,6 +220,10 @@ const Warscrolls: TFactionWarscrolls = {
         "Steelheart’s Champions" : {
             baseSize: "40mm",
             notes: "",
+        },
+        "Stormstrike Chariot" : {
+            baseSize: "120 x 92mm",
+            notes: "(looks like; unconfirmed)",
         },
         "The Farstriders" : {
             baseSize: "40mm",

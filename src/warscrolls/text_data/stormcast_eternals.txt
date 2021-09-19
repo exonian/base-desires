@@ -23,6 +23,7 @@ Knight-Arcanum 40mm
 Knight-Azyros 50mm
 Knight-Heraldor 40mm
 Knight-Incantor 40mm
+Knight-Judicator 90 x 52mm
 Knight-Questor 40mm
 Knight-Venator 50mm
 Knight-Vexillor 40mm
@@ -51,6 +52,7 @@ Prosecutors 40mm
 Raptor-Prime with Longstrike Crossbow 40mm
 Sequitors 40mm
 Steelheart’s Champions 40mm
+Stormstrike Chariot 120 x 92mm (looks like; unconfirmed)
 The Farstriders 40mm
 Vandus Hammerhand 90 x 52mm
 Vanguard-Hunters 40mm
