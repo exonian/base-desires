@@ -27,7 +27,7 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Blissbrew Homonculus" : {
             baseSize: "25mm",
-            notes: "(little friend of Blissbard Archers)",
+            notes: "(little friend of Blissbarb Archers)",
         },
         "Daemonettes" : {
             baseSize: "25mm",
