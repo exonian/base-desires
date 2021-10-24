@@ -25,6 +25,7 @@ Knight-Heraldor 40mm
 Knight-Incantor 40mm
 Knight-Judicator 90 x 52mm
 Knight-Questor 40mm
+Knight-Relictor 40mm
 Knight-Venator 50mm
 Knight-Vexillor 40mm
 Knight-Zephyros 40mm
@@ -38,6 +39,7 @@ Lord-Castellant 40mm
 Lord-Celestant 40mm
 Lord-Celestant on Dracoth 90 x 52mm
 Lord-Celestant on Stardrake 170 x 105mm
+Lord-Commander Bastian Carthalos 50mm
 Lord-Exorcist 40mm
 Lord-Imperatant 40mm
 Lord-Ordinator Vorrus Starstrike 40mm
@@ -52,12 +54,14 @@ Prosecutors 40mm
 Raptor-Prime with Longstrike Crossbow 40mm
 Sequitors 40mm
 Steelheart’s Champions 40mm
-Stormstrike Chariot 120 x 92mm (looks like; unconfirmed)
+Stormstrike Chariot 120 x 92mm
 The Farstriders 40mm
 Vandus Hammerhand 90 x 52mm
 Vanguard-Hunters 40mm
 Vanguard-Palladors 75 x 42mm
 Vanguard-Raptors 40mm
 Vanguard-Raptors with Longstrike Crossbows 60 x 35mm
+Vanquishers 40mm
+Vigilors 40mm
 Vindictors 40mm
 Yndrasta, the Celestial Spear 65mm

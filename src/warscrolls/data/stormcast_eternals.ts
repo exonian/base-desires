@@ -113,6 +113,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
+        "Knight-Relictor" : {
+            baseSize: "40mm",
+            notes: "",
+        },
         "Knight-Venator" : {
             baseSize: "50mm",
             notes: "",
@@ -163,6 +167,10 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Lord-Celestant on Stardrake" : {
             baseSize: "170 x 105mm",
+            notes: "",
+        },
+        "Lord-Commander Bastian Carthalos" : {
+            baseSize: "50mm",
             notes: "",
         },
         "Lord-Exorcist" : {
@@ -223,7 +231,7 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Stormstrike Chariot" : {
             baseSize: "120 x 92mm",
-            notes: "(looks like; unconfirmed)",
+            notes: "",
         },
         "The Farstriders" : {
             baseSize: "40mm",
@@ -247,6 +255,14 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Vanguard-Raptors with Longstrike Crossbows" : {
             baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Vanquishers" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Vigilors" : {
+            baseSize: "40mm",
             notes: "",
         },
         "Vindictors" : {
