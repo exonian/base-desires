@@ -89,12 +89,20 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
+        "Karazai the Scarred" : {
+            baseSize: "160mm",
+            notes: "",
+        },
         "Knight-Arcanum" : {
             baseSize: "40mm",
             notes: "",
         },
         "Knight-Azyros" : {
             baseSize: "50mm",
+            notes: "",
+        },
+        "Knight-Draconis" : {
+            baseSize: "105 x 70mm",
             notes: "",
         },
         "Knight-Heraldor" : {
@@ -127,6 +135,10 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Knight-Zephyros" : {
             baseSize: "40mm",
+            notes: "",
+        },
+        "Krondys, Son of Dracothion" : {
+            baseSize: "160mm",
             notes: "",
         },
         "Liberators" : {
@@ -227,6 +239,10 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Steelheart’s Champions" : {
             baseSize: "40mm",
+            notes: "",
+        },
+        "Stormdrake Guard" : {
+            baseSize: "105 x 70mm",
             notes: "",
         },
         "Stormstrike Chariot" : {
