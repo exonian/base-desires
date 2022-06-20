@@ -6,8 +6,8 @@ const Warscrolls: TFactionWarscrolls = {
     faction: "daemons of chaos",
     warscrolls: {
         "Be’lakor, Chaos Daemon Prince" : {
-            baseSize: "60mm",
-            notes: "",
+            baseSize: "100mm",
+            notes: "(old one was 60mm)",
         },
         "Daemon Prince" : {
             baseSize: "60mm",
@@ -15,7 +15,7 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Furies" : {
             baseSize: "25mm",
-            notes: "",
+            notes: "(Warcry ones are on 32mm)",
         },
         "Soul Grinder" : {
             baseSize: "160mm",
