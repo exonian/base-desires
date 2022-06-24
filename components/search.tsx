@@ -1,6 +1,8 @@
 import { useRef, useState } from "react"
 import { FaSearch } from "react-icons/fa"
 import { MdClear } from "react-icons/md"
+import { useRouter } from 'next/router'
+
 import { logToGA } from "../utils/analytics"
 import { toStandard } from "../utils/text"
 import { Warscrolls } from "../warscrolls/data"
@@ -9,14 +11,15 @@ import { TWarscrolls } from "../warscrolls/types"
 export const SearchBox: React.FC = () => {
 
   const inputElement = useRef<HTMLInputElement>(null)
-  const slug = ""
+  const router = useRouter()
+  const slug = router.query.s as string || ""
   const [searchTerm, setSearchTerm] = useState('')
   if (!searchTerm && slug) setSearchTerm(slug)
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value
     setSearchTerm(value)
-    // history.push(toStandard(`/${value}`))
+    router.push({query: { s: encodeURI(toStandard(`${value}`)) }})
   }
 
   const handleBlur = (event: React.ChangeEvent<HTMLInputElement>) => {
