@@ -1,16 +1,22 @@
+import { useRef, useState } from "react"
+import { FaSearch } from "react-icons/fa"
+import { MdClear } from "react-icons/md"
+import { logToGA } from "../utils/analytics"
+import { toStandard } from "../utils/text"
+import { Warscrolls } from "../warscrolls/data"
+import { TWarscrolls } from "../warscrolls/types"
 
-const SearchBox: React.FC = () => {
+export const SearchBox: React.FC = () => {
 
   const inputElement = useRef<HTMLInputElement>(null)
-  const history = useHistory()
-  const { slug } = useParams()
+  const slug = ""
   const [searchTerm, setSearchTerm] = useState('')
   if (!searchTerm && slug) setSearchTerm(slug)
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value
     setSearchTerm(value)
-    history.push(toStandard(`/${value}`))
+    // history.push(toStandard(`/${value}`))
   }
 
   const handleBlur = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -36,7 +42,7 @@ const SearchBox: React.FC = () => {
   const handleClear = () => {
     setSearchTerm('')
     inputElement?.current?.focus()
-    history.push('')
+    // history.push('')
     logToGA({
       category: `Unit name`,
       action: `Search clear`,
@@ -66,7 +72,7 @@ const SearchBox: React.FC = () => {
 }
 
 export const SearchResults = () => {
-  const { slug } = useParams()
+  const slug = ""
   const standardisedSlug = slug ? toStandard(slug) : ""
   const matches = Object.entries(Warscrolls).reduce((accum, [name, warscroll]) => {
     const otherFields = `${warscroll.faction} || ${warscroll.baseSize} || ${warscroll.notes}`
@@ -77,6 +83,7 @@ export const SearchResults = () => {
   const warscrolls = { ...matches['name'], ...matches['other']}
 
   return (
-    <Page warscrolls={warscrolls} showSearch={true} linkToWarscrolls={true} slug={standardisedSlug} />
+    <></>
+    // <Page warscrolls={warscrolls} showSearch={true} linkToWarscrolls={true} slug={standardisedSlug} />
   )
 }

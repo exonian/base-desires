@@ -1,9 +1,29 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
+import { FaGithub, FaTwitter } from 'react-icons/fa'
 import styles from '../styles/Home.module.css'
+import { toStandard } from '../utils/text'
+import { Warscrolls } from '../warscrolls/data'
+import { TWarscroll, TWarscrolls } from '../warscrolls/types'
+import { Card } from '../components/card'
+
 
 const Home: NextPage = () => {
+
+  const slug = ""
+  const standardisedSlug = slug ? toStandard(slug) : ""
+  const matches = Object.entries(Warscrolls).reduce((accum, [name, warscroll]) => {
+    const otherFields = `${warscroll.faction} || ${warscroll.baseSize} || ${warscroll.notes}`
+    if (toStandard(name).includes(standardisedSlug)) accum['name'][name] = warscroll
+    else if (toStandard(otherFields).includes(standardisedSlug)) accum['other'][name] = warscroll
+    return accum
+  }, {'name': {}, 'other': {}} as {'name': TWarscrolls, 'other': TWarscrolls})
+  const warscrolls = { ...matches['name'], ...matches['other']}
+  const cardColumnStyle = (Object.keys(warscrolls).length > 1) ? "col-md-6" : "col-12"
+  const showFaction = (name: string, warscroll: TWarscroll): boolean => {
+    return (slug.length > 0 && toStandard(warscroll.faction).includes(slug) && !toStandard(name).includes(slug))
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -23,47 +43,25 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <div className="row">
+            {Object.entries(warscrolls).map(([name, warscroll]) =>
+              <div className={cardColumnStyle} key={name}>
+                <Card name={name} warscroll={warscroll} link={true} showFaction={showFaction(name, warscroll)} />
+              </div>
+            )}
+          </div>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+        <p>By Michael Blatherwick
+          <a className="social-link" href="https://twitter.com/rogue_michael"><FaTwitter /> @rogue_michael</a>
+          <a className="social-link" href="https://github.com/exonian"><FaGithub /> exonian</a>
+        </p>
+        <blockquote className="blockquote pr-3">
+          <p className="mb-0">"basedesires.com. Haha can you imagine if that was a website about Warhammer bases…"</p>
+          <footer className="blockquote-footer">Me a few days ago...</footer>
+        </blockquote>
       </footer>
     </div>
   )
