@@ -12,14 +12,14 @@ export const SearchBox: React.FC = () => {
 
   const inputElement = useRef<HTMLInputElement>(null)
   const router = useRouter()
-  const slug = router.query.s as string || ""
+  const slug = router.query.slug ? router.query.slug[0] : ""
   const [searchTerm, setSearchTerm] = useState('')
   if (!searchTerm && slug) setSearchTerm(slug)
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value
     setSearchTerm(value)
-    router.push({query: { s: encodeURI(toStandard(`${value}`)) }})
+    router.push(toStandard(`/${value}`))
   }
 
   const handleBlur = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -45,7 +45,7 @@ export const SearchBox: React.FC = () => {
   const handleClear = () => {
     setSearchTerm('')
     inputElement?.current?.focus()
-    // history.push('')
+    router.push('')
     logToGA({
       category: `Unit name`,
       action: `Search clear`,

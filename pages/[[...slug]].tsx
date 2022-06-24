@@ -3,7 +3,6 @@ import Head from 'next/head'
 import Link from 'next/link';
 import { useRouter } from 'next/router'
 import { FaGithub, FaTwitter } from 'react-icons/fa'
-import styles from '../styles/Home.module.css'
 import { toStandard } from '../utils/text'
 import { Warscrolls } from '../warscrolls/data'
 import { TWarscroll, TWarscrolls } from '../warscrolls/types'
@@ -14,7 +13,7 @@ import { SearchBox } from '../components/search';
 const Search: NextPage = () => {
 
   const router = useRouter()
-  const slug = router.query.s as string || ""
+  const slug = router.query.slug ? router.query.slug[0] : ""
   const standardisedSlug = slug ? toStandard(slug) : ""
   const matches = Object.entries(Warscrolls).reduce((accum, [name, warscroll]) => {
     const otherFields = `${warscroll.faction} || ${warscroll.baseSize} || ${warscroll.notes}`
@@ -31,31 +30,29 @@ const Search: NextPage = () => {
   }
 
   return (
-    <div className={styles.container}>
+    <div className="d-flex flex-column min-vh-100">
       <Head>
         <title>Base Desires</title>
         <meta name="description" content="What every AoS player really desires: to know what bases everything goes on" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className="container pt-3 flex-fill">
         <h1><Link href={"/"}>Base Desires</Link></h1>
         <div className="sticky-top bg-body">
           { showSearch && <SearchBox /> }
         </div>
 
-        <div className={styles.grid}>
-          <div className="row">
-            {Object.entries(warscrolls).map(([name, warscroll]) =>
-              <div className={cardColumnStyle} key={name}>
-                <Card name={name} warscroll={warscroll} link={false} showFaction={showFaction(name, warscroll)} />
-              </div>
-            )}
-          </div>
+        <div className="row">
+          {Object.entries(warscrolls).map(([name, warscroll]) =>
+            <div className={cardColumnStyle} key={name}>
+              <Card name={name} warscroll={warscroll} link={false} showFaction={showFaction(name, warscroll)} />
+            </div>
+          )}
         </div>
       </main>
 
-      <footer className={styles.footer}>
+      <footer className="footer text-center">
         <p>By Michael Blatherwick
           <a className="social-link" href="https://twitter.com/rogue_michael"><FaTwitter /> @rogue_michael</a>
           <a className="social-link" href="https://github.com/exonian"><FaGithub /> exonian</a>
