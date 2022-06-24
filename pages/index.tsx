@@ -8,7 +8,7 @@ import { TWarscroll, TWarscrolls } from '../warscrolls/types'
 import { Card } from '../components/card'
 
 
-const Home: NextPage = () => {
+const Search: NextPage = () => {
 
   const slug = ""
   const standardisedSlug = slug ? toStandard(slug) : ""
@@ -67,4 +67,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Search
