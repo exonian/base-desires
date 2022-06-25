@@ -37,3 +37,10 @@ a {
 .blockquote-footer {
   margin-top: 0em;
 }
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+}
