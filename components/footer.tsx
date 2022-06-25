@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
         <a className="social-link" href="https://github.com/exonian"><FaGithub /> exonian</a>
       </p>
       <blockquote className="blockquote pr-3">
-        <p className="mb-0">"basedesires.com. Haha can you imagine if that was a website about Warhammer bases…"</p>
+        <p className="mb-0">&quot;basedesires.com. Haha can you imagine if that was a website about Warhammer bases…&quot;</p>
         <footer className="blockquote-footer">Me a few days ago...</footer>
       </blockquote>
     </footer>
