@@ -75,20 +75,3 @@ export const SearchBox: React.FC = () => {
     </div>
   )
 }
-
-export const SearchResults = () => {
-  const slug = ""
-  const standardisedSlug = slug ? toStandard(slug) : ""
-  const matches = Object.entries(Warscrolls).reduce((accum, [name, warscroll]) => {
-    const otherFields = `${warscroll.faction} || ${warscroll.baseSize} || ${warscroll.notes}`
-    if (toStandard(name).includes(standardisedSlug)) accum['name'][name] = warscroll
-    else if (toStandard(otherFields).includes(standardisedSlug)) accum['other'][name] = warscroll
-    return accum
-  }, {'name': {}, 'other': {}} as {'name': TWarscrolls, 'other': TWarscrolls})
-  const warscrolls = { ...matches['name'], ...matches['other']}
-
-  return (
-    <></>
-    // <Page warscrolls={warscrolls} showSearch={true} linkToWarscrolls={true} slug={standardisedSlug} />
-  )
-}
