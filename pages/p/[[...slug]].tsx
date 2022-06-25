@@ -1,20 +1,50 @@
-import type { NextPage } from 'next'
-import Error from 'next/error'
+import type { NextPage, GetStaticProps } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
+import { ParsedUrlQuery } from 'querystring'
 import { Card } from '../../components/card'
 
 import { toStandard } from '../../utils/text'
 import { Warscrolls } from '../../warscrolls/data'
+import { TWarscroll } from '../../warscrolls/types'
 import Search from '../[[...slug]]'
 
-const Warscroll: NextPage = () => {
-  const router = useRouter()
-  const slug = router.query.slug ? router.query.slug[0] : ""
-  const standardisedSlug = slug ? toStandard(slug) : ""
+interface IParams extends ParsedUrlQuery {
+  slug: string[]
+}
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  const { slug } = context.params as IParams
+  const standardisedSlug = toStandard(slug[0])
   const name = Object.keys(Warscrolls).find(name => toStandard(name) === standardisedSlug)
   const warscroll = name && Warscrolls[name]
+
+  return name && warscroll ? {
+    props: {
+      name,
+      warscroll,
+    }
+  }
+  :
+  {
+    notFound: true,
+  }
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: Object.keys(Warscrolls).map(name => `/p/${toStandard(name)}`),
+    fallback: true,
+  }
+}
+
+interface IWarscrollProps {
+  name: string,
+  warscroll: TWarscroll,
+}
+
+const Warscroll: NextPage<IWarscrollProps> = props => {
+  const { name, warscroll } = props
   const cardColumnStyle = "col-12"
 
   return (name && warscroll) ? (
