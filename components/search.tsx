@@ -4,23 +4,21 @@ import { MdClear } from "react-icons/md"
 import { useRouter } from 'next/router'
 
 import { logToGA } from "../utils/analytics"
-import { toStandard } from "../utils/text"
-import { Warscrolls } from "../warscrolls/data"
-import { TWarscrolls } from "../warscrolls/types"
+import { toStandard, withoutHyphens } from "../utils/text"
 
 export const SearchBox: React.FC = () => {
 
   const inputElement = useRef<HTMLInputElement>(null)
   const router = useRouter()
   const [searchTerm, setSearchTerm] = useState('')
-  useEffect(() => {
-    const slug = router.query.slug ? router.query.slug[0] : ""
-    if (!searchTerm && slug) setSearchTerm(slug)
-  }, [router.query])
+  const [searchTermDefined, setSearchTermDefined] = useState(false)
+  const slug = router.query.slug ? router.query.slug[0] : ""
+  const searchVal = searchTermDefined ? searchTerm : withoutHyphens(slug)
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value
     setSearchTerm(value)
+    setSearchTermDefined(true)
     router.push(toStandard(`/${value}`))
   }
 
@@ -46,6 +44,7 @@ export const SearchBox: React.FC = () => {
 
   const handleClear = () => {
     setSearchTerm('')
+    setSearchTermDefined(true)
     inputElement?.current?.focus()
     router.push('')
     logToGA({
@@ -63,8 +62,8 @@ export const SearchBox: React.FC = () => {
           <div className="input-group-prepend">
             <div className="input-group-text"><FaSearch /></div>
           </div>
-          <input className="form-control" ref={inputElement} value={searchTerm} onChange={handleChange} onBlur={handleBlur} onKeyDown={handleKeyDown} autoFocus />
-          { searchTerm && (
+          <input className="form-control" ref={inputElement} value={searchVal} onChange={handleChange} onBlur={handleBlur} onKeyDown={handleKeyDown} autoFocus />
+          { searchVal && (
             <div className="input-group-append">
               <button className="input-group-text btn btn-outline-secondary" type="button" onClick={handleClear} ><MdClear /></button>
             </div>
