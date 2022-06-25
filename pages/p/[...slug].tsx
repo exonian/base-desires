@@ -54,7 +54,7 @@ const Warscroll: NextPage<IWarscrollProps> = props => {
         <title key="title">{`${name} – Base Desires`}</title>
         <meta
           name="description"
-          content={`${ warscroll.baseSize } ${ warscroll.notes ? warscroll.notes : ''}`} key="description" />
+          content={`${ warscroll.baseSize } ${ warscroll.notes ? '(' + warscroll.notes + ')' : ''}`} key="description" />
       </Head>
       <main className="container pt-3 flex-fill">
         <h1><Link href={"/"}>Base Desires</Link></h1>
