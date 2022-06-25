@@ -2,7 +2,6 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~bootswatch/dist/darkly/bootswatch";
 
-
 h1 {
   text-align: center;
 }
@@ -29,4 +28,19 @@ p.card-notes {
 
 .social-link {
   margin-left: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.blockquote-footer {
+  margin-top: 0em;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
 }

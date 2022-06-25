@@ -7,7 +7,7 @@ from pathlib import Path
 
 if __name__ == "__main__":
     SKIP_ALREADY_IMPORTED = False
-    WARSCROLLS_DIR = os.path.join(os.path.dirname(__file__), 'src', 'warscrolls')
+    WARSCROLLS_DIR = os.path.join(os.path.dirname(__file__), 'warscrolls')
     SOURCE_DATA_DIR = os.path.join(WARSCROLLS_DIR, 'text_data')
     DEST_DATA_DIR = os.path.join(WARSCROLLS_DIR, 'data')
     DATA_FILE = os.path.join(WARSCROLLS_DIR, 'data.ts')
