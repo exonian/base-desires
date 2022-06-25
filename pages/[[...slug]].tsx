@@ -32,8 +32,8 @@ const Search: NextPage = () => {
   return (
     <div className="d-flex flex-column min-vh-100">
       <Head>
-        <title>Base Desires</title>
-        <meta name="description" content="What every AoS player really desires: to know what bases everything goes on" />
+        <title key="title">Base Desires</title>
+        <meta name="description" content="What every AoS player really desires: to know what bases everything goes on" key="description" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -46,7 +46,7 @@ const Search: NextPage = () => {
         <div className="row">
           {Object.entries(warscrolls).map(([name, warscroll]) =>
             <div className={cardColumnStyle} key={name}>
-              <Card name={name} warscroll={warscroll} link={false} showFaction={showFaction(name, warscroll)} />
+              <Card name={name} warscroll={warscroll} link={true} showFaction={showFaction(name, warscroll)} />
             </div>
           )}
         </div>
