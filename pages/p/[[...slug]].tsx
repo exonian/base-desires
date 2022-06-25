@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { ParsedUrlQuery } from 'querystring'
 import { Card } from '../../components/card'
+import { Footer } from '../../components/footer'
 
 import { toStandard } from '../../utils/text'
 import { Warscrolls } from '../../warscrolls/data'
@@ -65,6 +66,7 @@ const Warscroll: NextPage<IWarscrollProps> = props => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   )
   :

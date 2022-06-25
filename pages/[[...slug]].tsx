@@ -2,12 +2,12 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link';
 import { useRouter } from 'next/router'
-import { FaGithub, FaTwitter } from 'react-icons/fa'
 import { toStandard } from '../utils/text'
 import { Warscrolls } from '../warscrolls/data'
 import { TWarscroll, TWarscrolls } from '../warscrolls/types'
 import { Card } from '../components/card'
 import { SearchBox } from '../components/search';
+import { Footer } from '../components/footer';
 
 
 const Search: NextPage = () => {
@@ -51,17 +51,7 @@ const Search: NextPage = () => {
           )}
         </div>
       </main>
-
-      <footer className="footer text-center">
-        <p>By Michael Blatherwick
-          <a className="social-link" href="https://twitter.com/rogue_michael"><FaTwitter /> @rogue_michael</a>
-          <a className="social-link" href="https://github.com/exonian"><FaGithub /> exonian</a>
-        </p>
-        <blockquote className="blockquote pr-3">
-          <p className="mb-0">"basedesires.com. Haha can you imagine if that was a website about Warhammer bases…"</p>
-          <footer className="blockquote-footer">Me a few days ago...</footer>
-        </blockquote>
-      </footer>
+      <Footer />
     </div>
   )
 }
