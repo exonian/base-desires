@@ -1,4 +1,4 @@
-import { useRef, useState } from "react"
+import { useEffect, useRef, useState } from "react"
 import { FaSearch } from "react-icons/fa"
 import { MdClear } from "react-icons/md"
 import { useRouter } from 'next/router'
@@ -12,9 +12,11 @@ export const SearchBox: React.FC = () => {
 
   const inputElement = useRef<HTMLInputElement>(null)
   const router = useRouter()
-  const slug = router.query.slug ? router.query.slug[0] : ""
   const [searchTerm, setSearchTerm] = useState('')
-  if (!searchTerm && slug) setSearchTerm(slug)
+  useEffect(() => {
+    const slug = router.query.slug ? router.query.slug[0] : ""
+    if (!searchTerm && slug) setSearchTerm(slug)
+  }, [router.query])
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value
