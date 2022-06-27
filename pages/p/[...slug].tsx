@@ -35,7 +35,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 export async function getStaticPaths() {
   return {
     paths: Object.keys(Warscrolls).map(name => `/p/${toStandard(name)}`),
-    fallback: true,
+    fallback: false,
   }
 }
 
