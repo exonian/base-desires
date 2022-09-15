@@ -11,7 +11,7 @@ Purple Sun of Shyish        ||  Use model       ||  105 x 70mm              ||  
 Ravenak’s Gnashing Jaws     ||  Use model       ||  105 x 70mm              ||  FAQ says 'Use model'
 Aethervoid Pendulum         ||  Use model       ||  Custom base             ||  64 x 42mm
 Emerald Lifeswarm           ||  Use model       ||  Custom base             ||  64 x 42mm
-Prismatic Palisade          ||  Use model       ||  Custom base             ||  Irregular 175 x 32mm
+Prismatic Palisade          ||  Use model       ||  Custom base             ||  Irregular 177 x 32mm
 Suffocating Gravetide       ||  Use model       ||  Custom base             ||  Irregular 170 x 85mm
 Balewind Vortex             ||  Use model       ||  No base                 ||  Model is about 90 - 108mm across
 

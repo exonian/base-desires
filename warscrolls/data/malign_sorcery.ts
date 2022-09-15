@@ -35,7 +35,7 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Prismatic Palisade" : {
             baseSize: "Custom base",
-            notes: "Irregular 175 x 32mm",
+            notes: "Irregular 177 x 32mm",
         },
         "Purple Sun of Shyish" : {
             baseSize: "105 x 70mm",

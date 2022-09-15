@@ -19,6 +19,7 @@ import Forbidden_PowerWarscrolls from "./data/forbidden_power"
 import FyreslayersWarscrolls from "./data/fyreslayers"
 import Gitmob_GrotsWarscrolls from "./data/gitmob_grots"
 import Gloomspite_GitzWarscrolls from "./data/gloomspite_gitz"
+import Gnomad_FeastmastersWarscrolls from "./data/gnomad_feastmasters"
 import GreenskinzWarscrolls from "./data/greenskinz"
 import Hedonites_Of_SlaaneshWarscrolls from "./data/hedonites_of_slaanesh"
 import Idoneth_DeepkinWarscrolls from "./data/idoneth_deepkin"
@@ -66,6 +67,7 @@ export const UntaggedWarscrolls: TFactionWarscrolls[] = [
     FyreslayersWarscrolls,
     Gitmob_GrotsWarscrolls,
     Gloomspite_GitzWarscrolls,
+    Gnomad_FeastmastersWarscrolls,
     GreenskinzWarscrolls,
     Hedonites_Of_SlaaneshWarscrolls,
     Idoneth_DeepkinWarscrolls,
