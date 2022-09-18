@@ -38,7 +38,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "Irregular 177 x 32mm",
         },
         "Purple Sun of Shyish" : {
-            baseSize: "105 x 70mm",
+            baseSize: "100 x 70mm",
             notes: "FAQ says 'Use model'",
         },
         "Quicksilver Swords" : {
@@ -46,7 +46,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "FAQ says 'Use model'",
         },
         "Ravenak’s Gnashing Jaws" : {
-            baseSize: "105 x 70mm",
+            baseSize: "100 x 70mm",
             notes: "FAQ says 'Use model'",
         },
         "Soulsnare Shackles" : {

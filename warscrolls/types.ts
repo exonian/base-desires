@@ -16,6 +16,7 @@ export type TBaseSize =
     | "75 x 42mm"
     | "90 x 52mm"
     | "90 x 52.5mm"
+    | "100 x 70mm"
     | "105 x 70mm"
     | "120 x 92mm"
     | "170 x 105mm"
