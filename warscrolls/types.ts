@@ -22,6 +22,7 @@ export type TBaseSize =
     | "177 x 32mm"
     | "280 x 210mm"
     | "Custom base"
+    | "Mixed"
     | "No base"
 
 export type TUntaggedWarscroll = {

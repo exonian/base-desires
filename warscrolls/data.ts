@@ -49,6 +49,7 @@ import Soulblight_GravelordsWarscrolls from "./data/soulblight_gravelords"
 import Stormcast_EternalsWarscrolls from "./data/stormcast_eternals"
 import SylvanethWarscrolls from "./data/sylvaneth"
 import Tamurkhans_HordeWarscrolls from "./data/tamurkhans_horde"
+import WarcryWarscrolls from "./data/warcry"
 
 export const UntaggedWarscrolls: TFactionWarscrolls[] = [
     AelfWarscrolls,
@@ -97,5 +98,6 @@ export const UntaggedWarscrolls: TFactionWarscrolls[] = [
     Stormcast_EternalsWarscrolls,
     SylvanethWarscrolls,
     Tamurkhans_HordeWarscrolls,
+    WarcryWarscrolls,
 ]
 export const Warscrolls: TWarscrolls = tagAndCombine(UntaggedWarscrolls)
