@@ -9,6 +9,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "160mm",
             notes: "",
         },
+        "Centaurion Marshal" : {
+            baseSize: "80mm",
+            notes: "",
+        },
         "Chaos Chariots" : {
             baseSize: "120 x 92mm",
             notes: "",
@@ -112,6 +116,18 @@ const Warscrolls: TFactionWarscrolls = {
         "Varanguard" : {
             baseSize: "75 x 42mm",
             notes: "",
+        },
+        "Chaos Legionnaires" : {
+            baseSize: "Mixed",
+            notes: "(5x32mm, 3x28mm)",
+        },
+        "Horns of Hashut" : {
+            baseSize: "Mixed",
+            notes: "(3x32mm, 4x28mm, 3x25mm)",
+        },
+        "Rotmire Creed" : {
+            baseSize: "Mixed",
+            notes: "(2x32mm, 2x28mm, 6x25mm)",
         },
     }
 }

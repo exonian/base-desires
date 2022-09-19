@@ -1,4 +1,5 @@
 Archaon 160mm
+Centaurion Marshal 80mm
 Chaos Chariots 120 x 92mm
 Chaos Chosen 32mm
 Chaos Gorebeast Chariots 120 x 92mm
@@ -25,3 +26,6 @@ Nightmaw 50mm
 Sayl the Faithless 32mm
 Theddra Skull-Scryer 32mm
 Varanguard 75 x 42mm
+Chaos Legionnaires Mixed (5x32mm, 3x28mm)
+Horns of Hashut Mixed (3x32mm, 4x28mm, 3x25mm)
+Rotmire Creed Mixed (2x32mm, 2x28mm, 6x25mm)
