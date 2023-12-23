@@ -16,15 +16,22 @@ function render_page(pageData) {
  
     return pageData.getTextContent(render_options)
     .then(function(textContent) {
-        let lastY, text = '';
+        let lastX, lastWidth, text = '';
         for (let item of textContent.items) {
-            if (lastY == item.transform[5] || !lastY){
-                text += '||' + item.str;
-            }  
-            else{
+            let currentX = item.transform[4]
+            if (currentX <= lastX || !lastX){
                 text += '\n' + item.str;
+            }
+            else {
+                if (currentX > lastX + lastWidth + 10) {
+                    text += '||' + item.str;
+                }
+                else {
+                    text += item.str;
+                }
             }    
-            lastY = item.transform[5];
+            lastX = item.transform[4];
+            lastWidth = item.width;
         }
         return text;
     });
