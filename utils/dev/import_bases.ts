@@ -1,16 +1,31 @@
 import fs from 'fs';
-import { reduce } from 'lodash';
+import PdfParse from 'pdf-parse';
 import pdf  from 'pdf-parse';
 
 
-let options = {
+let options: PdfParse.Options = {
     pagerender: parse_text
 }
 
-function parse_text(pageData) {
+type TPageData = {
+    getTextContent: () => Promise<TTextContent>
+}
+
+type TTextContent = {
+    items: TTextItem[]
+}
+
+type TTextItem = {
+    transform: number[]
+    width: number
+    height: number
+    str: string
+}
+
+function parse_text(pageData: TPageData) :Promise<string> {
     return pageData.getTextContent()
-    .then(function(textContent) {
-        let lastX, lastWidth, lastHeight, text = '';
+    .then(function(textContent: TTextContent) {
+        let lastX: number = 0, lastWidth:number = 0, lastHeight:number = 0, text:string = '';
         for (let item of textContent.items) {
             let currentX = item.transform[4]
             if (currentX <= lastX - 100 || Math.abs(item.height - lastHeight) > 1){
