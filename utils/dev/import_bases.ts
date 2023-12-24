@@ -4,6 +4,7 @@ import pdf  from 'pdf-parse';
 
 
 let options: PdfParse.Options = {
+// @ts-expect-error
     pagerender: parse_text
 }
 
