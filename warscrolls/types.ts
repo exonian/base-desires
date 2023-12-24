@@ -36,6 +36,6 @@ export type TFactionWarscrolls = {
 }
 
 export type TWarscroll = TUntaggedWarscroll & {
-    faction: string
+    factions: string[]
 }
 export type TWarscrolls = Record<string, TWarscroll>

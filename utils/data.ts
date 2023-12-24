@@ -2,15 +2,19 @@ import {  TWarscrolls, TUntaggedWarscrolls, TFactionWarscrolls } from "../warscr
 
 export const tagWarscrolls = (warscrolls: TUntaggedWarscrolls, faction: string): TWarscrolls => {
     return Object.keys(warscrolls).reduce((accum, key) => {
-        accum[key] = { ...warscrolls[key], faction: faction}
+        accum[key] = { ...warscrolls[key], factions: [faction]}
         return accum
     }, {} as TWarscrolls)
 }
 
 export const tagAndCombine = (factions: TFactionWarscrolls[]): TWarscrolls => {
     return factions.reduce((accum, faction: TFactionWarscrolls): TWarscrolls => {
-        const taggedWarscrolls = tagWarscrolls(faction.warscrolls, faction.faction)
-        return { ...accum, ...taggedWarscrolls }
+        const taggedFactionWarscrolls = tagWarscrolls(faction.warscrolls, faction.faction)
+        Object.keys(taggedFactionWarscrolls).forEach(name => {
+            if (name in accum) accum[name].factions.push(faction.faction)
+            else accum[name] = taggedFactionWarscrolls[name]
+        })
+        return accum
     }, {} as TWarscrolls)
 }
 

@@ -61,7 +61,7 @@ const Warscroll: NextPage<IWarscrollProps> = props => {
         <div className="sticky-top bg-body">
           <div className="row">
             <div className={cardColumnStyle} key={name}>
-              <Card name={name} warscroll={warscroll} link={false} showFaction={false} />
+              <Card name={name} warscroll={warscroll} link={false} />
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ const Search: NextPage = () => {
   const slug = router.query.slug ? router.query.slug[0] : ""
   const standardisedSlug = slug ? toStandard(slug) : ""
   const matches = Object.entries(Warscrolls).reduce((accum, [name, warscroll]) => {
-    const otherFields = `${warscroll.faction} || ${warscroll.baseSize} || ${warscroll.notes}`
+    const otherFields = `${warscroll.factions} || ${warscroll.baseSize} || ${warscroll.notes}`
     if (toStandard(name).includes(standardisedSlug)) accum['name'][name] = warscroll
     else if (toStandard(otherFields).includes(standardisedSlug)) accum['other'][name] = warscroll
     return accum
@@ -25,9 +25,6 @@ const Search: NextPage = () => {
   const cardColumnStyle = (Object.keys(warscrolls).length > 1) ? "col-md-6" : "col-12"
 
   const showSearch = true
-  const showFaction = (name: string, warscroll: TWarscroll): boolean => {
-    return (slug.length > 0 && toStandard(warscroll.faction).includes(slug) && !toStandard(name).includes(slug))
-  }
 
   return (
     <div className="d-flex flex-column min-vh-100">
@@ -46,7 +43,7 @@ const Search: NextPage = () => {
         <div className="row">
           {Object.entries(warscrolls).map(([name, warscroll]) =>
             <div className={cardColumnStyle} key={name}>
-              <Card name={name} warscroll={warscroll} link={true} showFaction={showFaction(name, warscroll)} />
+              <Card name={name} warscroll={warscroll} link={true} />
             </div>
           )}
         </div>
