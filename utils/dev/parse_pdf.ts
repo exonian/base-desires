@@ -104,9 +104,17 @@ const parse_pdf = (path: string) => {
     return parsed
 }
 
+const warscroll_name_typos: Record<string, string> = {
+    'Stea m Ta n k': 'Steam Tank',
+    'Wa r Hyd ra': 'War Hydra',
+}
+
 const render_warscroll_line = (line: string) :string => {
     const parts = line.split('||')
-    return parts.at(0)?.padEnd(70, ' ') + ' || ' + parts.at(-1)
+    const name = parts.at(0)
+    const normalisedName = name && warscroll_name_typos[name] || name
+    const size = parts.at(-1)
+    return normalisedName?.padEnd(70, ' ') + ' || ' + size
 }
 
 const write_text_files = (profiles: Record<string, string[]>) => {

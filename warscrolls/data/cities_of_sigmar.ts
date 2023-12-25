@@ -69,11 +69,11 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Stea m Ta n k" : {
+        "Steam Tank" : {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Wa r Hyd ra" : {
+        "War Hydra" : {
             baseSize: "120 x 92mm",
             notes: "",
         },
