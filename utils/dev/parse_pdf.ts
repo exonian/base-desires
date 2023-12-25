@@ -64,7 +64,7 @@ const import_bases = (path: string) => {
         let profiles: Record<string, string[]> = output.split('\n').reduce((accum, line) => {
             if (line.startsWith('WA R S C ROL L')) {
                 currentFaction = potentialFactionName
-                accum[currentFaction] = []
+                if (!(currentFaction in accum)) accum[currentFaction] = []
             }
             else {
                 if (line.startsWith('FACTION')) currentFaction = ''
