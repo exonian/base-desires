@@ -41,7 +41,7 @@ function parse_text(pageData: TPageData) :Promise<string> {
                 else {
                     text += item.str;
                 }
-            }    
+            }
             lastX = item.transform[4];
             lastWidth = item.width;
             lastHeight = item.height;
