@@ -5,15 +5,15 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "idoneth deepkin",
     warscrolls: {
-        "Akhelian Allopexes (Bloodthirsty Shiver)" : {
+        "Akhelian Allopexes (Bloodthirsty Shiver)" : {
             baseSize: "90 x 52mm",
             notes: "",
         },
-        "Akhelian Allopexes (Bloodthirsty Shiver)" : {
+        "Akhelian Allopexes (Bloodthirsty Shiver)" : {
             baseSize: "Battleline",
             notes: "",
         },
-        "Akhelian Allopexes (Bloodthirsty Shiver)" : {
+        "Akhelian Allopexes (Bloodthirsty Shiver)" : {
             baseSize: "Battleline",
             notes: "",
         },
@@ -65,7 +65,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Lotann, Warden of the Soul Ledgers" : {
+        "Lotann, Warden of the Soul Ledgers" : {
             baseSize: "40mm",
             notes: "",
         },

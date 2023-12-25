@@ -53,15 +53,15 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "60mm",
             notes: "",
         },
-        "Abhorrant Ghoul King on Royal Terrorgheist" : {
+        "Abhorrant Ghoul King on Royal Terrorgheist" : {
             baseSize: "130mm",
             notes: "",
         },
-        "Abhorrant Ghoul King on Royal Zombie Dragon" : {
+        "Abhorrant Ghoul King on Royal Zombie Dragon" : {
             baseSize: "130mm",
             notes: "",
         },
-        "Nagash, Supreme Lord of the Undead" : {
+        "Nagash, Supreme Lord of the Undead" : {
             baseSize: "130mm",
             notes: "",
         },

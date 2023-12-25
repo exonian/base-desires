@@ -73,11 +73,11 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "1",
             notes: "",
         },
-        "Sloppity Bilepiper, Herald of Nurgle" : {
+        "Sloppity Bilepiper, Herald of Nurgle" : {
             baseSize: "32mm",
             notes: "",
         },
-        "Spoilpox Scrivener, Herald of Nurgle" : {
+        "Spoilpox Scrivener, Herald of Nurgle" : {
             baseSize: "40mm",
             notes: "",
         },

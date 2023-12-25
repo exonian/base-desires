@@ -25,7 +25,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Breaka-boss on Mirebrute Troggoth" : {
+        "Breaka-boss on Mirebrute Troggoth" : {
             baseSize: "80mm",
             notes: "",
         },

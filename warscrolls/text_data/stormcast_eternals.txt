@@ -1,15 +1,15 @@
 Celestar Ballista                                                      || 60mm [1], 40mm [2] 
-Judicators with Boltstorm Crossbows                                    || 40mm 
+Judicators with Boltstorm Crossbows                                    || 40mm 
 Judicators with Skybolt Bows                                           || 40mm 
 Liberators                                                             || 40mm 
 Sequitors                                                              || 40mm 
 Vanquishers                                                            || 40mm 
 Vindictors                                                             || 40mm 
 Astreia Solbright                                                      || 90 x 52mm 
-Aventis Firestrike, Magister of Hammerhal                              || 100mm 
+Aventis Firestrike, Magister of Hammerhal                              || 100mm 
 Averon Stormsire                                                       || 40mm 
 Stormsire’s Cursebreakers                                              || 2 
-Celestant-Prime, Hammer of Sigmar                                      || 100mm 
+Celestant-Prime, Hammer of Sigmar                                      || 100mm 
 Gardus Steel Soul                                                      || 50mm 
 Gavriel Sureheart                                                      || 40mm 
 Knight-Arcanum                                                         || 40mm 
@@ -22,17 +22,17 @@ Knight-Questor                                                         || 40mm
 Knight-Relictor                                                        || 40mm 
 Knight-Venator                                                         || 50mm 
 Knight-Vexillor                                                        || 40mm 
-Knight-Vexillor with Banner of Apotheosis                              || 40mm 
+Knight-Vexillor with Banner of Apotheosis                              || 40mm 
 Knight-Zephyros                                                        || 40mm 
 Lord-Aquilor                                                           || 90 x 52mm 
 Lord-Arcanum                                                           || 40mm 
-Lord-Arcanum on Celestial Dracoline                                    || 90 x 52mm 
+Lord-Arcanum on Celestial Dracoline                                    || 90 x 52mm 
 Lord-Arcanum on Gryph-charger                                          || 90 x 52mm 
 Lord-Arcanum on Tauralon                                               || 100mm 
 Lord-Castellant                                                        || 40mm 
 Lord-Celestant                                                         || 40mm 
 Lord-Celestant on Dracoth                                              || 90 x 52mm 
-Lord-Commander Bastian Carthalos                                       || 50mm 
+Lord-Commander Bastian Carthalos                                       || 50mm 
 Lord-Exorcist                                                          || 40mm 
 Lord-Imperatant                                                        || 40mm [1], 32 m m   [1] 
 Lord-Ordinator                                                         || 40mm 
@@ -61,8 +61,8 @@ Evocators on Celestial Dracolines                                      || 90 x 5
 The Farstriders                                                        || 40mm 
 Gryph-hounds                                                           || 40mm 
 Praetors                                                               || 40mm 
-Prosecutors with Celestial Hammers                                     || 40mm 
-Prosecutors with Stormcall Javelins                                    || 40mm 
+Prosecutors with Celestial Hammers                                     || 40mm 
+Prosecutors with Stormcall Javelins                                    || 40mm 
 Protectors                                                             || 40mm 
 Questor Soulsworn                                                      || 40mm 
 Retributors                                                            || 40mm 

@@ -57,7 +57,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Gaunt Summoner on Disc of Tzeentch" : {
+        "Gaunt Summoner on Disc of Tzeentch" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -97,7 +97,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Disciples of Tzeentch Chaos Spawn" : {
+        "Disciples of Tzeentch Chaos Spawn" : {
             baseSize: "50mm",
             notes: "",
         },
@@ -121,7 +121,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Tzaangor Enlightened on Discs of Tzeentch" : {
+        "Tzaangor Enlightened on Discs of Tzeentch" : {
             baseSize: "40mm",
             notes: "",
         },

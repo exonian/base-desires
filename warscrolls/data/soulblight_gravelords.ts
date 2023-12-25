@@ -125,7 +125,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Mannfred von Carstein, Mortarch of Night" : {
+        "Mannfred von Carstein, Mortarch of Night" : {
             baseSize: "120 x 92mm",
             notes: "",
         },

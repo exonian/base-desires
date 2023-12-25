@@ -5,11 +5,11 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "fyreslayers",
     warscrolls: {
-        "Vulkite Berzerkers with Bladed Slingshields" : {
+        "Vulkite Berzerkers with Bladed Slingshields" : {
             baseSize: "32mm",
             notes: "",
         },
-        "Vulkite Berzerkers with Fyresteel Handaxes" : {
+        "Vulkite Berzerkers with Fyresteel Handaxes" : {
             baseSize: "32mm",
             notes: "",
         },

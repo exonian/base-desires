@@ -53,7 +53,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Knight of Shrouds on Ethereal Steed" : {
+        "Knight of Shrouds on Ethereal Steed" : {
             baseSize: "75 x 42mm",
             notes: "",
         },
@@ -61,7 +61,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Kurdoss Valentian, the Craven King" : {
+        "Kurdoss Valentian, the Craven King" : {
             baseSize: "60mm",
             notes: "",
         },
@@ -89,7 +89,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25mm",
             notes: "",
         },
-        "Nagash, Supreme Lord of the Undead" : {
+        "Nagash, Supreme Lord of the Undead" : {
             baseSize: "130mm",
             notes: "",
         },

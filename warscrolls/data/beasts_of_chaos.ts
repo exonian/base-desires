@@ -81,15 +81,15 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "50mm",
             notes: "",
         },
-        "Beasts of Chaos Slaangor Fiendbloods" : {
+        "Beasts of Chaos Slaangor Fiendbloods" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Beasts of Chaos Tzaangor Enlightened" : {
+        "Beasts of Chaos Tzaangor Enlightened" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Beasts of Chaos Tzaangor Enlightened on Discs of Tzeentch" : {
+        "Beasts of Chaos Tzaangor Enlightened on Discs of Tzeentch" : {
             baseSize: "40mm",
             notes: "",
         },

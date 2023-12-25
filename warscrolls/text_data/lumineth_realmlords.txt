@@ -2,7 +2,7 @@ Vanari Starshard Ballista                                              || 80mm
 Vanari Auralan Wardens                                                 || 32mm 
 Alarith Spirit of the Mountain                                         || 100mm 
 Alarith Stonemage                                                      || 40mm 
-Ellania and Ellathor, Eclipsian Warsages                               || 40mm 
+Ellania and Ellathor, Eclipsian Warsages                               || 40mm 
 Hurakan Spirit of the Wind                                             || 60mm 
 Hurakan Windmage                                                       || 60 x 35mm 
 The Light of Eltharion                                                 || 50mm 
@@ -13,7 +13,7 @@ Scinari Calligrave                                                     || 32mm
 Scinari Cathallar                                                      || 32mm 
 Scinari Enlightener                                                    || 32mm 
 Scinari Loreseeker                                                     || 32mm 
-Sevireth, Lord of the Seventh Wind                                     || 60mm 
+Sevireth, Lord of the Seventh Wind                                     || 60mm 
 Vanari Bannerblade                                                     || 40mm 
 Vanari Lord Regent                                                     || 90 x 52mm 
 Archmage Teclis and Celennar, Spirit of Hysh                           || 160mm 

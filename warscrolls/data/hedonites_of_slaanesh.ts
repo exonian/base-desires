@@ -17,7 +17,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25 x 50mm",
             notes: "",
         },
-        "Bladebringer, Herald on Exalted Chariot" : {
+        "Bladebringer, Herald on Exalted Chariot" : {
             baseSize: "120 x 92mm",
             notes: "",
         },
@@ -25,7 +25,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Bladebringer, Herald on Seeker Chariot" : {
+        "Bladebringer, Herald on Seeker Chariot" : {
             baseSize: "120 x 92mm",
             notes: "",
         },
@@ -37,7 +37,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "105 x 70mm",
             notes: "",
         },
-        "Infernal Enrapturess, Herald of Slaanesh" : {
+        "Infernal Enrapturess, Herald of Slaanesh" : {
             baseSize: "60 x 35mm",
             notes: "",
         },

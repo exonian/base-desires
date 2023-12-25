@@ -141,11 +141,11 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "3",
             notes: "",
         },
-        "Slaves to Darkness Gaunt Summoner" : {
+        "Slaves to Darkness Gaunt Summoner" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Slaves to Darkness Gaunt Summoner on Disc of Tzeentch" : {
+        "Slaves to Darkness Gaunt Summoner on Disc of Tzeentch" : {
             baseSize: "40mm",
             notes: "",
         },

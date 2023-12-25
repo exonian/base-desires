@@ -21,7 +21,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Ellania and Ellathor, Eclipsian Warsages" : {
+        "Ellania and Ellathor, Eclipsian Warsages" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -65,7 +65,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Sevireth, Lord of the Seventh Wind" : {
+        "Sevireth, Lord of the Seventh Wind" : {
             baseSize: "60mm",
             notes: "",
         },

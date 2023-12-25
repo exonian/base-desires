@@ -58,7 +58,10 @@ function parse_text(pageData: TPageData) :Promise<string> {
 
 
 function clean_text(text: string) :string {
-    return text.replaceAll("×", "x").replaceAll("�", ".")
+    // multiplication sign to x, for the purposes of searching
+    // some decimal point character, to a normal full stop, for display and search
+    // non-breaking space to a normal space, for searching
+    return text.replaceAll("×", "x").replaceAll("�", ".").replaceAll(" ", " ")
 }
 
 const faction_name_typos: Record<string, string> = {

@@ -61,15 +61,15 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Kurnoth Hunters with Kurnoth Greatbows" : {
+        "Kurnoth Hunters with Kurnoth Greatbows" : {
             baseSize: "50mm",
             notes: "",
         },
-        "Kurnoth Hunters with Kurnoth Greatswords" : {
+        "Kurnoth Hunters with Kurnoth Greatswords" : {
             baseSize: "50mm",
             notes: "",
         },
-        "Kurnoth Hunters with Kurnoth Scythes" : {
+        "Kurnoth Hunters with Kurnoth Scythes" : {
             baseSize: "50mm",
             notes: "",
         },

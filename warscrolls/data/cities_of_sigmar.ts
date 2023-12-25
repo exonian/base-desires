@@ -157,7 +157,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Luminark of Hysh with White Battlemage" : {
+        "Luminark of Hysh with White Battlemage" : {
             baseSize: "120 x 92mm",
             notes: "",
         },

@@ -9,7 +9,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "60mm [1], 40mm [2]",
             notes: "",
         },
-        "Judicators with Boltstorm Crossbows" : {
+        "Judicators with Boltstorm Crossbows" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -37,7 +37,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "90 x 52mm",
             notes: "",
         },
-        "Aventis Firestrike, Magister of Hammerhal" : {
+        "Aventis Firestrike, Magister of Hammerhal" : {
             baseSize: "100mm",
             notes: "",
         },
@@ -49,7 +49,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "2",
             notes: "",
         },
-        "Celestant-Prime, Hammer of Sigmar" : {
+        "Celestant-Prime, Hammer of Sigmar" : {
             baseSize: "100mm",
             notes: "",
         },
@@ -101,7 +101,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Knight-Vexillor with Banner of Apotheosis" : {
+        "Knight-Vexillor with Banner of Apotheosis" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -117,7 +117,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Lord-Arcanum on Celestial Dracoline" : {
+        "Lord-Arcanum on Celestial Dracoline" : {
             baseSize: "90 x 52mm",
             notes: "",
         },
@@ -141,7 +141,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "90 x 52mm",
             notes: "",
         },
-        "Lord-Commander Bastian Carthalos" : {
+        "Lord-Commander Bastian Carthalos" : {
             baseSize: "50mm",
             notes: "",
         },
@@ -257,11 +257,11 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Prosecutors with Celestial Hammers" : {
+        "Prosecutors with Celestial Hammers" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Prosecutors with Stormcall Javelins" : {
+        "Prosecutors with Stormcall Javelins" : {
             baseSize: "40mm",
             notes: "",
         },

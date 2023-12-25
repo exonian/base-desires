@@ -22,7 +22,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Claws of Karanak" : {
-            baseSize: "40mm [1], 60 x 35mm [1], 32mm [2], 28mm [4]",
+            baseSize: "40mm [1], 60 x 35mm [1], 32mm [2], 28mm [4]",
             notes: "",
         },
         "Flesh Hounds" : {
