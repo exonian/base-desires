@@ -70,7 +70,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Skittershank’s Clawpack" : {
-            baseSize: "32mm [1], 25m m [3]",
+            baseSize: "32mm [1], 25mm [3]",
             notes: "",
         },
         "Warlock Bombardier" : {

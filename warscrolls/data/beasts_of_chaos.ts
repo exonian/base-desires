@@ -10,10 +10,6 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Morghurite Chaos Spawn (Gibbering Congregation)" : {
-            baseSize: "Single. Can only be included in a Gavespawn army. These units must be taken as a set referred to as a Gibbering Congregation.",
-            notes: "",
-        },
-        "Although taken as a set, each is a separate unit." : {
             baseSize: "50mm",
             notes: "",
         },

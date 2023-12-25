@@ -34,7 +34,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Cypher Lords" : {
-            baseSize: "32mm [1], 28.5mm [4], 25m m [3]",
+            baseSize: "32mm [1], 28.5mm [4], 25mm [3]",
             notes: "",
         },
         "Darkoath Savagers" : {
@@ -42,7 +42,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Horns of Hashut" : {
-            baseSize: "32mm [3], 28.5mm [4], 25m m [3]",
+            baseSize: "32mm [3], 28.5mm [4], 25mm [3]",
             notes: "",
         },
         "Iron Golem" : {
@@ -53,7 +53,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm [3], 28.5mm [3], 25mm [2]",
             notes: "",
         },
-        "S p i r e   Ty r a nt s" : {
+        "S p i r e Ty r a nt s" : {
             baseSize: "32mm [3], 28.5mm [4], 25mm [2]",
             notes: "",
         },
@@ -62,7 +62,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Ta r a nt u los Brood" : {
-            baseSize: "32mm [1], 28.5mm [2], 2 5 m m   [10]",
+            baseSize: "32mm [1], 28.5mm [2], 25mm [10]",
             notes: "",
         },
         "The Unmade" : {
@@ -70,7 +70,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Untamed Beasts" : {
-            baseSize: "40mm [1], 32mm [3], 28.5mm [2], 25m m [3]",
+            baseSize: "40mm [1], 32mm [3], 28.5mm [2], 25mm [3]",
             notes: "",
         },
         "Chaos Warshrine" : {
@@ -154,7 +154,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Godsworn Hunt" : {
-            baseSize: "32mm [4], 2 5 m m   [1]",
+            baseSize: "32mm [4], 25mm [1]",
             notes: "",
         },
         "Zarshia Bittersoul" : {

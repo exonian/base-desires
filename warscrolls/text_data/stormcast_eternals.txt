@@ -34,7 +34,7 @@ Lord-Celestant                                                         || 40mm
 Lord-Celestant on Dracoth                                              || 90 x 52mm 
 Lord-Commander Bastian Carthalos                                       || 50mm 
 Lord-Exorcist                                                          || 40mm 
-Lord-Imperatant                                                        || 40mm [1], 32mm   [1] 
+Lord-Imperatant                                                        || 40mm [1], 32mm [1] 
 Lord-Ordinator                                                         || 40mm 
 Lord-Relictor                                                          || 40mm 
 Lord-Veritant                                                          || 40mm 
@@ -75,7 +75,7 @@ Vanguard-Palladors                                                     || 75 x 4
 Vanguard-Raptors with Hurricane Crossbows                              || 40mm 
 Vanguard-Raptors with Longstrike Crossbows                             || 60 x 35mm [2], 40mm [1] 
 Vigilors                                                               || 40mm 
-Xandire’s Truthseekers                                                 || 40mm [3], 25mm   [1] 
+Xandire’s Truthseekers                                                 || 40mm [3], 25mm [1] 
 Celestian Vortex                                                       || 65mm 
 Dais Arcanum                                                           || 50mm 
 Everblaze Comet                                                        || 65mm

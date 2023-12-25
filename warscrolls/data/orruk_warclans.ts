@@ -42,11 +42,11 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Killaboss with Stab-grot" : {
-            baseSize: "40mm [1], 2 5 m m   [1]",
+            baseSize: "40mm [1], 25mm [1]",
             notes: "",
         },
         "Maniak Weirdnob" : {
-            baseSize: "60 x 35 mm",
+            baseSize: "60 x 35mm",
             notes: "",
         },
         "Mannok da Kunnin’" : {
@@ -54,7 +54,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Da Kunnin’ Krew" : {
-            baseSize: "32mm [1], 25m m [3]",
+            baseSize: "32mm [1], 25mm [3]",
             notes: "",
         },
         "Murknob with Belcha-banna" : {
@@ -78,7 +78,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Swampcalla Shaman and Pot-grot" : {
-            baseSize: "40mm [1], 2 5 m m   [1]",
+            baseSize: "40mm [1], 25mm [1]",
             notes: "",
         },
         "Wa rdok k" : {

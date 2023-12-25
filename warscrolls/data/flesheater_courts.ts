@@ -46,7 +46,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Marrowscroll Herald" : {
-            baseSize: "32 mm",
+            baseSize: "32mm",
             notes: "",
         },
         "Varghulf Courtier" : {
@@ -74,7 +74,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Royal Beastflayers" : {
-            baseSize: "32mm [2], 40mm [2], 28mm [3], 25m m [3]",
+            baseSize: "32mm [2], 40mm [2], 28mm [3], 25mm [3]",
             notes: "",
         },
         "Cadaverous Barricade" : {

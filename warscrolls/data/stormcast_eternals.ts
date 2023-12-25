@@ -150,7 +150,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Lord-Imperatant" : {
-            baseSize: "40mm [1], 32 m m   [1]",
+            baseSize: "40mm [1], 32mm [1]",
             notes: "",
         },
         "Lord-Ordinator" : {
@@ -314,7 +314,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Xandire’s Truthseekers" : {
-            baseSize: "40mm [3], 2 5 m m   [1]",
+            baseSize: "40mm [3], 25mm [1]",
             notes: "",
         },
         "Celestian Vortex" : {

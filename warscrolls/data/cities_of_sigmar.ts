@@ -114,7 +114,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Hexbane’s Hunters" : {
-            baseSize: "25mm [2], 28.5mm [2], 32 m m   [1]",
+            baseSize: "25mm [2], 28.5mm [2], 32mm [1]",
             notes: "",
         },
         "Nomad Prince" : {

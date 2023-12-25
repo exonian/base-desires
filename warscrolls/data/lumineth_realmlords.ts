@@ -37,7 +37,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "50mm",
             notes: "",
         },
-        "Lyrior Uthralle,  Warden of Ymetrica" : {
+        "Lyrior Uthralle, Warden of Ymetrica" : {
             baseSize: "90 x 52mm",
             notes: "",
         },

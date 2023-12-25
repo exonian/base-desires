@@ -60,8 +60,8 @@ function parse_text(pageData: TPageData) :Promise<string> {
 function clean_text(text: string) :string {
     text = text.replaceAll("×", "x")  // for searching
     text = text.replaceAll("�", ".")  // for display and search
-    text = text.replaceAll(" ", " ")  // non-breaking space to a normal space, for searching
     text = text.replace(/(\d) {0,1}(\d) {0,1}m {0,1}m/g, "$1$2mm")  // remove spaces in simple sizes
+    text = text.replace(/\s+/g,' ')  // nbsps, which interfere with searching, and extraneous spaces
     return text
 }
 

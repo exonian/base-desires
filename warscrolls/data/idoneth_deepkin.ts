@@ -37,11 +37,11 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Eidolon of Mathlann,  Aspect of the Sea" : {
+        "Eidolon of Mathlann, Aspect of the Sea" : {
             baseSize: "100mm",
             notes: "",
         },
-        "Eidolon of Mathlann,  Aspect of the Storm" : {
+        "Eidolon of Mathlann, Aspect of the Storm" : {
             baseSize: "100mm",
             notes: "",
         },
@@ -50,7 +50,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Elathain’s Soulraid" : {
-            baseSize: "32mm [3], 2 5 m m   [1]",
+            baseSize: "32mm [3], 25mm [1]",
             notes: "",
         },
         "Isharann Soulrender" : {

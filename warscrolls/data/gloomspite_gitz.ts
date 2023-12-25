@@ -70,7 +70,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Mollog" : {
-            baseSize: "50mm [1], 25m m [3]",
+            baseSize: "50mm [1], 25mm [3]",
             notes: "",
         },
         "Rabble-Rowza" : {

@@ -78,7 +78,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Skaeth’s Wild Hunt" : {
-            baseSize: "50 x 25mm [1], 32mm [3], 2 5 m m   [1]",
+            baseSize: "50 x 25mm [1], 32mm [3], 25mm [1]",
             notes: "",
         },
         "Spite-Revenants" : {

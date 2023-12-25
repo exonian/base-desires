@@ -50,7 +50,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Gorechosen of Dromm" : {
-            baseSize: "40mm [1], 32 m m   [1]",
+            baseSize: "40mm [1], 32mm [1]",
             notes: "",
         },
         "Exalted Deathbringer" : {

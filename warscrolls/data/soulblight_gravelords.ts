@@ -58,7 +58,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "The Sons of Velmorn" : {
-            baseSize: "40mm [1], 25m m [3]",
+            baseSize: "40mm [1], 25mm [3]",
             notes: "",
         },
         "Kritza, the Rat Prince" : {
@@ -146,7 +146,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Askurgan Trueblades" : {
-            baseSize: "40mm [1], 32mm [4], 28m m [3]",
+            baseSize: "40mm [1], 32mm [4], 28mm [3]",
             notes: "",
         },
         "Black Knights" : {

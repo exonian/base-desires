@@ -57,7 +57,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Arkhan the Black,  Mortarch of Sacrament" : {
+        "Arkhan the Black, Mortarch of Sacrament" : {
             baseSize: "120 x 92mm",
             notes: "",
         },

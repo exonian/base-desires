@@ -110,7 +110,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Hunters of Huanchi with Starstone Bolas" : {
-            baseSize: "28.5mm [2], 25m m [3]",
+            baseSize: "28.5mm [2], 25mm [3]",
             notes: "",
         },
         "Kroxigor" : {

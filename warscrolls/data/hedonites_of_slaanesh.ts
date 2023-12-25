@@ -6,7 +6,7 @@ const Warscrolls: TFactionWarscrolls = {
     faction: "hedonites of slaanesh",
     warscrolls: {
         "Blissbarb Archers" : {
-            baseSize: "28.5mm [10], 2 5 m m   [1]",
+            baseSize: "28.5mm [10], 25mm [1]",
             notes: "",
         },
         "Daemonettes" : {
