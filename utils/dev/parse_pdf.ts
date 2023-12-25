@@ -69,7 +69,7 @@ const import_bases = (path: string) => {
             if (!line.includes('||')) potentialFactionName = line
             return accum
         }, {} as Record<string, string[]>)
-        console.log(profiles)
+        write_text_files(profiles)
     })
 }
 
@@ -79,6 +79,10 @@ const parse_pdf = (path: string) => {
         return data.text
     })
     return parsed
+}
+
+const write_text_files = (profiles: Record<string, string[]>) => {
+    console.log(profiles)
 }
 
 import_bases('profiles.pdf')
