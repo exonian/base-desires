@@ -36,7 +36,7 @@ function parse_text(pageData: TPageData) :Promise<string> {
 
             let currentX = item.transform[4]
             let currentY = item.transform[5]
-            if (currentX < lastX - 100 || Math.abs(item.height - lastHeight) > 1 || currentY > lastY + 100) {
+            if (currentX < lastX - 110 || Math.abs(item.height - lastHeight) > 1 || currentY > lastY + 100) {
                 text += '\n' + cleanedText;
             }
             else {
@@ -58,10 +58,10 @@ function parse_text(pageData: TPageData) :Promise<string> {
 
 
 function clean_text(text: string) :string {
-    // multiplication sign to x, for the purposes of searching
-    // some decimal point character, to a normal full stop, for display and search
-    // non-breaking space to a normal space, for searching
-    return text.replaceAll("×", "x").replaceAll("�", ".").replaceAll(" ", " ")
+    text = text.replaceAll("×", "x")  // for searching
+    text = text.replaceAll("�", ".")  // for display and search
+    text = text.replaceAll(" ", " ")  // non-breaking space to a normal space, for searching
+    return text
 }
 
 const faction_name_typos: Record<string, string> = {
