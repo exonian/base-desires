@@ -5,7 +5,7 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "incarnates",
     warscrolls: {
-        "Krondspine Incarnate" : {
+        "Krondspine Incarnate of Ghur" : {
             baseSize: "130mm",
             notes: "",
         },

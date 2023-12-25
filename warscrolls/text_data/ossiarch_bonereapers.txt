@@ -1,19 +1,24 @@
-Arch-Kavalos Zandtos 80mm
-Arkhan the Black, Mortarch of Sacrament 120 x 92mm
-Bone-tithe Shrieker 90 x 52mm
-Gothizzar Harvester 105 x 70mm
-Immortis Guard 50mm
-Katakros, Mortarch of the Necropolis 120 x 92mm
-Kavalos Deathriders 60 x 35mm
-Liege-Kavalos 80mm
-Morghast Archai 60mm
-Morghast Harbingers 60mm
-Mortek Crawler 170 x 105mm
-Mortek Guard 25mm
-Mortisan Boneshaper 32mm
-Mortisan Soulmason 40mm
-Mortisan Soulreaper 32mm
-Nightmare Predator 60mm
-Necropolis Stalkers 50mm
-Soulstealer Carrion 60mm
-Vokmortian, Master of the Bone-tithe 40mm
+Mortek Crawler                                                         || 170 x 105mm 
+Kavalos Deathriders                                                    || 60 x 35mm 
+Mortek Guard                                                           || 25mm 
+Arch-Kavalos Zandtos                                                   || 80mm 
+Katakros, Mortarch of the Necropolis                                   || 120 x 92mm 
+Liege-Kavalos                                                          || 80mm 
+Mir Kainan                                                             || 40mm 
+K a i na n’s Reapers                                                   || 25mm 
+Mortisan Boneshaper                                                    || 32mm 
+Mortisan Ossifector                                                    || 32mm 
+Mortisan Soulmason                                                     || 40mm 
+Mortisan Soulreaper                                                    || 32mm 
+Vokmortian, Master of the Bone-tithe                                   || 40mm 
+Arkhan the Black,  Mortarch of Sacrament                               || 120 x 92mm 
+Nagash, Supreme Lord of the Undead                                     || 130mm 
+Gothizzar Harvester                                                    || 105 x 70mm 
+Immortis Guard                                                         || 50mm 
+Morghast Archai                                                        || 60mm 
+Morghast Harbingers                                                    || 60mm 
+Necropolis Stalkers                                                    || 50mm 
+Bone-tithe Shrieker                                                    || 90 x 52mm 
+Nightmare Predator                                                     || 60mm 
+Soulstealer Carrion                                                    || 60mm 
+Bone-tithe Nexus                                                       || Use model

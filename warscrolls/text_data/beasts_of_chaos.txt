@@ -1,23 +1,37 @@
-Beastlord 32mm
-Bestigors 32mm
-Bullgors 50mm
-Centigors 60 x 35mm
-Chaos Gargant 90 x 52mm
-Chaos Warhounds 60 x 35mm
-Chimera 120 x 92mm
-Cockatrice 60mm
-Cygor 120 x 92mm
-Doomblast Dirgehorn 40mm
-Doombull 50mm
-Dragon Ogor Shaggoth 90 x 52mm
-Dragon Ogors 90 x 52mm
-Ghorgon 120 x 92mm
-Gors 32mm
-Great Bray-Shaman 32mm
-Jabberslythe 120 x 92mm
-Ravening Direflock 40mm
-Razorgors 75 x 42mm
-Tuskgor Chariots 105 x 70mm
-Ungor Raiders 25mm
-Ungors 25mm
-Wildfire Taurus 105 x 70mm
+Gors                                                                   || 32mm 
+Morghurite Chaos Spawn (Gibbering Congregation)                        || Single. Can only be included in a Gavespawn army. These units must be taken as a set referred to as a Gibbering Congregation.  
+Although taken as a set, each is a separate unit.                      || 50mm 
+Morghurite Chaos Spawn (Gibbering Congregation)                        || Battleline 
+Morghurite Chaos Spawn (Gibbering Congregation)                        || Battleline 
+Ungors                                                                 || 25mm 
+Chaos Gargant                                                          || 90 x 52mm 
+Chimera                                                                || 120 x 92mm 
+Cygor                                                                  || 120 x 92mm 
+Ghorgon                                                                || 120 x 92mm 
+Jabberslythe                                                           || 120 x 92mm 
+Beastlord                                                              || 40mm 
+Beasts of Chaos Tzaangor Shaman                                        || 40mm 
+Doombull                                                               || 50mm 
+Dragon Ogor Shaggoth                                                   || 90 x 52mm 
+Grashrak Fellhoof                                                      || 32mm 
+Grashrak’s Despoilers                                                  || 32mm [1], 25mm [4] 
+Great Bray-Shaman                                                      || 32mm 
+Beasts of Chaos Chaos Spawn                                            || 50mm 
+Beasts of Chaos Slaangor Fiendbloods                                   || 40mm 
+Beasts of Chaos Tzaangor Enlightened                                   || 40mm 
+Beasts of Chaos Tzaangor Enlightened on Discs of Tzeentch              || 40mm 
+Beasts of Chaos Tzaangor Skyfires                                      || 40mm 
+Beasts of Chaos Tzaangors                                              || 32mm 
+Bestigors                                                              || 32mm 
+Bullgors                                                               || 50mm 
+Centigors                                                              || 60 x 35mm 
+Chaos Warhounds                                                        || 60 x 35mm 
+Cockatrice                                                             || 60mm 
+Dragon Ogors                                                           || 90 x 52mm 
+Razorgors                                                              || 75 x 42mm 
+Tuskgor Chariots                                                       || 105 x 70mm 
+Ungor Raiders                                                          || 25mm 
+Doomblast Dirgehorn                                                    || 40mm 
+Ravening Direflock                                                     || 40mm 
+Wildfire Taurus                                                        || 105 x 70mm 
+Herdstone                                                              || Use model

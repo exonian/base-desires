@@ -5,40 +5,36 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "blades of khorne",
     warscrolls: {
-        "Aspiring Deathbringer" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Aspiring Deathbringer with Goreaxe and Skullhammer" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Bleeding Icon" : {
-            baseSize: "105 x 70mm",
-            notes: "",
-        },
-        "Blood Throne" : {
+        "Skull Cannon" : {
             baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Blood Warriors" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Bloodcrushers" : {
-            baseSize: "90 x 52mm",
             notes: "",
         },
         "Bloodletters" : {
             baseSize: "32mm",
             notes: "",
         },
-        "Bloodmaster, Herald of Khorne" : {
+        "Bloodreavers" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Blood Warriors" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Claws of Karanak" : {
+            baseSize: "40mm [1], 60 x 35mm [1], 32mm [2], 28mm [4]",
+            notes: "",
+        },
+        "Flesh Hounds" : {
+            baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Aspiring Deathbringer" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Bloodreavers" : {
-            baseSize: "32mm",
+        "Bloodmaster, Herald of Khorne" : {
+            baseSize: "40mm",
             notes: "",
         },
         "Bloodsecrator" : {
@@ -49,48 +45,20 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Bloodthirster of Insensate Rage" : {
+        "Dromm, Wounder of Worlds" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Gorechosen of Dromm" : {
+            baseSize: "40mm [1], 32 m m   [1]",
+            notes: "",
+        },
+        "Exalted Deathbringer" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Herald of Khorne on Blood Throne" : {
             baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Bloodthirster of Unfettered Fury" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Exalted Deathbringer with Bloodbite Axe" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Exalted Deathbringer with Impaling Spear" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Exalted Deathbringer with Ruinous Axe" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Exalted Greater Daemon of Khorne" : {
-            baseSize: "160mm",
-            notes: "",
-        },
-        "Flesh Hounds" : {
-            baseSize: "60 x 35mm",
-            notes: "",
-        },
-        "Garrek’s Reavers" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Hexgorger Skulls" : {
-            baseSize: "60mm",
-            notes: "",
-        },
-        "Karanak" : {
-            baseSize: "75 x 42mm",
-            notes: "",
-        },
-        "Khorgoraths" : {
-            baseSize: "90 x 52mm",
             notes: "",
         },
         "Korghos Khul" : {
@@ -101,44 +69,20 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "90 x 52mm",
             notes: "",
         },
-        "Magore’s Fiends" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Mazarall the Butcher" : {
-            baseSize: "100mm",
-            notes: "",
-        },
         "Mighty Lord of Khorne" : {
             baseSize: "60mm",
             notes: "",
         },
-        "Mighty Skullcrushers" : {
-            baseSize: "90 x 52mm",
-            notes: "",
-        },
-        "Riptooth" : {
-            baseSize: "50mm",
+        "Realmgore Ritualist" : {
+            baseSize: "32mm",
             notes: "",
         },
         "Scyla Anfingrimm" : {
             baseSize: "60mm",
             notes: "",
         },
-        "Skaarac the Bloodborn" : {
-            baseSize: "160mm",
-            notes: "",
-        },
-        "Skarbrand" : {
-            baseSize: "100mm",
-            notes: "",
-        },
         "Skarr Bloodwrath" : {
             baseSize: "40mm",
-            notes: "",
-        },
-        "Skull Cannons" : {
-            baseSize: "120 x 92mm",
             notes: "",
         },
         "Skullgrinder" : {
@@ -149,23 +93,11 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "90 x 52mm",
             notes: "",
         },
-        "Skullreapers" : {
-            baseSize: "40mm",
-            notes: "",
-        },
         "Skulltaker" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Slaughterbrute of Khorne" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
         "Slaughterpriest" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Slaughterpriest with Hackblade and Wrath-hammer" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -173,16 +105,68 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
+        "Bloodthirster of Insensate Rage" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Bloodthirster of Unfettered Fury" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Skarbrand" : {
+            baseSize: "100mm",
+            notes: "",
+        },
         "Wrath of Khorne Bloodthirster" : {
             baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Bloodcrushers" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Garrek’s Reavers" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Karanak" : {
+            baseSize: "75 x 42mm",
+            notes: "",
+        },
+        "Khorgorath" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Magore’s Fiends" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Mighty Skullcrushers" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Skullreapers" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Wrathmongers" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Bleeding Icon" : {
+            baseSize: "105 x 70mm",
+            notes: "",
+        },
+        "Hexgorger Skulls" : {
+            baseSize: "60mm",
             notes: "",
         },
         "Wrath-axe" : {
             baseSize: "105 x 70mm",
             notes: "",
         },
-        "Wrathmongers" : {
-            baseSize: "40mm",
+        "Skull Altar" : {
+            baseSize: "Use model",
             notes: "",
         },
     }

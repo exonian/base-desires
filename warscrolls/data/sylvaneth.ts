@@ -5,12 +5,20 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "sylvaneth",
     warscrolls: {
-        "Alarielle the Everqueen" : {
-            baseSize: "160mm",
+        "Dryads" : {
+            baseSize: "32mm",
             notes: "",
         },
-        "Branchwraith" : {
+        "Tree-Revena nts" : {
             baseSize: "32mm",
+            notes: "",
+        },
+        "Treelord" : {
+            baseSize: "105 x 70mm",
+            notes: "",
+        },
+        "Arch-Revenant" : {
+            baseSize: "40mm",
             notes: "",
         },
         "Branchwych" : {
@@ -21,39 +29,27 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "105 x 70mm",
             notes: "",
         },
-        "Gladewyrm" : {
-            baseSize: "Custom base",
+        "The Lady of Vines" : {
+            baseSize: "80mm",
             notes: "",
         },
-        "Kurnoth Hunters" : {
-            baseSize: "50mm",
-            notes: "",
-        },
-        "Spirit of Durthu" : {
+        "Warsong Revenant" : {
             baseSize: "105 x 70mm",
             notes: "",
         },
-        "Spite-Revenants" : {
+        "Ylthari" : {
             baseSize: "32mm",
             notes: "",
         },
-        "Spiteswarm Hive" : {
-            baseSize: "50mm",
+        "Ylthari’s Guardians" : {
+            baseSize: "3",
             notes: "",
         },
-        "Sylvaneth Dryads" : {
-            baseSize: "32mm",
+        "Alarielle the Everqueen" : {
+            baseSize: "160mm",
             notes: "",
         },
-        "Sylvaneth Wyldwood" : {
-            baseSize: "No base",
-            notes: "",
-        },
-        "Tree-Revenants" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Treelord" : {
+        "Spirit of Durthu" : {
             baseSize: "105 x 70mm",
             notes: "",
         },
@@ -61,12 +57,52 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "105 x 70mm",
             notes: "",
         },
+        "Gossamid Archers" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Kurnoth Hunters with Kurnoth Greatbows" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Kurnoth Hunters with Kurnoth Greatswords" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Kurnoth Hunters with Kurnoth Scythes" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Revenant Seekers" : {
+            baseSize: "60mm",
+            notes: "",
+        },
+        "Skaeth’s Wild Hunt" : {
+            baseSize: "50 x 25mm [1], 32mm [3], 2 5 m m   [1]",
+            notes: "",
+        },
+        "Spite-Revenants" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Spiterider Lancers" : {
+            baseSize: "60mm",
+            notes: "",
+        },
+        "Gladewyrm" : {
+            baseSize: "Use model",
+            notes: "",
+        },
+        "Spiteswarm Hive" : {
+            baseSize: "50mm",
+            notes: "",
+        },
         "Vengeful Skullroot" : {
             baseSize: "105 x 70mm",
             notes: "",
         },
-        "Warsong Revenant" : {
-            baseSize: "105 x 70mm",
+        "Awakened Wyldwood" : {
+            baseSize: "Use model",
             notes: "",
         },
     }

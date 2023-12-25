@@ -58,7 +58,7 @@ function parse_text(pageData: TPageData) :Promise<string> {
 
 
 function clean_text(text: string) :string {
-    return text.replace("×", "x").replace("�", ".")
+    return text.replaceAll("×", "x").replaceAll("�", ".")
 }
 
 const faction_name_typos: Record<string, string> = {
@@ -83,16 +83,13 @@ const import_bases = (path: string) => {
                     accum[currentFaction].push(render_warscroll_line(line))
                 }
             }
-            if (!line.includes('||')) potentialFactionName = faction_name_typos[line] || line
+            if (!line.includes('||')) {
+                potentialFactionName = (faction_name_typos[line] || line).replaceAll('-', '')
+            }
             return accum
         }, {} as Record<string, string[]>)
         write_text_files(profiles)
     })
-}
-
-const render_warscroll_line = (line: string) :string => {
-    const parts = line.split('||')
-    return parts.at(0)?.padEnd(60, ' ') + '|| ' + parts.at(-1)
 }
 
 const parse_pdf = (path: string) => {
@@ -103,9 +100,14 @@ const parse_pdf = (path: string) => {
     return parsed
 }
 
+const render_warscroll_line = (line: string) :string => {
+    const parts = line.split('||')
+    return parts.at(0)?.padEnd(70, ' ') + ' || ' + parts.at(-1)
+}
+
 const write_text_files = (profiles: Record<string, string[]>) => {
-    const dataDirectory = path.join(__dirname, '..', '..', 'warscrolls', 'new_text_data')
-    const safeFilenamePattern = new RegExp(/^[\w -]+$/);
+    const dataDirectory = path.join(__dirname, '..', '..', 'warscrolls', 'text_data')
+    const safeFilenamePattern = new RegExp(/^[\w ]+$/);
 
     Object.entries(profiles).forEach(([faction, warscrolls]) => {
         if (!safeFilenamePattern.test(faction)) {
@@ -113,7 +115,7 @@ const write_text_files = (profiles: Record<string, string[]>) => {
             return
         }
 
-        let filename = toStandard(faction) + '.txt'
+        let filename = toStandard(faction).replaceAll('-', '_') + '.txt'
         let data = warscrolls.join(' \n')
 
         fs.writeFile(path.join(dataDirectory, filename), data, err => {

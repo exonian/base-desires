@@ -3,22 +3,22 @@
 import { TFactionWarscrolls } from "../types";
 
 const Warscrolls: TFactionWarscrolls = {
-    faction: "forbidden power",
+    faction: "megagargant mercenaries",
     warscrolls: {
-        "Horrorghast" : {
-            baseSize: "50mm",
+        "Big Drogg Fort-kicka" : {
+            baseSize: "130mm",
             notes: "",
         },
-        "Lauchon the Soulseeker" : {
-            baseSize: "90 x 52mm",
+        "Bundo Whalebiter" : {
+            baseSize: "130mm",
             notes: "",
         },
-        "Shards of Valagharr" : {
-            baseSize: "105 x 70mm",
+        "Odo Godswallow" : {
+            baseSize: "130mm",
             notes: "",
         },
-        "Soulscream Bridge" : {
-            baseSize: "120 x 92mm",
+        "One-eyed Grunnock" : {
+            baseSize: "130mm",
             notes: "",
         },
     }

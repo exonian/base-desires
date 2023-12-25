@@ -5,8 +5,72 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "daughters of khaine",
     warscrolls: {
+        "Sisters of Slaughter" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Witch Aelves" : {
+            baseSize: "25mm",
+            notes: "",
+        },
         "Avatar of Khaine" : {
             baseSize: "40mm",
+            notes: "",
+        },
+        "Bloodwrack Medusa" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Bloodwrack Shrine" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Hag Queen" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "High Gladiatrix" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Melusai Ironscale" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Morathi-Khaine" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "The Shadow Queen" : {
+            baseSize: "100mm",
+            notes: "",
+        },
+        "Morgwaeth the Bloodied" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "The Blade-coven" : {
+            baseSize: "32mm [3], 40mm [1]",
+            notes: "",
+        },
+        "Slythael Shadestalker" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "The Shadeborn" : {
+            baseSize: "28.5mm",
+            notes: "",
+        },
+        "Slaughter Queen" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Hag Queen on Cauldron of Blood" : {
+            baseSize: "Single. A Hagg Nar army can include 1 Cauldron of Blood in addition to the other Behemoth units it can include.120 x 92mm",
+            notes: "",
+        },
+        "Slaughter Queen on Cauldron of Blood" : {
+            baseSize: "Single. A Hagg Nar army can include 1 Cauldron of Blood in addition to the other Behemoth units it can include.120 x 92mm",
             notes: "",
         },
         "Blood Sisters" : {
@@ -17,24 +81,16 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Bloodwrack Medusae" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Bloodwrack Shrine" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
         "Doomfire Warlocks" : {
             baseSize: "60 x 35mm",
             notes: "",
         },
-        "Hag Queen" : {
-            baseSize: "25mm",
+        "Gryselle’s Arenai" : {
+            baseSize: "32mm [1], 28.5mm [4]",
             notes: "",
         },
-        "Hag Queen on Cauldron of Blood" : {
-            baseSize: "120 x 92mm",
+        "Khainite Shadowstalkers" : {
+            baseSize: "28.5mm",
             notes: "",
         },
         "Khinerai Heartrenders" : {
@@ -45,32 +101,16 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Melusai Ironscale" : {
-            baseSize: "40mm",
+        "Bladewind" : {
+            baseSize: "50mm",
             notes: "",
         },
-        "Morathi, High Oracle of Khaine" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Morathi, the Shadow Queen" : {
+        "Bloodwrack Viper" : {
             baseSize: "100mm",
             notes: "",
         },
-        "Sisters of Slaughter" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Slaughter Queen" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Slaughter Queen on Cauldron of Blood" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Witch Aelves" : {
-            baseSize: "25mm",
+        "Heart of Fury" : {
+            baseSize: "50mm",
             notes: "",
         },
     }

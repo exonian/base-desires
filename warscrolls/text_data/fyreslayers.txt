@@ -1,18 +1,22 @@
-Auric Hearthguard 32mm
-Auric Runefather 32mm
-Auric Runefather on Magmadroth 120 x 92mm
-Auric Runemaster 32mm
-Auric Runesmiter 32mm
-Auric Runesmiter on Magmadroth 120 x 92mm
-Auric Runeson 32mm
-Auric Runeson on Magmadroth 120 x 92mm
-Battlesmith 32mm
-The Chosen Axes 32mm
-Doomseeker 32mm
-Fjul-Grimnir 32mm
-Grimwrath Berzerker 32mm
-Hearthguard Berzerkers 32mm
-Molten Infernoth 120 x 92mm
-Runic Fyrewall Use model
-Vulkite Berzerkers 32mm
-Zharrgron Flame-spitter Use model
+Vulkite Berzerkers with Bladed Slingshields                            || 32mm 
+Vulkite Berzerkers with Fyresteel Handaxes                             || 32mm 
+Auric Flamekeeper                                                      || 32mm 
+Auric Runefather                                                       || 32mm 
+Auric Runemaster                                                       || 32mm 
+Auric Runesmiter                                                       || 32mm 
+Auric Runeson                                                          || 32mm 
+Battlesmith                                                            || 32mm 
+Fjul-Grimnir                                                           || 32mm 
+The Chosen Axes                                                        || 3 
+Auric Runefather on Magmadroth                                         || 120 x 92mm 
+Grimhold Exile                                                         || 32mm 
+Auric Runesmiter on Magmadroth                                         || 120 x 92mm 
+Auric Runeson on Magmadroth                                            || 120 x 92mm 
+Auric Hearthguard                                                      || 32mm 
+Doomseeker                                                             || 32mm 
+Grimwrath Berzerker                                                    || 32mm 
+Hearthguard Berzerkers                                                 || 32mm 
+Molten Infernoth                                                       || 120 x 92mm 
+Runic Fyrewall                                                         || Use model 
+Zharrgron Flame-spitter                                                || Use model 
+Magmic Battleforge                                                     || Use model

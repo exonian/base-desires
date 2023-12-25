@@ -5,15 +5,23 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "sons of behemat",
     warscrolls: {
-        "Mancrusher Gargants" : {
+        "Mancrusher Gargant" : {
             baseSize: "90 x 52mm",
             notes: "",
         },
-        "Bonegrinder Mega-Gargant" : {
-            baseSize: "120 x 92mm",
+        "Mancrusher Mob" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Beast-smasher Mega-Gargant" : {
+            baseSize: "130mm",
             notes: "",
         },
         "Gatebreaker Mega-Gargant" : {
+            baseSize: "130mm",
+            notes: "",
+        },
+        "King Brodd" : {
             baseSize: "130mm",
             notes: "",
         },
@@ -22,6 +30,10 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Warstomper Mega-Gargant" : {
+            baseSize: "130mm",
+            notes: "",
+        },
+        "Kragnos, the End of Empires" : {
             baseSize: "130mm",
             notes: "",
         },

@@ -5,18 +5,6 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "kharadron overlords",
     warscrolls: {
-        "Aether-Khemist" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Aetheric Navigator" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Arkanaut Admiral" : {
-            baseSize: "32mm",
-            notes: "",
-        },
         "Arkanaut Company" : {
             baseSize: "25mm",
             notes: "",
@@ -29,11 +17,35 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "170 x 105mm",
             notes: "",
         },
+        "Aether-Khemist" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Aetheric Navigator" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Arkanaut Admiral" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Bjorgen Thundrik" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Thundrik’s Profiteers" : {
+            baseSize: "32mm [2], 25mm [2]",
+            notes: "",
+        },
         "Brokk Grungsson, Lord-Magnate of Barak-Nar" : {
             baseSize: "50mm",
             notes: "",
         },
-        "Endrinmaster" : {
+        "Codewright" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Drekki Flynt" : {
             baseSize: "32mm",
             notes: "",
         },
@@ -41,8 +53,12 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Endrinriggers" : {
+        "Endrinmaster with Endrinharness" : {
             baseSize: "32mm",
+            notes: "",
+        },
+        "Endrinriggers" : {
+            baseSize: "0",
             notes: "",
         },
         "Grundstok Gunhauler" : {
@@ -54,7 +70,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Skywardens" : {
-            baseSize: "32mm",
+            baseSize: "0",
             notes: "",
         },
     }

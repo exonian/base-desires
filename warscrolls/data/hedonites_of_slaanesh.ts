@@ -5,7 +5,19 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "hedonites of slaanesh",
     warscrolls: {
-        "Bladebringer, Herald on Exalted Chariot" : {
+        "Blissbarb Archers" : {
+            baseSize: "28.5mm [10], 2 5 m m   [1]",
+            notes: "",
+        },
+        "Daemonettes" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Seekers" : {
+            baseSize: "25 x 50mm",
+            notes: "",
+        },
+        "Bladebringer, Herald on Exalted Chariot" : {
             baseSize: "120 x 92mm",
             notes: "",
         },
@@ -13,32 +25,72 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Bladebringer, Herald on Seeker Chariot" : {
+        "Bladebringer, Herald on Seeker Chariot" : {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Blissbarb Archers" : {
-            baseSize: "28mm",
-            notes: "",
-        },
-        "Blissbarb Seekers" : {
+        "Contorted Epitome" : {
             baseSize: "75 x 42mm",
-            notes: "",
-        },
-        "Blissbrew Homonculus" : {
-            baseSize: "25mm",
-            notes: "(little friend of Blissbarb Archers)",
-        },
-        "Daemonettes" : {
-            baseSize: "25mm",
             notes: "",
         },
         "Dexcessa, the Talon of Slaanesh" : {
             baseSize: "105 x 70mm",
             notes: "",
         },
-        "Dreadful Visage" : {
-            baseSize: "90 x 52mm",
+        "Infernal Enrapturess, Herald of Slaanesh" : {
+            baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Lord of Hubris" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Lord of Pain" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "The Masque" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Shardspeaker of Slaanesh" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Sigvald, Prince of Slaanesh" : {
+            baseSize: "60mm",
+            notes: "",
+        },
+        "Syll'Esske, the Vengeful Allegiance" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Synessa, the Voice of Slaanesh" : {
+            baseSize: "105 x 70mm",
+            notes: "",
+        },
+        "Viceleader, Herald of Slaanesh" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Glutos Orscollion, Lord of Gluttony" : {
+            baseSize: "170 x 105mm",
+            notes: "",
+        },
+        "Keeper of Secrets" : {
+            baseSize: "100mm",
+            notes: "",
+        },
+        "Shalaxi Helbane" : {
+            baseSize: "100mm",
+            notes: "",
+        },
+        "Blissbarb Seekers" : {
+            baseSize: "75 x 42mm",
+            notes: "",
+        },
+        "The Dread Pageant" : {
+            baseSize: "32mm [1], 40mm [1], 25mm [2]",
             notes: "",
         },
         "Exalted Chariot" : {
@@ -47,10 +99,6 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Fiends" : {
             baseSize: "75 x 42mm",
-            notes: "",
-        },
-        "Glutos Orscollion, Lord of Gluttony" : {
-            baseSize: "170 x 105mm",
             notes: "",
         },
         "Hellflayer" : {
@@ -65,44 +113,12 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "60 x 35mm",
             notes: "",
         },
-        "Infernal Enrapturess, Herald of Slaanesh" : {
-            baseSize: "60 x 35mm",
-            notes: "",
-        },
-        "Keeper of Secrets" : {
-            baseSize: "100mm",
-            notes: "",
-        },
-        "Lord of Pain" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Mesmerising Mirror" : {
-            baseSize: "90 x 52mm",
-            notes: "",
-        },
         "Myrmidesh Painbringers" : {
             baseSize: "32mm",
             notes: "",
         },
-        "Seeker Chariots" : {
+        "Seeker Chariot" : {
             baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Seekers" : {
-            baseSize: "60 x 35mm",
-            notes: "",
-        },
-        "Shalaxi Hellbane" : {
-            baseSize: "100mm",
-            notes: "",
-        },
-        "Shardspeaker of Slaanesh" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Sigvald, Prince of Slaanesh" : {
-            baseSize: "60mm",
             notes: "",
         },
         "Slaangor Fiendbloods" : {
@@ -113,33 +129,25 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "75 x 42mm",
             notes: "",
         },
-        "Syll'Esske, the Vengeful Allegiance" : {
-            baseSize: "50mm",
-            notes: "",
-        },
         "Symbaresh Twinsouls" : {
             baseSize: "32mm",
             notes: "",
         },
-        "Synessa, the Voice of Slaanesh" : {
-            baseSize: "105 x 70mm",
+        "Dreadful Visage" : {
+            baseSize: "90 x 52mm",
             notes: "",
         },
-        "The Contorted Epitome" : {
-            baseSize: "75 x 42mm",
-            notes: "",
-        },
-        "The Masque" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Viceleader, Herald of Slaanesh" : {
-            baseSize: "25mm",
+        "Mesmerising Mirror" : {
+            baseSize: "90 x 52mm",
             notes: "",
         },
         "Wheels of Excruciation" : {
-            baseSize: "Custom base",
-            notes: "90 x 53mm",
+            baseSize: "Use model",
+            notes: "",
+        },
+        "Fane of Slaanesh" : {
+            baseSize: "Use model",
+            notes: "",
         },
     }
 }

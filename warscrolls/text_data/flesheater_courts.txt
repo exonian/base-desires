@@ -1,16 +1,22 @@
-Abhorrant Archregent 40mm
-Abhorrant Ghoul King 32mm
-Abhorrant Ghoul King on Royal Terrorgheist 130mm
-Abhorrant Ghoul King on Royal Zombie Dragon 130mm
-Cadaverous Barricade Use model
-Chalice of Ushoran 50mm
-Corpsemare Stampede 120 x 92mm
-Crypt Flayers 50mm
-Crypt Ghast Courtier 32mm
-Crypt Ghouls 25mm
-Crypt Haunter Courtier 50mm
-Crypt Horrors 50mm
-Crypt Infernal Courtier 50mm
-Royal Terrorgheist 130mm
-Royal Zombie Dragon 130mm
-Varghulf Courtier 60mm
+Crypt Ghouls                                                           || 25mm 
+Royal Terrorgheist                                                     || 130mm 
+Royal Zombie Dragon                                                    || 130mm 
+Abhorrant Archregent                                                   || 40mm 
+Abhorrant Ghoul King                                                   || 32mm 
+Crypt Ghast Courtier                                                   || 32mm 
+Crypt Haunter Courtier                                                 || 50mm 
+Crypt Infernal Courtier                                                || 50mm 
+Duke Crakmarrow                                                        || 32mm 
+The Grymwatch                                                          || 32mm [1], 25mm [5] 
+Marrowscroll Herald                                                    || 32 mm 
+Varghulf Courtier                                                      || 60mm 
+Abhorrant Ghoul King on Royal Terrorgheist                             || 130mm 
+Abhorrant Ghoul King on Royal Zombie Dragon                            || 130mm 
+Nagash, Supreme Lord of the Undead                                     || 130mm 
+Crypt Flayers                                                          || 50mm 
+Crypt Horrors                                                          || 50mm 
+Royal Beastflayers                                                     || 32mm [2], 40mm [2], 28mm [3], 25m m [3] 
+Cadaverous Barricade                                                   || Use model 
+Chalice of Ushoran                                                     || 50mm 
+Corpsemare Stampede                                                    || 120 x 92mm 
+Charnel Throne                                                         || Use model

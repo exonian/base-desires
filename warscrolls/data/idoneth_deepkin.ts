@@ -5,36 +5,52 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "idoneth deepkin",
     warscrolls: {
-        "Akhelian Allopex" : {
+        "Akhelian Allopexes (Bloodthirsty Shiver)" : {
             baseSize: "90 x 52mm",
             notes: "",
         },
-        "Akhelian Ishlaen Guard" : {
-            baseSize: "60 x 35mm",
+        "Akhelian Allopexes (Bloodthirsty Shiver)" : {
+            baseSize: "Battleline",
             notes: "",
         },
-        "Akhelian King" : {
-            baseSize: "60mm",
+        "Akhelian Allopexes (Bloodthirsty Shiver)" : {
+            baseSize: "Battleline",
+            notes: "",
+        },
+        "Namarti Reavers" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Namarti Thralls" : {
+            baseSize: "32mm",
             notes: "",
         },
         "Akhelian Leviadon" : {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Akhelian Morrsarr Guard" : {
-            baseSize: "60 x 35mm",
+        "Akhelian King" : {
+            baseSize: "60mm",
             notes: "",
         },
-        "Eidolon of Mathlann, Aspect of the Sea" : {
+        "Akhelian Thrallmaster" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Eidolon of Mathlann,  Aspect of the Sea" : {
             baseSize: "100mm",
             notes: "",
         },
-        "Eidolon of Mathlann, Aspect of the Storm" : {
+        "Eidolon of Mathlann,  Aspect of the Storm" : {
             baseSize: "100mm",
             notes: "",
         },
-        "Gloomtide Shipwreck" : {
-            baseSize: "No base",
+        "Elathain Ill-fated" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Elathain’s Soulraid" : {
+            baseSize: "32mm [3], 2 5 m m   [1]",
             notes: "",
         },
         "Isharann Soulrender" : {
@@ -49,20 +65,28 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Lotann, Warden of the Soul Ledgers" : {
+        "Lotann, Warden of the Soul Ledgers" : {
             baseSize: "40mm",
-            notes: "",
-        },
-        "Namarti Reavers" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Namarti Thralls" : {
-            baseSize: "32mm",
             notes: "",
         },
         "Volturnos, High King of the Deep" : {
             baseSize: "60mm",
+            notes: "",
+        },
+        "Akhelian Allopexes" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Akhelian Ishlaen Guard" : {
+            baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Akhelian Morrsarr Guard" : {
+            baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Gloomtide Shipwreck" : {
+            baseSize: "Use model",
             notes: "",
         },
     }

@@ -5,6 +5,18 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "gloomspite gitz",
     warscrolls: {
+        "Moonclan Shootas" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Moonclan Stabbas" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Squig Hoppers" : {
+            baseSize: "32mm",
+            notes: "",
+        },
         "Aleguzzler Gargant" : {
             baseSize: "90 x 52mm",
             notes: "",
@@ -17,36 +29,28 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "160mm",
             notes: "",
         },
-        "Boggleye" : {
-            baseSize: "32mm",
+        "Mangler Squigs" : {
+            baseSize: "80mm",
             notes: "",
         },
-        "Boingrot Bounderz" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Brewgit" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Colossal Squig" : {
-            baseSize: "120 x 92mm",
+        "Skitterstrand Arachnarok" : {
+            baseSize: "160mm",
             notes: "",
         },
         "Dankhold Troggboss" : {
             baseSize: "60mm",
             notes: "",
         },
-        "Dankhold Troggoths" : {
-            baseSize: "60mm",
-            notes: "",
-        },
-        "Fellwater Troggoths" : {
-            baseSize: "50mm",
-            notes: "",
-        },
         "Fungoid Cave-Shaman" : {
             baseSize: "32mm",
+            notes: "",
+        },
+        "Grinkrak the Great" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Grinkrak's Looncourt" : {
+            baseSize: "32mm [2], 25mm [4]",
             notes: "",
         },
         "Loonboss" : {
@@ -57,71 +61,87 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Loonboss on Mangler Squigs" : {
-            baseSize: "80mm",
-            notes: "",
-        },
         "Loonboss with Giant Cave Squig" : {
-            baseSize: "60mm",
-            notes: "",
-        },
-        "Loonsmasha Fanatics" : {
-            baseSize: "32mm",
+            baseSize: "75 x 42mm",
             notes: "",
         },
         "Madcap Shaman" : {
             baseSize: "25mm",
             notes: "",
         },
-        "Malevolent Moon" : {
-            baseSize: "50mm",
-            notes: "",
-        },
-        "Mangler Squigs" : {
-            baseSize: "80mm",
-            notes: "",
-        },
         "Mollog" : {
-            baseSize: "50mm",
-            notes: "(Minions are 25mm)",
-        },
-        "Mork’s Mighty Mushroom" : {
-            baseSize: "50mm",
+            baseSize: "50mm [1], 25m m [3]",
             notes: "",
         },
-        "Rockgut Troggoths" : {
-            baseSize: "50mm",
-            notes: "",
-        },
-        "Scaremonger" : {
+        "Rabble-Rowza" : {
             baseSize: "32mm",
-            notes: "",
-        },
-        "Scrapskuttle’s Arachnacauldron" : {
-            baseSize: "75 x 42mm",
             notes: "",
         },
         "Scuttleboss on Gigantic Spider" : {
             baseSize: "60mm",
             notes: "",
         },
-        "Scuttletide" : {
-            baseSize: "Custom base",
+        "Skragrott, the Loonking" : {
+            baseSize: "60 x 35mm",
             notes: "",
         },
-        "Shootas" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Shroomancer" : {
+        "Squigboss with Gnasha-squig" : {
             baseSize: "32mm",
             notes: "",
         },
-        "Skitterstrand Arachnarok" : {
+        "Webspinner Shaman" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Zarbag" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Z a rbag’s Git z" : {
+            baseSize: "8",
+            notes: "",
+        },
+        "Kragnos, the End of Empires" : {
+            baseSize: "130mm",
+            notes: "",
+        },
+        "Loonboss on Mangler Squigs" : {
+            baseSize: "80mm",
+            notes: "",
+        },
+        "Webspinner Shaman on Arachnarok Spider" : {
             baseSize: "160mm",
             notes: "",
         },
-        "Skragrott, the Loonking" : {
+        "Boingrot Bounderz" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Dankhold Troggoths" : {
+            baseSize: "60mm",
+            notes: "",
+        },
+        "Fellwater Troggoths" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Gobbapalooza" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Loonsmasha Fanatics" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Rippa’s Snarlfangs" : {
+            baseSize: "50 x 25mm",
+            notes: "",
+        },
+        "Rockgut Troggoths" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Snarlfang Riders" : {
             baseSize: "60 x 35mm",
             notes: "",
         },
@@ -133,48 +153,32 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "60 x 35mm",
             notes: "",
         },
-        "Spiker" : {
-            baseSize: "32mm",
-            notes: "",
-        },
         "Sporesplatta Fanatics" : {
             baseSize: "32mm",
-            notes: "",
-        },
-        "Squig Gobba" : {
-            baseSize: "120 x 92mm",
             notes: "",
         },
         "Squig Herd" : {
             baseSize: "25mm",
             notes: "",
         },
-        "Squig Hoppers" : {
-            baseSize: "32mm",
+        "Malevolent Moon" : {
+            baseSize: "50mm",
             notes: "",
         },
-        "Stabbas" : {
-            baseSize: "25mm",
+        "Mork’s Mighty Mushroom" : {
+            baseSize: "60mm",
             notes: "",
         },
-        "Troggoth Hag" : {
-            baseSize: "120 x 92mm",
+        "Scrapskuttle’s Arachnacauldron" : {
+            baseSize: "75 x 42mm",
             notes: "",
         },
-        "Webspinner Shaman" : {
-            baseSize: "25mm",
+        "Scuttletide" : {
+            baseSize: "Use model",
             notes: "",
         },
-        "Webspinner Shaman on Arachnarok Spider" : {
-            baseSize: "160mm",
-            notes: "",
-        },
-        "Zarbag" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Zarbag’s Gitz" : {
-            baseSize: "25mm",
+        "Bad Moon Loonshrine" : {
+            baseSize: "Use model",
             notes: "",
         },
     }

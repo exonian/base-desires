@@ -5,84 +5,132 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "soulblight gravelords",
     warscrolls: {
-        "Belladamma Volga, First of the Vyrkos" : {
-            baseSize: "60mm",
-            notes: "",
-        },
-        "Black Coach" : {
-            baseSize: "170 x 105mm",
-            notes: "",
-        },
-        "Black Knights" : {
-            baseSize: "60 x 35mm",
-            notes: "",
-        },
-        "Blood Knights" : {
-            baseSize: "75 x 42mm",
-            notes: "(was 60 x 35mm)",
-        },
-        "Bloodseeker Palanquin" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Cairn Wraith" : {
+        "Deadwalker Zombies" : {
             baseSize: "25mm",
             notes: "",
         },
-        "Corpse Cart with Balefire Brazier" : {
-            baseSize: "105 x 70mm",
-            notes: "",
-        },
-        "Corpse Cart with Unholy Lodestone" : {
-            baseSize: "105 x 70mm",
-            notes: "",
-        },
-        "Coven Throne" : {
-            baseSize: "120 x 92mm",
+        "Deathrattle Skeletons" : {
+            baseSize: "25mm",
             notes: "",
         },
         "Dire Wolves" : {
             baseSize: "60 x 35mm",
             notes: "",
         },
-        "Fell Bats" : {
+        "Mortis Engine" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Te r r o r g h e i s t" : {
+            baseSize: "130mm",
+            notes: "",
+        },
+        "Zombie Dragon" : {
+            baseSize: "130mm",
+            notes: "",
+        },
+        "Belladamma Volga, First of the Vyrkos" : {
+            baseSize: "60mm",
+            notes: "",
+        },
+        "Cado Ezechiar, the Hollow King" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Grave Guard" : {
+        "Deintalos the Exile" : {
+            baseSize: "28.5mm",
+            notes: "",
+        },
+        "The Exiled Dead" : {
             baseSize: "25mm",
             notes: "",
         },
-        "Hexwraiths" : {
+        "Gorslav the Gravekeeper" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Ivya Volga, the Outcast" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "King Morlak Velmorn" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "The Sons of Velmorn" : {
+            baseSize: "40mm [1], 25m m [3]",
+            notes: "",
+        },
+        "Kritza, the Rat Prince" : {
             baseSize: "60 x 35mm",
             notes: "",
         },
-        "Kritza, The Rat Prince" : {
-            baseSize: "60mm",
-            notes: "",
-        },
-        "Lady Annika, The Thirsting Blade" : {
-            baseSize: "60mm",
+        "Lady Annika, the Thirsting Blade" : {
+            baseSize: "60 x 35mm",
             notes: "",
         },
         "Lauka Vai, Mother of Nightmares" : {
             baseSize: "80mm",
             notes: "",
         },
-        "Mannfred, Mortarch of Night" : {
+        "Necromancer" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Prince Duvalle" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "The Crimson Court" : {
+            baseSize: "3",
+            notes: "",
+        },
+        "Radukar the Beast" : {
+            baseSize: "60mm",
+            notes: "",
+        },
+        "Radukar the Wolf" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Torgillius the Chamberlain" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Vampire Lord" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Vengorian Lord" : {
+            baseSize: "80mm",
+            notes: "",
+        },
+        "Watch Captain Halgrim" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Wight King" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Wight King on Skeletal Steed" : {
+            baseSize: "75 x 42mm",
+            notes: "",
+        },
+        "Bloodseeker Palanquin" : {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Mortis Engine" : {
+        "Coven Throne" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Mannfred von Carstein, Mortarch of Night" : {
             baseSize: "120 x 92mm",
             notes: "",
         },
         "Nagash, Supreme Lord of the Undead" : {
             baseSize: "130mm",
-            notes: "",
-        },
-        "Necromancer" : {
-            baseSize: "32mm",
             notes: "",
         },
         "Neferata, Mortarch of Blood" : {
@@ -93,64 +141,52 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "130mm",
             notes: "",
         },
-        "Radukar, The Beast" : {
-            baseSize: "60mm",
+        "Vampire Lord on Zombie Dragon" : {
+            baseSize: "130mm",
+            notes: "",
+        },
+        "Askurgan Trueblades" : {
+            baseSize: "40mm [1], 32mm [4], 28m m [3]",
+            notes: "",
+        },
+        "Black Knights" : {
+            baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Blood Knights" : {
+            baseSize: "75 x 42mm",
+            notes: "",
+        },
+        "Corpse Cart" : {
+            baseSize: "105 x 70mm",
+            notes: "",
+        },
+        "Fell Bats" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Grave Guard" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Kosargi Nightguard" : {
+            baseSize: "40mm",
             notes: "",
         },
         "The Sepulchral Guard" : {
             baseSize: "25mm",
             notes: "",
         },
-        "Skeleton Warriors" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Spirit Hosts" : {
+        "Va r g hei s t s" : {
             baseSize: "50mm",
             notes: "",
         },
-        "Terrorgheist" : {
-            baseSize: "130mm",
-            notes: "",
-        },
-        "Tomb Banshee" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Vampire Lord" : {
-            baseSize: "40mm",
-            notes: "(was 32mm)",
-        },
-        "Vampire Lord on Zombie Dragon" : {
-            baseSize: "130mm",
-            notes: "",
-        },
-        "Vargheists" : {
+        "Va r gs k y r" : {
             baseSize: "50mm",
             notes: "",
         },
-        "Vengorian Lord" : {
-            baseSize: "80mm",
-            notes: "",
-        },
-        "Wight King with Baleful Tomb Blade" : {
+        "Vyrkos Blood-born" : {
             baseSize: "32mm",
-            notes: "",
-        },
-        "Wight King with Black Axe" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Wight King on Skeletal Steed" : {
-            baseSize: "75 x 42mm",
-            notes: "",
-        },
-        "Zombie Dragon" : {
-            baseSize: "130mm",
-            notes: "",
-        },
-        "Zombies" : {
-            baseSize: "25mm",
             notes: "",
         },
     }

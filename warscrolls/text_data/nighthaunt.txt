@@ -1,25 +1,31 @@
-Black Coach 170 x 105mm
-Bladegheist Revenants 32mm
-Cairn Wraith 25mm
-Chainghasts 32mm
-Chainrasp Horde 25mm
-Dreadblade Harrow 60 x 35mm
-Dreadscythe Harridans 32mm
-Glaivewraith Stalkers 32mm
-Grimghast Reapers 32mm
-Guardian of Souls with Nightmare Lantern 32mm
-Hexwraiths 60 x 35mm
-Knight of Shrouds 32mm
-Knight of Shrouds on Ethereal Steed 75 x 42mm
-Kurdoss Valentian, the Craven King 60mm
-Lady Olynder, Mortarch of Grief 60mm
-Lord Executioner 40mm
-Mortalis Terminexus 50mm
-Mourngul 60mm
-Myrmourn Banshees 32mm
-Reikenor the Grimhailer 75 x 42mm
-Shyish Reaper 105 x 70mm
-Spirit Hosts 50mm
-Spirit Torment 40mm
-Tomb Banshee 25mm
-Vault of Souls 50mm
+Chainrasps                                                             || 25mm 
+Grimghast Reapers                                                      || 32mm 
+Hexwraiths                                                             || 60 x 35mm 
+Spirit Hosts                                                           || 50mm 
+Black Coach                                                            || 170 x 105mm 
+Awlrach the Drowner                                                    || 80mm 
+The Briar Queen                                                        || 32mm 
+Thorns of the Briar Queen                                              || 25mm 
+Cairn Wraith                                                           || 25mm 
+Dreadblade Harrow                                                      || 60 x 35mm 
+Guardian of Souls                                                      || 32mm 
+Knight of Shrouds                                                      || 32mm 
+Knight of Shrouds on Ethereal Steed                                    || 75 x 42mm 
+Krulghast Cruciator                                                    || 40mm 
+Kurdoss Valentian, the Craven King                                     || 60mm 
+Lady Olynder, Mortarch of Grief                                        || 60mm 
+Lord Executioner                                                       || 40mm 
+Reikenor the Grimhailer                                                || 75 x 42mm 
+Scriptor Mortis                                                        || 40mm 
+Spirit Torment                                                         || 40mm 
+To m b   B a n s h e e                                                 || 25mm 
+Nagash, Supreme Lord of the Undead                                     || 130mm 
+Bladegheist Revenants                                                  || 32mm 
+Chainghasts                                                            || 32mm 
+Craventhrone Guard                                                     || 32mm 
+Dreadscythe Harridans                                                  || 32mm 
+Glaivewraith Stalkers                                                  || 32mm 
+Myrmourn Banshees                                                      || 32mm 
+Mortalis Terminexus                                                    || 50mm 
+Shyish Reaper                                                          || 105 x 70mm 
+Vault of Souls                                                         || 50mm

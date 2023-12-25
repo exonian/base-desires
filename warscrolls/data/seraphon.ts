@@ -5,75 +5,11 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "seraphon",
     warscrolls: {
-        "Bastiladon" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Chameleon Skinks" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Dread Saurian" : {
-            baseSize: "280 x 210mm",
-            notes: "",
-        },
-        "Engine of the Gods" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Kroxigor" : {
-            baseSize: "50mm",
-            notes: "",
-        },
-        "Lord Kroak" : {
-            baseSize: "80mm",
-            notes: "(was 50mm)",
-        },
-        "Razordons" : {
-            baseSize: "60 x 35mm",
-            notes: "",
-        },
-        "Ripperdactyl Riders" : {
-            baseSize: "50mm",
-            notes: "",
-        },
-        "Salamanders" : {
-            baseSize: "60 x 35mm",
-            notes: "",
-        },
-        "Saurus Astrolith Bearer" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Saurus Eternity Warden" : {
-            baseSize: "40mm",
+        "Spawn of Chotec" : {
+            baseSize: "90 x 52mm [1], 25mm [3]",
             notes: "",
         },
         "Saurus Guard" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Saurus Knights" : {
-            baseSize: "60 x 35mm",
-            notes: "",
-        },
-        "Saurus Oldblood" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Saurus Oldblood on Carnosaur" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Saurus Scar-Veteran on Carnosaur" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Saurus Scar-Veteran on Cold One" : {
-            baseSize: "60 x 35mm",
-            notes: "",
-        },
-        "Saurus Sunblood" : {
             baseSize: "32mm",
             notes: "",
         },
@@ -81,12 +17,56 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Skink Handlers" : {
+        "Skinks" : {
             baseSize: "25mm",
             notes: "",
         },
-        "Skink Priest" : {
+        "Bastiladon with Ark of Sotek" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Bastiladon with Solar Engine" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Engine of the Gods" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Stegadon" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Kixi-Taka, the Diviner" : {
             baseSize: "25mm",
+            notes: "",
+        },
+        "K l a q -Tr o k" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "The Starblood Stalkers" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Lord Kroak" : {
+            baseSize: "80mm",
+            notes: "",
+        },
+        "Ripperdactyl Chief" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Saurus Astrolith Bearer" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Saurus Oldblood" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Saurus Scar-Veteran on Aggradon" : {
+            baseSize: "90 x 52mm",
             notes: "",
         },
         "Skink Starpriest" : {
@@ -97,24 +77,76 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "50mm",
             notes: "",
         },
-        "Skinks" : {
-            baseSize: "25mm",
+        "Slann Starmaster" : {
+            baseSize: "80mm",
             notes: "",
         },
-        "Slann Starmaster" : {
+        "Terradon Chief" : {
             baseSize: "50mm",
             notes: "",
         },
-        "Stegadon" : {
+        "Saurus Oldblood on Carnosaur" : {
             baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Saurus Scar-Veteran on Carnosaur" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Skink Oracle on Troglodon" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Stegadon Chief" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Aggradon Lancers" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Hunters of Huanchi with Dartpipes" : {
+            baseSize: "28.5mm [1], 25mm [4]",
+            notes: "",
+        },
+        "Hunters of Huanchi with Starstone Bolas" : {
+            baseSize: "28.5mm [2], 25m m [3]",
+            notes: "",
+        },
+        "Kroxigor" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Kroxigor Warspawned" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Raptadon Chargers" : {
+            baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Raptadon Hunters" : {
+            baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Ripperdactyl Riders" : {
+            baseSize: "50mm",
             notes: "",
         },
         "Terradon Riders" : {
             baseSize: "50mm",
             notes: "",
         },
-        "Troglodon" : {
-            baseSize: "120 x 92mm",
+        "Terrawings" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Coalesced Realmshaper Engine" : {
+            baseSize: "Use model",
+            notes: "",
+        },
+        "Starborne Realmshaper Engine" : {
+            baseSize: "Use model",
             notes: "",
         },
     }

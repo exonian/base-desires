@@ -7,7 +7,7 @@ const Warscrolls: TFactionWarscrolls = {
     warscrolls: {
         "Gotrek Gurnisson" : {
             baseSize: "32mm",
-            notes: "(or 40mm scenic base)",
+            notes: "",
         },
     }
 }

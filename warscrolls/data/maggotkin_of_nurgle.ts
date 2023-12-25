@@ -5,32 +5,28 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "maggotkin of nurgle",
     warscrolls: {
-        "Beasts of Nurgle" : {
-            baseSize: "60mm",
+        "Plaguebearers" : {
+            baseSize: "32mm",
             notes: "",
         },
-        "Bloab Rotspawned" : {
-            baseSize: "100mm",
+        "Putrid Blightkings" : {
+            baseSize: "40mm",
             notes: "",
         },
         "Epidemius, Tallyman of Nurgle" : {
             baseSize: "60mm",
             notes: "",
         },
-        "Exalted Greater Daemon of Nurgle" : {
-            baseSize: "130mm",
+        "Fecula Flyblown" : {
+            baseSize: "40mm",
             notes: "",
         },
-        "Feculent Gnarlmaw" : {
-            baseSize: "No base",
+        "The Wurmspat" : {
+            baseSize: "2",
             notes: "",
         },
         "Festus the Leechlord" : {
             baseSize: "40mm",
-            notes: "",
-        },
-        "Great Unclean One" : {
-            baseSize: "130mm",
             notes: "",
         },
         "Gutrot Spume" : {
@@ -38,7 +34,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Harbinger of Decay" : {
-            baseSize: "75 x 42mm",
+            baseSize: "90 x 52mm",
             notes: "",
         },
         "Horticulous Slimux" : {
@@ -57,56 +53,84 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Morbidex Twiceborn" : {
+        "Poxbringer, Herald of Nurgle" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Rotbringer Sorcerer" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Rotbringer Sorcerer (Rot Coven)" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Rotbringer Sorcerer (Rot Coven)" : {
+            baseSize: "1",
+            notes: "",
+        },
+        "Rotbringer Sorcerer (Rot Coven)" : {
+            baseSize: "1",
+            notes: "",
+        },
+        "Sloppity Bilepiper, Herald of Nurgle" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Spoilpox Scrivener, Herald of Nurgle" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Bloab Rotspawned" : {
             baseSize: "100mm",
             notes: "",
         },
-        "Nurglings" : {
-            baseSize: "40mm",
+        "The Glottkin" : {
+            baseSize: "130mm",
+            notes: "",
+        },
+        "Great Unclean One" : {
+            baseSize: "130mm",
+            notes: "",
+        },
+        "Morbidex Twiceborn" : {
+            baseSize: "100mm",
             notes: "",
         },
         "Orghotts Daemonspew" : {
             baseSize: "100mm",
             notes: "",
         },
-        "Plague Drones" : {
+        "Rotigus" : {
+            baseSize: "130mm",
+            notes: "",
+        },
+        "Beasts of Nurgle" : {
             baseSize: "60mm",
             notes: "",
         },
-        "Plaguebearers" : {
-            baseSize: "32mm",
+        "Nurglings" : {
+            baseSize: "40mm",
             notes: "",
         },
-        "Poxbringer, Herald of Nurgle" : {
-            baseSize: "32mm",
+        "Plague Drones" : {
+            baseSize: "60mm",
             notes: "",
         },
         "Pusgoyle Blightlords" : {
             baseSize: "60mm",
             notes: "",
         },
-        "Putrid Blightkings" : {
-            baseSize: "40mm",
+        "Pusgoyle Blightlords" : {
+            baseSize: "60mm",
             notes: "",
         },
-        "Rotigus" : {
-            baseSize: "130mm",
+        "Rotmire Creed" : {
+            baseSize: "32mm [2], 28.5mm [2], 25mm [6]",
             notes: "",
         },
-        "Sloppity Bilepiper, Herald of Nurgle" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Sorcerer" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Spoilpox Scrivener, Herald of Nurgle" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "The Glottkin" : {
-            baseSize: "130mm",
+        "Feculent Gnarlmaw" : {
+            baseSize: "Use model",
             notes: "",
         },
     }

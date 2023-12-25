@@ -5,27 +5,23 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "lumineth realmlords",
     warscrolls: {
-        "Alarith Spirit of the Mountain" : {
-            baseSize: "100mm",
+        "Vanari Starshard Ballista" : {
+            baseSize: "80mm",
             notes: "",
         },
-        "Alarith Stoneguard" : {
+        "Vanari Auralan Wardens" : {
             baseSize: "32mm",
+            notes: "",
+        },
+        "Alarith Spirit of the Mountain" : {
+            baseSize: "100mm",
             notes: "",
         },
         "Alarith Stonemage" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Archmage Teclis and Celennar, Spirit of Hysh" : {
-            baseSize: "160mm",
-            notes: "",
-        },
-        "Avalenor, the Stoneheart King" : {
-            baseSize: "100mm",
-            notes: "",
-        },
-        "Ellania and Ellathor, Eclipsian Warsages" : {
+        "Ellania and Ellathor, Eclipsian Warsages" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -33,28 +29,24 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "60mm",
             notes: "",
         },
-        "Hurakan Windchargers" : {
-            baseSize: "60 x 35mm",
-            notes: "",
-        },
         "Hurakan Windmage" : {
             baseSize: "60 x 35mm",
             notes: "",
         },
-        "Hyshian Twinstones" : {
+        "The Light of Eltharion" : {
             baseSize: "50mm",
             notes: "",
         },
-        "Lyrior Uthralle, Warden of Ymetrica" : {
-            baseSize: "90 x 52.5mm",
+        "Lyrior Uthralle,  Warden of Ymetrica" : {
+            baseSize: "90 x 52mm",
             notes: "",
         },
-        "Rune of Petrification" : {
-            baseSize: "75 x 42mm",
+        "Myari Lightcaller" : {
+            baseSize: "32mm",
             notes: "",
         },
-        "Sanctum of Amyntok" : {
-            baseSize: "Custom base",
+        "Myari’s Purifiers" : {
+            baseSize: "3",
             notes: "",
         },
         "Scinari Calligrave" : {
@@ -65,28 +57,44 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
+        "Scinari Enlightener" : {
+            baseSize: "32mm",
+            notes: "",
+        },
         "Scinari Loreseeker" : {
             baseSize: "32mm",
             notes: "",
         },
-        "Sevireth, Lord of the Seventh Wind" : {
+        "Sevireth, Lord of the Seventh Wind" : {
             baseSize: "60mm",
-            notes: "",
-        },
-        "The Light of Eltharion" : {
-            baseSize: "50mm",
-            notes: "",
-        },
-        "Vanari Auralan Sentinels" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Vanari Auralan Wardens" : {
-            baseSize: "32mm",
             notes: "",
         },
         "Vanari Bannerblade" : {
             baseSize: "40mm",
+            notes: "",
+        },
+        "Vanari Lord Regent" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Archmage Teclis and Celennar, Spirit of Hysh" : {
+            baseSize: "160mm",
+            notes: "",
+        },
+        "Avalenor, the Stoneheart King" : {
+            baseSize: "100mm",
+            notes: "",
+        },
+        "Alarith Stoneguard" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Hurakan Windchargers" : {
+            baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Vanari Auralan Sentinels" : {
+            baseSize: "32mm",
             notes: "",
         },
         "Vanari Bladelords" : {
@@ -97,12 +105,20 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "60 x 35mm",
             notes: "",
         },
-        "Vanari Lord Regent" : {
-            baseSize: "90 x 52.5mm",
+        "Hyshian Twinstones" : {
+            baseSize: "50mm",
             notes: "",
         },
-        "Vanari Starshard Ballista" : {
-            baseSize: "80mm",
+        "Rune of Petrification" : {
+            baseSize: "75 x 41.5mm",
+            notes: "",
+        },
+        "Sanctum of Amyntok" : {
+            baseSize: "Use model",
+            notes: "",
+        },
+        "Shrine Luminor" : {
+            baseSize: "Use model",
             notes: "",
         },
     }

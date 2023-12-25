@@ -2,7 +2,6 @@
 
 import glob
 import os
-from collections import defaultdict
 from pathlib import Path
 
 if __name__ == "__main__":
@@ -11,7 +10,6 @@ if __name__ == "__main__":
     SOURCE_DATA_DIR = os.path.join(WARSCROLLS_DIR, 'text_data')
     DEST_DATA_DIR = os.path.join(WARSCROLLS_DIR, 'data')
     DATA_FILE = os.path.join(WARSCROLLS_DIR, 'data.ts')
-    OVERRIDES_FILE = os.path.join(WARSCROLLS_DIR, 'overrides.txt')
 
     text_files = glob.glob(os.path.join(SOURCE_DATA_DIR, '*.txt'))
     print('Found the following source data files:')
@@ -20,19 +18,6 @@ if __name__ == "__main__":
 
     sizes = set()
 
-    overrides = defaultdict(defaultdict)
-    with open(OVERRIDES_FILE, 'r') as f:
-        for line in f:
-            if not line.strip() or line.strip().startswith == "# ":
-                continue
-            name, expected, size, notes = line.split(" || ")
-            name = name.strip()
-            overrides[name]['expected_size'] = expected.strip()
-            if size.strip():
-                overrides[name]['size'] = size.strip()
-            if notes.strip():
-                overrides[name]['notes'] = notes.strip()
-    
     for text_file_path in text_files:
         ts_file_path = text_file_path.replace(SOURCE_DATA_DIR, DEST_DATA_DIR).replace('.txt', '.ts')
         if SKIP_ALREADY_IMPORTED and os.path.isfile(ts_file_path):
@@ -43,30 +28,13 @@ if __name__ == "__main__":
         warscrolls = []
         with open(text_file_path, 'r') as f:
             for line in f:
-                words = line.split()
-                notes = ""
-                if words[-1][-1] == ")":
-                    opening_bracket = [words.index(word) for word in words if word.startswith('(')][-1]
-                    notes = ' '.join(words[opening_bracket:])
-                    words = words[:opening_bracket]
+                name, size = [part.strip() for part in line.split('||')]
+                notes = ''
+                opening_bracket_position = size.find("(")
+                if opening_bracket_position > -1:
+                    notes = size[opening_bracket_position:]
+                    size = size[:opening_bracket_position]
 
-                if len(words) >=2 and words[-2] == "x":
-                    name = ' '.join(words[:-3])
-                    size = ' '.join(words[-3:])
-                elif words[-2:] == ["Use", "model"]:
-                    name = ' '.join(words[:-2])
-                    size = ' '.join(words[-2:])
-                else:
-                    name = ' '.join(words[:-1])
-                    size = words[-1]
-                expected_size = overrides[name].get('expected_size')
-                if size == expected_size:
-                    size = overrides[name].get('size') or size
-                    notes = overrides[name].get('notes') or notes
-                elif expected_size:
-                    raise Exception('Refusing to override {name}: expected size "{expected}" but got "{actual}"'.format(
-                        name=name, expected=expected_size, actual=size
-                    ))
                 warscrolls.append((name, size, notes))
                 sizes.update([size])
 

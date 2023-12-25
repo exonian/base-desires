@@ -5,11 +5,31 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "stormcast eternals",
     warscrolls: {
-        "Aetherwings" : {
-            baseSize: "32mm",
+        "Celestar Ballista" : {
+            baseSize: "60mm [1], 40mm [2]",
             notes: "",
         },
-        "Annihilators" : {
+        "Judicators with Boltstorm Crossbows" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Judicators with Skybolt Bows" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Liberators" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Sequitors" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Vanquishers" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Vindictors" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -17,80 +37,28 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "90 x 52mm",
             notes: "",
         },
-        "Aventis Firestrike, Magister of Hammerhal" : {
+        "Aventis Firestrike, Magister of Hammerhal" : {
             baseSize: "100mm",
             notes: "",
         },
-        "Castigators" : {
+        "Averon Stormsire" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Celestant-Prime, Hammer of Sigmar" : {
+        "Stormsire’s Cursebreakers" : {
+            baseSize: "2",
+            notes: "",
+        },
+        "Celestant-Prime, Hammer of Sigmar" : {
             baseSize: "100mm",
             notes: "",
         },
-        "Celestar Ballista" : {
-            baseSize: "60mm",
-            notes: "",
-        },
-        "Celestar Ballista Crew" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Celestian Vortex" : {
-            baseSize: "65mm",
-            notes: "",
-        },
-        "Dais Arcanum" : {
+        "Gardus Steel Soul" : {
             baseSize: "50mm",
-            notes: "",
-        },
-        "Dracothian Guard Concussors" : {
-            baseSize: "90 x 52mm",
-            notes: "",
-        },
-        "Dracothian Guard Desolators" : {
-            baseSize: "90 x 52mm",
-            notes: "",
-        },
-        "Dracothian Guard Fulminators" : {
-            baseSize: "90 x 52mm",
-            notes: "",
-        },
-        "Dracothian Guard Tempestors" : {
-            baseSize: "90 x 52mm",
-            notes: "",
-        },
-        "Drakesworn Templar" : {
-            baseSize: "170 x 105mm",
-            notes: "",
-        },
-        "Everblaze Comet" : {
-            baseSize: "65mm",
-            notes: "",
-        },
-        "Evocators" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Evocators on Dracolines" : {
-            baseSize: "90 x 52mm",
             notes: "",
         },
         "Gavriel Sureheart" : {
             baseSize: "40mm",
-            notes: "",
-        },
-        "Gryph-hounds" : {
-            baseSize: "40mm",
-            notes: "(some heroes have small ones on 32mm)",
-        },
-        "Judicators" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Karazai the Scarred" : {
-            baseSize: "160mm",
             notes: "",
         },
         "Knight-Arcanum" : {
@@ -113,8 +81,8 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Knight-Judicator" : {
-            baseSize: "90 x 52mm",
+        "Knight-Judicator with Gryph-hounds" : {
+            baseSize: "90 x 52mm [1], 40mm [2]",
             notes: "",
         },
         "Knight-Questor" : {
@@ -133,15 +101,11 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Knight-Zephyros" : {
+        "Knight-Vexillor with Banner of Apotheosis" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Krondys, Son of Dracothion" : {
-            baseSize: "160mm",
-            notes: "",
-        },
-        "Liberators" : {
+        "Knight-Zephyros" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -153,7 +117,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Lord-Arcanum on Dracoline" : {
+        "Lord-Arcanum on Celestial Dracoline" : {
             baseSize: "90 x 52mm",
             notes: "",
         },
@@ -177,11 +141,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "90 x 52mm",
             notes: "",
         },
-        "Lord-Celestant on Stardrake" : {
-            baseSize: "170 x 105mm",
-            notes: "",
-        },
-        "Lord-Commander Bastian Carthalos" : {
+        "Lord-Commander Bastian Carthalos" : {
             baseSize: "50mm",
             notes: "",
         },
@@ -190,10 +150,10 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Lord-Imperatant" : {
-            baseSize: "40mm",
+            baseSize: "40mm [1], 32 m m   [1]",
             notes: "",
         },
-        "Lord-Ordinator Vorrus Starstrike" : {
+        "Lord-Ordinator" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -209,15 +169,87 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Paladin Decimators" : {
+        "Vandus Hammerhand" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Yndrasta, the Celestial Spear" : {
+            baseSize: "60mm",
+            notes: "",
+        },
+        "Drakesworn Templar" : {
+            baseSize: "170 x 105mm",
+            notes: "",
+        },
+        "Karazai the Scarred" : {
+            baseSize: "160mm",
+            notes: "",
+        },
+        "Krondys, Son of Dracothion" : {
+            baseSize: "160mm",
+            notes: "",
+        },
+        "Lord-Celestant on Stardrake" : {
+            baseSize: "170 x 105mm",
+            notes: "",
+        },
+        "Aetherwings" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Annihilators" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Paladin Protectors" : {
+        "Annihilators with Meteoric Grandhammers" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Paladin Retributors" : {
+        "Castigators" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Decimators" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Domitan’s Stormcoven" : {
+            baseSize: "40mm [3]",
+            notes: "",
+        },
+        "Dracothian Guard Concussors" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Dracothian Guard Desolators" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Dracothian Guard Fulminators" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Dracothian Guard Fulminators" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Dracothian Guard Tempestors" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Evocators" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Evocators on Celestial Dracolines" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "The Farstriders" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Gryph-hounds" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -225,15 +257,23 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Prosecutors" : {
+        "Prosecutors with Celestial Hammers" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Raptor-Prime with Longstrike Crossbow" : {
+        "Prosecutors with Stormcall Javelins" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Sequitors" : {
+        "Protectors" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Questor Soulsworn" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Retributors" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -245,16 +285,12 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "105 x 70mm",
             notes: "",
         },
+        "Stormdrake Guard" : {
+            baseSize: "105 x 70mm",
+            notes: "",
+        },
         "Stormstrike Chariot" : {
             baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "The Farstriders" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Vandus Hammerhand" : {
-            baseSize: "90 x 52mm",
             notes: "",
         },
         "Vanguard-Hunters" : {
@@ -265,27 +301,31 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "75 x 42mm",
             notes: "",
         },
-        "Vanguard-Raptors" : {
+        "Vanguard-Raptors with Hurricane Crossbows" : {
             baseSize: "40mm",
             notes: "",
         },
         "Vanguard-Raptors with Longstrike Crossbows" : {
-            baseSize: "60 x 35mm",
-            notes: "",
-        },
-        "Vanquishers" : {
-            baseSize: "40mm",
+            baseSize: "60 x 35mm [2], 40mm [1]",
             notes: "",
         },
         "Vigilors" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Vindictors" : {
-            baseSize: "40mm",
+        "Xandire’s Truthseekers" : {
+            baseSize: "40mm [3], 2 5 m m   [1]",
             notes: "",
         },
-        "Yndrasta, the Celestial Spear" : {
+        "Celestian Vortex" : {
+            baseSize: "65mm",
+            notes: "",
+        },
+        "Dais Arcanum" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Everblaze Comet" : {
             baseSize: "65mm",
             notes: "",
         },

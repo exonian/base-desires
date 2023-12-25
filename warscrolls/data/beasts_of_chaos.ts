@@ -5,7 +5,99 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "beasts of chaos",
     warscrolls: {
+        "Gors" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Morghurite Chaos Spawn (Gibbering Congregation)" : {
+            baseSize: "Single. Can only be included in a Gavespawn army. These units must be taken as a set referred to as a Gibbering Congregation.",
+            notes: "",
+        },
+        "Although taken as a set, each is a separate unit." : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Morghurite Chaos Spawn (Gibbering Congregation)" : {
+            baseSize: "Battleline",
+            notes: "",
+        },
+        "Morghurite Chaos Spawn (Gibbering Congregation)" : {
+            baseSize: "Battleline",
+            notes: "",
+        },
+        "Ungors" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Chaos Gargant" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Chimera" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Cygor" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Ghorgon" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Jabberslythe" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
         "Beastlord" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Beasts of Chaos Tzaangor Shaman" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Doombull" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Dragon Ogor Shaggoth" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Grashrak Fellhoof" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Grashrak’s Despoilers" : {
+            baseSize: "32mm [1], 25mm [4]",
+            notes: "",
+        },
+        "Great Bray-Shaman" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Beasts of Chaos Chaos Spawn" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Beasts of Chaos Slaangor Fiendbloods" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Beasts of Chaos Tzaangor Enlightened" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Beasts of Chaos Tzaangor Enlightened on Discs of Tzeentch" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Beasts of Chaos Tzaangor Skyfires" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Beasts of Chaos Tzaangors" : {
             baseSize: "32mm",
             notes: "",
         },
@@ -21,60 +113,16 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "60 x 35mm",
             notes: "",
         },
-        "Chaos Gargant" : {
-            baseSize: "90 x 52mm",
-            notes: "",
-        },
         "Chaos Warhounds" : {
             baseSize: "60 x 35mm",
-            notes: "",
-        },
-        "Chimera" : {
-            baseSize: "120 x 92mm",
             notes: "",
         },
         "Cockatrice" : {
             baseSize: "60mm",
             notes: "",
         },
-        "Cygor" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Doomblast Dirgehorn" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Doombull" : {
-            baseSize: "50mm",
-            notes: "",
-        },
-        "Dragon Ogor Shaggoth" : {
-            baseSize: "90 x 52mm",
-            notes: "",
-        },
         "Dragon Ogors" : {
             baseSize: "90 x 52mm",
-            notes: "",
-        },
-        "Ghorgon" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Gors" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Great Bray-Shaman" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Jabberslythe" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Ravening Direflock" : {
-            baseSize: "40mm",
             notes: "",
         },
         "Razorgors" : {
@@ -89,12 +137,20 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25mm",
             notes: "",
         },
-        "Ungors" : {
-            baseSize: "25mm",
+        "Doomblast Dirgehorn" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Ravening Direflock" : {
+            baseSize: "40mm",
             notes: "",
         },
         "Wildfire Taurus" : {
             baseSize: "105 x 70mm",
+            notes: "",
+        },
+        "Herdstone" : {
+            baseSize: "Use model",
             notes: "",
         },
     }

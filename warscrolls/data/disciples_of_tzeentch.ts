@@ -5,68 +5,84 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "disciples of tzeentch",
     warscrolls: {
-        "Blue Horrors of Tzeentch" : {
-            baseSize: "25mm",
+        "Jade Obelisk" : {
+            baseSize: "32mm [5], 28.5mm [5]",
             notes: "",
         },
-        "Brimstone Horrors of Tzeentch" : {
-            baseSize: "25mm",
+        "Kairic Acolytes" : {
+            baseSize: "32mm",
             notes: "",
         },
-        "Burning Chariots of Tzeentch" : {
-            baseSize: "120 x 92mm",
+        "Tzaa ngors" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "The Blue Scribes" : {
+            baseSize: "60mm",
+            notes: "",
+        },
+        "Changecaster, Herald of Tzeentch" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "The Changeling" : {
+            baseSize: "40mm",
             notes: "",
         },
         "Curseling, Eye of Tzeentch" : {
             baseSize: "32mm",
             notes: "",
         },
-        "Exalted Flamers of Tzeentch" : {
-            baseSize: "75 x 42mm",
-            notes: "",
-        },
-        "Exalted Greater Daemon of Tzeentch" : {
-            baseSize: "130mm",
-            notes: "",
-        },
-        "Eyes of the Nine" : {
+        "Ephilim the Unknowable" : {
             baseSize: "32mm",
-            notes: "(Horrors are 25mm)",
+            notes: "",
+        },
+        "Ephilim’s Pandaemonium" : {
+            baseSize: "32mm [2], 25mm [2]",
+            notes: "",
         },
         "Fatemaster" : {
             baseSize: "60mm",
             notes: "",
         },
-        "Flamers of Tzeentch" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Gaunt Summoner (and Chaos Familiars)" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Gaunt Summoner of Tzeentch" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Gaunt Summoner’s Chaos Familiars" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Herald of Tzeentch" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Herald of Tzeentch on Burning Chariot" : {
+        "Fateskimmer, Herald of Tzeentch on Burning Chariot" : {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Herald of Tzeentch on Disc" : {
+        "Fluxmaster, Herald of Tzeentch on Disc" : {
             baseSize: "60mm",
             notes: "",
         },
-        "Kairic Acolytes" : {
+        "Gaunt Summoner" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Gaunt Summoner on Disc of Tzeentch" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Magister" : {
             baseSize: "32mm",
+            notes: "",
+        },
+        "Magister on Disc of Tzeentch" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Ogroid Thaumaturge" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Tzaangor Shaman" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Vortemis the All-seeing" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "The Eyes of the Nine" : {
+            baseSize: "32mm [3], 25mm [2]",
             notes: "",
         },
         "Kairos Fateweaver" : {
@@ -77,39 +93,35 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "100mm",
             notes: "",
         },
-        "Magister" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Mutalith Vortex Beast of Tzeentch" : {
+        "Burning Chariots of Tzeentch" : {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Ogroid Thaumaturge" : {
+        "Disciples of Tzeentch Chaos Spawn" : {
             baseSize: "50mm",
             notes: "",
         },
-        "Pink Horrors of Tzeentch" : {
+        "Exalted Flamers of Tzeentch" : {
+            baseSize: "75 x 42mm",
+            notes: "",
+        },
+        "Flamers of Tzeentch" : {
             baseSize: "32mm",
             notes: "",
+        },
+        "Horrors of Tzeentch" : {
+            baseSize: "32mm ",
+            notes: "(Pink), 25mm (Blue/Bri mstone)",
         },
         "Screamers of Tzeentch" : {
             baseSize: "32mm",
-            notes: "",
-        },
-        "The Blue Scribes" : {
-            baseSize: "60mm",
-            notes: "",
-        },
-        "The Changeling" : {
-            baseSize: "40mm",
             notes: "",
         },
         "Tzaangor Enlightened" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Tzaangor Shaman" : {
+        "Tzaangor Enlightened on Discs of Tzeentch" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -117,12 +129,16 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Tzaangors" : {
-            baseSize: "32mm",
+        "Burning Sigil of Tzeentch" : {
+            baseSize: "50mm",
             notes: "",
         },
-        "Vortemis the All-seeing" : {
-            baseSize: "32mm",
+        "Daemonic Simulacrum" : {
+            baseSize: "105 x 70mm",
+            notes: "",
+        },
+        "Tome of Eyes" : {
+            baseSize: "50mm",
             notes: "",
         },
     }

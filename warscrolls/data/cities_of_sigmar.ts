@@ -5,6 +5,78 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "cities of sigmar",
     warscrolls: {
+        "Helblaster Volley Gun" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Helstorm Rocket Battery" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Bleakswords" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Darkshards" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Dreadspears" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Eternal Guard" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Freeguild Crossbowmen" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Freeguild Guard" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Freeguild Handgunners" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Ironbreakers" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Longbeards" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Celestial Hurricanum" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Flamespyre Phoenix" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Frostheart Phoenix" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Kharibdyss" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Luminark of Hysh" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Stea m Ta n k" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Wa r Hyd ra" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
         "Anointed" : {
             baseSize: "25mm",
             notes: "",
@@ -17,7 +89,83 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25mm",
             notes: "",
         },
+        "Black Ark Fleetmaster" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Cogsmith" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Doralia ven Denst" : {
+            baseSize: "28.5mm",
+            notes: "",
+        },
+        "Freeguild General" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Galen ven Denst" : {
+            baseSize: "28.5mm",
+            notes: "",
+        },
+        "Haskel Hexbane" : {
+            baseSize: "28.5mm",
+            notes: "",
+        },
+        "Hexbane’s Hunters" : {
+            baseSize: "25mm [2], 28.5mm [2], 32 m m   [1]",
+            notes: "",
+        },
+        "Nomad Prince" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Runelord" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Sorceress" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Warden King" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Anointed on Flamespyre Phoenix" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Anointed on Frostheart Phoenix" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
         "Battlemage on Griffon" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Celestial Hurricanum with Celestial Battlemage" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Dreadlord on Black Dragon" : {
+            baseSize: "105 x 70mm",
+            notes: "",
+        },
+        "Freeguild General on Griffon" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Luminark of Hysh with White Battlemage" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Sorceress on Black Dragon" : {
+            baseSize: "105 x 70mm",
+            notes: "",
+        },
+        "Steam Tank with Commander" : {
             baseSize: "120 x 92mm",
             notes: "",
         },
@@ -25,23 +173,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25mm",
             notes: "",
         },
-        "Black Ark Fleetmaster" : {
-            baseSize: "25mm",
-            notes: "",
-        },
         "Black Guard" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Bleakswords" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Celestial Hurricanum" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Cogsmith" : {
             baseSize: "25mm",
             notes: "",
         },
@@ -49,16 +181,8 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "60 x 35mm",
             notes: "",
         },
-        "Darkshards" : {
-            baseSize: "25mm",
-            notes: "",
-        },
         "Demigryph Knights" : {
             baseSize: "75 x 42mm",
-            notes: "",
-        },
-        "Doralia ven Denst" : {
-            baseSize: "28mm",
             notes: "",
         },
         "Drakespawn Chariots" : {
@@ -69,18 +193,6 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "60 x 35mm",
             notes: "",
         },
-        "Dreadlord on Black Dragon" : {
-            baseSize: "105 x 70mm",
-            notes: "",
-        },
-        "Dreadspears" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Eternal Guard" : {
-            baseSize: "25mm",
-            notes: "",
-        },
         "Executioners" : {
             baseSize: "25mm",
             notes: "",
@@ -89,31 +201,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25mm",
             notes: "",
         },
-        "Flamespyre Phoenix" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Freeguild Crossbowmen" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Freeguild General" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Freeguild General on Griffon" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
         "Freeguild Greatswords" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Freeguild Guard" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Freeguild Handgunners" : {
             baseSize: "25mm",
             notes: "",
         },
@@ -123,14 +211,6 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Freeguild Pistoliers" : {
             baseSize: "60 x 35mm",
-            notes: "",
-        },
-        "Frostheart Phoenix" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Galen ven Denst" : {
-            baseSize: "28mm",
             notes: "",
         },
         "Gyrobombers" : {
@@ -145,43 +225,11 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25mm",
             notes: "",
         },
-        "Helblaster Volley Gun" : {
-            baseSize: "90 x 52mm",
-            notes: "",
-        },
-        "Helstorm Rocket Battery" : {
-            baseSize: "90 x 52mm",
-            notes: "",
-        },
-        "Ironbreakers" : {
-            baseSize: "25mm",
-            notes: "",
-        },
         "Irondrakes" : {
             baseSize: "25mm",
             notes: "",
         },
-        "Kharibdyss" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Longbeards" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Luminark of Hysh" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Nomad Prince" : {
-            baseSize: "32mm",
-            notes: "",
-        },
         "Phoenix Guard" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Runelord" : {
             baseSize: "25mm",
             notes: "",
         },
@@ -198,26 +246,6 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Sisters of the Watch" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Sorceress" : {
-            baseSize: "25mm",
-            notes: "",
-        },
-        "Sorceress on Black Dragon" : {
-            baseSize: "105 x 70mm",
-            notes: "",
-        },
-        "Steam Tank" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "War Hydra" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Warden King" : {
             baseSize: "25mm",
             notes: "",
         },

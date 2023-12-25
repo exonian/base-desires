@@ -5,16 +5,20 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "fyreslayers",
     warscrolls: {
-        "Auric Hearthguard" : {
+        "Vulkite Berzerkers with Bladed Slingshields" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Vulkite Berzerkers with Fyresteel Handaxes" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Auric Flamekeeper" : {
             baseSize: "32mm",
             notes: "",
         },
         "Auric Runefather" : {
             baseSize: "32mm",
-            notes: "",
-        },
-        "Auric Runefather on Magmadroth" : {
-            baseSize: "120 x 92mm",
             notes: "",
         },
         "Auric Runemaster" : {
@@ -25,31 +29,43 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Auric Runesmiter on Magmadroth" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
         "Auric Runeson" : {
             baseSize: "32mm",
-            notes: "",
-        },
-        "Auric Runeson on Magmadroth" : {
-            baseSize: "120 x 92mm",
             notes: "",
         },
         "Battlesmith" : {
             baseSize: "32mm",
             notes: "",
         },
+        "Fjul-Grimnir" : {
+            baseSize: "32mm",
+            notes: "",
+        },
         "The Chosen Axes" : {
+            baseSize: "3",
+            notes: "",
+        },
+        "Auric Runefather on Magmadroth" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Grimhold Exile" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Auric Runesmiter on Magmadroth" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Auric Runeson on Magmadroth" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Auric Hearthguard" : {
             baseSize: "32mm",
             notes: "",
         },
         "Doomseeker" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Fjul-Grimnir" : {
             baseSize: "32mm",
             notes: "",
         },
@@ -66,15 +82,15 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Runic Fyrewall" : {
-            baseSize: "Custom base",
-            notes: "",
-        },
-        "Vulkite Berzerkers" : {
-            baseSize: "32mm",
+            baseSize: "Use model",
             notes: "",
         },
         "Zharrgron Flame-spitter" : {
-            baseSize: "Custom base",
+            baseSize: "Use model",
+            notes: "",
+        },
+        "Magmic Battleforge" : {
+            baseSize: "Use model",
             notes: "",
         },
     }

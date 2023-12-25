@@ -1,37 +1,46 @@
-Belladamma Volga, First of the Vyrkos 60mm
-Black Coach 170 x 105mm
-Black Knights 60 x 35mm
-Blood Knights 75 x 42mm (was 60 x 35mm)
-Bloodseeker Palanquin 120 x 92mm
-Cairn Wraith 25mm
-Corpse Cart with Balefire Brazier 105 x 70mm
-Corpse Cart with Unholy Lodestone 105 x 70mm
-Coven Throne 120 x 92mm
-Dire Wolves 60 x 35mm
-Fell Bats 40mm
-Grave Guard 25mm
-Hexwraiths 60 x 35mm
-Kritza, The Rat Prince 60mm
-Lady Annika, The Thirsting Blade 60mm
-Lauka Vai, Mother of Nightmares 80mm
-Mannfred, Mortarch of Night 120 x 92mm
-Mortis Engine 120 x 92mm
-Nagash, Supreme Lord of the Undead 130mm
-Necromancer 32mm
-Neferata, Mortarch of Blood 120 x 92mm
-Prince Vhordrai 130mm
-Radukar, The Beast 60mm
-The Sepulchral Guard 25mm
-Skeleton Warriors 25mm
-Spirit Hosts 50mm
-Terrorgheist 130mm
-Tomb Banshee 25mm
-Vampire Lord 40mm (was 32mm)
-Vampire Lord on Zombie Dragon 130mm
-Vargheists 50mm
-Vengorian Lord 80mm
-Wight King with Baleful Tomb Blade 32mm
-Wight King with Black Axe 32mm
-Wight King on Skeletal Steed 75 x 42mm
-Zombie Dragon 130mm
-Zombies 25mm
+Deadwalker Zombies                                                     || 25mm 
+Deathrattle Skeletons                                                  || 25mm 
+Dire Wolves                                                            || 60 x 35mm 
+Mortis Engine                                                          || 120 x 92mm 
+Te r r o r g h e i s t                                                 || 130mm 
+Zombie Dragon                                                          || 130mm 
+Belladamma Volga, First of the Vyrkos                                  || 60mm 
+Cado Ezechiar, the Hollow King                                         || 40mm 
+Deintalos the Exile                                                    || 28.5mm 
+The Exiled Dead                                                        || 25mm 
+Gorslav the Gravekeeper                                                || 40mm 
+Ivya Volga, the Outcast                                                || 40mm 
+King Morlak Velmorn                                                    || 32mm 
+The Sons of Velmorn                                                    || 40mm [1], 25m m [3] 
+Kritza, the Rat Prince                                                 || 60 x 35mm 
+Lady Annika, the Thirsting Blade                                       || 60 x 35mm 
+Lauka Vai, Mother of Nightmares                                        || 80mm 
+Necromancer                                                            || 32mm 
+Prince Duvalle                                                         || 32mm 
+The Crimson Court                                                      || 3 
+Radukar the Beast                                                      || 60mm 
+Radukar the Wolf                                                       || 40mm 
+Torgillius the Chamberlain                                             || 40mm 
+Vampire Lord                                                           || 40mm 
+Vengorian Lord                                                         || 80mm 
+Watch Captain Halgrim                                                  || 32mm 
+Wight King                                                             || 32mm 
+Wight King on Skeletal Steed                                           || 75 x 42mm 
+Bloodseeker Palanquin                                                  || 120 x 92mm 
+Coven Throne                                                           || 120 x 92mm 
+Mannfred von Carstein, Mortarch of Night                               || 120 x 92mm 
+Nagash, Supreme Lord of the Undead                                     || 130mm 
+Neferata, Mortarch of Blood                                            || 120 x 92mm 
+Prince Vhordrai                                                        || 130mm 
+Vampire Lord on Zombie Dragon                                          || 130mm 
+Askurgan Trueblades                                                    || 40mm [1], 32mm [4], 28m m [3] 
+Black Knights                                                          || 60 x 35mm 
+Blood Knights                                                          || 75 x 42mm 
+Corpse Cart                                                            || 105 x 70mm 
+Fell Bats                                                              || 40mm 
+Grave Guard                                                            || 25mm 
+Kosargi Nightguard                                                     || 40mm 
+The Sepulchral Guard                                                   || 25mm 
+Va r g hei s t s                                                       || 50mm 
+Va r gs k y r                                                          || 50mm 
+Vyrkos Blood-born                                                      || 32mm

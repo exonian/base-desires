@@ -5,23 +5,7 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "slaves to darkness",
     warscrolls: {
-        "Archaon" : {
-            baseSize: "160mm",
-            notes: "",
-        },
-        "Centaurion Marshal" : {
-            baseSize: "80mm",
-            notes: "",
-        },
-        "Chaos Chariots" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Chaos Chosen" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Chaos Gorebeast Chariots" : {
+        "Chaos Chariot" : {
             baseSize: "120 x 92mm",
             notes: "",
         },
@@ -29,16 +13,8 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "75 x 42mm",
             notes: "",
         },
-        "Chaos Lord on Daemonic Mount" : {
-            baseSize: "75 x 42mm",
-            notes: "",
-        },
-        "Chaos Lord on Karkadrak" : {
-            baseSize: "90 x 52mm",
-            notes: "",
-        },
-        "Chaos Lord on Manticore" : {
-            baseSize: "120 x 92mm",
+        "Chaos Legionnaires" : {
+            baseSize: "32mm [5], 28.5mm [3]",
             notes: "",
         },
         "Chaos Marauder Horsemen" : {
@@ -49,28 +25,88 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25mm",
             notes: "",
         },
-        "Chaos Sorcerer Lord" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Chaos Sorcerer Lord on Chaos Steed" : {
-            baseSize: "75 x 42mm",
-            notes: "",
-        },
-        "Chaos Sorcerer Lord on Manticore" : {
-            baseSize: "120 x 92mm",
-            notes: "",
-        },
-        "Chaos Spawn" : {
-            baseSize: "50mm",
-            notes: "",
-        },
         "Chaos Warriors" : {
             baseSize: "32mm",
             notes: "",
         },
+        "Corvus Cabal" : {
+            baseSize: "40mm [1], 28.5mm [3], 25mm [5]",
+            notes: "",
+        },
+        "Cypher Lords" : {
+            baseSize: "32mm [1], 28.5mm [4], 25m m [3]",
+            notes: "",
+        },
+        "Darkoath Savagers" : {
+            baseSize: "32mm [3], 28.5mm [7]",
+            notes: "",
+        },
+        "Horns of Hashut" : {
+            baseSize: "32mm [3], 28.5mm [4], 25m m [3]",
+            notes: "",
+        },
+        "Iron Golem" : {
+            baseSize: "40mm [1], 32mm [3], 28.5mm [4]",
+            notes: "",
+        },
+        "Scions of the Flame" : {
+            baseSize: "32mm [3], 28.5mm [3], 25mm [2]",
+            notes: "",
+        },
+        "S p i r e   Ty r a nt s" : {
+            baseSize: "32mm [3], 28.5mm [4], 25mm [2]",
+            notes: "",
+        },
+        "Splintered Fang" : {
+            baseSize: "32mm [3], 28.5mm [2], 25mm [5]",
+            notes: "",
+        },
+        "Ta r a nt u los Brood" : {
+            baseSize: "32mm [1], 28.5mm [2], 2 5 m m   [10]",
+            notes: "",
+        },
+        "The Unmade" : {
+            baseSize: "40mm [1], 32mm [1], 28.5mm [3], 25mm [4]",
+            notes: "",
+        },
+        "Untamed Beasts" : {
+            baseSize: "40mm [1], 32mm [3], 28.5mm [2], 25m m [3]",
+            notes: "",
+        },
         "Chaos Warshrine" : {
             baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Mutalith Vortex Beast" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Slaughterbrute" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Soul Grinder" : {
+            baseSize: "160mm",
+            notes: "",
+        },
+        "Centaurion Marshal" : {
+            baseSize: "80mm",
+            notes: "",
+        },
+        "Chaos Lord" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Chaos Lord on Daemonic Mount" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Chaos Lord on Karkadrak" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Chaos Sorcerer Lord" : {
+            baseSize: "32mm",
             notes: "",
         },
         "Daemon Prince" : {
@@ -85,49 +121,113 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Exalted Hero of Chaos" : {
-            baseSize: "32mm",
+        "Eternus, Blade of the First Prince" : {
+            baseSize: "90 x 52mm",
             notes: "",
         },
-        "Gaunt Summoner of Tzeentch" : {
+        "Exalted Hero of Chaos" : {
             baseSize: "40mm",
             notes: "",
         },
-        "The Godsworn Hunt" : {
-            baseSize: "32mm",
-            notes: "(Grawl is 25mm)",
-        },
-        "Lord of Chaos" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Nightmaw" : {
+        "Ogroid Myrmidon" : {
             baseSize: "50mm",
             notes: "",
         },
-        "Sayl the Faithless" : {
+        "Sarrakkar Blackwing" : {
             baseSize: "32mm",
+            notes: "",
+        },
+        "The Gnarlspirit Pack" : {
+            baseSize: "3",
+            notes: "",
+        },
+        "Slaves to Darkness Gaunt Summoner" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Slaves to Darkness Gaunt Summoner on Disc of Tzeentch" : {
+            baseSize: "40mm",
             notes: "",
         },
         "Theddra Skull-Scryer" : {
             baseSize: "32mm",
             notes: "",
         },
+        "Godsworn Hunt" : {
+            baseSize: "32mm [4], 2 5 m m   [1]",
+            notes: "",
+        },
+        "Zarshia Bittersoul" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Khagra’s Ravagers" : {
+            baseSize: "3",
+            notes: "",
+        },
+        "Archaon the Everchosen" : {
+            baseSize: "160mm",
+            notes: "",
+        },
+        "Be’lakor, the Dark Master" : {
+            baseSize: "100mm",
+            notes: "",
+        },
+        "Chaos Lord on Manticore" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Chaos Sorcerer Lord on Manticore" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Chaos Chosen" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Fomoroid Crusher" : {
+            baseSize: "60mm",
+            notes: "",
+        },
+        "Furies" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Gorebeast Chariots" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Mindstealer Sphiranx" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Ogroid Theridons" : {
+            baseSize: "50mm",
+            notes: "",
+        },
+        "Raptoryx" : {
+            baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Slaves to Darkness Chaos Spawn" : {
+            baseSize: "50mm",
+            notes: "",
+        },
         "Varanguard" : {
             baseSize: "75 x 42mm",
             notes: "",
         },
-        "Chaos Legionnaires" : {
-            baseSize: "Mixed",
-            notes: "(5x32mm, 3x28mm)",
+        "Darkfire Daemonrift" : {
+            baseSize: "Use model",
+            notes: "",
         },
-        "Horns of Hashut" : {
-            baseSize: "Mixed",
-            notes: "(3x32mm, 4x28mm, 3x25mm)",
+        "Eightfold Doom-Sigil" : {
+            baseSize: "75 x 42mm",
+            notes: "",
         },
-        "Rotmire Creed" : {
-            baseSize: "Mixed",
-            notes: "(2x32mm, 2x28mm, 6x25mm)",
+        "Realmscourge Rupture" : {
+            baseSize: "Use model",
+            notes: "",
         },
     }
 }

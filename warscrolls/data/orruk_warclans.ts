@@ -5,40 +5,140 @@ import { TFactionWarscrolls } from "../types";
 const Warscrolls: TFactionWarscrolls = {
     faction: "orruk warclans",
     warscrolls: {
-        "Ardboys" : {
+        "Beast-skewer Killbow" : {
+            baseSize: "90 x 52mm",
+            notes: "",
+        },
+        "Gutrippaz" : {
             baseSize: "32mm",
             notes: "",
         },
-        "Brutes" : {
+        "Orruk Ardboys" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Orruk Brutes" : {
             baseSize: "40mm",
+            notes: "",
+        },
+        "Savage Orruks" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Breaka-boss on Mirebrute Troggoth" : {
+            baseSize: "80mm",
+            notes: "",
+        },
+        "Hedkrakka, Gob of Gork" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Hed k ra k k a’s Mad mob" : {
+            baseSize: "40mm [1], 32mm [2]",
+            notes: "",
+        },
+        "Killaboss on Great Gnashtoof" : {
+            baseSize: "105 x 70mm",
+            notes: "",
+        },
+        "Killaboss with Stab-grot" : {
+            baseSize: "40mm [1], 2 5 m m   [1]",
+            notes: "",
+        },
+        "Maniak Weirdnob" : {
+            baseSize: "60 x 35 mm",
+            notes: "",
+        },
+        "Mannok da Kunnin’" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Da Kunnin’ Krew" : {
+            baseSize: "32mm [1], 25m m [3]",
+            notes: "",
+        },
+        "Murknob with Belcha-banna" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Orruk Megaboss" : {
+            baseSize: "60mm",
+            notes: "",
+        },
+        "Orruk Warchanter" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Orruk Weirdnob Shaman" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Savage Big Boss" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Swampcalla Shaman and Pot-grot" : {
+            baseSize: "40mm [1], 2 5 m m   [1]",
+            notes: "",
+        },
+        "Wa rdok k" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Wurrgog Prophet" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Gobsprakk, the Mouth of Mork" : {
+            baseSize: "130mm",
             notes: "",
         },
         "Gordrakk, the Fist of Gork" : {
             baseSize: "160mm",
             notes: "",
         },
-        "Gore-gruntas" : {
-            baseSize: "90 x 52mm",
+        "Killaboss on Corpse-rippa Vulcha" : {
+            baseSize: "130mm",
             notes: "",
         },
-        "Ironskull’s Boyz" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Megaboss" : {
-            baseSize: "60mm",
+        "Kragnos, the End of Empires" : {
+            baseSize: "130mm",
             notes: "",
         },
         "Megaboss on Maw-krusha" : {
             baseSize: "160mm",
             notes: "",
         },
-        "Maniak Weirdnob" : {
-            baseSize: "60 x 35mm",
+        "Snatchaboss on Sludgeraker Beast" : {
+            baseSize: "120 x 92mm",
             notes: "",
         },
-        "Savage Big Boss" : {
+        "Swampboss Skumdrekk" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Hobgrot Slittaz" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Ironskull’s Boyz" : {
             baseSize: "32mm",
+            notes: "",
+        },
+        "Man-skewer Boltboyz" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Marshcrawla Sloggoth" : {
+            baseSize: "105 x 70mm",
+            notes: "",
+        },
+        "Morgok’s Krushas" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Orruk Gore-gruntas" : {
+            baseSize: "90 x 52mm",
             notes: "",
         },
         "Savage Big Stabbas" : {
@@ -58,26 +158,6 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Savage Orruk Morboys" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Savage Orruks" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Warchanter" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Wardokk" : {
-            baseSize: "32mm",
-            notes: "",
-        },
-        "Weirdnob Shaman" : {
-            baseSize: "40mm",
-            notes: "",
-        },
-        "Wurrgog Prophet" : {
             baseSize: "32mm",
             notes: "",
         },
