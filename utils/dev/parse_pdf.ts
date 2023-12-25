@@ -28,10 +28,12 @@ type TTextItem = {
 function parse_text(pageData: TPageData) :Promise<string> {
     return pageData.getTextContent()
     .then(function(textContent: TTextContent) {
-        let lastX: number = 0, lastWidth:number = 0, lastHeight:number = 0, text:string = '';
+        let lastX: number = 0, lastY: number = 0, lastWidth:number = 0, lastHeight:number = 0;
+        let text:string = '';
         for (let item of textContent.items) {
             let currentX = item.transform[4]
-            if (currentX <= lastX - 100 || Math.abs(item.height - lastHeight) > 1){
+            let currentY = item.transform[5]
+            if (currentX < lastX - 100 || Math.abs(item.height - lastHeight) > 1 || currentY > lastY + 100) {
                 text += '\n' + item.str;
             }
             else {
@@ -43,6 +45,7 @@ function parse_text(pageData: TPageData) :Promise<string> {
                 }
             }
             lastX = item.transform[4];
+            lastY = item.transform[5];
             lastWidth = item.width;
             lastHeight = item.height;
         }
