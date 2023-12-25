@@ -1,6 +1,8 @@
 import fs from 'fs';
+import path from 'path';
 import PdfParse from 'pdf-parse';
 import pdf  from 'pdf-parse';
+import { toStandard } from '../text';
 
 
 let options: PdfParse.Options = {
@@ -51,6 +53,7 @@ function parse_text(pageData: TPageData) :Promise<string> {
 const faction_name_typos: Record<string, string> = {
     'OR RU K WA RC L A N S': 'ORRUK WARCLANS',
     'S K AV E N': 'SKAVEN',
+    'S Y LVA N E T H': 'SYLVANETH',
 }
 
 const import_bases = (path: string) => {
@@ -87,7 +90,27 @@ const parse_pdf = (path: string) => {
 }
 
 const write_text_files = (profiles: Record<string, string[]>) => {
-    console.log(profiles)
+    const dataDirectory = path.join(__dirname, '..', '..', 'warscrolls', 'text_data')
+    const safeFilenamePattern = new RegExp(/^[\w -]+$/);
+
+    Object.entries(profiles).forEach(([faction, warscrolls]) => {
+        if (!safeFilenamePattern.test(faction)) {
+            console.error(`Faction name "${faction}" cannot be used in a filename`)
+            return
+        }
+
+        let filename = toStandard(faction) + '.txt'
+        let data = warscrolls.join(' \n')
+
+        fs.writeFile(path.join(dataDirectory, filename), data, err => {
+            if (err) {
+                console.error(err);
+            }
+            else {
+                console.log(`${filename} written`)
+            }
+        });
+    })
 }
 
 import_bases('profiles.pdf')
