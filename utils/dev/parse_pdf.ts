@@ -48,6 +48,11 @@ function parse_text(pageData: TPageData) :Promise<string> {
     });
 }
 
+const faction_name_typos: Record<string, string> = {
+    'OR RU K WA RC L A N S': 'ORRUK WARCLANS',
+    'S K AV E N': 'SKAVEN',
+}
+
 const import_bases = (path: string) => {
     console.log('Importing')
     parse_pdf(path).then(function(output: string) {
@@ -66,7 +71,7 @@ const import_bases = (path: string) => {
                     accum[currentFaction].push(unit_and_size)
                 }
             }
-            if (!line.includes('||')) potentialFactionName = line
+            if (!line.includes('||')) potentialFactionName = faction_name_typos[line] || line
             return accum
         }, {} as Record<string, string[]>)
         write_text_files(profiles)
