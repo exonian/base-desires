@@ -28,20 +28,23 @@ type TTextItem = {
 function parse_text(pageData: TPageData) :Promise<string> {
     return pageData.getTextContent()
     .then(function(textContent: TTextContent) {
+
         let lastX: number = 0, lastY: number = 0, lastWidth:number = 0, lastHeight:number = 0;
         let text:string = '';
         for (let item of textContent.items) {
+            let cleanedText = clean_text(item.str)
+
             let currentX = item.transform[4]
             let currentY = item.transform[5]
             if (currentX < lastX - 100 || Math.abs(item.height - lastHeight) > 1 || currentY > lastY + 100) {
-                text += '\n' + item.str;
+                text += '\n' + cleanedText;
             }
             else {
                 if (currentX > lastX + lastWidth + 10) {
-                    text += '||' + item.str;
+                    text += '||' + cleanedText;
                 }
                 else {
-                    text += item.str;
+                    text += cleanedText;
                 }
             }
             lastX = item.transform[4];
@@ -51,6 +54,11 @@ function parse_text(pageData: TPageData) :Promise<string> {
         }
         return text;
     });
+}
+
+
+function clean_text(text: string) :string {
+    return text.replace("×", "x").replace("�", ".")
 }
 
 const faction_name_typos: Record<string, string> = {
@@ -72,9 +80,7 @@ const import_bases = (path: string) => {
             else {
                 if (line.startsWith('FACTION')) currentFaction = ''
                 if (line.includes('||') && (currentFaction !== '')) {
-                    const parts = line.split('||')
-                    const unit_and_size = parts.at(0) + ' || ' + parts.at(-1)
-                    accum[currentFaction].push(unit_and_size)
+                    accum[currentFaction].push(render_warscroll_line(line))
                 }
             }
             if (!line.includes('||')) potentialFactionName = faction_name_typos[line] || line
@@ -82,6 +88,11 @@ const import_bases = (path: string) => {
         }, {} as Record<string, string[]>)
         write_text_files(profiles)
     })
+}
+
+const render_warscroll_line = (line: string) :string => {
+    const parts = line.split('||')
+    return parts.at(0)?.padEnd(60, ' ') + '|| ' + parts.at(-1)
 }
 
 const parse_pdf = (path: string) => {
