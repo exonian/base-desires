@@ -90,7 +90,7 @@ const parse_pdf = (path: string) => {
 }
 
 const write_text_files = (profiles: Record<string, string[]>) => {
-    const dataDirectory = path.join(__dirname, '..', '..', 'warscrolls', 'text_data')
+    const dataDirectory = path.join(__dirname, '..', '..', 'warscrolls', 'new_text_data')
     const safeFilenamePattern = new RegExp(/^[\w -]+$/);
 
     Object.entries(profiles).forEach(([faction, warscrolls]) => {
