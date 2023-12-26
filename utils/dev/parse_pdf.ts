@@ -36,7 +36,7 @@ function parse_text(pageData: TPageData) :Promise<string> {
 
             let currentX = item.transform[4]
             let currentY = item.transform[5]
-            if (currentX < lastX - 110 || Math.abs(item.height - lastHeight) > 1 || currentY > lastY + 100) {
+            if (currentX < lastX - 110 || Math.abs(item.height - lastHeight) > 1.5 || currentY > lastY + 100) {
                 text += '\n' + cleanedText;
             }
             else {
