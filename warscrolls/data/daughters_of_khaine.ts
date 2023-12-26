@@ -66,11 +66,11 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Hag Queen on Cauldron of Blood" : {
-            baseSize: "Single. A Hagg Nar army can include 1 Cauldron of Blood in addition to the other Behemoth units it can include.120 x 92mm",
+            baseSize: "120 x 92mm",
             notes: "",
         },
         "Slaughter Queen on Cauldron of Blood" : {
-            baseSize: "Single. A Hagg Nar army can include 1 Cauldron of Blood in addition to the other Behemoth units it can include.120 x 92mm",
+            baseSize: "120 x 92mm",
             notes: "",
         },
         "Blood Sisters" : {

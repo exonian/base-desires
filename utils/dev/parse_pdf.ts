@@ -40,7 +40,7 @@ function parse_text(pageData: TPageData) :Promise<string> {
                 text += '\n' + cleanedText;
             }
             else {
-                if (currentX > lastX + lastWidth + 10) {
+                if (currentX > lastX + lastWidth + 8) {
                     text += '||' + cleanedText;
                 }
                 else {
