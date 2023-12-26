@@ -53,7 +53,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm [3], 28.5mm [3], 25mm [2]",
             notes: "",
         },
-        "S p i r e Ty r a nt s" : {
+        "Spire Tyrants" : {
             baseSize: "32mm [3], 28.5mm [4], 25mm [2]",
             notes: "",
         },
@@ -61,7 +61,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm [3], 28.5mm [2], 25mm [5]",
             notes: "",
         },
-        "Ta r a nt u los Brood" : {
+        "Tarantulos Brood" : {
             baseSize: "32mm [1], 28.5mm [2], 25mm [10]",
             notes: "",
         },

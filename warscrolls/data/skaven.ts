@@ -33,7 +33,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "A rch-Wa rlock" : {
+        "Arch-Warlock" : {
             baseSize: "32mm",
             notes: "",
         },
@@ -173,7 +173,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Ve r mint i d e" : {
+        "Vermintide" : {
             baseSize: "120 x 92mm",
             notes: "",
         },

@@ -108,9 +108,21 @@ const parse_pdf = (path: string) => {
 }
 
 const warscroll_name_typos: Record<string, string> = {
+    'A rch-Wa rlock': 'Arch-Warlock',
     "Hed k ra k k a's Mad mob": "Hedkrakka's Madmob",
+    "K a i na n's Reapers": "Kainan's Reapers",
+    'K l a q -Tr o k': 'Klaq-Trok',
+    'S p i r e Ty r a nt s': 'Spire Tyrants',
     'Stea m Ta n k': 'Steam Tank',
+    'Ta r a nt u los Brood': 'Tarantulos Brood',
+    'Te r r o r g h e i s t ': 'Terrorgheist',
     'To m b B a n s h e e': 'Tomb Banshee',
+    'Ty r a nt': 'Tyrant',
+    'Tzaa ngors': 'Tzaangors',
+    'Va r g hei s t s': 'Vargheists',
+    'Va r gs k y r ': 'Vargskyr',
+    'Ve r mint i d e': 'Vermintide',
+    'Wa rdok k': 'Wardokk',
     'Wa r Hyd ra': 'War Hydra',
     "Z a rbag's Git z": "Zarbag's Gitz",
 }

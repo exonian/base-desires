@@ -57,7 +57,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "105 x 70mm",
             notes: "",
         },
-        "Ty r a nt" : {
+        "Tyrant" : {
             baseSize: "50mm",
             notes: "",
         },
