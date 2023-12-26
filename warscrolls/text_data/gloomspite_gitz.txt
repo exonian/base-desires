@@ -1,44 +1,44 @@
-Moonclan Shootas                                                       || 25mm 
-Moonclan Stabbas                                                       || 25mm 
-Squig Hoppers                                                          || 32mm 
-Aleguzzler Gargant                                                     || 90 x 52mm 
-Arachnarok Spider with Flinger                                         || 160mm 
-Arachnarok Spider with Spiderfang Warparty                             || 160mm 
-Mangler Squigs                                                         || 80mm 
-Skitterstrand Arachnarok                                               || 160mm 
-Dankhold Troggboss                                                     || 60mm 
-Fungoid Cave-Shaman                                                    || 32mm 
-Grinkrak the Great                                                     || 32mm 
-Grinkrak's Looncourt                                                   || 32mm [2], 25mm [4] 
-Loonboss                                                               || 32mm 
-Loonboss on Giant Cave Squig                                           || 40mm 
-Loonboss with Giant Cave Squig                                         || 75 x 42mm 
-Madcap Shaman                                                          || 25mm 
-Mollog                                                                 || 50mm [1], 25mm [3] 
-Rabble-Rowza                                                           || 32mm 
-Scuttleboss on Gigantic Spider                                         || 60mm 
-Skragrott, the Loonking                                                || 60 x 35mm 
-Squigboss with Gnasha-squig                                            || 32mm 
-Webspinner Shaman                                                      || 25mm 
-Zarbag                                                                 || 25mm 
-Z a rbag's Git z                                                       || 8 
-Kragnos, the End of Empires                                            || 130mm 
-Loonboss on Mangler Squigs                                             || 80mm 
-Webspinner Shaman on Arachnarok Spider                                 || 160mm 
-Boingrot Bounderz                                                      || 32mm 
-Dankhold Troggoths                                                     || 60mm 
-Fellwater Troggoths                                                    || 50mm 
-Gobbapalooza                                                           || 32mm 
-Loonsmasha Fanatics                                                    || 32mm 
-Rippa's Snarlfangs                                                     || 50 x 25mm 
-Rockgut Troggoths                                                      || 50mm 
-Snarlfang Riders                                                       || 60 x 35mm 
-Sneaky Snufflers                                                       || 32mm 
-Spider Riders                                                          || 60 x 35mm 
-Sporesplatta Fanatics                                                  || 32mm 
-Squig Herd                                                             || 25mm 
-Malevolent Moon                                                        || 50mm 
-Mork's Mighty Mushroom                                                 || 60mm 
-Scrapskuttle's Arachnacauldron                                         || 75 x 42mm 
-Scuttletide                                                            || Use model 
+Moonclan Shootas                                                       || 25mm
+Moonclan Stabbas                                                       || 25mm
+Squig Hoppers                                                          || 32mm
+Aleguzzler Gargant                                                     || 90 x 52mm
+Arachnarok Spider with Flinger                                         || 160mm
+Arachnarok Spider with Spiderfang Warparty                             || 160mm
+Mangler Squigs                                                         || 80mm
+Skitterstrand Arachnarok                                               || 160mm
+Dankhold Troggboss                                                     || 60mm
+Fungoid Cave-Shaman                                                    || 32mm
+Grinkrak the Great                                                     || 32mm
+Grinkrak's Looncourt                                                   || 32mm [2], 25mm [4]
+Loonboss                                                               || 32mm
+Loonboss on Giant Cave Squig                                           || 40mm
+Loonboss with Giant Cave Squig                                         || 75 x 42mm
+Madcap Shaman                                                          || 25mm
+Mollog                                                                 || 50mm [1], 25mm [3]
+Rabble-Rowza                                                           || 32mm
+Scuttleboss on Gigantic Spider                                         || 60mm
+Skragrott, the Loonking                                                || 60 x 35mm
+Squigboss with Gnasha-squig                                            || 32mm
+Webspinner Shaman                                                      || 25mm
+Zarbag                                                                 || 25mm
+Z a rbag's Git z                                                       || 8
+Kragnos, the End of Empires                                            || 130mm
+Loonboss on Mangler Squigs                                             || 80mm
+Webspinner Shaman on Arachnarok Spider                                 || 160mm
+Boingrot Bounderz                                                      || 32mm
+Dankhold Troggoths                                                     || 60mm
+Fellwater Troggoths                                                    || 50mm
+Gobbapalooza                                                           || 32mm
+Loonsmasha Fanatics                                                    || 32mm
+Rippa's Snarlfangs                                                     || 50 x 25mm
+Rockgut Troggoths                                                      || 50mm
+Snarlfang Riders                                                       || 60 x 35mm
+Sneaky Snufflers                                                       || 32mm
+Spider Riders                                                          || 60 x 35mm
+Sporesplatta Fanatics                                                  || 32mm
+Squig Herd                                                             || 25mm
+Malevolent Moon                                                        || 50mm
+Mork's Mighty Mushroom                                                 || 60mm
+Scrapskuttle's Arachnacauldron                                         || 75 x 42mm
+Scuttletide                                                            || Use model
 Bad Moon Loonshrine                                                    || Use model

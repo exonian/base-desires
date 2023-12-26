@@ -117,7 +117,7 @@ const render_warscroll_line = (line: string) :string => {
     const name = parts.at(0)
     const normalisedName = name && warscroll_name_typos[name] || name
     const size = parts.at(-1)
-    return normalisedName?.padEnd(70, ' ') + ' || ' + size
+    return (normalisedName?.padEnd(70, ' ') + ' || ' + size).trim()
 }
 
 const write_text_files = (profiles: Record<string, string[]>) => {
@@ -131,7 +131,7 @@ const write_text_files = (profiles: Record<string, string[]>) => {
         }
 
         let filename = toStandard(faction).replaceAll('-', '_') + '.txt'
-        let data = warscrolls.join(' \n')
+        let data = warscrolls.join('\n')
 
         fs.writeFile(path.join(dataDirectory, filename), data, err => {
             if (err) {

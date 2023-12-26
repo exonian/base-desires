@@ -1,25 +1,25 @@
-Dryads                                                                 || 32mm 
-Tree-Revena nts                                                        || 32mm 
-Treelord                                                               || 105 x 70mm 
-Arch-Revenant                                                          || 40mm 
-Branchwych                                                             || 32mm 
-Drycha Hamadreth                                                       || 105 x 70mm 
-The Lady of Vines                                                      || 80mm 
-Warsong Revenant                                                       || 105 x 70mm 
-Ylthari                                                                || 32mm 
-Ylthari's Guardians                                                    || 3 
-Alarielle the Everqueen                                                || 160mm 
-Spirit of Durthu                                                       || 105 x 70mm 
-Treelord Ancient                                                       || 105 x 70mm 
-Gossamid Archers                                                       || 32mm 
-Kurnoth Hunters with Kurnoth Greatbows                                 || 50mm 
-Kurnoth Hunters with Kurnoth Greatswords                               || 50mm 
-Kurnoth Hunters with Kurnoth Scythes                                   || 50mm 
-Revenant Seekers                                                       || 60mm 
-Skaeth's Wild Hunt                                                     || 50 x 25mm [1], 32mm [3], 25mm [1] 
-Spite-Revenants                                                        || 32mm 
-Spiterider Lancers                                                     || 60mm 
-Gladewyrm                                                              || Use model 
-Spiteswarm Hive                                                        || 50mm 
-Vengeful Skullroot                                                     || 105 x 70mm 
+Dryads                                                                 || 32mm
+Tree-Revena nts                                                        || 32mm
+Treelord                                                               || 105 x 70mm
+Arch-Revenant                                                          || 40mm
+Branchwych                                                             || 32mm
+Drycha Hamadreth                                                       || 105 x 70mm
+The Lady of Vines                                                      || 80mm
+Warsong Revenant                                                       || 105 x 70mm
+Ylthari                                                                || 32mm
+Ylthari's Guardians                                                    || 3
+Alarielle the Everqueen                                                || 160mm
+Spirit of Durthu                                                       || 105 x 70mm
+Treelord Ancient                                                       || 105 x 70mm
+Gossamid Archers                                                       || 32mm
+Kurnoth Hunters with Kurnoth Greatbows                                 || 50mm
+Kurnoth Hunters with Kurnoth Greatswords                               || 50mm
+Kurnoth Hunters with Kurnoth Scythes                                   || 50mm
+Revenant Seekers                                                       || 60mm
+Skaeth's Wild Hunt                                                     || 50 x 25mm [1], 32mm [3], 25mm [1]
+Spite-Revenants                                                        || 32mm
+Spiterider Lancers                                                     || 60mm
+Gladewyrm                                                              || Use model
+Spiteswarm Hive                                                        || 50mm
+Vengeful Skullroot                                                     || 105 x 70mm
 Awakened Wyldwood                                                      || Use model

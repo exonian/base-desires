@@ -1,56 +1,56 @@
-Chaos Chariot                                                          || 120 x 92mm 
-Chaos Knights                                                          || 75 x 42mm 
-Chaos Legionnaires                                                     || 32mm [5], 28.5mm [3] 
-Chaos Marauder Horsemen                                                || 60 x 35mm 
-Chaos Marauders                                                        || 25mm 
-Chaos Warriors                                                         || 32mm 
-Corvus Cabal                                                           || 40mm [1], 28.5mm [3], 25mm [5] 
-Cypher Lords                                                           || 32mm [1], 28.5mm [4], 25mm [3] 
-Darkoath Savagers                                                      || 32mm [3], 28.5mm [7] 
-Horns of Hashut                                                        || 32mm [3], 28.5mm [4], 25mm [3] 
-Iron Golem                                                             || 40mm [1], 32mm [3], 28.5mm [4] 
-Scions of the Flame                                                    || 32mm [3], 28.5mm [3], 25mm [2] 
-S p i r e Ty r a nt s                                                  || 32mm [3], 28.5mm [4], 25mm [2] 
-Splintered Fang                                                        || 32mm [3], 28.5mm [2], 25mm [5] 
-Ta r a nt u los Brood                                                  || 32mm [1], 28.5mm [2], 25mm [10] 
-The Unmade                                                             || 40mm [1], 32mm [1], 28.5mm [3], 25mm [4] 
-Untamed Beasts                                                         || 40mm [1], 32mm [3], 28.5mm [2], 25mm [3] 
-Chaos Warshrine                                                        || 120 x 92mm 
-Mutalith Vortex Beast                                                  || 120 x 92mm 
-Slaughterbrute                                                         || 120 x 92mm 
-Soul Grinder                                                           || 160mm 
-Centaurion Marshal                                                     || 80mm 
-Chaos Lord                                                             || 40mm 
-Chaos Lord on Daemonic Mount                                           || 90 x 52mm 
-Chaos Lord on Karkadrak                                                || 90 x 52mm 
-Chaos Sorcerer Lord                                                    || 32mm 
-Daemon Prince                                                          || 60mm 
-Darkoath Chieftain                                                     || 32mm 
-Darkoath Warqueen                                                      || 32mm 
-Eternus, Blade of the First Prince                                     || 90 x 52mm 
-Exalted Hero of Chaos                                                  || 40mm 
-Ogroid Myrmidon                                                        || 50mm 
-Sarrakkar Blackwing                                                    || 32mm 
-The Gnarlspirit Pack                                                   || 3 
-Slaves to Darkness Gaunt Summoner                                      || 40mm 
-Slaves to Darkness Gaunt Summoner on Disc of Tzeentch                  || 40mm 
-Theddra Skull-Scryer                                                   || 32mm 
-Godsworn Hunt                                                          || 32mm [4], 25mm [1] 
-Zarshia Bittersoul                                                     || 32mm 
-Khagra's Ravagers                                                      || 3 
-Archaon the Everchosen                                                 || 160mm 
-Be'lakor, the Dark Master                                              || 100mm 
-Chaos Lord on Manticore                                                || 120 x 92mm 
-Chaos Sorcerer Lord on Manticore                                       || 120 x 92mm 
-Chaos Chosen                                                           || 40mm 
-Fomoroid Crusher                                                       || 60mm 
-Furies                                                                 || 32mm 
-Gorebeast Chariots                                                     || 120 x 92mm 
-Mindstealer Sphiranx                                                   || 90 x 52mm 
-Ogroid Theridons                                                       || 50mm 
-Raptoryx                                                               || 60 x 35mm 
-Slaves to Darkness Chaos Spawn                                         || 50mm 
-Varanguard                                                             || 75 x 42mm 
-Darkfire Daemonrift                                                    || Use model 
-Eightfold Doom-Sigil                                                   || 75 x 42mm 
+Chaos Chariot                                                          || 120 x 92mm
+Chaos Knights                                                          || 75 x 42mm
+Chaos Legionnaires                                                     || 32mm [5], 28.5mm [3]
+Chaos Marauder Horsemen                                                || 60 x 35mm
+Chaos Marauders                                                        || 25mm
+Chaos Warriors                                                         || 32mm
+Corvus Cabal                                                           || 40mm [1], 28.5mm [3], 25mm [5]
+Cypher Lords                                                           || 32mm [1], 28.5mm [4], 25mm [3]
+Darkoath Savagers                                                      || 32mm [3], 28.5mm [7]
+Horns of Hashut                                                        || 32mm [3], 28.5mm [4], 25mm [3]
+Iron Golem                                                             || 40mm [1], 32mm [3], 28.5mm [4]
+Scions of the Flame                                                    || 32mm [3], 28.5mm [3], 25mm [2]
+S p i r e Ty r a nt s                                                  || 32mm [3], 28.5mm [4], 25mm [2]
+Splintered Fang                                                        || 32mm [3], 28.5mm [2], 25mm [5]
+Ta r a nt u los Brood                                                  || 32mm [1], 28.5mm [2], 25mm [10]
+The Unmade                                                             || 40mm [1], 32mm [1], 28.5mm [3], 25mm [4]
+Untamed Beasts                                                         || 40mm [1], 32mm [3], 28.5mm [2], 25mm [3]
+Chaos Warshrine                                                        || 120 x 92mm
+Mutalith Vortex Beast                                                  || 120 x 92mm
+Slaughterbrute                                                         || 120 x 92mm
+Soul Grinder                                                           || 160mm
+Centaurion Marshal                                                     || 80mm
+Chaos Lord                                                             || 40mm
+Chaos Lord on Daemonic Mount                                           || 90 x 52mm
+Chaos Lord on Karkadrak                                                || 90 x 52mm
+Chaos Sorcerer Lord                                                    || 32mm
+Daemon Prince                                                          || 60mm
+Darkoath Chieftain                                                     || 32mm
+Darkoath Warqueen                                                      || 32mm
+Eternus, Blade of the First Prince                                     || 90 x 52mm
+Exalted Hero of Chaos                                                  || 40mm
+Ogroid Myrmidon                                                        || 50mm
+Sarrakkar Blackwing                                                    || 32mm
+The Gnarlspirit Pack                                                   || 3
+Slaves to Darkness Gaunt Summoner                                      || 40mm
+Slaves to Darkness Gaunt Summoner on Disc of Tzeentch                  || 40mm
+Theddra Skull-Scryer                                                   || 32mm
+Godsworn Hunt                                                          || 32mm [4], 25mm [1]
+Zarshia Bittersoul                                                     || 32mm
+Khagra's Ravagers                                                      || 3
+Archaon the Everchosen                                                 || 160mm
+Be'lakor, the Dark Master                                              || 100mm
+Chaos Lord on Manticore                                                || 120 x 92mm
+Chaos Sorcerer Lord on Manticore                                       || 120 x 92mm
+Chaos Chosen                                                           || 40mm
+Fomoroid Crusher                                                       || 60mm
+Furies                                                                 || 32mm
+Gorebeast Chariots                                                     || 120 x 92mm
+Mindstealer Sphiranx                                                   || 90 x 52mm
+Ogroid Theridons                                                       || 50mm
+Raptoryx                                                               || 60 x 35mm
+Slaves to Darkness Chaos Spawn                                         || 50mm
+Varanguard                                                             || 75 x 42mm
+Darkfire Daemonrift                                                    || Use model
+Eightfold Doom-Sigil                                                   || 75 x 42mm
 Realmscourge Rupture                                                   || Use model

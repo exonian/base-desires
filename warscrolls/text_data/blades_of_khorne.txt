@@ -1,41 +1,41 @@
-Skull Cannon                                                           || 120 x 92mm 
-Bloodletters                                                           || 32mm 
-Bloodreavers                                                           || 32mm 
-Blood Warriors                                                         || 32mm 
-Claws of Karanak                                                       || 40mm [1], 60 x 35mm [1], 32mm [2], 28mm [4]  
-Flesh Hounds                                                           || 60 x 35mm 
-Aspiring Deathbringer                                                  || 40mm 
-Bloodmaster, Herald of Khorne                                          || 40mm 
-Bloodsecrator                                                          || 32mm 
-Bloodstoker                                                            || 40mm 
-Dromm, Wounder of Worlds                                               || 40mm 
-Gorechosen of Dromm                                                    || 40mm [1], 32mm [1] 
-Exalted Deathbringer                                                   || 40mm 
-Herald of Khorne on Blood Throne                                       || 120 x 92mm 
-Korghos Khul                                                           || 60mm 
-Lord of Khorne on Juggernaut                                           || 90 x 52mm 
-Mighty Lord of Khorne                                                  || 60mm 
-Realmgore Ritualist                                                    || 32mm 
-Scyla Anfingrimm                                                       || 60mm 
-Skarr Bloodwrath                                                       || 40mm 
-Skullgrinder                                                           || 40mm 
-Skullmaster, Herald of Khorne                                          || 90 x 52mm 
-Skulltaker                                                             || 40mm 
-Slaughterpriest                                                        || 40mm 
-Valkia the Bloody                                                      || 32mm 
-Bloodthirster of Insensate Rage                                        || 120 x 92mm 
-Bloodthirster of Unfettered Fury                                       || 120 x 92mm 
-Skarbrand                                                              || 100mm 
-Wrath of Khorne Bloodthirster                                          || 120 x 92mm 
-Bloodcrushers                                                          || 90 x 52mm 
-Garrek's Reavers                                                       || 32mm 
-Karanak                                                                || 75 x 42mm 
-Khorgorath                                                             || 90 x 52mm 
-Magore's Fiends                                                        || 32mm 
-Mighty Skullcrushers                                                   || 90 x 52mm 
-Skullreapers                                                           || 40mm 
-Wrathmongers                                                           || 40mm 
-Bleeding Icon                                                          || 105 x 70mm 
-Hexgorger Skulls                                                       || 60mm 
-Wrath-axe                                                              || 105 x 70mm 
+Skull Cannon                                                           || 120 x 92mm
+Bloodletters                                                           || 32mm
+Bloodreavers                                                           || 32mm
+Blood Warriors                                                         || 32mm
+Claws of Karanak                                                       || 40mm [1], 60 x 35mm [1], 32mm [2], 28mm [4]
+Flesh Hounds                                                           || 60 x 35mm
+Aspiring Deathbringer                                                  || 40mm
+Bloodmaster, Herald of Khorne                                          || 40mm
+Bloodsecrator                                                          || 32mm
+Bloodstoker                                                            || 40mm
+Dromm, Wounder of Worlds                                               || 40mm
+Gorechosen of Dromm                                                    || 40mm [1], 32mm [1]
+Exalted Deathbringer                                                   || 40mm
+Herald of Khorne on Blood Throne                                       || 120 x 92mm
+Korghos Khul                                                           || 60mm
+Lord of Khorne on Juggernaut                                           || 90 x 52mm
+Mighty Lord of Khorne                                                  || 60mm
+Realmgore Ritualist                                                    || 32mm
+Scyla Anfingrimm                                                       || 60mm
+Skarr Bloodwrath                                                       || 40mm
+Skullgrinder                                                           || 40mm
+Skullmaster, Herald of Khorne                                          || 90 x 52mm
+Skulltaker                                                             || 40mm
+Slaughterpriest                                                        || 40mm
+Valkia the Bloody                                                      || 32mm
+Bloodthirster of Insensate Rage                                        || 120 x 92mm
+Bloodthirster of Unfettered Fury                                       || 120 x 92mm
+Skarbrand                                                              || 100mm
+Wrath of Khorne Bloodthirster                                          || 120 x 92mm
+Bloodcrushers                                                          || 90 x 52mm
+Garrek's Reavers                                                       || 32mm
+Karanak                                                                || 75 x 42mm
+Khorgorath                                                             || 90 x 52mm
+Magore's Fiends                                                        || 32mm
+Mighty Skullcrushers                                                   || 90 x 52mm
+Skullreapers                                                           || 40mm
+Wrathmongers                                                           || 40mm
+Bleeding Icon                                                          || 105 x 70mm
+Hexgorger Skulls                                                       || 60mm
+Wrath-axe                                                              || 105 x 70mm
 Skull Altar                                                            || Use model

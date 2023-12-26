@@ -1,36 +1,36 @@
-Spawn of Chotec                                                        || 90 x 52mm [1], 25mm [3] 
-Saurus Guard                                                           || 32mm 
-Saurus Warriors                                                        || 32mm 
-Skinks                                                                 || 25mm 
-Bastiladon with Ark of Sotek                                           || 120 x 92mm 
-Bastiladon with Solar Engine                                           || 120 x 92mm 
-Engine of the Gods                                                     || 120 x 92mm 
-Stegadon                                                               || 120 x 92mm 
-Kixi-Taka, the Diviner                                                 || 25mm 
-K l a q -Tr o k                                                        || 32mm 
-The Starblood Stalkers                                                 || 25mm 
-Lord Kroak                                                             || 80mm 
-Ripperdactyl Chief                                                     || 50mm 
-Saurus Astrolith Bearer                                                || 40mm 
-Saurus Oldblood                                                        || 32mm 
-Saurus Scar-Veteran on Aggradon                                        || 90 x 52mm 
-Skink Starpriest                                                       || 25mm 
-Skink Starseer                                                         || 50mm 
-Slann Starmaster                                                       || 80mm 
-Terradon Chief                                                         || 50mm 
-Saurus Oldblood on Carnosaur                                           || 120 x 92mm 
-Saurus Scar-Veteran on Carnosaur                                       || 120 x 92mm 
-Skink Oracle on Troglodon                                              || 120 x 92mm 
-Stegadon Chief                                                         || 120 x 92mm 
-Aggradon Lancers                                                       || 90 x 52mm 
-Hunters of Huanchi with Dartpipes                                      || 28.5mm [1], 25mm [4] 
-Hunters of Huanchi with Starstone Bolas                                || 28.5mm [2], 25mm [3] 
-Kroxigor                                                               || 50mm 
-Kroxigor Warspawned                                                    || 50mm 
-Raptadon Chargers                                                      || 60 x 35mm 
-Raptadon Hunters                                                       || 60 x 35mm 
-Ripperdactyl Riders                                                    || 50mm 
-Terradon Riders                                                        || 50mm 
-Terrawings                                                             || 32mm 
-Coalesced Realmshaper Engine                                           || Use model 
+Spawn of Chotec                                                        || 90 x 52mm [1], 25mm [3]
+Saurus Guard                                                           || 32mm
+Saurus Warriors                                                        || 32mm
+Skinks                                                                 || 25mm
+Bastiladon with Ark of Sotek                                           || 120 x 92mm
+Bastiladon with Solar Engine                                           || 120 x 92mm
+Engine of the Gods                                                     || 120 x 92mm
+Stegadon                                                               || 120 x 92mm
+Kixi-Taka, the Diviner                                                 || 25mm
+K l a q -Tr o k                                                        || 32mm
+The Starblood Stalkers                                                 || 25mm
+Lord Kroak                                                             || 80mm
+Ripperdactyl Chief                                                     || 50mm
+Saurus Astrolith Bearer                                                || 40mm
+Saurus Oldblood                                                        || 32mm
+Saurus Scar-Veteran on Aggradon                                        || 90 x 52mm
+Skink Starpriest                                                       || 25mm
+Skink Starseer                                                         || 50mm
+Slann Starmaster                                                       || 80mm
+Terradon Chief                                                         || 50mm
+Saurus Oldblood on Carnosaur                                           || 120 x 92mm
+Saurus Scar-Veteran on Carnosaur                                       || 120 x 92mm
+Skink Oracle on Troglodon                                              || 120 x 92mm
+Stegadon Chief                                                         || 120 x 92mm
+Aggradon Lancers                                                       || 90 x 52mm
+Hunters of Huanchi with Dartpipes                                      || 28.5mm [1], 25mm [4]
+Hunters of Huanchi with Starstone Bolas                                || 28.5mm [2], 25mm [3]
+Kroxigor                                                               || 50mm
+Kroxigor Warspawned                                                    || 50mm
+Raptadon Chargers                                                      || 60 x 35mm
+Raptadon Hunters                                                       || 60 x 35mm
+Ripperdactyl Riders                                                    || 50mm
+Terradon Riders                                                        || 50mm
+Terrawings                                                             || 32mm
+Coalesced Realmshaper Engine                                           || Use model
 Starborne Realmshaper Engine                                           || Use model

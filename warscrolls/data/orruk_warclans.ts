@@ -33,7 +33,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Hedkrakka's Mad mob" : {
+        "Hedkrakka's Madmob" : {
             baseSize: "40mm [1], 32mm [2]",
             notes: "",
         },
