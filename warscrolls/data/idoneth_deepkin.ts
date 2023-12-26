@@ -9,14 +9,6 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "90 x 52mm",
             notes: "",
         },
-        "Akhelian Allopexes (Bloodthirsty Shiver)" : {
-            baseSize: "Battleline",
-            notes: "",
-        },
-        "Akhelian Allopexes (Bloodthirsty Shiver)" : {
-            baseSize: "Battleline",
-            notes: "",
-        },
         "Namarti Reavers" : {
             baseSize: "32mm",
             notes: "",

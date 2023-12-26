@@ -13,8 +13,6 @@ Lord of Plagues                                                        || 40mm
 Poxbringer, Herald of Nurgle                                           || 32mm
 Rotbringer Sorcerer                                                    || 32mm
 Rotbringer Sorcerer (Rot Coven)                                        || 32mm
-Rotbringer Sorcerer (Rot Coven)                                        || 1
-Rotbringer Sorcerer (Rot Coven)                                        || 1
 Sloppity Bilepiper, Herald of Nurgle                                   || 32mm
 Spoilpox Scrivener, Herald of Nurgle                                   || 40mm
 Bloab Rotspawned                                                       || 100mm
@@ -26,7 +24,6 @@ Rotigus                                                                || 130mm
 Beasts of Nurgle                                                       || 60mm
 Nurglings                                                              || 40mm
 Plague Drones                                                          || 60mm
-Pusgoyle Blightlords                                                   || 60mm
 Pusgoyle Blightlords                                                   || 60mm
 Rotmire Creed                                                          || 32mm [2], 28.5mm [2], 25mm [6]
 Feculent Gnarlmaw                                                      || Use model

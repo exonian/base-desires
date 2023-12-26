@@ -77,22 +77,24 @@ const import_bases = (path: string) => {
     parse_pdf(path).then(function(output: string) {
         let currentFaction: string = ''
         let potentialFactionName: string = ''
-        let profiles: Record<string, string[]> = output.split('\n').reduce((accum, line) => {
+        let profiles: Record<string, Record<string, string>> = output.split('\n').reduce((accum, line) => {
             if (line.startsWith('WA R S C ROL L')) {
                 currentFaction = potentialFactionName
-                if (!(currentFaction in accum)) accum[currentFaction] = []
+                if (!(currentFaction in accum)) accum[currentFaction] = {}
             }
             else {
                 if (line.startsWith('FACTION')) currentFaction = ''
                 if (line.includes('||') && (currentFaction !== '')) {
-                    accum[currentFaction].push(render_warscroll_line(line))
+                    let renderedLine = render_warscroll_line(line)
+                    let name = renderedLine.split('||')[0].trim()
+                    if (!(name in accum[currentFaction])) accum[currentFaction][name] = renderedLine
                 }
             }
             if (!line.includes('||')) {
                 potentialFactionName = (faction_name_typos[line] || line).replaceAll('-', '')
             }
             return accum
-        }, {} as Record<string, string[]>)
+        }, {} as Record<string, Record<string, string>>)
         write_text_files(profiles)
     })
 }
@@ -120,7 +122,7 @@ const render_warscroll_line = (line: string) :string => {
     return (normalisedName?.padEnd(70, ' ') + ' || ' + size).trim()
 }
 
-const write_text_files = (profiles: Record<string, string[]>) => {
+const write_text_files = (profiles: Record<string, Record<string, string>>) => {
     const dataDirectory = path.join(__dirname, '..', '..', 'warscrolls', 'text_data')
     const safeFilenamePattern = new RegExp(/^[\w ]+$/);
 
@@ -131,7 +133,7 @@ const write_text_files = (profiles: Record<string, string[]>) => {
         }
 
         let filename = toStandard(faction).replaceAll('-', '_') + '.txt'
-        let data = warscrolls.join('\n')
+        let data = Object.values(warscrolls).join('\n')
 
         fs.writeFile(path.join(dataDirectory, filename), data, err => {
             if (err) {

@@ -13,14 +13,6 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "50mm",
             notes: "",
         },
-        "Morghurite Chaos Spawn (Gibbering Congregation)" : {
-            baseSize: "Battleline",
-            notes: "",
-        },
-        "Morghurite Chaos Spawn (Gibbering Congregation)" : {
-            baseSize: "Battleline",
-            notes: "",
-        },
         "Ungors" : {
             baseSize: "25mm",
             notes: "",

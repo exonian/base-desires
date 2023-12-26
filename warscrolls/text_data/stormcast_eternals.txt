@@ -54,7 +54,6 @@ Domitan's Stormcoven                                                   || 40mm [
 Dracothian Guard Concussors                                            || 90 x 52mm
 Dracothian Guard Desolators                                            || 90 x 52mm
 Dracothian Guard Fulminators                                           || 90 x 52mm
-Dracothian Guard Fulminators                                           || 90 x 52mm
 Dracothian Guard Tempestors                                            || 90 x 52mm
 Evocators                                                              || 40mm
 Evocators on Celestial Dracolines                                      || 90 x 52mm
@@ -67,7 +66,6 @@ Protectors                                                             || 40mm
 Questor Soulsworn                                                      || 40mm
 Retributors                                                            || 40mm
 Steelheart's Champions                                                 || 40mm
-Stormdrake Guard                                                       || 105 x 70mm
 Stormdrake Guard                                                       || 105 x 70mm
 Stormstrike Chariot                                                    || 120 x 92mm
 Vanguard-Hunters                                                       || 40mm

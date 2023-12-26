@@ -65,14 +65,6 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Rotbringer Sorcerer (Rot Coven)" : {
-            baseSize: "1",
-            notes: "",
-        },
-        "Rotbringer Sorcerer (Rot Coven)" : {
-            baseSize: "1",
-            notes: "",
-        },
         "Sloppity Bilepiper, Herald of Nurgle" : {
             baseSize: "32mm",
             notes: "",
@@ -114,10 +106,6 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Plague Drones" : {
-            baseSize: "60mm",
-            notes: "",
-        },
-        "Pusgoyle Blightlords" : {
             baseSize: "60mm",
             notes: "",
         },

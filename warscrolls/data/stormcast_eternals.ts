@@ -229,10 +229,6 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "90 x 52mm",
             notes: "",
         },
-        "Dracothian Guard Fulminators" : {
-            baseSize: "90 x 52mm",
-            notes: "",
-        },
         "Dracothian Guard Tempestors" : {
             baseSize: "90 x 52mm",
             notes: "",
@@ -279,10 +275,6 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Steelheart's Champions" : {
             baseSize: "40mm",
-            notes: "",
-        },
-        "Stormdrake Guard" : {
-            baseSize: "105 x 70mm",
             notes: "",
         },
         "Stormdrake Guard" : {
