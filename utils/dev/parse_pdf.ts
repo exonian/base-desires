@@ -117,6 +117,7 @@ const warscroll_name_typos: Record<string, string> = {
     'Ta r a nt u los Brood': 'Tarantulos Brood',
     'Te r r o r g h e i s t ': 'Terrorgheist',
     'To m b B a n s h e e': 'Tomb Banshee',
+    'Tree-Revena nts': 'Tree-Revenants',
     'Ty r a nt': 'Tyrant',
     'Tzaa ngors': 'Tzaangors',
     'Va r g hei s t s': 'Vargheists',

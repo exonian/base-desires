@@ -9,7 +9,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Tree-Revena nts" : {
+        "Tree-Revenants" : {
             baseSize: "32mm",
             notes: "",
         },
