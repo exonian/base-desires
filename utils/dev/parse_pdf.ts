@@ -112,6 +112,7 @@ const warscroll_name_typos: Record<string, string> = {
     'Stea m Ta n k': 'Steam Tank',
     'To m b B a n s h e e': 'Tomb Banshee',
     'Wa r Hyd ra': 'War Hydra',
+    "Z a rbag's Git z": "Zarbag's Gitz",
 }
 
 const render_warscroll_line = (line: string) :string => {
