@@ -58,7 +58,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Endrinriggers" : {
-            baseSize: "0",
+            baseSize: "32mm",
             notes: "",
         },
         "Grundstok Gunhauler" : {
@@ -70,7 +70,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Skywardens" : {
-            baseSize: "0",
+            baseSize: "32mm",
             notes: "",
         },
     }

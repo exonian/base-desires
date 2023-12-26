@@ -98,7 +98,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Zarbag's Gitz" : {
-            baseSize: "8",
+            baseSize: "25mm",
             notes: "",
         },
         "Kragnos, the End of Empires" : {

@@ -82,7 +82,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "The Crimson Court" : {
-            baseSize: "3",
+            baseSize: "32mm",
             notes: "",
         },
         "Radukar the Beast" : {

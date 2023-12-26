@@ -22,7 +22,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "The Wurmspat" : {
-            baseSize: "2",
+            baseSize: "40mm",
             notes: "",
         },
         "Festus the Leechlord" : {

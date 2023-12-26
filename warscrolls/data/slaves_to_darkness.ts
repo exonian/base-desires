@@ -138,7 +138,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "The Gnarlspirit Pack" : {
-            baseSize: "3",
+            baseSize: "32mm",
             notes: "",
         },
         "Slaves to Darkness Gaunt Summoner" : {
@@ -162,7 +162,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Khagra's Ravagers" : {
-            baseSize: "3",
+            baseSize: "32mm",
             notes: "",
         },
         "Archaon the Everchosen" : {

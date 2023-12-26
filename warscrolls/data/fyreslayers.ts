@@ -42,7 +42,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "The Chosen Axes" : {
-            baseSize: "3",
+            baseSize: "32mm",
             notes: "",
         },
         "Auric Runefather on Magmadroth" : {

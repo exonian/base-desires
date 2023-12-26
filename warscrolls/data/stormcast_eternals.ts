@@ -46,7 +46,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Stormsire's Cursebreakers" : {
-            baseSize: "2",
+            baseSize: "40mm",
             notes: "",
         },
         "Celestant-Prime, Hammer of Sigmar" : {

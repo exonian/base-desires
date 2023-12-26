@@ -42,7 +42,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Ylthari's Guardians" : {
-            baseSize: "3",
+            baseSize: "32mm",
             notes: "",
         },
         "Alarielle the Everqueen" : {

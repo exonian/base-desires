@@ -11,7 +11,7 @@ Codewright                                                             || 32mm
 Drekki Flynt                                                           || 32mm
 Endrinmaster with Dirigible Suit                                       || 40mm
 Endrinmaster with Endrinharness                                        || 32mm
-Endrinriggers                                                          || 0
+Endrinriggers                                                          || 32mm
 Grundstok Gunhauler                                                    || 105 x 70mm
 Grundstok Thunderers                                                   || 32mm
-Skywardens                                                             || 0
+Skywardens                                                             || 32mm
