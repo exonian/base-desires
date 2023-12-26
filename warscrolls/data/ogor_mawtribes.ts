@@ -25,7 +25,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Blackpowder’s Buccaneers" : {
+        "Blackpowder's Buccaneers" : {
             baseSize: "50mm [1], 25mm [4]",
             notes: "",
         },
@@ -45,7 +45,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Hrothgorn’s Mantrappers" : {
+        "Hrothgorn's Mantrappers" : {
             baseSize: "50 x 25mm [1], 25mm [3]",
             notes: "",
         },

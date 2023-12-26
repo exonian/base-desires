@@ -49,7 +49,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Elathain’s Soulraid" : {
+        "Elathain's Soulraid" : {
             baseSize: "32mm [3], 25mm [1]",
             notes: "",
         },

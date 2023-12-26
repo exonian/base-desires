@@ -59,6 +59,7 @@ function parse_text(pageData: TPageData) :Promise<string> {
 
 function clean_text(text: string) :string {
     text = text.replaceAll("×", "x")  // for searching
+    text = text.replaceAll("’", "'")  // for searching
     text = text.replaceAll("�", ".")  // for display and search
     text = text.replace(/(\d) {0,1}(\d) {0,1}m {0,1}m/g, "$1$2mm")  // remove spaces in simple sizes
     text = text.replace(/\s+/g,' ')  // nbsps, which interfere with searching, and extraneous spaces
@@ -105,7 +106,9 @@ const parse_pdf = (path: string) => {
 }
 
 const warscroll_name_typos: Record<string, string> = {
+    "Hed k ra k k a's Mad mob": "Hedkrakka's Madmob",
     'Stea m Ta n k': 'Steam Tank',
+    'To m b B a n s h e e': 'Tomb Banshee',
     'Wa r Hyd ra': 'War Hydra',
 }
 

@@ -45,7 +45,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Stormsire’s Cursebreakers" : {
+        "Stormsire's Cursebreakers" : {
             baseSize: "2",
             notes: "",
         },
@@ -213,7 +213,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Domitan’s Stormcoven" : {
+        "Domitan's Stormcoven" : {
             baseSize: "40mm [3]",
             notes: "",
         },
@@ -277,7 +277,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Steelheart’s Champions" : {
+        "Steelheart's Champions" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -313,7 +313,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Xandire’s Truthseekers" : {
+        "Xandire's Truthseekers" : {
             baseSize: "40mm [3], 25mm [1]",
             notes: "",
         },

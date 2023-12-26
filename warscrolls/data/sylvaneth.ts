@@ -41,7 +41,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Ylthari’s Guardians" : {
+        "Ylthari's Guardians" : {
             baseSize: "3",
             notes: "",
         },
@@ -77,7 +77,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "60mm",
             notes: "",
         },
-        "Skaeth’s Wild Hunt" : {
+        "Skaeth's Wild Hunt" : {
             baseSize: "50 x 25mm [1], 32mm [3], 25mm [1]",
             notes: "",
         },

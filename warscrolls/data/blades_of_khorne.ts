@@ -125,7 +125,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "90 x 52mm",
             notes: "",
         },
-        "Garrek’s Reavers" : {
+        "Garrek's Reavers" : {
             baseSize: "32mm",
             notes: "",
         },
@@ -137,7 +137,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "90 x 52mm",
             notes: "",
         },
-        "Magore’s Fiends" : {
+        "Magore's Fiends" : {
             baseSize: "32mm",
             notes: "",
         },

@@ -33,7 +33,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Hed k ra k k a’s Mad mob" : {
+        "Hedkrakka's Mad mob" : {
             baseSize: "40mm [1], 32mm [2]",
             notes: "",
         },
@@ -49,11 +49,11 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "60 x 35mm",
             notes: "",
         },
-        "Mannok da Kunnin’" : {
+        "Mannok da Kunnin'" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Da Kunnin’ Krew" : {
+        "Da Kunnin' Krew" : {
             baseSize: "32mm [1], 25mm [3]",
             notes: "",
         },
@@ -121,7 +121,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25mm",
             notes: "",
         },
-        "Ironskull’s Boyz" : {
+        "Ironskull's Boyz" : {
             baseSize: "32mm",
             notes: "",
         },
@@ -133,7 +133,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "105 x 70mm",
             notes: "",
         },
-        "Morgok’s Krushas" : {
+        "Morgok's Krushas" : {
             baseSize: "40mm",
             notes: "",
         },

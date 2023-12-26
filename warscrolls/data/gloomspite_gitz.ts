@@ -97,7 +97,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25mm",
             notes: "",
         },
-        "Z a rbag’s Git z" : {
+        "Z a rbag's Git z" : {
             baseSize: "8",
             notes: "",
         },
@@ -133,7 +133,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Rippa’s Snarlfangs" : {
+        "Rippa's Snarlfangs" : {
             baseSize: "50 x 25mm",
             notes: "",
         },
@@ -165,11 +165,11 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "50mm",
             notes: "",
         },
-        "Mork’s Mighty Mushroom" : {
+        "Mork's Mighty Mushroom" : {
             baseSize: "60mm",
             notes: "",
         },
-        "Scrapskuttle’s Arachnacauldron" : {
+        "Scrapskuttle's Arachnacauldron" : {
             baseSize: "75 x 42mm",
             notes: "",
         },

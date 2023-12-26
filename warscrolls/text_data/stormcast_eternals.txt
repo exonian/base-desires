@@ -8,7 +8,7 @@ Vindictors                                                             || 40mm
 Astreia Solbright                                                      || 90 x 52mm 
 Aventis Firestrike, Magister of Hammerhal                              || 100mm 
 Averon Stormsire                                                       || 40mm 
-Stormsire’s Cursebreakers                                              || 2 
+Stormsire's Cursebreakers                                              || 2 
 Celestant-Prime, Hammer of Sigmar                                      || 100mm 
 Gardus Steel Soul                                                      || 50mm 
 Gavriel Sureheart                                                      || 40mm 
@@ -50,7 +50,7 @@ Annihilators                                                           || 40mm
 Annihilators with Meteoric Grandhammers                                || 40mm 
 Castigators                                                            || 40mm 
 Decimators                                                             || 40mm 
-Domitan’s Stormcoven                                                   || 40mm [3] 
+Domitan's Stormcoven                                                   || 40mm [3] 
 Dracothian Guard Concussors                                            || 90 x 52mm 
 Dracothian Guard Desolators                                            || 90 x 52mm 
 Dracothian Guard Fulminators                                           || 90 x 52mm 
@@ -66,7 +66,7 @@ Prosecutors with Stormcall Javelins                                    || 40mm
 Protectors                                                             || 40mm 
 Questor Soulsworn                                                      || 40mm 
 Retributors                                                            || 40mm 
-Steelheart’s Champions                                                 || 40mm 
+Steelheart's Champions                                                 || 40mm 
 Stormdrake Guard                                                       || 105 x 70mm 
 Stormdrake Guard                                                       || 105 x 70mm 
 Stormstrike Chariot                                                    || 120 x 92mm 
@@ -75,7 +75,7 @@ Vanguard-Palladors                                                     || 75 x 4
 Vanguard-Raptors with Hurricane Crossbows                              || 40mm 
 Vanguard-Raptors with Longstrike Crossbows                             || 60 x 35mm [2], 40mm [1] 
 Vigilors                                                               || 40mm 
-Xandire’s Truthseekers                                                 || 40mm [3], 25mm [1] 
+Xandire's Truthseekers                                                 || 40mm [3], 25mm [1] 
 Celestian Vortex                                                       || 65mm 
 Dais Arcanum                                                           || 50mm 
 Everblaze Comet                                                        || 65mm

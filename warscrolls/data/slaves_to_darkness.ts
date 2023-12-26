@@ -161,7 +161,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Khagra’s Ravagers" : {
+        "Khagra's Ravagers" : {
             baseSize: "3",
             notes: "",
         },
@@ -169,7 +169,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "160mm",
             notes: "",
         },
-        "Be’lakor, the Dark Master" : {
+        "Be'lakor, the Dark Master" : {
             baseSize: "100mm",
             notes: "",
         },

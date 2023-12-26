@@ -61,7 +61,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Spiteclaw’s Swarm" : {
+        "Spiteclaw's Swarm" : {
             baseSize: "25mm",
             notes: "",
         },
@@ -69,7 +69,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Skittershank’s Clawpack" : {
+        "Skittershank's Clawpack" : {
             baseSize: "32mm [1], 25mm [3]",
             notes: "",
         },

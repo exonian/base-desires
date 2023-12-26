@@ -65,7 +65,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Grashrak’s Despoilers" : {
+        "Grashrak's Despoilers" : {
             baseSize: "32mm [1], 25mm [4]",
             notes: "",
         },

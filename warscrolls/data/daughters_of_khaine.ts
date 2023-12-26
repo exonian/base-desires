@@ -85,7 +85,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "60 x 35mm",
             notes: "",
         },
-        "Gryselle’s Arenai" : {
+        "Gryselle's Arenai" : {
             baseSize: "32mm [1], 28.5mm [4]",
             notes: "",
         },
