@@ -109,9 +109,13 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Horrors of Tzeentch" : {
-            baseSize: "32mm ",
-            notes: "(Pink), 25mm (Blue/Bri mstone)",
+        "Horrors of Tzeentch (Pink)" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Horrors of Tzeentch (Blue/Brimstone)" : {
+            baseSize: "25mm",
+            notes: "",
         },
         "Screamers of Tzeentch" : {
             baseSize: "32mm",
