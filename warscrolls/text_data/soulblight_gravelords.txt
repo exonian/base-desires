@@ -2,7 +2,7 @@ Deadwalker Zombies                                                     || 25mm
 Deathrattle Skeletons                                                  || 25mm
 Dire Wolves                                                            || 60 x 35mm
 Mortis Engine                                                          || 120 x 92mm
-Te r r o r g h e i s t                                                 || 130mm
+Terrorgheist                                                           || 130mm
 Zombie Dragon                                                          || 130mm
 Belladamma Volga, First of the Vyrkos                                  || 60mm
 Cado Ezechiar, the Hollow King                                         || 40mm
@@ -42,5 +42,5 @@ Grave Guard                                                            || 25mm
 Kosargi Nightguard                                                     || 40mm
 The Sepulchral Guard                                                   || 25mm
 Vargheists                                                             || 50mm
-Va r gs k y r                                                          || 50mm
+Vargskyr                                                               || 50mm
 Vyrkos Blood-born                                                      || 32mm

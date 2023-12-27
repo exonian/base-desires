@@ -21,7 +21,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Te r r o r g h e i s t" : {
+        "Terrorgheist" : {
             baseSize: "130mm",
             notes: "",
         },
@@ -181,7 +181,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "50mm",
             notes: "",
         },
-        "Va r gs k y r" : {
+        "Vargskyr" : {
             baseSize: "50mm",
             notes: "",
         },
