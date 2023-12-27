@@ -6,24 +6,24 @@ const Warscrolls: TFactionWarscrolls = {
     faction: "endless spells",
     warscrolls: {
         "Aethervoid Pendulum" : {
-            baseSize: "Use model",
-            notes: "",
+            baseSize: "Custom 64 x 42mm ",
+            notes: "(Official document says 'Use Model')",
         },
         "The Burning Head" : {
-            baseSize: "Use model",
-            notes: "",
+            baseSize: "50mm ",
+            notes: "(Official document says 'Use Model')",
         },
         "Chronomantic Cogs" : {
-            baseSize: "Use model",
-            notes: "",
+            baseSize: "40mm ",
+            notes: "(Official document says 'Use Model')",
         },
         "Emerald Lifeswarm" : {
-            baseSize: "Use model",
-            notes: "",
+            baseSize: "Custom 64 x 42mm ",
+            notes: "(Official document says 'Use Model')",
         },
         "Geminids of Uhl-Gysh" : {
-            baseSize: "Use model",
-            notes: "",
+            baseSize: "40mm ",
+            notes: "(Official document says 'Use Model')",
         },
         "Horrorghast" : {
             baseSize: "50mm",
@@ -34,24 +34,24 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Malevolent Maelstrom" : {
-            baseSize: "Use model",
-            notes: "",
+            baseSize: "50mm ",
+            notes: "(Official document says 'Use Model')",
         },
         "Prismatic Palisade" : {
-            baseSize: "Use model",
-            notes: "",
+            baseSize: "Irregular 177 x 32mm ",
+            notes: "(Official document says 'Use Model')",
         },
         "Purple Sun of Shyish" : {
-            baseSize: "Use model",
-            notes: "",
+            baseSize: "100 x 70mm ",
+            notes: "(Official document says 'Use Model')",
         },
         "Quicksilver Swords" : {
-            baseSize: "Use model",
-            notes: "",
+            baseSize: "40mm ",
+            notes: "(Official document says 'Use Model')",
         },
         "Ravenak's Gnashing Jaws" : {
-            baseSize: "Use model",
-            notes: "",
+            baseSize: "100 x 70mm ",
+            notes: "(Official document says 'Use Model')",
         },
         "Shards of Valagharr" : {
             baseSize: "105 x 70mm",
@@ -62,16 +62,16 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Soulsnare Shackles" : {
-            baseSize: "Use model",
-            notes: "",
+            baseSize: "40mm ",
+            notes: "(Official document says 'Use Model')",
         },
         "Suffocating Gravetide" : {
-            baseSize: "Use model",
-            notes: "",
+            baseSize: "Irregular 170 x 85mm ",
+            notes: "(Official document says 'Use Model')",
         },
         "Umbral Spellportal" : {
-            baseSize: "Use model",
-            notes: "",
+            baseSize: "40mm ",
+            notes: "(Official document says 'Use Model')",
         },
     }
 }
