@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router'
 import { toStandard } from '../utils/text'
 import { Warscrolls } from '../warscrolls/data'
-import { TWarscroll, TWarscrolls } from '../warscrolls/types'
+import { TWarscrolls } from '../warscrolls/types'
 import { Card } from '../components/card'
 import { SearchBox } from '../components/search';
 import { Footer } from '../components/footer';
@@ -22,7 +22,7 @@ const Search: NextPage = () => {
     return accum
   }, {'name': {}, 'other': {}} as {'name': TWarscrolls, 'other': TWarscrolls})
   const warscrolls = { ...matches['name'], ...matches['other']}
-  const cardColumnStyle = (Object.keys(warscrolls).length > 1) ? "col-md-6" : "col-12"
+  const cardRowStyle = (Object.keys(warscrolls).length > 1) ? "row" : "row justify-content-center"
 
   const showSearch = true
 
@@ -40,9 +40,9 @@ const Search: NextPage = () => {
           { showSearch && <SearchBox /> }
         </div>
 
-        <div className="row">
+        <div className={cardRowStyle}>
           {Object.entries(warscrolls).map(([name, warscroll]) =>
-            <div className={cardColumnStyle} key={name}>
+            <div className="col-6" key={name}>
               <Card name={name} warscroll={warscroll} link={true} />
             </div>
           )}

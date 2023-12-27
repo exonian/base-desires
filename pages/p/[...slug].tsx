@@ -46,7 +46,6 @@ interface IWarscrollProps {
 
 const Warscroll: NextPage<IWarscrollProps> = props => {
   const { name, warscroll } = props
-  const cardColumnStyle = "col-12"
 
   return (name && warscroll) ? (
     <div className="d-flex flex-column min-vh-100">
@@ -59,8 +58,8 @@ const Warscroll: NextPage<IWarscrollProps> = props => {
       <main className="container pt-3 flex-fill">
         <h1><Link href={"/"}>Base Desires</Link></h1>
         <div className="sticky-top bg-body">
-          <div className="row">
-            <div className={cardColumnStyle} key={name}>
+          <div className="row justify-content-center">
+            <div className="col-6" key={name}>
               <Card name={name} warscroll={warscroll} link={false} />
             </div>
           </div>
