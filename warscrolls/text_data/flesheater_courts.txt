@@ -9,7 +9,7 @@ Crypt Infernal Courtier                                                || 50mm
 Duke Crakmarrow                                                        || 32mm
 The Grymwatch                                                          || 32mm [1], 25mm [5]
 Marrowscroll Herald                                                    || 32mm
-Varghulf Courtier                                                      || 60mm
+Varghulf Courtier                                                      || 90 x 52mm (Official document currently indicates 60mm, which was the resin one)
 Abhorrant Ghoul King on Royal Terrorgheist                             || 130mm
 Abhorrant Ghoul King on Royal Zombie Dragon                            || 130mm
 Nagash, Supreme Lord of the Undead                                     || 130mm
@@ -20,3 +20,11 @@ Cadaverous Barricade                                                   || Use mo
 Chalice of Ushoran                                                     || 50mm
 Corpsemare Stampede                                                    || 120 x 92mm
 Charnel Throne                                                         || Use model
+Abhorrant Gorewarden                                                   || 40mm
+Abhorrant Ghoul King with Crown of Delusion                            || 40mm (2022 Boxing Day miniature)
+Cryptguard                                                             || 25mm
+Morbheg Knights                                                        || 75 x 42mm
+Ushoran                                                                || 130mm (Estimate)
+Abhorrant Cardinal                                                     || 32mm
+Royal Decapitator                                                      || 32mm
+Grand Justice Gormayne                                                 || 32mm

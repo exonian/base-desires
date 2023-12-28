@@ -50,8 +50,8 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Varghulf Courtier" : {
-            baseSize: "60mm",
-            notes: "",
+            baseSize: "90 x 52mm ",
+            notes: "(Official document currently indicates 60mm, which was the resin one)",
         },
         "Abhorrant Ghoul King on Royal Terrorgheist" : {
             baseSize: "130mm",
@@ -91,6 +91,38 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Charnel Throne" : {
             baseSize: "Use model",
+            notes: "",
+        },
+        "Abhorrant Gorewarden" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Abhorrant Ghoul King with Crown of Delusion" : {
+            baseSize: "40mm ",
+            notes: "(2022 Boxing Day miniature)",
+        },
+        "Cryptguard" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Morbheg Knights" : {
+            baseSize: "75 x 42mm",
+            notes: "",
+        },
+        "Ushoran" : {
+            baseSize: "130mm ",
+            notes: "(Estimate)",
+        },
+        "Abhorrant Cardinal" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Royal Decapitator" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Grand Justice Gormayne" : {
+            baseSize: "32mm",
             notes: "",
         },
     }

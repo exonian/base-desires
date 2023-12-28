@@ -77,3 +77,4 @@ Xandire's Truthseekers                                                 || 40mm [
 Celestian Vortex                                                       || 65mm
 Dais Arcanum                                                           || 50mm
 Everblaze Comet                                                        || 65mm
+Ionus Cryptborn                                                        || 100mm

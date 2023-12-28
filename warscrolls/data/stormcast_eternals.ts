@@ -321,6 +321,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "65mm",
             notes: "",
         },
+        "Ionus Cryptborn" : {
+            baseSize: "100mm",
+            notes: "",
+        },
     }
 }
 export default Warscrolls
