@@ -15,6 +15,7 @@ import FimirWarscrolls from "./data/fimir"
 import Flesheater_CourtsWarscrolls from "./data/flesheater_courts"
 import FyreslayersWarscrolls from "./data/fyreslayers"
 import Gloomspite_GitzWarscrolls from "./data/gloomspite_gitz"
+import Gnomad_FeastmastersWarscrolls from "./data/gnomad_feastmasters"
 import Hedonites_Of_SlaaneshWarscrolls from "./data/hedonites_of_slaanesh"
 import Idoneth_DeepkinWarscrolls from "./data/idoneth_deepkin"
 import IncarnatesWarscrolls from "./data/incarnates"
@@ -49,6 +50,7 @@ export const UntaggedWarscrolls: TFactionWarscrolls[] = [
     Flesheater_CourtsWarscrolls,
     FyreslayersWarscrolls,
     Gloomspite_GitzWarscrolls,
+    Gnomad_FeastmastersWarscrolls,
     Hedonites_Of_SlaaneshWarscrolls,
     Idoneth_DeepkinWarscrolls,
     IncarnatesWarscrolls,
