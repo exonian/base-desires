@@ -128,10 +128,18 @@ const warscroll_name_typos: Record<string, string> = {
     "Z a rbag's Git z": "Zarbag's Gitz",
 }
 
+const remove_faction_prefix = (name: string) :string => {
+    name = name.replace(/^Beasts of Chaos /, '')
+    name = name.replace(/^Disciples of Tzeentch /, '')
+    name = name.replace(/^Slaves to Darkness /, '')
+    return name
+}
+
 const render_warscroll_line = (line: string) :string => {
     const parts = line.split('||')
-    const name = parts.at(0)
-    const normalisedName = name && warscroll_name_typos[name] || name
+    const name = parts.at(0) as string
+    let normalisedName = name && warscroll_name_typos[name] || name
+    normalisedName = remove_faction_prefix(normalisedName)
     const size = parts.at(-1)
     return (normalisedName?.padEnd(70, ' ') + ' || ' + size).trim()
 }

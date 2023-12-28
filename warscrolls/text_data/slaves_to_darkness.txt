@@ -32,8 +32,8 @@ Exalted Hero of Chaos                                                  || 40mm
 Ogroid Myrmidon                                                        || 50mm
 Sarrakkar Blackwing                                                    || 32mm
 The Gnarlspirit Pack                                                   || 32mm
-Slaves to Darkness Gaunt Summoner                                      || 40mm
-Slaves to Darkness Gaunt Summoner on Disc of Tzeentch                  || 40mm
+Gaunt Summoner                                                         || 40mm
+Gaunt Summoner on Disc of Tzeentch                                     || 40mm
 Theddra Skull-Scryer                                                   || 32mm
 Godsworn Hunt                                                          || 32mm [4], 25mm [1]
 Zarshia Bittersoul                                                     || 32mm
@@ -49,7 +49,7 @@ Gorebeast Chariots                                                     || 120 x 
 Mindstealer Sphiranx                                                   || 90 x 52mm
 Ogroid Theridons                                                       || 50mm
 Raptoryx                                                               || 60 x 35mm
-Slaves to Darkness Chaos Spawn                                         || 50mm
+Chaos Spawn                                                            || 50mm
 Varanguard                                                             || 75 x 42mm
 Darkfire Daemonrift                                                    || Use model
 Eightfold Doom-Sigil                                                   || 75 x 42mm

@@ -97,7 +97,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "120 x 92mm",
             notes: "",
         },
-        "Disciples of Tzeentch Chaos Spawn" : {
+        "Chaos Spawn" : {
             baseSize: "50mm",
             notes: "",
         },

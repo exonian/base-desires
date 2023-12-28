@@ -141,11 +141,11 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Slaves to Darkness Gaunt Summoner" : {
+        "Gaunt Summoner" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Slaves to Darkness Gaunt Summoner on Disc of Tzeentch" : {
+        "Gaunt Summoner on Disc of Tzeentch" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -209,7 +209,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "60 x 35mm",
             notes: "",
         },
-        "Slaves to Darkness Chaos Spawn" : {
+        "Chaos Spawn" : {
             baseSize: "50mm",
             notes: "",
         },

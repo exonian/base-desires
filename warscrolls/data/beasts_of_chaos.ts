@@ -41,7 +41,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "40mm",
             notes: "",
         },
-        "Beasts of Chaos Tzaangor Shaman" : {
+        "Tzaangor Shaman" : {
             baseSize: "40mm",
             notes: "",
         },
@@ -65,27 +65,27 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
-        "Beasts of Chaos Chaos Spawn" : {
+        "Chaos Spawn" : {
             baseSize: "50mm",
             notes: "",
         },
-        "Beasts of Chaos Slaangor Fiendbloods" : {
+        "Slaangor Fiendbloods" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Beasts of Chaos Tzaangor Enlightened" : {
+        "Tzaangor Enlightened" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Beasts of Chaos Tzaangor Enlightened on Discs of Tzeentch" : {
+        "Tzaangor Enlightened on Discs of Tzeentch" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Beasts of Chaos Tzaangor Skyfires" : {
+        "Tzaangor Skyfires" : {
             baseSize: "40mm",
             notes: "",
         },
-        "Beasts of Chaos Tzaangors" : {
+        "Tzaangors" : {
             baseSize: "32mm",
             notes: "",
         },
