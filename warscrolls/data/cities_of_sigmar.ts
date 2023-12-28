@@ -257,6 +257,14 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25mm",
             notes: "",
         },
+        "Mistweaver Saih" : {
+            baseSize: "32mm",
+            notes: "(No longer in pdf)",
+        },
+        "Tenebrael Shard" : {
+            baseSize: "32mm",
+            notes: "(No longer in pdf)",
+        },
     }
 }
 export default Warscrolls

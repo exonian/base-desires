@@ -169,6 +169,22 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "Use model",
             notes: "",
         },
+        "Riptooth" : {
+            baseSize: "50mm",
+            notes: "(Not listed in pdf)",
+        },
+        "Exalted Greater Daemon of Khorne" : {
+            baseSize: "160mm",
+            notes: "(No longer in pdf)",
+        },
+        "Mazarall the Butcher" : {
+            baseSize: "100mm",
+            notes: "(No longer in pdf)",
+        },
+        "Skaarac the Bloodborn" : {
+            baseSize: "160mm",
+            notes: "(No longer in pdf)",
+        },
     }
 }
 export default Warscrolls

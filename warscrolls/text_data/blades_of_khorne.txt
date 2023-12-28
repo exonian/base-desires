@@ -39,3 +39,7 @@ Bleeding Icon                                                          || 105 x 
 Hexgorger Skulls                                                       || 60mm
 Wrath-axe                                                              || 105 x 70mm
 Skull Altar                                                            || Use model
+Riptooth                                                               || 50mm (Not listed in pdf)
+Exalted Greater Daemon of Khorne                                       || 160mm (No longer in pdf)
+Mazarall the Butcher                                                   || 100mm (No longer in pdf)
+Skaarac the Bloodborn                                                  || 160mm (No longer in pdf)

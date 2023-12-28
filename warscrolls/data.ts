@@ -6,9 +6,12 @@ import { tagAndCombine } from "../utils/data";
 import Beasts_Of_ChaosWarscrolls from "./data/beasts_of_chaos"
 import Blades_Of_KhorneWarscrolls from "./data/blades_of_khorne"
 import Cities_Of_SigmarWarscrolls from "./data/cities_of_sigmar"
+import Cursed_CityWarscrolls from "./data/cursed_city"
 import Daughters_Of_KhaineWarscrolls from "./data/daughters_of_khaine"
 import Disciples_Of_TzeentchWarscrolls from "./data/disciples_of_tzeentch"
+import Eldritch_CouncilWarscrolls from "./data/eldritch_council"
 import Endless_SpellsWarscrolls from "./data/endless_spells"
+import FimirWarscrolls from "./data/fimir"
 import Flesheater_CourtsWarscrolls from "./data/flesheater_courts"
 import FyreslayersWarscrolls from "./data/fyreslayers"
 import Gloomspite_GitzWarscrolls from "./data/gloomspite_gitz"
@@ -31,14 +34,18 @@ import Sons_Of_BehematWarscrolls from "./data/sons_of_behemat"
 import Soulblight_GravelordsWarscrolls from "./data/soulblight_gravelords"
 import Stormcast_EternalsWarscrolls from "./data/stormcast_eternals"
 import SylvanethWarscrolls from "./data/sylvaneth"
+import Tamurkhans_HordeWarscrolls from "./data/tamurkhans_horde"
 
 export const UntaggedWarscrolls: TFactionWarscrolls[] = [
     Beasts_Of_ChaosWarscrolls,
     Blades_Of_KhorneWarscrolls,
     Cities_Of_SigmarWarscrolls,
+    Cursed_CityWarscrolls,
     Daughters_Of_KhaineWarscrolls,
     Disciples_Of_TzeentchWarscrolls,
+    Eldritch_CouncilWarscrolls,
     Endless_SpellsWarscrolls,
+    FimirWarscrolls,
     Flesheater_CourtsWarscrolls,
     FyreslayersWarscrolls,
     Gloomspite_GitzWarscrolls,
@@ -61,5 +68,6 @@ export const UntaggedWarscrolls: TFactionWarscrolls[] = [
     Soulblight_GravelordsWarscrolls,
     Stormcast_EternalsWarscrolls,
     SylvanethWarscrolls,
+    Tamurkhans_HordeWarscrolls,
 ]
 export const Warscrolls: TWarscrolls = tagAndCombine(UntaggedWarscrolls)

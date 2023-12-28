@@ -3,11 +3,15 @@
 import { TFactionWarscrolls } from "../types";
 
 const Warscrolls: TFactionWarscrolls = {
-    faction: "order",
+    faction: "fimir",
     warscrolls: {
-        "Gotrek Gurnisson" : {
-            baseSize: "32mm",
-            notes: "(Also has a 40mm scenic base)",
+        "Fimirach Noble" : {
+            baseSize: "50mm",
+            notes: "(No longer in pdf)",
+        },
+        "Fimir Warriors" : {
+            baseSize: "50mm",
+            notes: "(No longer in pdf)",
         },
     }
 }
