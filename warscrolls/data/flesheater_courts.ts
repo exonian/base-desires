@@ -51,7 +51,7 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Varghulf Courtier" : {
             baseSize: "90 x 52mm",
-            notes: "(Official document currently indicates 60mm, which was the resin one)",
+            notes: "(pdf currently indicates 60mm, which was the resin one)",
         },
         "Abhorrant Ghoul King on Royal Terrorgheist" : {
             baseSize: "130mm",
