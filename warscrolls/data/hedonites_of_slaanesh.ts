@@ -142,7 +142,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Wheels of Excruciation" : {
-            baseSize: "90 x 52mm ",
+            baseSize: "90 x 52mm",
             notes: "(Official document says 'Use Model')",
         },
         "Fane of Slaanesh" : {

@@ -50,7 +50,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Varghulf Courtier" : {
-            baseSize: "90 x 52mm ",
+            baseSize: "90 x 52mm",
             notes: "(Official document currently indicates 60mm, which was the resin one)",
         },
         "Abhorrant Ghoul King on Royal Terrorgheist" : {
@@ -98,7 +98,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Abhorrant Ghoul King with Crown of Delusion" : {
-            baseSize: "40mm ",
+            baseSize: "40mm",
             notes: "(2022 Boxing Day miniature)",
         },
         "Cryptguard" : {
@@ -110,7 +110,7 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Ushoran" : {
-            baseSize: "130mm ",
+            baseSize: "130mm",
             notes: "(Estimate)",
         },
         "Abhorrant Cardinal" : {

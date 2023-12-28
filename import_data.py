@@ -32,8 +32,8 @@ if __name__ == "__main__":
                 notes = ''
                 opening_bracket_position = size.find("(")
                 if opening_bracket_position > -1:
-                    notes = size[opening_bracket_position:]
-                    size = size[:opening_bracket_position]
+                    notes = size[opening_bracket_position:].strip()
+                    size = size[:opening_bracket_position].strip()
 
                 warscrolls.append((name, size, notes))
                 sizes.update([size])
