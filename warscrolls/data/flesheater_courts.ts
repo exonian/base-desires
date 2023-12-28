@@ -111,7 +111,7 @@ const Warscrolls: TFactionWarscrolls = {
         },
         "Ushoran" : {
             baseSize: "130mm",
-            notes: "(Estimate)",
+            notes: "",
         },
         "Abhorrant Cardinal" : {
             baseSize: "32mm",
