@@ -22,6 +22,10 @@ const Search: NextPage = () => {
     return accum
   }, {'name': {}, 'other': {}} as {'name': TWarscrolls, 'other': TWarscrolls})
   const warscrolls = { ...matches['name'], ...matches['other']}
+  const sortedWarscrolls = Object.keys(warscrolls).sort().reduce((accum, name) => {
+    accum[name] = warscrolls[name]
+    return accum
+  }, {} as TWarscrolls)
   const cardRowStyle = (Object.keys(warscrolls).length > 1) ? "row" : "row justify-content-center"
 
   const showSearch = true
@@ -41,7 +45,7 @@ const Search: NextPage = () => {
         </div>
 
         <div className={cardRowStyle}>
-          {Object.entries(warscrolls).map(([name, warscroll]) =>
+          {Object.entries(sortedWarscrolls).map(([name, warscroll]) =>
             <div className="col-6" key={name}>
               <Card name={name} warscroll={warscroll} link={true} />
             </div>
