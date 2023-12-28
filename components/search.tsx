@@ -59,9 +59,7 @@ export const SearchBox: React.FC = () => {
       <div className="col"></div>
       <div className="col-8">
         <div className="input-group mb-3 mt-3">
-          <div className="input-group-prepend">
-            <div className="input-group-text"><FaSearch /></div>
-          </div>
+          <span className="input-group-text"><FaSearch /></span>
           <input className="form-control" ref={inputElement} value={searchVal} onChange={handleChange} onBlur={handleBlur} onKeyDown={handleKeyDown} autoFocus />
           { searchVal && (
             <div className="input-group-append">
