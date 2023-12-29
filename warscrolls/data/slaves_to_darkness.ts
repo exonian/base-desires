@@ -229,6 +229,14 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "Use model",
             notes: "",
         },
+        "Sayl the Faithless" : {
+            baseSize: "32mm",
+            notes: "(No longer in pdf)",
+        },
+        "Nightmaw" : {
+            baseSize: "50mm",
+            notes: "(No longer in pdf)",
+        },
     }
 }
 export default Warscrolls

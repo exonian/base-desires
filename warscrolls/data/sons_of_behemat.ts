@@ -37,6 +37,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "130mm",
             notes: "",
         },
+        "Bonegrinder Mega-Gargant" : {
+            baseSize: "120 x 92mm",
+            notes: "(Not listed in pdf)",
+        },
     }
 }
 export default Warscrolls

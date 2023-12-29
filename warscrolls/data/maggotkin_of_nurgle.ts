@@ -121,6 +121,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "Use model",
             notes: "",
         },
+        "Exalted Greater Daemon of Nurgle" : {
+            baseSize: "130mm",
+            notes: "(No longer in pdf)",
+        },
     }
 }
 export default Warscrolls

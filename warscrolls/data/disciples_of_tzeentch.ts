@@ -145,6 +145,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "50mm",
             notes: "",
         },
+        "Exalted Greater Daemon of Tzeentch" : {
+            baseSize: "130mm",
+            notes: "(No longer in pdf)",
+        },
     }
 }
 export default Warscrolls

@@ -189,6 +189,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
+        "Bat Swarms" : {
+            baseSize: "50mm",
+            notes: "(No longer in pdf)",
+        },
     }
 }
 export default Warscrolls

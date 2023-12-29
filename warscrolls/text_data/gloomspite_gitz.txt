@@ -42,3 +42,6 @@ Mork's Mighty Mushroom                                                 || 60mm
 Scrapskuttle's Arachnacauldron                                         || 75 x 42mm
 Scuttletide                                                            || Use model
 Bad Moon Loonshrine                                                    || Use model
+Colossal Squig                                                         || 120 x 92mm (No longer in pdf)
+Squig Gobba                                                            || 120 x 92mm (No longer in pdf)
+Troggoth Hag                                                           || 120 x 92mm (No longer in pdf)

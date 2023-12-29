@@ -54,3 +54,5 @@ Varanguard                                                             || 75 x 4
 Darkfire Daemonrift                                                    || Use model
 Eightfold Doom-Sigil                                                   || 75 x 42mm
 Realmscourge Rupture                                                   || Use model
+Sayl the Faithless                                                     || 32mm (No longer in pdf)
+Nightmaw                                                               || 50mm (No longer in pdf)

@@ -16,16 +16,20 @@ import Flesheater_CourtsWarscrolls from "./data/flesheater_courts"
 import FyreslayersWarscrolls from "./data/fyreslayers"
 import Gloomspite_GitzWarscrolls from "./data/gloomspite_gitz"
 import Gnomad_FeastmastersWarscrolls from "./data/gnomad_feastmasters"
+import GreenskinzWarscrolls from "./data/greenskinz"
 import Hedonites_Of_SlaaneshWarscrolls from "./data/hedonites_of_slaanesh"
 import Idoneth_DeepkinWarscrolls from "./data/idoneth_deepkin"
 import IncarnatesWarscrolls from "./data/incarnates"
 import Kharadron_OverlordsWarscrolls from "./data/kharadron_overlords"
+import Legions_Of_AzgorhWarscrolls from "./data/legions_of_azgorh"
+import Lion_RangersWarscrolls from "./data/lion_rangers"
 import Lumineth_RealmlordsWarscrolls from "./data/lumineth_realmlords"
 import Maggotkin_Of_NurgleWarscrolls from "./data/maggotkin_of_nurgle"
 import Megagargant_MercenariesWarscrolls from "./data/megagargant_mercenaries"
 import NighthauntWarscrolls from "./data/nighthaunt"
 import Ogor_MawtribesWarscrolls from "./data/ogor_mawtribes"
 import OrderWarscrolls from "./data/order"
+import Order_DraconisWarscrolls from "./data/order_draconis"
 import Orruk_WarclansWarscrolls from "./data/orruk_warclans"
 import Ossiarch_BonereapersWarscrolls from "./data/ossiarch_bonereapers"
 import SeraphonWarscrolls from "./data/seraphon"
@@ -51,16 +55,20 @@ export const UntaggedWarscrolls: TFactionWarscrolls[] = [
     FyreslayersWarscrolls,
     Gloomspite_GitzWarscrolls,
     Gnomad_FeastmastersWarscrolls,
+    GreenskinzWarscrolls,
     Hedonites_Of_SlaaneshWarscrolls,
     Idoneth_DeepkinWarscrolls,
     IncarnatesWarscrolls,
     Kharadron_OverlordsWarscrolls,
+    Legions_Of_AzgorhWarscrolls,
+    Lion_RangersWarscrolls,
     Lumineth_RealmlordsWarscrolls,
     Maggotkin_Of_NurgleWarscrolls,
     Megagargant_MercenariesWarscrolls,
     NighthauntWarscrolls,
     Ogor_MawtribesWarscrolls,
     OrderWarscrolls,
+    Order_DraconisWarscrolls,
     Orruk_WarclansWarscrolls,
     Ossiarch_BonereapersWarscrolls,
     SeraphonWarscrolls,

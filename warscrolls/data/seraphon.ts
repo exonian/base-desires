@@ -149,6 +149,42 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "Use model",
             notes: "",
         },
+        "Dread Saurian" : {
+            baseSize: "280 x 210mm",
+            notes: "(No longer in pdf)",
+        },
+        "Razordons" : {
+            baseSize: "60 x 35mm",
+            notes: "(No longer in pdf)",
+        },
+        "Salamanders" : {
+            baseSize: "60 x 35mm",
+            notes: "(No longer in pdf)",
+        },
+        "Saurus Eternity Warden" : {
+            baseSize: "40mm",
+            notes: "(No longer in pdf)",
+        },
+        "Saurus Knights" : {
+            baseSize: "60 x 35mm",
+            notes: "(No longer in pdf)",
+        },
+        "Saurus Scar-Veteran on Cold One" : {
+            baseSize: "60 x 35mm",
+            notes: "(No longer in pdf)",
+        },
+        "Saurus Sunblood" : {
+            baseSize: "32mm",
+            notes: "(No longer in pdf)",
+        },
+        "Skink Handlers" : {
+            baseSize: "25mm",
+            notes: "(No longer in pdf)",
+        },
+        "Skink Priest" : {
+            baseSize: "25mm",
+            notes: "(No longer in pdf)",
+        },
     }
 }
 export default Warscrolls

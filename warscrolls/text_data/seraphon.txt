@@ -34,3 +34,12 @@ Terradon Riders                                                        || 50mm
 Terrawings                                                             || 32mm
 Coalesced Realmshaper Engine                                           || Use model
 Starborne Realmshaper Engine                                           || Use model
+Dread Saurian                                                          || 280 x 210mm (No longer in pdf)
+Razordons                                                              || 60 x 35mm (No longer in pdf)
+Salamanders                                                            || 60 x 35mm (No longer in pdf)
+Saurus Eternity Warden                                                 || 40mm (No longer in pdf)
+Saurus Knights                                                         || 60 x 35mm (No longer in pdf)
+Saurus Scar-Veteran on Cold One                                        || 60 x 35mm (No longer in pdf)
+Saurus Sunblood                                                        || 32mm (No longer in pdf)
+Skink Handlers                                                         || 25mm (No longer in pdf)
+Skink Priest                                                           || 25mm (No longer in pdf)

@@ -181,6 +181,18 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "Use model",
             notes: "",
         },
+        "Colossal Squig" : {
+            baseSize: "120 x 92mm",
+            notes: "(No longer in pdf)",
+        },
+        "Squig Gobba" : {
+            baseSize: "120 x 92mm",
+            notes: "(No longer in pdf)",
+        },
+        "Troggoth Hag" : {
+            baseSize: "120 x 92mm",
+            notes: "(No longer in pdf)",
+        },
     }
 }
 export default Warscrolls

@@ -129,6 +129,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "50mm",
             notes: "",
         },
+        "Mourngul" : {
+            baseSize: "60mm",
+            notes: "(No longer in pdf)",
+        },
     }
 }
 export default Warscrolls
