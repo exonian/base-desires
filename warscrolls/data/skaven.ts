@@ -185,6 +185,22 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "Use model",
             notes: "",
         },
+        "Brood Horror" : {
+            baseSize: "120 x 92mm",
+            notes: "(Not in pdf)",
+        },
+        "Clawlord on Brood Horror" : {
+            baseSize: "120 x 92mm",
+            notes: "(Not in pdf)",
+        },
+        "Skaven Wolf Rats" : {
+            baseSize: "75 x 42mm",
+            notes: "(Not in pdf)",
+        },
+        "Warpgnaw Verminlord" : {
+            baseSize: "105 x 70mm",
+            notes: "(Not in pdf)",
+        },
     }
 }
 export default Warscrolls
