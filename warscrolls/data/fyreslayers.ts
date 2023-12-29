@@ -93,6 +93,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "Use model",
             notes: "",
         },
+        "Vulkyn Flameseekers" : {
+            baseSize: "32mm [4], 28.5mm [5]",
+            notes: "",
+        },
     }
 }
 export default Warscrolls

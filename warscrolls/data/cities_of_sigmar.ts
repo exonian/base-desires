@@ -265,6 +265,58 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "(No longer in pdf)",
         },
+        "Alchemite Warforger" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Freeguild Cavalier-Marshal" : {
+            baseSize: "75mm",
+            notes: "",
+        },
+        "Freeguild Marshal and Relic Envoy" : {
+            baseSize: "32mm [1], 28.5mm [1]",
+            notes: "",
+        },
+        "Freeguild Marshal on Griffon" : {
+            baseSize: "120 x 92mm",
+            notes: "",
+        },
+        "Fusil-Major on Ogor Warhulk" : {
+            baseSize: "60mm",
+            notes: "",
+        },
+        "Pontifex Zenestra" : {
+            baseSize: "90mm",
+            notes: "",
+        },
+        "Tahlia Vedra" : {
+            baseSize: "100mm",
+            notes: "",
+        },
+        "Freeguild Steelhelms" : {
+            baseSize: "25mm",
+            notes: "",
+        },
+        "Ironweld Great Cannon" : {
+            baseSize: "90mm",
+            notes: "",
+        },
+        "Freeguild Cavaliers" : {
+            baseSize: "60 x 35mm",
+            notes: "",
+        },
+        "Freeguild Command Corps" : {
+            baseSize: "28mm [4], 25mm [1], 40mm [1]",
+            notes: "",
+        },
+        "Freeguild Fusiliers" : {
+            baseSize: "28mm",
+            notes: "",
+        },
+        "Wildercorps Hunters" : {
+            baseSize: "40mm [2], 28.5mm [3], 25mm [6]",
+            notes: "",
+        },
     }
 }
 export default Warscrolls

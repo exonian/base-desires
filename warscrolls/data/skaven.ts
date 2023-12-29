@@ -201,6 +201,14 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "105 x 70mm",
             notes: "(Not in pdf)",
         },
+        "Skabbik Plagueseeker" : {
+            baseSize: "32mm",
+            notes: "",
+        },
+        "Skabbik's Plaguepack" : {
+            baseSize: "28.5mm [1], 25mm [4]",
+            notes: "",
+        },
     }
 }
 export default Warscrolls

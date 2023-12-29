@@ -133,6 +133,14 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "60mm",
             notes: "(No longer in pdf)",
         },
+        "The Wielder of the Blade" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "The Headsmen's Curse" : {
+            baseSize: "32mm [2], 25mm [1]",
+            notes: "",
+        },
     }
 }
 export default Warscrolls

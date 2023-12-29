@@ -161,6 +161,38 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "32mm",
             notes: "",
         },
+        "Tuskboss on Maw-Grunta" : {
+            baseSize: "120mm",
+            notes: "",
+        },
+        "Maw-Grunta with Hakkin' Krew" : {
+            baseSize: "120mm",
+            notes: "",
+        },
+        "Maw-Grunta Gougers" : {
+            baseSize: "120mm",
+            notes: "",
+        },
+        "Ardboy Big Boss" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Zoggrok Anvilsmasha" : {
+            baseSize: "50mm [1], 25mm [1]",
+            notes: "",
+        },
+        "Brute Ragerz" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Weirdbrute Wrekkaz" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Kruleboyz Monsta-killaz" : {
+            baseSize: "40mm [1], 32mm [6], 28.5mm [1]",
+            notes: "",
+        },
     }
 }
 export default Warscrolls

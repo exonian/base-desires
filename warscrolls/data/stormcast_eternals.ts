@@ -325,6 +325,14 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "100mm",
             notes: "",
         },
+        "Neave's Companions" : {
+            baseSize: "40mm",
+            notes: "",
+        },
+        "Lorai, Child of the Abyss" : {
+            baseSize: "40mm",
+            notes: "",
+        },
     }
 }
 export default Warscrolls

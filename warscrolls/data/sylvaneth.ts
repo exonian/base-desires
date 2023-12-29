@@ -105,6 +105,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "Use model",
             notes: "",
         },
+        "Belthanos, First Thorn of Kurnoth" : {
+            baseSize: "150 x 95mm",
+            notes: "",
+        },
     }
 }
 export default Warscrolls

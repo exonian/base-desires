@@ -20,3 +20,4 @@ Molten Infernoth                                                       || 120 x 
 Runic Fyrewall                                                         || Use model
 Zharrgron Flame-spitter                                                || Use model
 Magmic Battleforge                                                     || Use model
+Vulkyn Flameseekers                                                    || 32mm [4], 28.5mm [5]

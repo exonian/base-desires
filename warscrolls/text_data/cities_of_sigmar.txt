@@ -63,3 +63,16 @@ Wild Riders                                                            || 60 x 3
 Wildwood Rangers                                                       || 25mm
 Mistweaver Saih                                                        || 32mm (No longer in pdf)
 Tenebrael Shard                                                        || 32mm (No longer in pdf)
+Alchemite Warforger                                                    || 32mm
+Freeguild Cavalier-Marshal                                             || 75mm
+Freeguild Marshal and Relic Envoy                                      || 32mm [1], 28.5mm [1]
+Freeguild Marshal on Griffon                                           || 120 x 92mm
+Fusil-Major on Ogor Warhulk                                            || 60mm
+Pontifex Zenestra                                                      || 90mm
+Tahlia Vedra                                                           || 100mm
+Freeguild Steelhelms                                                   || 25mm
+Ironweld Great Cannon                                                  || 90mm
+Freeguild Cavaliers                                                    || 60 x 35mm
+Freeguild Command Corps                                                || 28mm [4], 25mm [1], 40mm [1]
+Freeguild Fusiliers                                                    || 28mm
+Wildercorps Hunters                                                    || 40mm [2], 28.5mm [3], 25mm [6]

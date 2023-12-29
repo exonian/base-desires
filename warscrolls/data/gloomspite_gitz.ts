@@ -193,6 +193,10 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "120 x 92mm",
             notes: "(No longer in pdf)",
         },
+        "Trugg the Troggoth King" : {
+            baseSize: "100mm",
+            notes: "",
+        },
     }
 }
 export default Warscrolls

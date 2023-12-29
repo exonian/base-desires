@@ -89,7 +89,7 @@ const Warscrolls: TFactionWarscrolls = {
             baseSize: "25mm",
             notes: "",
         },
-        "Gorger" : {
+        "Gorger Mawpack" : {
             baseSize: "50mm",
             notes: "",
         },
