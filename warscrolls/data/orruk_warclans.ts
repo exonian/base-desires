@@ -162,15 +162,15 @@ const Warscrolls: TFactionWarscrolls = {
             notes: "",
         },
         "Tuskboss on Maw-Grunta" : {
-            baseSize: "120mm",
+            baseSize: "120 x 92mm",
             notes: "",
         },
         "Maw-Grunta with Hakkin' Krew" : {
-            baseSize: "120mm",
+            baseSize: "120 x 92mm",
             notes: "",
         },
         "Maw-Grunta Gougers" : {
-            baseSize: "120mm",
+            baseSize: "120 x 92mm",
             notes: "",
         },
         "Ardboy Big Boss" : {
