@@ -1,14 +1,14 @@
 import type { NextPage, GetStaticProps } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
+import ErrorPage from 'next/error'
 import { ParsedUrlQuery } from 'querystring'
 import { Card } from '../../components/card'
 import { Footer } from '../../components/footer'
 
 import { toStandard } from '../../utils/text'
-import { Warscrolls } from '../../warscrolls/data'
+import { Warscrolls } from '../../warscrolls/data';
 import { TWarscroll } from '../../warscrolls/types'
-import Search from '../[[...slug]]'
 
 interface IParams extends ParsedUrlQuery {
   slug: string[]
@@ -17,8 +17,9 @@ interface IParams extends ParsedUrlQuery {
 export const getStaticProps: GetStaticProps = async (context) => {
   const { slug } = context.params as IParams
   const standardisedSlug = toStandard(slug[0])
-  const name = Object.keys(Warscrolls).find(name => toStandard(name) === standardisedSlug)
-  const warscroll = name && Warscrolls[name]
+  const warscrolls = Warscrolls
+  const name = Object.keys(warscrolls).find(name => toStandard(name) === standardisedSlug)
+  const warscroll = name && warscrolls[name]
 
   return name && warscroll ? {
     props: {
@@ -33,8 +34,9 @@ export const getStaticProps: GetStaticProps = async (context) => {
 }
 
 export async function getStaticPaths() {
+  const warscrolls = Warscrolls
   return {
-    paths: Object.keys(Warscrolls).map(name => `/p/${toStandard(name)}`),
+    paths: Object.keys(warscrolls).map(name => `/p/${toStandard(name)}`),
     fallback: false,
   }
 }
@@ -69,7 +71,7 @@ const Warscroll: NextPage<IWarscrollProps> = props => {
     </div>
   )
   :
-  <Search />
+  <ErrorPage statusCode={404} />
 }
 
 export default Warscroll

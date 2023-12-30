@@ -1,32 +1,52 @@
-import type { NextPage } from 'next'
+import type { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link';
 import { useRouter } from 'next/router'
 import { toStandard } from '../utils/text'
-import { Warscrolls } from '../warscrolls/data'
 import { TWarscrolls } from '../warscrolls/types'
 import { Card } from '../components/card'
 import { SearchBox } from '../components/search';
 import { Footer } from '../components/footer';
+import { Warscrolls } from '../warscrolls/data';
 
 
-const Search: NextPage = () => {
+export const getStaticProps: GetStaticProps = async () => {
+  return {
+    props: {
+      warscrolls: Warscrolls,
+    },
+  }
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: ['/'],
+    fallback: false,
+  }
+}
+
+interface ISearchPageProps {
+  warscrolls: TWarscrolls,
+}
+
+const Search: NextPage<ISearchPageProps> = props => {
+  const { warscrolls } = props
 
   const router = useRouter()
   const slug = router.query.slug ? router.query.slug[0] : ""
   const standardisedSlug = slug ? toStandard(slug) : ""
-  const matches = Object.entries(Warscrolls).reduce((accum, [name, warscroll]) => {
+  const matches = Object.entries(warscrolls).reduce((accum, [name, warscroll]) => {
     const otherFields = `${warscroll.factions} || ${warscroll.baseSize} || ${warscroll.notes}`
     if (toStandard(name).includes(standardisedSlug)) accum['name'][name] = warscroll
     else if (toStandard(otherFields).includes(standardisedSlug)) accum['other'][name] = warscroll
     return accum
   }, {'name': {}, 'other': {}} as {'name': TWarscrolls, 'other': TWarscrolls})
-  const warscrolls = { ...matches['name'], ...matches['other']}
-  const sortedWarscrolls = Object.keys(warscrolls).sort().reduce((accum, name) => {
-    accum[name] = warscrolls[name]
+  const matchedWarscrolls = { ...matches['name'], ...matches['other']}
+  const sortedWarscrolls = Object.keys(matchedWarscrolls).sort().reduce((accum, name) => {
+    accum[name] = matchedWarscrolls[name]
     return accum
   }, {} as TWarscrolls)
-  const cardRowStyle = (Object.keys(warscrolls).length > 1) ? "row" : "row justify-content-center"
+  const cardRowStyle = (Object.keys(sortedWarscrolls).length > 1) ? "row" : "row justify-content-center"
 
   const showSearch = true
 
