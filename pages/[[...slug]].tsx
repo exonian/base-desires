@@ -7,13 +7,13 @@ import { TWarscrolls } from '../warscrolls/types'
 import { Card } from '../components/card'
 import { SearchBox } from '../components/search';
 import { Footer } from '../components/footer';
-import { Warscrolls } from '../warscrolls/data';
+import { getWarscrolls } from '../warscrolls/data';
 
 
 export const getStaticProps: GetStaticProps = async () => {
   return {
     props: {
-      warscrolls: Warscrolls,
+      warscrolls: getWarscrolls(),
     },
   }
 }
@@ -21,7 +21,7 @@ export const getStaticProps: GetStaticProps = async () => {
 export async function getStaticPaths() {
   return {
     paths: ['/'],
-    fallback: true,
+    fallback: "blocking",
   }
 }
 

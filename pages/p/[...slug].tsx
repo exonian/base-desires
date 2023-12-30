@@ -7,7 +7,7 @@ import { Card } from '../../components/card'
 import { Footer } from '../../components/footer'
 
 import { toStandard } from '../../utils/text'
-import { Warscrolls } from '../../warscrolls/data';
+import { getWarscrolls } from '../../warscrolls/data';
 import { TWarscroll } from '../../warscrolls/types'
 
 interface IParams extends ParsedUrlQuery {
@@ -17,7 +17,7 @@ interface IParams extends ParsedUrlQuery {
 export const getStaticProps: GetStaticProps = async (context) => {
   const { slug } = context.params as IParams
   const standardisedSlug = toStandard(slug[0])
-  const warscrolls = Warscrolls
+  const warscrolls = getWarscrolls()
   const name = Object.keys(warscrolls).find(name => toStandard(name) === standardisedSlug)
   const warscroll = name && warscrolls[name]
 
@@ -34,7 +34,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 }
 
 export async function getStaticPaths() {
-  const warscrolls = Warscrolls
+  const warscrolls = getWarscrolls()
   return {
     paths: Object.keys(warscrolls).map(name => `/p/${toStandard(name)}`),
     fallback: false,
