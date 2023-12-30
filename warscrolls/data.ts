@@ -81,4 +81,11 @@ export const UntaggedWarscrolls: TFactionWarscrolls[] = [
     Tamurkhans_HordeWarscrolls,
 ]
 
-export const getWarscrolls = () :TWarscrolls => tagAndCombine(UntaggedWarscrolls)
+let cachedWarscrolls: TWarscrolls
+
+export const getWarscrolls = () :TWarscrolls => {
+    if (cachedWarscrolls === undefined) {
+        cachedWarscrolls = tagAndCombine(UntaggedWarscrolls)
+    }
+    return cachedWarscrolls
+}
