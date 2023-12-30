@@ -21,7 +21,7 @@ export const getStaticProps: GetStaticProps = async () => {
 export async function getStaticPaths() {
   return {
     paths: ['/'],
-    fallback: false,
+    fallback: true,
   }
 }
 
