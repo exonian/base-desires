@@ -29,7 +29,7 @@ const Search: NextPage<ISearchPageProps> = props => {
   const slug = useSearchParams().get('s')
   const standardisedSlug = slug ? toStandard(slug) : ""
   const matches = Object.entries(warscrolls).reduce((accum, [name, warscroll]) => {
-    const otherFields = `${warscroll.factions} || ${warscroll.baseSize} || ${warscroll.notes}`
+    const otherFields = `${warscroll.factions}||${warscroll.baseSize}||${warscroll.notes}`
     if (toStandard(name).includes(standardisedSlug)) accum['name'][name] = warscroll
     else if (toStandard(otherFields).includes(standardisedSlug)) accum['other'][name] = warscroll
     return accum
