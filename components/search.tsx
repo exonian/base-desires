@@ -16,7 +16,7 @@ export const SearchBox: React.FC = () => {
 
   const [searchTerm, setSearchTerm] = useState('')
   const [searchTermDefined, setSearchTermDefined] = useState(false)
-  const slug = router.query.slug ? router.query.slug[0] : ""
+  const slug = searchParams.get('s') || ""
   const searchVal = searchTermDefined ? searchTerm : withoutHyphens(slug)
 
   const createQueryString = useCallback(
@@ -33,7 +33,8 @@ export const SearchBox: React.FC = () => {
     const value = event.target.value
     setSearchTerm(value)
     setSearchTermDefined(true)
-    router.push(pathname + '?' + createQueryString('s', toStandard(value)))
+    const newPath = pathname + '?' + createQueryString('s', toStandard(value))
+    router.push(newPath, undefined, { shallow: true })
   }
 
   const handleBlur = (event: React.ChangeEvent<HTMLInputElement>) => {
