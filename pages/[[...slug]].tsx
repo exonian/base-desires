@@ -46,7 +46,7 @@ const Search: NextPage = () => {
 
         <div className={cardRowStyle}>
           {Object.entries(sortedWarscrolls).map(([name, warscroll]) =>
-            <div className="col-6" key={name}>
+            <div className="col-md-6" key={name}>
               <Card name={name} warscroll={warscroll} link={true} />
             </div>
           )}

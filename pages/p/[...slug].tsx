@@ -59,7 +59,7 @@ const Warscroll: NextPage<IWarscrollProps> = props => {
         <h1><Link href={"/"}>Base Desires</Link></h1>
         <div className="sticky-top bg-body">
           <div className="row justify-content-center">
-            <div className="col-6" key={name}>
+            <div className="col-md-6" key={name}>
               <Card name={name} warscroll={warscroll} link={false} />
             </div>
           </div>
