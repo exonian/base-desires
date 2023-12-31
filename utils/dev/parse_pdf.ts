@@ -145,7 +145,7 @@ const render_warscroll_line = (line: string) :string => {
 }
 
 const write_text_files = (profiles: Record<string, Record<string, string>>) => {
-    const dataDirectory = path.join(__dirname, '..', '..', 'warscrolls', 'text_data')
+    const dataDirectory = path.join(__dirname, '..', '..', 'warscrolls', 'data')
     const safeFilenamePattern = new RegExp(/^[\w ]+$/);
 
     Object.entries(profiles).forEach(([faction, warscrolls]) => {
