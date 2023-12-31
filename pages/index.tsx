@@ -8,6 +8,7 @@ import { Card } from '../components/card'
 import { SearchBox } from '../components/search';
 import { Footer } from '../components/footer';
 import { getWarscrolls } from '../warscrolls/data';
+import { useSearchParams } from 'next/navigation';
 
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -18,13 +19,6 @@ export const getStaticProps: GetStaticProps = async () => {
   }
 }
 
-export async function getStaticPaths() {
-  return {
-    paths: ['/'],
-    fallback: "blocking",
-  }
-}
-
 interface ISearchPageProps {
   warscrolls: TWarscrolls,
 }
@@ -32,8 +26,7 @@ interface ISearchPageProps {
 const Search: NextPage<ISearchPageProps> = props => {
   const { warscrolls } = props
 
-  const router = useRouter()
-  const slug = router.query.slug ? router.query.slug[0] : ""
+  const slug = useSearchParams().get('s')
   const standardisedSlug = slug ? toStandard(slug) : ""
   const matches = Object.entries(warscrolls).reduce((accum, [name, warscroll]) => {
     const otherFields = `${warscroll.factions} || ${warscroll.baseSize} || ${warscroll.notes}`

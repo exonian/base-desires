@@ -1,25 +1,39 @@
-import { useEffect, useRef, useState } from "react"
+import { useCallback, useEffect, useRef, useState } from "react"
 import { FaSearch } from "react-icons/fa"
 import { MdClear } from "react-icons/md"
 import { useRouter } from 'next/router'
 
 import { logToGA } from "../utils/analytics"
 import { toStandard, withoutHyphens } from "../utils/text"
+import { usePathname, useSearchParams } from 'next/navigation';
 
 export const SearchBox: React.FC = () => {
 
   const inputElement = useRef<HTMLInputElement>(null)
   const router = useRouter()
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
+
   const [searchTerm, setSearchTerm] = useState('')
   const [searchTermDefined, setSearchTermDefined] = useState(false)
   const slug = router.query.slug ? router.query.slug[0] : ""
   const searchVal = searchTermDefined ? searchTerm : withoutHyphens(slug)
 
+  const createQueryString = useCallback(
+    (name: string, value: string) => {
+      const params = new URLSearchParams(searchParams)
+      params.set(name, value)
+
+      return params.toString()
+    },
+    [searchParams]
+  )
+
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value
     setSearchTerm(value)
     setSearchTermDefined(true)
-    router.push(toStandard(`/${value}`))
+    router.push(pathname + '?' + createQueryString('s', toStandard(value)))
   }
 
   const handleBlur = (event: React.ChangeEvent<HTMLInputElement>) => {
