@@ -7,8 +7,6 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "find-duplicates": "npx tsx utils/dev/find_duplicates.ts",
-    "list-warscrolls": "npx tsx utils/dev/list_all_scrolls.ts",
     "parse-pdf": "npx tsx utils/dev/parse_pdf.ts"
   },
   "dependencies": {
