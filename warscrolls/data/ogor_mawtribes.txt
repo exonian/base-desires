@@ -7,6 +7,7 @@ Frostlord on Stonehorn                                                 || 120 x 
 Frostlord on Thundertusk                                               || 120 x 92mm
 Gnoblar Scraplauncher                                                  || 120 x 92mm
 Gnoblars                                                               || 25mm
+Gorger                                                                 || 50mm
 Gorger Mawpack                                                         || 50mm
 Great Mawpot                                                           || Use model
 Hrothgorn Mantrapper                                                   || 40mm
@@ -20,6 +21,7 @@ Ironguts                                                               || 40mm
 Kragnos, the End of Empires                                            || 130mm
 Leadbelchers                                                           || 40mm
 Maneaters                                                              || 50mm
+Mawpit                                                                 || Use model
 Mournfang Pack                                                         || 90 x 52mm
 Ogor Gluttons                                                          || 40mm
 Slaughtermaster                                                        || 105 x 70mm
