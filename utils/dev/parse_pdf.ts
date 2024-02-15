@@ -66,6 +66,34 @@ function clean_text(text: string) :string {
     return text
 }
 
+function make_faction_name(text: string) :string {
+    text = text.toLowerCase()
+    text = text.replaceAll('-', '')
+    text = text.replaceAll(' ', '')
+    text = text.replaceAll('of', ' of ')
+    text = faction_name_first_words.reduce((text, word) => {
+        return text.replace(word, word + ' ')
+    }, text)
+    return text
+}
+
+const faction_name_first_words: string[] = [
+    'endless',
+    'flesheater',
+    'gloomspite',
+    'idoneth',
+    'kharadron',
+    'lumineth',
+    'megagargant',
+    'ogor',
+    'orruk',
+    'ossiarch',
+    'slaves',
+    'slaves to',
+    'soulblight',
+    'stormcast',
+]
+
 const faction_name_typos: Record<string, string> = {
     'OR RU K WA RC L A N S': 'ORRUK WARCLANS',
     'S K AV E N': 'SKAVEN',
@@ -78,12 +106,12 @@ const import_bases = (path: string) => {
         let currentFaction: string = ''
         let potentialFactionName: string = ''
         let profiles: Record<string, Record<string, string>> = output.split('\n').reduce((accum, line) => {
-            if (line.startsWith('WA R S C ROL L')) {
+            if (line.replaceAll(' ', '').startsWith('WARSCROLL')) {
                 currentFaction = potentialFactionName
                 if (!(currentFaction in accum)) accum[currentFaction] = {}
             }
             else {
-                if (line.startsWith('FACTION')) currentFaction = ''
+                if (line.replaceAll(' ', '').startsWith('FACTION')) currentFaction = ''
                 if (line.includes('||') && (currentFaction !== '')) {
                     let renderedLine = render_warscroll_line(line)
                     let name = renderedLine.split('||')[0].trim()
@@ -91,7 +119,7 @@ const import_bases = (path: string) => {
                 }
             }
             if (!line.includes('||')) {
-                potentialFactionName = (faction_name_typos[line] || line).replaceAll('-', '')
+                potentialFactionName = make_faction_name(line)
             }
             return accum
         }, {} as Record<string, Record<string, string>>)
