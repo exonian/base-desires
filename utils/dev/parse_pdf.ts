@@ -183,7 +183,7 @@ const write_text_files = (profiles: Record<string, Record<string, string>>) => {
         }
 
         let filename = toStandard(faction).replaceAll('-', '_') + '.txt'
-        let data = Object.values(warscrolls).join('\n')
+        let data = Object.values(warscrolls).sort().join('\n') + '\n'
 
         fs.writeFile(path.join(dataDirectory, filename), data, err => {
             if (err) {
