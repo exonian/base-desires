@@ -19,6 +19,8 @@ const loadWarscrolls = () :TWarscrolls => {
 
         const factionName = toDisplay(filename.split('.')[0].replace('_', ' '))
         return lines.reduce((accum, line) => {
+            if (line.length == 0) return accum
+
             let { name, size } = splitLine(line)
             let notes = ''
 
