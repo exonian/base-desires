@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "parse-pdf": "npx tsx utils/dev/parse_pdf.ts"
+    "parse-pdf": "npx tsx utils/dev/parse_pdf.ts",
+    "rewrite-data": "npx tsx utils/dev/rewrite_data.ts"
   },
   "dependencies": {
     "@types/pdf-parse": "^1.1.4",

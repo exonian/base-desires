@@ -1,30 +1,30 @@
-Crypt Ghouls                                                           || 25mm
-Royal Terrorgheist                                                     || 130mm
-Royal Zombie Dragon                                                    || 130mm
 Abhorrant Archregent                                                   || 40mm
+Abhorrant Cardinal                                                     || 32mm
 Abhorrant Ghoul King                                                   || 32mm
-Crypt Ghast Courtier                                                   || 32mm
-Crypt Haunter Courtier                                                 || 50mm
-Crypt Infernal Courtier                                                || 50mm
-Duke Crakmarrow                                                        || 32mm
-The Grymwatch                                                          || 32mm [1], 25mm [5]
-Marrowscroll Herald                                                    || 32mm
-Varghulf Courtier                                                      || 90 x 52mm (pdf currently indicates 60mm, which was the resin one)
 Abhorrant Ghoul King on Royal Terrorgheist                             || 130mm
 Abhorrant Ghoul King on Royal Zombie Dragon                            || 130mm
-Nagash, Supreme Lord of the Undead                                     || 130mm
-Crypt Flayers                                                          || 50mm
-Crypt Horrors                                                          || 50mm
-Royal Beastflayers                                                     || 32mm [2], 40mm [2], 28mm [3], 25mm [3]
+Abhorrant Ghoul King with Crown of Delusion                            || 40mm (2022 Boxing Day miniature)
+Abhorrant Gorewarden                                                   || 40mm
 Cadaverous Barricade                                                   || Use model
 Chalice of Ushoran                                                     || 50mm
-Corpsemare Stampede                                                    || 120 x 92mm
 Charnel Throne                                                         || Use model
-Abhorrant Gorewarden                                                   || 40mm
-Abhorrant Ghoul King with Crown of Delusion                            || 40mm (2022 Boxing Day miniature)
+Corpsemare Stampede                                                    || 120 x 92mm
+Crypt Flayers                                                          || 50mm
+Crypt Ghast Courtier                                                   || 32mm
+Crypt Ghouls                                                           || 25mm
+Crypt Haunter Courtier                                                 || 50mm
+Crypt Horrors                                                          || 50mm
+Crypt Infernal Courtier                                                || 50mm
 Cryptguard                                                             || 25mm
-Morbheg Knights                                                        || 75 x 42mm
-Ushoran                                                                || 130mm
-Abhorrant Cardinal                                                     || 32mm
-Royal Decapitator                                                      || 32mm
+Duke Crakmarrow                                                        || 32mm
 Grand Justice Gormayne                                                 || 32mm
+Marrowscroll Herald                                                    || 32mm
+Morbheg Knights                                                        || 75 x 42mm
+Nagash, Supreme Lord of the Undead                                     || 130mm
+Royal Beastflayers                                                     || 32mm [2], 40mm [2], 28mm [3], 25mm [3]
+Royal Decapitator                                                      || 32mm
+Royal Terrorgheist                                                     || 130mm
+Royal Zombie Dragon                                                    || 130mm
+The Grymwatch                                                          || 32mm [1], 25mm [5]
+Ushoran                                                                || 130mm
+Varghulf Courtier                                                      || 90 x 52mm (pdf currently indicates 60mm, which was the resin one)

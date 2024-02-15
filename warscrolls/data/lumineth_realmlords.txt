@@ -1,29 +1,29 @@
-Vanari Starshard Ballista                                              || 80mm
-Vanari Auralan Wardens                                                 || 32mm
 Alarith Spirit of the Mountain                                         || 100mm
+Alarith Stoneguard                                                     || 32mm
 Alarith Stonemage                                                      || 40mm
+Archmage Teclis and Celennar, Spirit of Hysh                           || 160mm
+Avalenor, the Stoneheart King                                          || 100mm
 Ellania and Ellathor, Eclipsian Warsages                               || 40mm
 Hurakan Spirit of the Wind                                             || 60mm
+Hurakan Windchargers                                                   || 60 x 35mm
 Hurakan Windmage                                                       || 60 x 35mm
-The Light of Eltharion                                                 || 50mm
+Hyshian Twinstones                                                     || 50mm
 Lyrior Uthralle, Warden of Ymetrica                                    || 90 x 52mm
 Myari Lightcaller                                                      || 32mm
 Myari's Purifiers                                                      || 32mm
+Rune of Petrification                                                  || 75 x 41.5mm
+Sanctum of Amyntok                                                     || Use model
 Scinari Calligrave                                                     || 32mm
 Scinari Cathallar                                                      || 32mm
 Scinari Enlightener                                                    || 32mm
 Scinari Loreseeker                                                     || 32mm
 Sevireth, Lord of the Seventh Wind                                     || 60mm
-Vanari Bannerblade                                                     || 40mm
-Vanari Lord Regent                                                     || 90 x 52mm
-Archmage Teclis and Celennar, Spirit of Hysh                           || 160mm
-Avalenor, the Stoneheart King                                          || 100mm
-Alarith Stoneguard                                                     || 32mm
-Hurakan Windchargers                                                   || 60 x 35mm
+Shrine Luminor                                                         || Use model
+The Light of Eltharion                                                 || 50mm
 Vanari Auralan Sentinels                                               || 32mm
+Vanari Auralan Wardens                                                 || 32mm
+Vanari Bannerblade                                                     || 40mm
 Vanari Bladelords                                                      || 32mm
 Vanari Dawnriders                                                      || 60 x 35mm
-Hyshian Twinstones                                                     || 50mm
-Rune of Petrification                                                  || 75 x 41.5mm
-Sanctum of Amyntok                                                     || Use model
-Shrine Luminor                                                         || Use model
+Vanari Lord Regent                                                     || 90 x 52mm
+Vanari Starshard Ballista                                              || 80mm

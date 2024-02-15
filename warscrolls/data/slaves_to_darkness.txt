@@ -1,58 +1,58 @@
+Archaon the Everchosen                                                 || 160mm
+Be'lakor, the Dark Master                                              || 100mm
+Centaurion Marshal                                                     || 80mm
 Chaos Chariot                                                          || 120 x 92mm
+Chaos Chosen                                                           || 40mm
 Chaos Knights                                                          || 75 x 42mm
 Chaos Legionnaires                                                     || 32mm [5], 28.5mm [3]
-Chaos Marauder Horsemen                                                || 60 x 35mm
-Chaos Marauders                                                        || 25mm
-Chaos Warriors                                                         || 32mm
-Corvus Cabal                                                           || 40mm [1], 28.5mm [3], 25mm [5]
-Cypher Lords                                                           || 32mm [1], 28.5mm [4], 25mm [3]
-Darkoath Savagers                                                      || 32mm [3], 28.5mm [7]
-Horns of Hashut                                                        || 32mm [3], 28.5mm [4], 25mm [3]
-Iron Golem                                                             || 40mm [1], 32mm [3], 28.5mm [4]
-Scions of the Flame                                                    || 32mm [3], 28.5mm [3], 25mm [2]
-Spire Tyrants                                                          || 32mm [3], 28.5mm [4], 25mm [2]
-Splintered Fang                                                        || 32mm [3], 28.5mm [2], 25mm [5]
-Tarantulos Brood                                                       || 32mm [1], 28.5mm [2], 25mm [10]
-The Unmade                                                             || 40mm [1], 32mm [1], 28.5mm [3], 25mm [4]
-Untamed Beasts                                                         || 40mm [1], 32mm [3], 28.5mm [2], 25mm [3]
-Chaos Warshrine                                                        || 120 x 92mm
-Mutalith Vortex Beast                                                  || 120 x 92mm
-Slaughterbrute                                                         || 120 x 92mm
-Soul Grinder                                                           || 160mm
-Centaurion Marshal                                                     || 80mm
 Chaos Lord                                                             || 40mm
 Chaos Lord on Daemonic Mount                                           || 90 x 52mm
 Chaos Lord on Karkadrak                                                || 90 x 52mm
+Chaos Lord on Manticore                                                || 120 x 92mm
+Chaos Marauder Horsemen                                                || 60 x 35mm
+Chaos Marauders                                                        || 25mm
 Chaos Sorcerer Lord                                                    || 32mm
+Chaos Sorcerer Lord on Manticore                                       || 120 x 92mm
+Chaos Spawn                                                            || 50mm
+Chaos Warriors                                                         || 32mm
+Chaos Warshrine                                                        || 120 x 92mm
+Corvus Cabal                                                           || 40mm [1], 28.5mm [3], 25mm [5]
+Cypher Lords                                                           || 32mm [1], 28.5mm [4], 25mm [3]
 Daemon Prince                                                          || 60mm
+Darkfire Daemonrift                                                    || Use model
 Darkoath Chieftain                                                     || 32mm
+Darkoath Savagers                                                      || 32mm [3], 28.5mm [7]
 Darkoath Warqueen                                                      || 32mm
+Eightfold Doom-Sigil                                                   || 75 x 42mm
 Eternus, Blade of the First Prince                                     || 90 x 52mm
 Exalted Hero of Chaos                                                  || 40mm
-Ogroid Myrmidon                                                        || 50mm
-Sarrakkar Blackwing                                                    || 32mm
-The Gnarlspirit Pack                                                   || 32mm
-Gaunt Summoner                                                         || 40mm
-Gaunt Summoner on Disc of Tzeentch                                     || 40mm
-Theddra Skull-Scryer                                                   || 32mm
-Godsworn Hunt                                                          || 32mm [4], 25mm [1]
-Zarshia Bittersoul                                                     || 32mm
-Khagra's Ravagers                                                      || 32mm
-Archaon the Everchosen                                                 || 160mm
-Be'lakor, the Dark Master                                              || 100mm
-Chaos Lord on Manticore                                                || 120 x 92mm
-Chaos Sorcerer Lord on Manticore                                       || 120 x 92mm
-Chaos Chosen                                                           || 40mm
 Fomoroid Crusher                                                       || 60mm
 Furies                                                                 || 32mm
+Gaunt Summoner                                                         || 40mm
+Gaunt Summoner on Disc of Tzeentch                                     || 40mm
+Godsworn Hunt                                                          || 32mm [4], 25mm [1]
 Gorebeast Chariots                                                     || 120 x 92mm
+Horns of Hashut                                                        || 32mm [3], 28.5mm [4], 25mm [3]
+Iron Golem                                                             || 40mm [1], 32mm [3], 28.5mm [4]
+Khagra's Ravagers                                                      || 32mm
 Mindstealer Sphiranx                                                   || 90 x 52mm
+Mutalith Vortex Beast                                                  || 120 x 92mm
+Nightmaw                                                               || 50mm (No longer in pdf)
+Ogroid Myrmidon                                                        || 50mm
 Ogroid Theridons                                                       || 50mm
 Raptoryx                                                               || 60 x 35mm
-Chaos Spawn                                                            || 50mm
-Varanguard                                                             || 75 x 42mm
-Darkfire Daemonrift                                                    || Use model
-Eightfold Doom-Sigil                                                   || 75 x 42mm
 Realmscourge Rupture                                                   || Use model
+Sarrakkar Blackwing                                                    || 32mm
 Sayl the Faithless                                                     || 32mm (No longer in pdf)
-Nightmaw                                                               || 50mm (No longer in pdf)
+Scions of the Flame                                                    || 32mm [3], 28.5mm [3], 25mm [2]
+Slaughterbrute                                                         || 120 x 92mm
+Soul Grinder                                                           || 160mm
+Spire Tyrants                                                          || 32mm [3], 28.5mm [4], 25mm [2]
+Splintered Fang                                                        || 32mm [3], 28.5mm [2], 25mm [5]
+Tarantulos Brood                                                       || 32mm [1], 28.5mm [2], 25mm [10]
+The Gnarlspirit Pack                                                   || 32mm
+The Unmade                                                             || 40mm [1], 32mm [1], 28.5mm [3], 25mm [4]
+Theddra Skull-Scryer                                                   || 32mm
+Untamed Beasts                                                         || 40mm [1], 32mm [3], 28.5mm [2], 25mm [3]
+Varanguard                                                             || 75 x 42mm
+Zarshia Bittersoul                                                     || 32mm

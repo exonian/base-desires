@@ -1,5 +1,4 @@
 Aethervoid Pendulum                                                    || Custom 64 x 42mm (pdf says 'Use Model')
-The Burning Head                                                       || 50mm (pdf says 'Use Model')
 Chronomantic Cogs                                                      || 40mm (pdf says 'Use Model')
 Emerald Lifeswarm                                                      || Custom 64 x 42mm (pdf says 'Use Model')
 Geminids of Uhl-Gysh                                                   || 40mm (pdf says 'Use Model')
@@ -14,4 +13,5 @@ Shards of Valagharr                                                    || 105 x 
 Soulscream Bridge                                                      || 120 x 92mm
 Soulsnare Shackles                                                     || 40mm (pdf says 'Use Model')
 Suffocating Gravetide                                                  || Irregular 170 x 85mm (pdf says 'Use Model')
+The Burning Head                                                       || 50mm (pdf says 'Use Model')
 Umbral Spellportal                                                     || 40mm (pdf says 'Use Model')

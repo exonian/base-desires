@@ -1,47 +1,47 @@
+Askurgan Trueblades                                                    || 40mm [1], 32mm [4], 28mm [3]
+Bat Swarms                                                             || 50mm (No longer in pdf)
+Belladamma Volga, First of the Vyrkos                                  || 60mm
+Black Knights                                                          || 60 x 35mm
+Blood Knights                                                          || 75 x 42mm
+Bloodseeker Palanquin                                                  || 120 x 92mm
+Cado Ezechiar, the Hollow King                                         || 40mm
+Corpse Cart                                                            || 105 x 70mm
+Coven Throne                                                           || 120 x 92mm
 Deadwalker Zombies                                                     || 25mm
 Deathrattle Skeletons                                                  || 25mm
-Dire Wolves                                                            || 60 x 35mm
-Mortis Engine                                                          || 120 x 92mm
-Terrorgheist                                                           || 130mm
-Zombie Dragon                                                          || 130mm
-Belladamma Volga, First of the Vyrkos                                  || 60mm
-Cado Ezechiar, the Hollow King                                         || 40mm
 Deintalos the Exile                                                    || 28.5mm
-The Exiled Dead                                                        || 25mm
+Dire Wolves                                                            || 60 x 35mm
+Fell Bats                                                              || 40mm
 Gorslav the Gravekeeper                                                || 40mm
+Grave Guard                                                            || 25mm
 Ivya Volga, the Outcast                                                || 40mm
 King Morlak Velmorn                                                    || 32mm
-The Sons of Velmorn                                                    || 40mm [1], 25mm [3]
+Kosargi Nightguard                                                     || 40mm
 Kritza, the Rat Prince                                                 || 60 x 35mm
 Lady Annika, the Thirsting Blade                                       || 60 x 35mm
 Lauka Vai, Mother of Nightmares                                        || 80mm
+Mannfred von Carstein, Mortarch of Night                               || 120 x 92mm
+Mortis Engine                                                          || 120 x 92mm
+Nagash, Supreme Lord of the Undead                                     || 130mm
 Necromancer                                                            || 32mm
+Neferata, Mortarch of Blood                                            || 120 x 92mm
 Prince Duvalle                                                         || 32mm
-The Crimson Court                                                      || 32mm
+Prince Vhordrai                                                        || 130mm
 Radukar the Beast                                                      || 60mm
 Radukar the Wolf                                                       || 40mm
+Terrorgheist                                                           || 130mm
+The Crimson Court                                                      || 32mm
+The Exiled Dead                                                        || 25mm
+The Sepulchral Guard                                                   || 25mm
+The Sons of Velmorn                                                    || 40mm [1], 25mm [3]
 Torgillius the Chamberlain                                             || 40mm
 Vampire Lord                                                           || 40mm
+Vampire Lord on Zombie Dragon                                          || 130mm
+Vargheists                                                             || 50mm
+Vargskyr                                                               || 50mm
 Vengorian Lord                                                         || 80mm
+Vyrkos Blood-born                                                      || 32mm
 Watch Captain Halgrim                                                  || 32mm
 Wight King                                                             || 32mm
 Wight King on Skeletal Steed                                           || 75 x 42mm
-Bloodseeker Palanquin                                                  || 120 x 92mm
-Coven Throne                                                           || 120 x 92mm
-Mannfred von Carstein, Mortarch of Night                               || 120 x 92mm
-Nagash, Supreme Lord of the Undead                                     || 130mm
-Neferata, Mortarch of Blood                                            || 120 x 92mm
-Prince Vhordrai                                                        || 130mm
-Vampire Lord on Zombie Dragon                                          || 130mm
-Askurgan Trueblades                                                    || 40mm [1], 32mm [4], 28mm [3]
-Black Knights                                                          || 60 x 35mm
-Blood Knights                                                          || 75 x 42mm
-Corpse Cart                                                            || 105 x 70mm
-Fell Bats                                                              || 40mm
-Grave Guard                                                            || 25mm
-Kosargi Nightguard                                                     || 40mm
-The Sepulchral Guard                                                   || 25mm
-Vargheists                                                             || 50mm
-Vargskyr                                                               || 50mm
-Vyrkos Blood-born                                                      || 32mm
-Bat Swarms                                                             || 50mm (No longer in pdf)
+Zombie Dragon                                                          || 130mm
