@@ -24,7 +24,13 @@ p.card-notes {
 }
 
 p.card-base-size {
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
+  a {
+    color: $white;
+    &:hover, &:focus, &:active {
+      color: $gray-400;
+    }
+  }
 }
 
 p.card-base-size, p.card-notes {

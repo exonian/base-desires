@@ -28,7 +28,7 @@ export const BaseSize: React.FC<IBaseSizeProps> = props => {
   }, [] as TPart[])
 
   return (
-    <p className="card-base-size">
+    <p className="card-text card-base-size">
       {baseSizeParts.map((part, index) =>
         <React.Fragment key={index}>
           {part.element === 'link' ? (
