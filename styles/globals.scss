@@ -11,7 +11,7 @@ h2 {
   font-size: 1.6em;
 }
 
-p.card-text {
+p.card-text, p.card-base-size {
   font-size: 1.2em;
 }
 
@@ -21,6 +21,14 @@ p.card-notes, p.card-faction {
 
 p.card-notes {
   margin-top: -0.5rem;
+}
+
+p.card-base-size {
+  margin-bottom: 0rem;
+}
+
+p.card-base-size, p.card-notes {
+  color: $gray-400;
 }
 
 .bg-body {
