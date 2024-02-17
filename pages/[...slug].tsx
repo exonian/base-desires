@@ -3,12 +3,12 @@ import Head from 'next/head'
 import Link from 'next/link'
 import ErrorPage from 'next/error'
 import { ParsedUrlQuery } from 'querystring'
-import { Card } from '../../components/card'
-import { Footer } from '../../components/footer'
+import { Card } from '../components/card'
+import { Footer } from '../components/footer'
 
-import { toStandard } from '../../utils/text'
-import { getWarscrolls } from '../../warscrolls/data';
-import { TWarscroll } from '../../warscrolls/types'
+import { toStandard } from '../utils/text'
+import { getWarscrolls } from '../warscrolls/data';
+import { TWarscroll } from '../warscrolls/types'
 
 interface IParams extends ParsedUrlQuery {
   slug: string[]
@@ -36,7 +36,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
 export async function getStaticPaths() {
   const warscrolls = getWarscrolls()
   return {
-    paths: Object.keys(warscrolls).map(name => `/p/${toStandard(name)}`),
+    paths: Object.keys(warscrolls).map(name => `/${toStandard(name)}`),
     fallback: false,
   }
 }
