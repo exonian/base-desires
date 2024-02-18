@@ -33,6 +33,13 @@ p.card-base-size {
   }
 }
 
+p.card-faction a {
+  color: $gray-600;
+  &:hover, &:focus, &:active {
+    color: $gray-400;
+  }
+}
+
 p.card-base-size, p.card-notes {
   color: $gray-400;
 }

@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { TWarscroll } from '../warscrolls/types';
 import { toDisplay, toStandard } from '../utils/text';
 import { BaseSize } from './base_size';
+import { Links, TPart } from './links';
 
 interface ICardProps {
   name: string
@@ -13,7 +14,14 @@ interface ICardProps {
 
 export const Card: React.FC<ICardProps> = props => {
   const { name, warscroll, link } = props
-  const factions = warscroll.factions.map((faction) => toDisplay(faction)).join(', ')
+  const factions = warscroll.factions.map((faction) => toDisplay(faction))
+
+  const factionParts: TPart[] = factions.reduce((accum, text, index) => {
+    if (index > 0) accum.push({ text: ', ', element: 'text' })
+    accum.push({ text: text, element: 'link' })
+
+    return accum
+  }, [] as TPart[])
 
   return (
     <div className="card warscroll-card mb-3">
@@ -23,7 +31,7 @@ export const Card: React.FC<ICardProps> = props => {
         { warscroll.notes && <p className="card-text card-notes">{ warscroll.notes }</p>}
       </div>
       <div className="card-footer">
-        <p className="card-text text-center card-faction">{ factions }</p>
+        <p className="card-text text-center card-faction"><Links parts={ factionParts } /></p>
       </div>
     </div>
   )

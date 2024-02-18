@@ -1,15 +1,8 @@
-import { zip } from 'lodash';
-import Link from 'next/link';
 import React from 'react';
-import { toStandard } from '../utils/text';
+import { Links, TPart } from './links';
 
 interface IBaseSizeProps {
   baseSize: string
-}
-
-type TPart = {
-  text: string
-  element: 'link' | 'text' | 'small'
 }
 
 export const BaseSize: React.FC<IBaseSizeProps> = props => {
@@ -29,21 +22,7 @@ export const BaseSize: React.FC<IBaseSizeProps> = props => {
 
   return (
     <p className="card-text card-base-size">
-      {baseSizeParts.map((part, index) =>
-        <React.Fragment key={index}>
-          {part.element === 'link' ? (
-            <Link href={`/?s=${toStandard(part.text)}`}>{part.text}</Link>
-          ) : (
-            <>
-              {part.element === 'text' ? (
-                <span>{part.text}</span>
-              ) : (
-                <small>{part.text}</small>
-              )}
-            </>
-          )}
-        </React.Fragment>
-      )}
+      <Links parts={baseSizeParts} />
     </p>
   )
 }
