@@ -14,21 +14,22 @@ export type TPart = {
 export const Links: React.FC<ILinksProps> = props => {
   const { parts } = props
 
+  const partial = (part: TPart) => {
+    switch (part.element) {
+      case 'link':
+        return <Link href={`/?s=${toStandard(part.text)}`}>{part.text}</Link>;
+      case 'text':
+        return <span>{part.text}</span>
+      case 'small':
+        return <small>{part.text}</small>
+    }
+  }
+
   return (
     <>
       {parts.map((part, index) =>
         <React.Fragment key={index}>
-          {part.element === 'link' ? (
-            <Link href={`/?s=${toStandard(part.text)}`}>{part.text}</Link>
-          ) : (
-            <>
-              {part.element === 'text' ? (
-                <span>{part.text}</span>
-              ) : (
-                <small>{part.text}</small>
-              )}
-            </>
-          )}
+          { partial(part) }
         </React.Fragment>
       )}
     </>
