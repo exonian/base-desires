@@ -11,6 +11,7 @@ Black Ark Corsairs                                                     || 25mm
 Black Ark Fleetmaster                                                  || 25mm
 Black Guard                                                            || 25mm
 Bleakswords                                                            || 25mm
+Callis and Toll                                                        || 32mm [2]
 Celestial Hurricanum                                                   || 120 x 92mm
 Cogsmith                                                               || 25mm
 Dark Riders                                                            || 60 x 35mm
@@ -71,6 +72,7 @@ Steam Tank                                                             || 120 x 
 Steam Tank Commander                                                   || 120 x 92mm
 Tahlia Vedra, Lioness of the Parch                                     || 100mm
 Tenebrael Shard                                                        || 32mm (No longer in pdf)
+Toll’s Companions                                                      || 40mm [1], 32mm [2]
 War Hydra                                                              || 120 x 92mm
 Warden King                                                            || 25mm
 Wild Riders                                                            || 60 x 35mm (No longer in pdf)
