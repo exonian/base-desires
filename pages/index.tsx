@@ -47,7 +47,7 @@ const Search: NextPage<ISearchPageProps> = props => {
     <div className="d-flex flex-column min-vh-100">
       <Head>
         <title key="title">{ siteName }</title>
-        <meta name="description" content={`What every ${ game === 'tow' ? 'ToW' : 'AoS' } player really desires: to know what bases everything goes on`} key="description" />
+        <meta name="description" content={`What every ${ game === 'tow' ? 'TOW' : 'AoS' } player really desires: to know what bases everything goes on`} key="description" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
