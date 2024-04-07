@@ -6,17 +6,11 @@ Taur'ruk                                 || 50 x 75mm
 Hobgoblin Khan                           || 25 x 25mm
 Giant Wolf                               || 25 x 50mm
 Infernal Ironsworn                       || 25 x 25mm
-Overseer (Infernal Ironsworn champion)   || 25 x 25mm
 Infernal Guard                           || 25 x 25mm
-Deathmask (Infernal Guard champion)      || 25 x 25mm
 K'daai Fireborn                          || 25 x 25mm
-Manburner (K'daai Fireborn champion)     || 25 x 25mm
 Cutthroat                                || 25 x 25mm
-Boss (Cutthroat champion)                || 25 x 25mm
 Sneaky Git                               || 25 x 25mm
-Murder Boss (Sneaky Git champion)        || 25 x 25mm
 Hobgoblin Wolf Rider                     || 25 x 50mm
-Boss (Hobgoblin Wolf Rider champion)     || 25 x 50mm
 Giant Wolf                               || 25 x 50mm
 Bull Centaur Render                      || 50 x 75mm
 Bull Centaur Ba'hal                      || 50 x 75mm
