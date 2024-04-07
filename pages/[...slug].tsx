@@ -9,6 +9,7 @@ import { Footer } from '../components/footer'
 import { toStandard } from '../utils/text'
 import { getWarscrolls } from '../data/load';
 import { TWarscroll } from '../data/types'
+import { SiteH1 } from '../components/h1'
 
 interface IParams extends ParsedUrlQuery {
   slug: string[]
@@ -58,7 +59,7 @@ const Warscroll: NextPage<IWarscrollProps> = props => {
           content={`${ warscroll.baseSize } ${ warscroll.notes ? warscroll.notes : ''}`} key="description" />
       </Head>
       <main className="container pt-3 flex-fill">
-        <h1><Link href={"/"}>Base Desires</Link></h1>
+        <SiteH1 />
         <div className="sticky-top bg-body">
           <div className="row justify-content-center">
             <div className="col-md-6" key={name}>

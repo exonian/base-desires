@@ -1,6 +1,5 @@
 import type { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
-import Link from 'next/link';
 import { toStandard } from '../utils/text'
 import { Card } from '../components/card'
 import { SearchBox } from '../components/search';
@@ -8,6 +7,7 @@ import { Footer } from '../components/footer';
 import { useSearchParams } from 'next/navigation';
 import { getWarscrolls } from '../data/load';
 import { TWarscrolls } from '../data/types';
+import { SiteH1 } from '../components/h1';
 
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -51,7 +51,7 @@ const Search: NextPage<ISearchPageProps> = props => {
       </Head>
 
       <main className="container pt-3 flex-fill">
-        <h1><Link href={"/"}>Base Desires</Link></h1>
+        <SiteH1 />
         <div className="sticky-top bg-body">
           { showSearch && <SearchBox /> }
         </div>

@@ -14,6 +14,6 @@ export const isDev = process.env.NODE_ENV === 'development'
 export const isTest = process.env.NODE_ENV === 'test'
 export const isProd = process.env.NODE_ENV === 'production'
 
-export const game = process.env.GAME
+export const game = process.env.NEXT_PUBLIC_GAME
 const gameDirectory = game === 'tow' ? 'tow' : 'aos'
 export const dataDirectory = path.join(process.cwd(), 'data', gameDirectory)
