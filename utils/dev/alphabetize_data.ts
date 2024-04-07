@@ -8,7 +8,7 @@ const rewrite_data = () => {
     files.forEach(filename => {
         const filePath = path.join(dataDirectory, filename)
         const fileContents = fs.readFileSync(filePath, 'utf8')
-        const lines = fileContents.split('\n')
+        const lines = fileContents.trim().split('\n')
         const reordered = lines.sort()
         const data = reordered.join('\n') + '\n'
 
