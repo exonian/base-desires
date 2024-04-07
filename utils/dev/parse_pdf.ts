@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import PdfParse from 'pdf-parse';
 import pdf  from 'pdf-parse';
+import { dataDirectory } from '../env';
 import { toStandard } from '../text';
 
 
@@ -173,7 +174,6 @@ const render_warscroll_line = (line: string) :string => {
 }
 
 const write_text_files = (profiles: Record<string, Record<string, string>>) => {
-    const dataDirectory = path.join(__dirname, '..', '..', 'data', 'aos')
     const safeFilenamePattern = new RegExp(/^[\w ]+$/);
 
     Object.entries(profiles).forEach(([faction, warscrolls]) => {

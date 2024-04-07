@@ -1,3 +1,5 @@
+import path from "path"
+
 /**
  * There is a special built-in environment variable called NODE_ENV.
  *
@@ -11,3 +13,7 @@
 export const isDev = process.env.NODE_ENV === 'development'
 export const isTest = process.env.NODE_ENV === 'test'
 export const isProd = process.env.NODE_ENV === 'production'
+
+export const game = process.env.GAME
+const gameDirectory = game === 'tow' ? 'tow' : 'aos'
+export const dataDirectory = path.join(process.cwd(), 'data', gameDirectory)

@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "parse-pdf": "npx tsx utils/dev/parse_pdf.ts",
-    "rewrite-data": "npx tsx utils/dev/rewrite_data.ts"
+    "alphabetize-data": "npx tsx utils/dev/alphabetize_data.ts"
   },
   "dependencies": {
     "@types/pdf-parse": "^1.1.4",

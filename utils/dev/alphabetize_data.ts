@@ -1,7 +1,6 @@
 import path from "path"
 import fs from 'fs';
-
-const dataDirectory = path.join(process.cwd(), 'data', 'aos')
+import { dataDirectory } from "../env";
 
 const rewrite_data = () => {
     const files = fs.readdirSync(dataDirectory)
