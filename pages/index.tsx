@@ -1,14 +1,13 @@
 import type { GetStaticProps, NextPage } from 'next'
 import Head from 'next/head'
 import Link from 'next/link';
-import { useRouter } from 'next/router'
 import { toStandard } from '../utils/text'
-import { TWarscrolls } from '../warscrolls/types'
 import { Card } from '../components/card'
 import { SearchBox } from '../components/search';
 import { Footer } from '../components/footer';
-import { getWarscrolls } from '../warscrolls/data';
 import { useSearchParams } from 'next/navigation';
+import { getWarscrolls } from '../data/load';
+import { TWarscrolls } from '../data/types';
 
 
 export const getStaticProps: GetStaticProps = async () => {

@@ -7,8 +7,8 @@ import { Card } from '../components/card'
 import { Footer } from '../components/footer'
 
 import { toStandard } from '../utils/text'
-import { getWarscrolls } from '../warscrolls/data';
-import { TWarscroll } from '../warscrolls/types'
+import { getWarscrolls } from '../data/load';
+import { TWarscroll } from '../data/types'
 
 interface IParams extends ParsedUrlQuery {
   slug: string[]

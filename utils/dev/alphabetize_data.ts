@@ -1,7 +1,7 @@
 import path from "path"
 import fs from 'fs';
 
-const dataDirectory = path.join(process.cwd(), 'warscrolls', 'data')
+const dataDirectory = path.join(process.cwd(), 'data', 'aos')
 
 const rewrite_data = () => {
     const files = fs.readdirSync(dataDirectory)

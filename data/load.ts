@@ -3,7 +3,7 @@ import fs from 'fs';
 import { toDisplay } from '../utils/text';
 import { TWarscrolls } from "./types";
 
-const dataDirectory = path.join(process.cwd(), 'warscrolls', 'data')
+const dataDirectory = path.join(process.cwd(), 'data', 'aos')
 
 const splitLine = (line: string): { name: string, size: string } => {
     const parts = line.split('||', 2)

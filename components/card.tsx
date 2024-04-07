@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 
-import { TWarscroll } from '../warscrolls/types';
+import { TWarscroll } from '../data/types';
 import { toDisplay, toStandard } from '../utils/text';
 import { BaseSize } from './base_size';
 import { Links, TPart } from './links';
