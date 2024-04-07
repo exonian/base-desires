@@ -11,6 +11,7 @@ Black Ark Corsairs                                                     || 25mm
 Black Ark Fleetmaster                                                  || 25mm
 Black Guard                                                            || 25mm
 Bleakswords                                                            || 25mm
+Brethren of the Bolt                                                   || 32mm [1], 25mm [3]
 Callis and Toll                                                        || 32mm [2]
 Celestial Hurricanum                                                   || 120 x 92mm
 Cogsmith                                                               || 25mm
@@ -59,6 +60,7 @@ Longbeards                                                             || 25mm
 Luminark of Hysh                                                       || 120 x 92mm
 Mistweaver Saih                                                        || 32mm (No longer in pdf)
 Nomad Prince                                                           || 32mm (No longer in pdf)
+Pater Filius                                                           || 40mm
 Phoenix Guard                                                          || 25mm (No longer in pdf)
 Pontifex Zenestra, Matriach of the Great Wheel                         || 90 x 52mm
 Runelord                                                               || 25mm
