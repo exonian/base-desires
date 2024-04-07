@@ -17,3 +17,4 @@ export const isProd = process.env.NODE_ENV === 'production'
 export const game = process.env.NEXT_PUBLIC_GAME
 const gameDirectory = game === 'tow' ? 'tow' : 'aos'
 export const dataDirectory = path.join(process.cwd(), 'data', gameDirectory)
+export const siteName = game === 'tow' ? 'Base Desires²' : 'Base Desires'

@@ -1,6 +1,5 @@
 import type { NextPage, GetStaticProps } from 'next'
 import Head from 'next/head'
-import Link from 'next/link'
 import ErrorPage from 'next/error'
 import { ParsedUrlQuery } from 'querystring'
 import { Card } from '../components/card'
@@ -10,6 +9,7 @@ import { toStandard } from '../utils/text'
 import { getWarscrolls } from '../data/load';
 import { TWarscroll } from '../data/types'
 import { SiteH1 } from '../components/h1'
+import { siteName } from '../utils/env';
 
 interface IParams extends ParsedUrlQuery {
   slug: string[]
@@ -53,7 +53,7 @@ const Warscroll: NextPage<IWarscrollProps> = props => {
   return (name && warscroll) ? (
     <div className="d-flex flex-column min-vh-100">
       <Head>
-        <title key="title">{`${name} – Base Desires`}</title>
+        <title key="title">{`${name} – `}{siteName}</title>
         <meta
           name="description"
           content={`${ warscroll.baseSize } ${ warscroll.notes ? warscroll.notes : ''}`} key="description" />
