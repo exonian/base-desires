@@ -53,7 +53,7 @@ const Warscroll: NextPage<IWarscrollProps> = props => {
   return (name && warscroll) ? (
     <div className="d-flex flex-column min-vh-100">
       <Head>
-        <title key="title">{`${name} – `}{siteName}</title>
+        <title key="title">{`${name} – ${siteName}`}</title>
         <meta
           name="description"
           content={`${ warscroll.baseSize } ${ warscroll.notes ? warscroll.notes : ''}`} key="description" />
