@@ -9,6 +9,7 @@ import { getWarscrolls } from '../data/load';
 import { TWarscrolls } from '../data/types';
 import { SiteH1 } from '../components/h1';
 import { game, siteName } from '../utils/env';
+import { useState } from 'react';
 
 
 export const getStaticProps: GetStaticProps = async () => {

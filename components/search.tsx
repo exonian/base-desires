@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react"
+import { useCallback, useRef, useState } from "react"
 import { FaSearch } from "react-icons/fa"
 import { MdClear } from "react-icons/md"
 import { useRouter } from 'next/router'
@@ -6,6 +6,8 @@ import { useRouter } from 'next/router'
 import { logToGA } from "../utils/analytics"
 import { toStandard, withoutHyphens } from "../utils/text"
 import { usePathname, useSearchParams } from 'next/navigation';
+import { useSearchContext, SearchContextType } from '../context/search';
+
 
 export const SearchBox: React.FC = () => {
 
@@ -15,9 +17,9 @@ export const SearchBox: React.FC = () => {
   const searchParams = useSearchParams()
 
   const [searchTerm, setSearchTerm] = useState('')
-  const [searchTermDefined, setSearchTermDefined] = useState(false)
+  const {searchBoxHasPriority, setSearchBoxHasPriority} = useSearchContext() as SearchContextType
   const slug = searchParams.get('s') || ""
-  const searchVal = searchTermDefined ? searchTerm : withoutHyphens(slug)
+  const searchVal = searchBoxHasPriority ? searchTerm : withoutHyphens(slug)
 
   const createQueryString = useCallback(
     (name: string, value: string) => {
@@ -32,7 +34,7 @@ export const SearchBox: React.FC = () => {
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = event.target.value
     setSearchTerm(value)
-    setSearchTermDefined(true)
+    setSearchBoxHasPriority(true)
     const newPath = pathname + '?' + createQueryString('s', toStandard(value))
     router.push(newPath, undefined, { shallow: true })
   }
@@ -59,7 +61,7 @@ export const SearchBox: React.FC = () => {
 
   const handleClear = () => {
     setSearchTerm('')
-    setSearchTermDefined(true)
+    setSearchBoxHasPriority(true)
     inputElement?.current?.focus()
     router.push('')
     logToGA({
