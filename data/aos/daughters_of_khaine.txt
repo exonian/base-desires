@@ -11,7 +11,7 @@ Hag Queen                                                              || 25mm
 Hag Queen on Cauldron of Blood                                         || 120 x 92mm
 Heart of Fury                                                          || 50mm
 High Gladiatrix                                                        || 32mm
-Khainite Shadowstalkers                                                || 28.5mm
+Khainite Shadowstalkers                                                || 40mm [1], 28.5mm [8] (pdf only says 28.5mm, instructions mention a 25mm)
 Khinerai Heartrenders                                                  || 40mm
 Khinerai Lifetakers                                                    || 40mm
 Krethusa the Croneseer                                                 || 60mm
