@@ -1,7 +1,7 @@
-Beastlord            || 25 x 25mm - 30 x 30mm
-Wargor               || 25 x 25mm - 30 x 30mm
-Great Bray-Shaman    || 25 x 25mm - 30 x 30mm
-Bray-Shaman          || 25 x 25mm - 30 x 30mm
+Beastlord            || 25 x 25mm – 30 x 30mm
+Wargor               || 25 x 25mm – 30 x 30mm
+Great Bray-Shaman    || 25 x 25mm – 30 x 30mm
+Bray-Shaman          || 25 x 25mm – 30 x 30mm
 Doombull             || 50 x 50mm
 Gorebull             || 50 x 50mm
 Warhoof              || 30 x 60mm
@@ -19,5 +19,5 @@ Dragon Ogre Shaggoth || 50 x 75mm
 Jabberslythe         || 60 x 100mm
 Cockatrice           || 50 x 50mm
 Cygor                || 60 x 100mm
-Chaos Giant          || 50 x 50mm - 50 x 75mm
+Chaos Giant          || 50 x 50mm – 50 x 75mm
 Ghorgon              || 60 x 100mm

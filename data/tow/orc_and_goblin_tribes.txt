@@ -35,11 +35,11 @@ Squig Hopper                          || 25 x 25mm
 Orc Boar Chariot                      || 50 x 100mm
 Goblin Wolf Chariot with two wolves   || 50 x 100mm
 Goblin Wolf Chariot with three wolves || 60 x 100mm
-Snotling Pump Wagon                   || 50 x 75mm - 50 x 100mm
+Snotling Pump Wagon                   || 50 x 75mm – 50 x 100mm
 Wyvern                                || 50 x 100mm
 Arachnarok Spider                     || 100 x 150mm
 Mangler Squig                         || 50 x 75mm
-Giant                                 || 50 x 50mm - 50 x 75mm
+Giant                                 || 50 x 50mm – 50 x 75mm
 Bolt Throwa                           || 50 x 50mm
 Goblin Crew                           || 25 x 25mm
 Doom Diver Catapult                   || 50 x 75mm
@@ -50,4 +50,4 @@ Ogdruz Swampdigga                     || 30 x 30mm
 Troll Hag                             || 60 x 100mm
 Badlands Ogre Bull                    || 40 x 40mm
 Black Orc Boar Chariot                || 50 x 100mm
-Bonegrinder Giant                     || 50 x 100mm - 100 x 150mm
+Bonegrinder Giant                     || 50 x 100mm – 100 x 150mm
