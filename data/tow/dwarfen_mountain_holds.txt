@@ -1,0 +1,28 @@
+King || 25 x 25mm
+Thane || 25 x 25mm
+Shieldbearers || 50 x 50mm
+Anvil of Doom || N/A
+Runelord || 25 x 25mm
+Runesmith || 25 x 25mm
+Daemon Slayer || 25 x 25mm
+Dragon Slayer || 25 x 25mm
+Engineer || 25 x 25mm
+Warrior || 25 x 25mm
+Longbeard || 25 x 25mm
+Quarreller || 25 x 25mm
+Thunderer || 25 x 25mm
+Ranger || 25 x 25mm
+Hammerer || 25 x 25mm
+Ironbreaker || 25 x 25mm
+Irondrake || 25 x 25mm
+Miner || 25 x 25mm
+Troll Slayer || 25 x 25mm
+Giant Slayer || 25 x 25mm
+Gyrocopter || 50 x 50mm
+Gyrobomber || 50 x 50mm
+Bolt Thrower || 50 x 50mm
+Cannon || 50 x 50mm
+Organ Gun || 50 x 50mm
+Flame Cannon || 50 x 75mm
+Grudge Thrower || 50 x 75mm
+Dwarf Crew || 25 x 25mm
