@@ -1,0 +1,26 @@
+Chaos Lord             || 30 x 30mm
+Exalted Champion       || 30 x 30mm
+Aspiring Champion      || 30 x 30mm
+Daemon Prince          || 50 x 50mm
+Sorcerer Lord          || 30 x 30mm
+Exalted Sorcerer       || 30 x 30mm
+Chaos Steed            || 30 x 60mm
+Daemonic Mount         || 40 x 60mm (min), 50 x 75mm (max)
+Chaos Warrior          || 30 x 30mm
+Chosen Chaos Warrior   || 30 x 30mm
+Chaos Marauder         || 25 x 25mm
+Forsaken               || 30 x 30mm
+Chaos Ogre             || 40 x 40mm
+Chaos Troll            || 40 x 40mm
+Chaos Spawn            || 50 x 50mm
+Chaos Knight           || 30 x 60mm
+Chosen Chaos Knight    || 30 x 60mm
+Marauder Horseman      || 30 x 60mm
+Chaos Warhound         || 25 x 50mm
+Chaos Warhound Handler || 30 x 30mm
+Chaos Chariot          || 60 x 100mm
+Gorebeast Chariot      || 60 x 100mm
+Manticore              || 60 x 100mm
+Chaos Dragon           || 60 x 100mm
+Chimera                || 60 x 100mm
+Hellcannon             || 100 x 150mm

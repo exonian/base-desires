@@ -1,0 +1,24 @@
+Beastlord            || 25 x 25mm (min), 30 x 30mm (max)
+Wargor               || 25 x 25mm (min), 30 x 30mm (max)
+Great Bray-Shaman    || 25 x 25mm (min), 30 x 30mm (max)
+Bray-Shaman          || 25 x 25mm (min), 30 x 30mm (max)
+Doombull             || 50 x 50mm
+Gorebull             || 50 x 50mm
+Warhoof              || 30 x 60mm
+Bestigor             || 30 x 30mm
+Gor                  || 25 x 25mm
+Ungor                || 25 x 25mm
+Minotaur             || 50 x 50mm
+Centigor             || 30 x 60mm
+Dragon Ogre          || 50 x 75mm
+Chaos Warhound       || 25 x 50mm
+Razorgor             || 50 x 75mm
+Tuskgor Chariot      || 50 x 100mm
+Razorgor Chariot     || 50 x 100mm
+Dragon Ogre Shaggoth || 50 x 75mm
+Jabberslythe         || 60 x 100mm
+Cockatrice           || 50 x 50mm
+Cygor                || 60 x 100mm
+Chaos Giant          || 50 x 50mm (min) 50 x 75mm (max)
+Ghorgon              || 60 x 100mm
+
