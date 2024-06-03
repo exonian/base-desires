@@ -21,4 +21,3 @@ Cockatrice           || 50 x 50mm
 Cygor                || 60 x 100mm
 Chaos Giant          || 50 x 50mm - 50 x 75mm
 Ghorgon              || 60 x 100mm
-
