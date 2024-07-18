@@ -17,8 +17,13 @@ const loadWarscrolls = () :TWarscrolls => {
         const lines = fileContents.split('\n')
 
         const factionName = toDisplay(filename.split('.')[0].replace('_', ' '))
+        let legends = false
         return lines.reduce((accum, line) => {
             if (line.length == 0) return accum
+            if (line == "LEGENDS") {
+                legends = true
+                return accum
+            }
 
             let { name, size } = splitLine(line)
             let notes = ''
@@ -31,6 +36,7 @@ const loadWarscrolls = () :TWarscrolls => {
 
             if (name in accum) accum[name].factions.push(factionName)
             else accum[name] = { baseSize: size, notes: notes, factions: [factionName] }
+            if (legends) accum[name].factions.push("Legends")
 
             console.table(accum[name])
 
