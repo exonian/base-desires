@@ -29,7 +29,7 @@ Flagellants                                                            || 25mm
 Flamespyre Phoenix                                                     || 120 x 92mm (No longer in pdf)
 Freeguild Cavalier-Marshal                                             || 75 x 42mm
 Freeguild Cavaliers                                                    || 60 x 35mm
-Freeguild Command Corps                                                || 40mm [1], 28mm [5], 25mm [1]
+Freeguild Command Corps                                                || 40mm [1], 28.5mm [5], 25mm [1]
 Freeguild Crossbowmen                                                  || 25mm (No longer in pdf)
 Freeguild Fusiliers                                                    || 28.5mm [10], 25mm [1]
 Freeguild General                                                      || 25mm (No longer in pdf)

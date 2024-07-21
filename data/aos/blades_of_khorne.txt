@@ -9,7 +9,7 @@ Bloodsecrator                                                          || 32mm
 Bloodstoker                                                            || 40mm
 Bloodthirster of Insensate Rage                                        || 120 x 92mm
 Bloodthirster of Unfettered Fury                                       || 120 x 92mm
-Claws of Karanak                                                       || 40mm [1], 60 x 35mm [1], 32mm [2], 28mm [4]
+Claws of Karanak                                                       || 40mm [1], 60 x 35mm [1], 32mm [2], 28.5mm [4]
 Dromm, Wounder of Worlds                                               || 40mm
 Exalted Deathbringer                                                   || 40mm
 Exalted Greater Daemon of Khorne                                       || 160mm (No longer in pdf)
