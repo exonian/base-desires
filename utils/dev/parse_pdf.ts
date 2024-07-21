@@ -106,24 +106,27 @@ const import_bases = (path: string) => {
     parse_pdf(path).then(function(output: string) {
         let currentFaction: string = ''
         let potentialFactionName: string = ''
-        let profiles: Record<string, Record<string, string>> = output.split('\n').reduce((accum, line) => {
-            if (line.replaceAll(' ', '').startsWith('WARSCROLL')) {
-                currentFaction = potentialFactionName
-                if (!(currentFaction in accum)) accum[currentFaction] = {}
-            }
-            else {
-                if (line.replaceAll(' ', '').startsWith('FACTION')) currentFaction = ''
-                if (line.includes('||') && (currentFaction !== '')) {
-                    let renderedLine = render_warscroll_line(line)
-                    let name = renderedLine.split('||')[0].trim()
-                    if (!(name in accum[currentFaction])) accum[currentFaction][name] = renderedLine
-                }
-            }
+        let profiles: Record<string, Record<string, string>> = {}
+
+        output.split('\n').every(line => {
+            const lineNoSpaces = line.replaceAll(' ', '')
+            if (Object.keys(profiles).length > 0 && (lineNoSpaces.startsWith('REGIMENTS'))) return false
             if (!line.includes('||')) {
                 potentialFactionName = make_faction_name(line)
             }
-            return accum
-        }, {} as Record<string, Record<string, string>>)
+            if (lineNoSpaces.startsWith('HEROES') || lineNoSpaces.startsWith('UNITS')) {
+                currentFaction = potentialFactionName
+                if (!(currentFaction in profiles)) profiles[currentFaction] = {}
+            }
+            else {
+                if (line.includes('||') && (currentFaction !== '')) {
+                    let renderedLine = render_warscroll_line(line)
+                    let name = renderedLine.split('||')[0].trim()
+                    if (!(name in profiles[currentFaction])) profiles[currentFaction][name] = renderedLine
+                }
+            }
+            return true
+        })
         write_text_files(profiles)
     })
 }
@@ -183,9 +186,10 @@ const write_text_files = (profiles: Record<string, Record<string, string>>) => {
         }
 
         let filename = toStandard(faction).replaceAll('-', '_') + '.txt'
-        let data = Object.values(warscrolls).sort().join('\n') + '\n'
+        let data = Object.values(warscrolls).join('\n') + '\n'
 
-        fs.writeFile(path.join(dataDirectory, filename), data, err => {
+        const profilesDirectory = path.join(dataDirectory, 'profiles')
+        fs.writeFile(path.join(profilesDirectory, filename), data, err => {
             if (err) {
                 console.error(err);
             }
