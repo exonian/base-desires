@@ -55,7 +55,9 @@ Lord-Exorcist                                                          || 40mm
 Lord-Imperatant                                                        || 40mm [1], 32mm [1]
 Lord-Ordinator                                                         || 40mm
 Lord-Relictor                                                          || 40mm
+Lord-Terminos                                                          || 40mm [1], 25mm [1]
 Lord-Veritant                                                          || 40mm
+Lord-Vigilant on Gryph-stalker                                         || 90 x 52mm
 Neave Blacktalon                                                       || 40mm
 Neave's Companions                                                     || 40mm
 Praetors                                                               || 40mm
@@ -63,6 +65,7 @@ Prosecutors with Celestial Hammers                                     || 40mm
 Prosecutors with Stormcall Javelins                                    || 40mm
 Protectors                                                             || 40mm
 Questor Soulsworn                                                      || 40mm
+Reclusians                                                             || 40mm
 Retributors                                                            || 40mm
 Sequitors                                                              || 40mm
 Steelheart's Champions                                                 || 40mm
