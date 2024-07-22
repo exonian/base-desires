@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import PdfParse from 'pdf-parse';
 import pdf  from 'pdf-parse';
-import { dataDirectory } from '../env';
+import { profilesDirectory } from '../env';
 import { toStandard } from '../text';
 
 
@@ -198,7 +198,6 @@ const write_text_files = (profiles: Record<string, Record<string, string>>) => {
         let filename = toStandard(faction).replaceAll('-', '_') + '.txt'
         let data = Object.values(warscrolls).join('\n') + '\n'
 
-        const profilesDirectory = path.join(dataDirectory, 'profiles')
         fs.writeFile(path.join(profilesDirectory, filename), data, err => {
             if (err) {
                 console.error(err);

@@ -1,0 +1,32 @@
+Arch-Warlock                                                           || 32mm
+Clawlord                                                               || 32mm
+Clawlord on Gnaw-beast                                                 || 90 x 52mm
+Deathmaster                                                            || 32mm
+Grey Seer                                                              || 32mm
+Grey Seer on Screaming Bell                                            || 120 x 92mm
+Lord Skreech Verminking                                                || 120 x 92mm
+Master Moulder                                                         || 32mm
+Plague Priest on Plague Furnace                                        || 120 x 92mm
+Thanquol on Boneripper                                                 || 90 x 52mm
+Verminlord Corruptor                                                   || 120 x 92mm
+Verminlord Deceiver                                                    || 120 x 92mm
+Verminlord Warbringer                                                  || 120 x 92mm
+Verminlord Warpseer                                                    || 120 x 92mm
+Warlock Bombardier                                                     || 32mm
+Warlock Engineer                                                       || 32mm
+Acolyte Globadiers                                                     || 28.5mm
+Clanrats                                                               || 25mm
+Doom-Flayer                                                            || 50mm
+Doomwheel                                                              || 105 x 70mm
+Hell Pit Abomination                                                   || 120 x 92mm
+Night Runners                                                          || 25mm
+Plague Monks                                                           || 25mm
+Plagueclaw                                                             || 120 x 92mm
+Rat Ogors                                                              || 50mm
+Ratling Gun                                                            || 60 x 35mm
+Ratling Warpblaster                                                    || 105 x 70mm
+Stormfiends                                                            || 60mm
+Stormvermin                                                            || 25mm
+Warp Lightning Cannon                                                  || 120 x 92mm
+Warpfire Thrower                                                       || 60 x 35mm
+Warplock Jezzails                                                      || 60 x 35mm

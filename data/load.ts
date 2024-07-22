@@ -2,7 +2,7 @@ import path from "path";
 import fs from 'fs';
 import { toDisplay } from '../utils/text';
 import { TWarscrolls } from "./types";
-import { dataDirectory } from "../utils/env";
+import { profilesDirectory } from "../utils/env";
 
 const splitLine = (line: string): { name: string, size: string } => {
     const parts = line.split('||', 2)
@@ -10,9 +10,9 @@ const splitLine = (line: string): { name: string, size: string } => {
 }
 
 const loadWarscrolls = () :TWarscrolls => {
-    const files = fs.readdirSync(dataDirectory)
+    const files = fs.readdirSync(profilesDirectory)
     return files.reduce((accum, filename) => {
-        const filePath = path.join(dataDirectory, filename)
+        const filePath = path.join(profilesDirectory, filename)
         const fileContents = fs.readFileSync(filePath, 'utf8')
         const lines = fileContents.split('\n')
 
