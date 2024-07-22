@@ -105,26 +105,35 @@ const import_bases = (path: string) => {
     console.log('Importing')
     parse_pdf(path).then(function(output: string) {
         let currentFaction: string = ''
-        let potentialFactionName: string = ''
+        let potentialFactionLine: string = ''
         let profiles: Record<string, Record<string, string>> = {}
 
         output.split('\n').every(line => {
             const lineNoSpaces = line.replaceAll(' ', '')
+
+            // Break out of the loop if we encounter REGIMENTS once we've got some profiles
+            // (ie we're not still on the contents page)
             if (Object.keys(profiles).length > 0 && (lineNoSpaces.startsWith('REGIMENTS'))) return false
+
+            // Make note of every line that isn't in a table as potentially the next faction name
             if (!line.includes('||')) {
-                potentialFactionName = make_faction_name(line)
+                potentialFactionLine = line
             }
+
+            // Detect the start of a table, so set the faction name and add it to profiles dict if needed
             if (lineNoSpaces.startsWith('HEROES') || lineNoSpaces.startsWith('UNITS')) {
-                currentFaction = potentialFactionName
+                currentFaction = make_faction_name(potentialFactionLine)
                 if (!(currentFaction in profiles)) profiles[currentFaction] = {}
             }
             else {
+                // Detect a table line that isn't the headers and parse it as a unit
                 if (line.includes('||') && (currentFaction !== '')) {
                     let renderedLine = render_warscroll_line(line)
                     let name = renderedLine.split('||')[0].trim()
                     if (!(name in profiles[currentFaction])) profiles[currentFaction][name] = renderedLine
                 }
             }
+            // Return true to keep the loop going
             return true
         })
         write_text_files(profiles)
