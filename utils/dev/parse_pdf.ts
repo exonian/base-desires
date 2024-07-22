@@ -161,6 +161,7 @@ const warscroll_name_typos: Record<string, string> = {
     "Hed k ra k k a's Mad mob": "Hedkrakka's Madmob",
     "K a i na n's Reapers": "Kainan's Reapers",
     'K l a q -Tr o k': 'Klaq-Trok',
+    'L o r d -Te r m i n o s': 'Lord-Terminos',
     'S p i r e Ty r a nt s': 'Spire Tyrants',
     'Stea m Ta n k': 'Steam Tank',
     'Ta r a nt u los Brood': 'Tarantulos Brood',
