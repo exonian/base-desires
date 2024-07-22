@@ -130,7 +130,9 @@ const import_bases = (path: string) => {
                 if (line.includes('||') && (currentFaction !== '')) {
                     let renderedLine = render_warscroll_line(line)
                     let name = renderedLine.split('||')[0].trim()
-                    if (!(name in profiles[currentFaction])) profiles[currentFaction][name] = renderedLine
+                    if (!(name in profiles[currentFaction]) && !ignore_profile(name)) {
+                        profiles[currentFaction][name] = renderedLine
+                    }
                 }
             }
             // Return true to keep the loop going
@@ -146,6 +148,12 @@ const parse_pdf = (path: string) => {
         return data.text
     })
     return parsed
+}
+
+const n_models_regex: RegExp = new RegExp(/\(\d models?\)/)
+
+const ignore_profile = (name: string) :boolean => {
+    return n_models_regex.test(name)
 }
 
 const warscroll_name_typos: Record<string, string> = {
