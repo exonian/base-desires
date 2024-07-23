@@ -34,7 +34,7 @@ export const Card: React.FC<ICardProps> = props => {
       <div className="card-footer">
         <p className="card-text text-center card-faction">
           <Links parts={ factionParts } />
-          { game === 'aos' && <>, { aosSources[warscroll.source] }</>}
+          { game === 'aos' && <> ({ aosSources[warscroll.source] })</>}
         </p>
       </div>
     </div>
