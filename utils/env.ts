@@ -16,6 +16,12 @@ export const isProd = process.env.NODE_ENV === 'production'
 
 export const game = process.env.NEXT_PUBLIC_GAME
 const gameDirectory = game === 'tow' ? 'tow' : 'aos'
-const dataDirectory = path.join(process.cwd(), 'data', gameDirectory)
+export const dataDirectory = path.join(process.cwd(), 'data', gameDirectory)
 export const profilesDirectory = path.join(dataDirectory, 'profiles')
 export const siteName = game === 'tow' ? 'Base Desires²' : 'Base Desires'
+
+export const aosSources = {
+    'profiles': 'Battle Profiles July 2024',
+    'legends': 'Legends July 2024',
+    'unlisted': 'Unlisted',
+}

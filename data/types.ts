@@ -1,7 +1,8 @@
+export type TSource = "profiles" | "legends" | "unlisted"
 export type TWarscroll = {
     baseSize: string
     notes?: string
     factions: string[]
-    source?: 'profiles' | 'legends' | 'unlisted'
+    source: TSource
 }
 export type TWarscrolls = Record<string, TWarscroll>
