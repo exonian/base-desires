@@ -113,11 +113,12 @@ const import_bases = (path: string) => {
 
             // Break out of the loop if we encounter REGIMENTS once we've got some profiles
             // (ie we're not still on the contents page)
-            if (Object.keys(profiles).length > 0 && (lineNoSpaces.startsWith('REGIMENTS'))) return false
+            if (lineNoSpaces.startsWith('ADDENDA')) return false
 
             // Make note of every line that isn't in a table as potentially the next faction name
             if (!line.includes('||')) {
                 potentialFactionLine = line
+                currentFaction = ''
             }
 
             // Detect the start of a table, so set the faction name and add it to profiles dict if needed
