@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import PdfParse from 'pdf-parse';
 import pdf  from 'pdf-parse';
-import { profilesDirectory } from '../env';
+import { profilesDirectory, dataDirectory } from '../env';
 import { toStandard } from '../text';
 
 
@@ -107,6 +107,8 @@ const import_bases = (path: string) => {
         let currentFaction: string = ''
         let potentialFactionLine: string = ''
         let profiles: Record<string, Record<string, string>> = {}
+        let inLegends: boolean = false
+        let legends: Record<string, string> = {}
 
         output.split('\n').every(line => {
             const lineNoSpaces = line.replaceAll(' ', '')
@@ -114,6 +116,9 @@ const import_bases = (path: string) => {
             // Break out of the loop if we encounter REGIMENTS once we've got some profiles
             // (ie we're not still on the contents page)
             if (lineNoSpaces.startsWith('ADDENDA')) return false
+
+            // Detect we're into Legends
+            if (Object.keys(profiles).length > 0 && lineNoSpaces.startsWith('WARHAMMERLEGENDS')) inLegends = true
 
             // Make note of every line that isn't in a table as potentially the next faction name
             if (!line.includes('||')) {
@@ -128,18 +133,23 @@ const import_bases = (path: string) => {
             }
             else {
                 // Detect a table line that isn't the headers and parse it as a unit
-                if (line.includes('||') && (currentFaction !== '')) {
+                if (line.includes('||') && (currentFaction !== '' || inLegends == true)) {
                     let renderedLine = render_warscroll_line(line)
                     let name = renderedLine.split('||')[0].trim()
-                    if (!(name in profiles[currentFaction]) && !ignore_profile(name)) {
-                        profiles[currentFaction][name] = renderedLine
+                    if (inLegends == true) {
+                        legends[name] = renderedLine
+                    }
+                    else {
+                        if (!(name in profiles[currentFaction]) && !ignore_profile(name)) {
+                            profiles[currentFaction][name] = renderedLine
+                        }
                     }
                 }
             }
             // Return true to keep the loop going
             return true
         })
-        write_text_files(profiles)
+        write_text_files(profiles, legends)
     })
 }
 
@@ -187,7 +197,7 @@ const render_warscroll_line = (line: string) :string => {
     return (normalisedName?.padEnd(70, ' ') + ' || ' + size).trim()
 }
 
-const write_text_files = (profiles: Record<string, Record<string, string>>) => {
+const write_text_files = (profiles: Record<string, Record<string, string>>, legends: Record<string, string>) => {
     const safeFilenamePattern = new RegExp(/^[\w ]+$/);
 
     Object.entries(profiles).forEach(([faction, warscrolls]) => {
@@ -207,6 +217,16 @@ const write_text_files = (profiles: Record<string, Record<string, string>>) => {
                 console.log(`${filename} written`)
             }
         });
+    })
+
+    let legendsData = Object.values(legends).join('\n') + '\n'
+    fs.writeFile(path.join(dataDirectory, 'legends.txt'), legendsData, err => {
+        if (err) {
+            console.error(err);
+        }
+        else {
+            console.log('Legends written')
+        }
     })
 }
 
