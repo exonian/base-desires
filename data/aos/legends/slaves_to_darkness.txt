@@ -1,0 +1,13 @@
+Corvus Cabal                                                           || 40mm [1], 28.5mm [3], 25mm [5]
+Cypher Lords                                                           || 32mm [1], 28.5mm [4], 25mm [3]
+Godsworn Hunt                                                          || 32mm [5], 25mm [1]
+Horns of Hashut                                                        || 32mm [3], 28.5mm [4], 25mm [3]
+Iron Golem                                                             || 40mm [1], 32mm [3], 28.5mm [4]
+Khagra's Ravagers                                                      || 32mm
+Scions of the Flame                                                    || 32mm [3], 28.5mm [3], 25mm [2]
+Spire Tyrants                                                          || 32mm [3], 28.5mm [4], 25mm [2]
+Splintered Fang                                                        || 32mm [3], 28.5mm [2], 25mm [5]
+Tarantulos Brood                                                       || 32mm [1], 28.5mm [2], 25mm [10]
+The Gnarlspirit Pack                                                   || 32mm
+The Unmade                                                             || 40mm [1], 32mm [1], 28.5mm [3], 25mm [4]
+Untamed Beasts                                                         || 40mm [1], 32mm [3], 28.5mm [2], 25mm [3]
