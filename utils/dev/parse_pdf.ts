@@ -184,6 +184,7 @@ const warscroll_name_typos: Record<string, string> = {
     'Va r g hei s t s': 'Vargheists',
     'Va r gs k y r': 'Vargskyr',
     'Ve r mint i d e': 'Vermintide',
+    'Wa rcha nter': 'Warchanter',
     'Wa rdok k': 'Wardokk',
     'Wa r Hyd ra': 'War Hydra',
     "Z a rbag's Git z": "Zarbag's Gitz",

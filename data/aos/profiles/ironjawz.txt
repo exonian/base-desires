@@ -4,7 +4,7 @@ Kragnos, the End of Empires                                            || 130mm
 Megaboss                                                               || 60mm
 Megaboss on Maw-krusha                                                 || 160mm
 Tuskboss on Maw-grunta                                                 || 120 x 92mm
-Wa rcha nter                                                           || 40mm
+Warchanter                                                             || 40mm
 Weirdnob Shaman                                                        || 40mm
 Zoggrok Anvilsmasha                                                    || 50mm [1], 25mm [1]
 Ardboyz                                                                || 32mm
