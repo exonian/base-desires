@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import PdfParse from 'pdf-parse';
 import pdf  from 'pdf-parse';
-import { dataDirectory } from '../env';
+import { profilesDirectory, dataDirectory } from '../env';
 import { toStandard } from '../text';
 
 
@@ -37,7 +37,7 @@ function parse_text(pageData: TPageData) :Promise<string> {
 
             let currentX = item.transform[4]
             let currentY = item.transform[5]
-            if (currentX < lastX - 110 || Math.abs(item.height - lastHeight) > 1.5 || currentY > lastY + 100) {
+            if (currentX < lastX - 160 || Math.abs(item.height - lastHeight) > 1.5 || currentY > lastY + 100) {
                 text += '\n' + cleanedText;
             }
             else {
@@ -105,26 +105,51 @@ const import_bases = (path: string) => {
     console.log('Importing')
     parse_pdf(path).then(function(output: string) {
         let currentFaction: string = ''
-        let potentialFactionName: string = ''
-        let profiles: Record<string, Record<string, string>> = output.split('\n').reduce((accum, line) => {
-            if (line.replaceAll(' ', '').startsWith('WARSCROLL')) {
-                currentFaction = potentialFactionName
-                if (!(currentFaction in accum)) accum[currentFaction] = {}
+        let potentialFactionLine: string = ''
+        let profiles: Record<string, Record<string, string>> = {}
+        let inLegends: boolean = false
+        let legends: Record<string, string> = {}
+
+        output.split('\n').every(line => {
+            const lineNoSpaces = line.replaceAll(' ', '')
+
+            // Break out of the loop if we encounter REGIMENTS once we've got some profiles
+            // (ie we're not still on the contents page)
+            if (lineNoSpaces.startsWith('ADDENDA')) return false
+
+            // Detect we're into Legends
+            if (Object.keys(profiles).length > 0 && lineNoSpaces.startsWith('WARHAMMERLEGENDS')) inLegends = true
+
+            // Make note of every line that isn't in a table as potentially the next faction name
+            if (!line.includes('||')) {
+                potentialFactionLine = line
+                currentFaction = ''
+            }
+
+            // Detect the start of a table, so set the faction name and add it to profiles dict if needed
+            if (lineNoSpaces.startsWith('HEROES') || lineNoSpaces.startsWith('UNITS')) {
+                currentFaction = make_faction_name(potentialFactionLine)
+                if (!(currentFaction in profiles)) profiles[currentFaction] = {}
             }
             else {
-                if (line.replaceAll(' ', '').startsWith('FACTION')) currentFaction = ''
-                if (line.includes('||') && (currentFaction !== '')) {
+                // Detect a table line that isn't the headers and parse it as a unit
+                if (line.includes('||') && (currentFaction !== '' || inLegends == true)) {
                     let renderedLine = render_warscroll_line(line)
                     let name = renderedLine.split('||')[0].trim()
-                    if (!(name in accum[currentFaction])) accum[currentFaction][name] = renderedLine
+                    if (inLegends == true) {
+                        legends[name] = renderedLine
+                    }
+                    else {
+                        if (!(name in profiles[currentFaction]) && !ignore_profile(name)) {
+                            profiles[currentFaction][name] = renderedLine
+                        }
+                    }
                 }
             }
-            if (!line.includes('||')) {
-                potentialFactionName = make_faction_name(line)
-            }
-            return accum
-        }, {} as Record<string, Record<string, string>>)
-        write_text_files(profiles)
+            // Return true to keep the loop going
+            return true
+        })
+        write_text_files(profiles, legends)
     })
 }
 
@@ -136,11 +161,18 @@ const parse_pdf = (path: string) => {
     return parsed
 }
 
+const n_models_regex: RegExp = new RegExp(/\(\d models?\)/)
+
+const ignore_profile = (name: string) :boolean => {
+    return n_models_regex.test(name)
+}
+
 const warscroll_name_typos: Record<string, string> = {
     'A rch-Wa rlock': 'Arch-Warlock',
     "Hed k ra k k a's Mad mob": "Hedkrakka's Madmob",
     "K a i na n's Reapers": "Kainan's Reapers",
     'K l a q -Tr o k': 'Klaq-Trok',
+    'L o r d -Te r m i n o s': 'Lord-Terminos',
     'S p i r e Ty r a nt s': 'Spire Tyrants',
     'Stea m Ta n k': 'Steam Tank',
     'Ta r a nt u los Brood': 'Tarantulos Brood',
@@ -152,28 +184,21 @@ const warscroll_name_typos: Record<string, string> = {
     'Va r g hei s t s': 'Vargheists',
     'Va r gs k y r': 'Vargskyr',
     'Ve r mint i d e': 'Vermintide',
+    'Wa rcha nter': 'Warchanter',
     'Wa rdok k': 'Wardokk',
     'Wa r Hyd ra': 'War Hydra',
     "Z a rbag's Git z": "Zarbag's Gitz",
-}
-
-const remove_faction_prefix = (name: string) :string => {
-    name = name.replace(/^Beasts of Chaos /, '')
-    name = name.replace(/^Disciples of Tzeentch /, '')
-    name = name.replace(/^Slaves to Darkness /, '')
-    return name
 }
 
 const render_warscroll_line = (line: string) :string => {
     const parts = line.split('||')
     const name = parts.at(0) as string
     let normalisedName = name && warscroll_name_typos[name] || name
-    normalisedName = remove_faction_prefix(normalisedName)
     const size = parts.at(-1)
     return (normalisedName?.padEnd(70, ' ') + ' || ' + size).trim()
 }
 
-const write_text_files = (profiles: Record<string, Record<string, string>>) => {
+const write_text_files = (profiles: Record<string, Record<string, string>>, legends: Record<string, string>) => {
     const safeFilenamePattern = new RegExp(/^[\w ]+$/);
 
     Object.entries(profiles).forEach(([faction, warscrolls]) => {
@@ -183,9 +208,9 @@ const write_text_files = (profiles: Record<string, Record<string, string>>) => {
         }
 
         let filename = toStandard(faction).replaceAll('-', '_') + '.txt'
-        let data = Object.values(warscrolls).sort().join('\n') + '\n'
+        let data = Object.values(warscrolls).join('\n') + '\n'
 
-        fs.writeFile(path.join(dataDirectory, filename), data, err => {
+        fs.writeFile(path.join(profilesDirectory, filename), data, err => {
             if (err) {
                 console.error(err);
             }
@@ -193,6 +218,16 @@ const write_text_files = (profiles: Record<string, Record<string, string>>) => {
                 console.log(`${filename} written`)
             }
         });
+    })
+
+    let legendsData = Object.values(legends).join('\n') + '\n'
+    fs.writeFile(path.join(dataDirectory, 'legends.txt'), legendsData, err => {
+        if (err) {
+            console.error(err);
+        }
+        else {
+            console.log('Legends written')
+        }
     })
 }
 

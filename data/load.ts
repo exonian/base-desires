@@ -1,8 +1,8 @@
 import path from "path";
 import fs from 'fs';
 import { toDisplay } from '../utils/text';
-import { TWarscrolls } from "./types";
-import { dataDirectory } from "../utils/env";
+import { TWarscrolls, TSource } from './types';
+import { dataDirectory } from '../utils/env';
 
 const splitLine = (line: string): { name: string, size: string } => {
     const parts = line.split('||', 2)
@@ -10,33 +10,43 @@ const splitLine = (line: string): { name: string, size: string } => {
 }
 
 const loadWarscrolls = () :TWarscrolls => {
-    const files = fs.readdirSync(dataDirectory)
-    return files.reduce((accum, filename) => {
-        const filePath = path.join(dataDirectory, filename)
-        const fileContents = fs.readFileSync(filePath, 'utf8')
-        const lines = fileContents.split('\n')
+    const directoryNames: TSource[] = ['profiles', 'legends', 'unlisted', 'fan-made']
+    let warscrolls: TWarscrolls = {}
 
-        const factionName = toDisplay(filename.split('.')[0].replace('_', ' '))
-        return lines.reduce((accum, line) => {
-            if (line.length == 0) return accum
+    directoryNames.forEach(directoryName => {
+        const directory = path.join(dataDirectory, directoryName)
+        let files = []
+        try { files = fs.readdirSync(directory) }
+        catch(ENOENT) { return }
 
-            let { name, size } = splitLine(line)
-            let notes = ''
+        return files.reduce((warscrolls, filename) => {
+            const filePath = path.join(directory, filename)
+            const fileContents = fs.readFileSync(filePath, 'utf8')
+            const lines = fileContents.split('\n')
 
-            const opening_bracket_position = size.indexOf('(')
-            if (opening_bracket_position > -1) {
-                notes = size.slice(opening_bracket_position).trim()
-                size = size.slice(0, opening_bracket_position).trim()
-            }
+            const factionName = toDisplay(filename.split('.')[0].replace('_', ' '))
+            return lines.reduce((warscrolls, line) => {
+                if (line.length == 0) return warscrolls
 
-            if (name in accum) accum[name].factions.push(factionName)
-            else accum[name] = { baseSize: size, notes: notes, factions: [factionName] }
+                let { name, size } = splitLine(line)
+                let notes = ''
 
-            console.table(accum[name])
+                const opening_bracket_position = size.indexOf('(')
+                if (opening_bracket_position > -1) {
+                    notes = size.slice(opening_bracket_position).trim()
+                    size = size.slice(0, opening_bracket_position).trim()
+                }
 
-            return accum
-        }, accum as TWarscrolls)
-    }, {} as TWarscrolls)
+                if (name in warscrolls) warscrolls[name].factions.push(factionName)
+                else warscrolls[name] = { baseSize: size, notes: notes, factions: [factionName], source: directoryName }
+
+                console.table(warscrolls[name])
+
+                return warscrolls
+            }, warscrolls as TWarscrolls)
+        }, warscrolls as TWarscrolls)
+    })
+    return warscrolls
 }
 
 let cachedWarscrolls: TWarscrolls

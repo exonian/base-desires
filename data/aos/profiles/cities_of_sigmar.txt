@@ -1,0 +1,52 @@
+Alchemite Warforger                                                    || 32mm
+Assassin                                                               || 25mm
+Battlemage                                                             || 25mm
+Battlemage on Celestial Hurricanum                                     || 120 x 92mm
+Battlemage on Griffon                                                  || 120 x 92mm
+Battlemage on Luminark of Hysh                                         || 120 x 92mm
+Black Ark Fleetmaster                                                  || 25mm
+Callis and Toll                                                        || 32mm
+Cogsmith                                                               || 25mm
+Dreadlord on Black Dragon                                              || 105 x 70mm
+Freeguild Cavalier-Marshal                                             || 75 x 42mm
+Freeguild Marshal and Relic Envoy                                      || 32mm [1], 28.5mm [1]
+Freeguild Marshal on Griffon                                           || 120 x 92mm
+Fusil-Major on Ogor Warhulk                                            || 50mm
+Galen ven Denst                                                        || 28.5mm
+Doralia ven Denst                                                      || 28.5mm
+Pontifex Zenestra, Matriarch of the Great Wheel                        || 90 x 52mm
+Runelord                                                               || 25mm
+Sorceress                                                              || 25mm
+Sorceress on Black Dragon                                              || 105 x 70mm
+Steam Tank Commander                                                   || 120 x 92mm
+Tahlia Vedra, Lioness of the Parch                                     || 100mm
+Warden King                                                            || 25mm
+Black Ark Corsairs                                                     || 25mm
+Black Guard                                                            || 25mm
+Bleakswords                                                            || 25mm
+Celestial Hurricanum                                                   || 120 x 92mm
+Dark Riders                                                            || 60 x 35mm
+Darkshards                                                             || 25mm
+Drakespawn Chariot                                                     || 120 x 92mm
+Drakespawn Knights                                                     || 60 x 35mm
+Dreadspears                                                            || 25mm
+Executioners                                                           || 25mm
+Flagellants                                                            || 25mm
+Freeguild Cavaliers                                                    || 60 x 35mm
+Freeguild Command Corps                                                || 40mm [1], 32mm [1], 28.5mm [4]
+Freeguild Fusiliers                                                    || 28.5mm
+Freeguild Steelhelms                                                   || 25mm
+Gyrobomber                                                             || 50mm
+Gyrocopter                                                             || 50mm
+Hammerers                                                              || 25mm
+Ironbreakers                                                           || 25mm
+Irondrakes                                                             || 25mm
+Ironweld Great Cannon                                                  || 90mm
+Kharibdyss                                                             || 120 x 92mm
+Longbeards                                                             || 25mm
+Luminark of Hysh                                                       || 120 x 92mm
+Scourgerunner Chariot                                                  || 120 x 92mm
+Steam Tank                                                             || 120 x 92mm
+Toll's Companions                                                      || 40mm [1], 28.5mm [3]
+War Hydra                                                              || 120 x 92mm
+Wildercorps Hunters                                                    || 40mm [2], 28.5mm [3], 25mm [6]

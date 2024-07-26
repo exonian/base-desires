@@ -1,11 +1,11 @@
 import path from "path"
 import fs from 'fs';
-import { dataDirectory } from "../env";
+import { profilesDirectory } from "../env";
 
 const rewrite_data = () => {
-    const files = fs.readdirSync(dataDirectory)
+    const files = fs.readdirSync(profilesDirectory)
     files.forEach(filename => {
-        const filePath = path.join(dataDirectory, filename)
+        const filePath = path.join(profilesDirectory, filename)
         const fileContents = fs.readFileSync(filePath, 'utf8')
         const lines = fileContents.trim().split('\n')
         const reordered = lines.sort()
