@@ -1,4 +1,4 @@
-export type TSource = "profiles" | "legends" | "unlisted"
+export type TSource = "profiles" | "legends" | "unlisted" | "fan-made"
 export type TWarscroll = {
     baseSize: string
     notes?: string
