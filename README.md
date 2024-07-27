@@ -52,5 +52,7 @@ It will also populate (overwrite) the `data/aos/legends.txt` file, which is not 
 
 This part of the process is not fully automated because the underlying structure of the Legends section of the pdf is chaotic and a reliable relationship between faction name titles and the profiles visually below them cannot easily be established.
 
-#### Unlisted and fan-made
-The files in `data/aos/unlisted` and `data/aos/fan-made` are entirely under manual control and have no direct current source document: unlike the profiles and legends, they are their own authorities.
+#### Unlisted, corrected and fan-made
+The files in `data/aos/unlisted`, `data/aos/corrected` and `data/aos/fan-made` are entirely under manual control and have no direct current source document: unlike the profiles and legends, they are their own authorities.
+
+`corrected` is special because its semantic meaning (and label applied in the listings) is for profiles listed in the official document but whose listings are incorrect. An entry here should be manually removed from the file in `data/aos/profiles`.

@@ -10,7 +10,7 @@ const splitLine = (line: string): { name: string, size: string } => {
 }
 
 const loadWarscrolls = () :TWarscrolls => {
-    const directoryNames: TSource[] = ['profiles', 'legends', 'unlisted', 'fan-made']
+    const directoryNames: TSource[] = ['profiles', 'legends', 'unlisted', 'corrected', 'fan-made']
     let warscrolls: TWarscrolls = {}
 
     directoryNames.forEach(directoryName => {

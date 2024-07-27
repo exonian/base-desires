@@ -24,5 +24,6 @@ export const aosSources = {
     'profiles': 'Battle Profiles July 2024',
     'legends': 'Legends July 2024',
     'unlisted': 'Unlisted',
+    'corrected': 'Corrected',
     'fan-made': 'Fan-made faction',
 }
