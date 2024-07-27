@@ -1,7 +1,7 @@
 This project maintains data on base sizes of models in Warhammer Age of Sigmar, and serves that data as a web application using next.js
 
-[basedesires.com](https://basedesires.com/) for Age of Sigmar
-[tow.basedesires.com](https://tow.basedesires.com/) for The Old World
+- [basedesires.com](https://basedesires.com/) for Age of Sigmar
+- [tow.basedesires.com](https://tow.basedesires.com/) for The Old World
 
 
 ## Getting Started
