@@ -20,7 +20,7 @@ export const dataDirectory = path.join(process.cwd(), 'data', gameDirectory)
 export const profilesDirectory = path.join(dataDirectory, 'profiles')
 export const siteName = game === 'tow' ? 'Base Desires²' : 'Base Desires'
 
-export const aosSources = {
+export const aosSources :any = {
     'profiles': 'Battle Profiles July 2024',
     'legends': 'Legends July 2024',
     'unlisted': 'Unlisted',

@@ -24,6 +24,8 @@ export const Card: React.FC<ICardProps> = props => {
     return accum
   }, [] as TPart[])
 
+  const source = (game === 'aos' && aosSources[warscroll.source] || warscroll.source )
+
   return (
     <div className="card warscroll-card mb-3">
       <div className="card-body">
@@ -34,7 +36,7 @@ export const Card: React.FC<ICardProps> = props => {
       <div className="card-footer">
         <p className="card-text text-center card-faction">
           <Links parts={ factionParts } />
-          { game === 'aos' && <> ({ aosSources[warscroll.source] })</>}
+          { game === 'aos' && <> ({ source })</>}
         </p>
       </div>
     </div>
