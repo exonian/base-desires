@@ -21,7 +21,7 @@ export const profilesDirectory = path.join(dataDirectory, 'profiles')
 export const siteName = game === 'tow' ? 'Base Desires²' : 'Base Desires'
 
 export const aosSources :any = {
-    'profiles': 'Battle Profiles July 2024',
+    'profiles': 'Battle Profiles September 2024',
     'legends': 'Legends July 2024',
     'unlisted': 'Unlisted',
     'corrected': 'Corrected',

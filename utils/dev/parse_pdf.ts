@@ -169,6 +169,7 @@ const ignore_profile = (name: string) :boolean => {
 
 const warscroll_name_typos: Record<string, string> = {
     'A rch-Wa rlock': 'Arch-Warlock',
+    'Darkoath Chieftain on Wa rsteed': 'Darkoath Chieftain on Warsteed',
     "Hed k ra k k a's Mad mob": "Hedkrakka's Madmob",
     "K a i na n's Reapers": "Kainan's Reapers",
     'K l a q -Tr o k': 'Klaq-Trok',
@@ -191,7 +192,8 @@ const warscroll_name_typos: Record<string, string> = {
 }
 
 const render_warscroll_line = (line: string) :string => {
-    const parts = line.split('||')
+    const cleanedLine = line.replaceAll('✹', '').trim()
+    const parts = cleanedLine.split('||')
     const name = parts.at(0) as string
     let normalisedName = name && warscroll_name_typos[name] || name
     const size = parts.at(-1)

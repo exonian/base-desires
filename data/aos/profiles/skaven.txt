@@ -4,7 +4,7 @@ Clawlord on Gnaw-beast                                                 || 90 x 5
 Deathmaster                                                            || 32mm
 Grey Seer                                                              || 32mm
 Grey Seer on Screaming Bell                                            || 120 x 92mm
-Krittok Foulblade                                                      || 40mm {Battle Profiles September 2024}
+Krittok Foulblade                                                      || 40mm
 Lord Skreech Verminking                                                || 120 x 92mm
 Master Moulder                                                         || 32mm
 Plague Priest on Plague Furnace                                        || 120 x 92mm
@@ -13,11 +13,12 @@ Verminlord Corruptor                                                   || 120 x 
 Verminlord Deceiver                                                    || 120 x 92mm
 Verminlord Warbringer                                                  || 120 x 92mm
 Verminlord Warpseer                                                    || 120 x 92mm
+Vizzik Skour, Prophet of the Horned Rat                                || 130mm
 Warlock Bombardier                                                     || 32mm
 Warlock Engineer                                                       || 32mm
-Warlock Galvaneer                                                      || 32mm {Battle Profiles September 2024}
+Warlock Galvaneer                                                      || 32mm
 Acolyte Globadiers                                                     || 28.5mm
-Brood Terror                                                           || 90 x 52mm {Battle Profiles September 2024}
+Brood Terror                                                           || 90 x 52mm
 Clanrats                                                               || 25mm
 Doom-Flayers                                                           || 50mm (Was 60 x 35mm)
 Doomwheel                                                              || 105 x 70mm
@@ -25,14 +26,14 @@ Hell Pit Abomination                                                   || 120 x 
 Night Runners                                                          || 25mm
 Plague Monks                                                           || 25mm
 Plagueclaw                                                             || 120 x 92mm
-Plaguepack                                                             || 32mm [1], 28.5mm [1], 25mm [4] {Battle Profiles September 2024}
+Plaguepack                                                             || 32mm [1], 28.5mm [1], 25mm [4]
 Rat Ogors                                                              || 50mm
-Ratling Guns                                                           || 60 x 35mm {Battle Profiles September 2024}
+Ratling Guns                                                           || 60 x 35mm
 Ratling Warpblaster                                                    || 105 x 70mm
 Stormfiends                                                            || 60mm
-Stormvermin                                                            || 28.5mm (Was 25mm) {Battle Profiles September 2024}
-Warp-Grinder                                                           || 90 x 52mm (Was 60 x 35mm) {Battle Profiles September 2024}
+Stormvermin                                                            || 28.5mm (Was 25mm)
+Warp-Grinder                                                           || 90 x 52mm (Was 60 x 35mm)
 Warp Lightning Cannon                                                  || 120 x 92mm
-Warpfire Throwers                                                      || 60 x 35mm {Battle Profiles September 2024}
+Warpfire Throwers                                                      || 60 x 35mm
 Warplock Jezzails                                                      || 60 x 35mm
-Warpvolt Scourgers                                                     || 60 x 35mm {Battle Profiles September 2024}
+Warpvolt Scourgers                                                     || 60 x 35mm

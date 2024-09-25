@@ -12,7 +12,7 @@ Dryads                                                                 || 32mm
 Gossamid Archers                                                       || 32mm
 Kurnoth Hunters with Kurnoth Greatbows                                 || 50mm
 Kurnoth Hunters with Kurnoth Greatswords                               || 50mm
-Kurnoth Hunters with Kurnoth Scythes                                   || 50mm
+Kurnoth Hunters with Kurnoth Scythe                                    || 50mm
 Revenant Seekers                                                       || 60mm
 Spite-Revenants                                                        || 32mm
 Spiterider Lancers                                                     || 60mm

@@ -25,7 +25,6 @@ Lord-Arcanum on Tauralon                                               || 100mm
 Lord-Castellant                                                        || 40mm
 Lord-Celestant                                                         || 40mm
 Lord-Celestant on Dracoth                                              || 90 x 52mm
-Lord-Celestant on Stardrake                                            || 170 x 105mm
 Aetherwings                                                            || 32mm
 Annihilators                                                           || 40mm
 Annihilators with Meteoric Grandhammers                                || 40mm
@@ -36,8 +35,7 @@ Dracothian Guard Concussors                                            || 90 x 5
 Dracothian Guard Desolators                                            || 90 x 52mm
 Dracothian Guard Fulminators                                           || 90 x 52mm
 Dracothian Guard Tempestors                                            || 90 x 52mm
-Evocators                                                              || 40mm
-Evocators on Celestial Dracolines                                      || 90 x 52mm
+Lord-Celestant on Stardrake                                            || 170 x 105mm
 Lord-Commander Bastian Carthalos                                       || 50mm
 Lord-Exorcist                                                          || 40mm
 Lord-Imperatant                                                        || 40mm [1], 32mm [1]
@@ -50,6 +48,8 @@ Neave Blacktalon                                                       || 40mm
 Lorai, Child of the Abyss                                              || 40mm
 Vandus Hammerhand                                                      || 90 x 52mm
 Yndrasta, the Celestial Spear                                          || 60mm
+Evocators                                                              || 40mm
+Evocators on Celestial Dracolines                                      || 90 x 52mm
 Gryph-hounds                                                           || 40mm
 Judicators with Boltstorm Crossbows                                    || 40mm
 Judicators with Skybolt Bows                                           || 40mm

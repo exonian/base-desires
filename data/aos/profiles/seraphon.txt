@@ -12,7 +12,7 @@ Ripperdactyl Riders                                                    || 50mm
 Saurus Guard                                                           || 32mm
 Saurus Warriors                                                        || 32mm
 Skinks                                                                 || 25mm
-Spawn of Chotec                                                        || 90mm [1], 25mm [3]
+Spawn of Chotec                                                        || 90 x 52mm [1], 25mm [3]
 Stegadon                                                               || 120 x 92mm
 Terradon Riders                                                        || 50mm
 Terrawings                                                             || 32mm
@@ -26,6 +26,6 @@ Saurus Scar-Veteran on Carnosaur                                       || 120 x 
 Skink Oracle on Troglodon                                              || 120 x 92mm
 Skink Starpriest                                                       || 25mm
 Skink Starseer                                                         || 50mm
-Slann Starmaster                                                       || 50mm
+Slann Starmaster                                                       || 80mm
 Stegadon Chief                                                         || 120 x 92mm
 Terradon Chief                                                         || 50mm
