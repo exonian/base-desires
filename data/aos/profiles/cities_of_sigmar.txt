@@ -5,7 +5,7 @@ Battlemage on Celestial Hurricanum                                     || 120 x 
 Battlemage on Griffon                                                  || 120 x 92mm
 Battlemage on Luminark of Hysh                                         || 120 x 92mm
 Black Ark Fleetmaster                                                  || 25mm
-Callis and Toll                                                        || 28.5mm
+Callis and Toll                                                        || 28.5mm (Now correct in PDF)
 Cogsmith                                                               || 25mm
 Dreadlord on Black Dragon                                              || 105 x 70mm
 Freeguild Cavalier-Marshal                                             || 75 x 42mm
