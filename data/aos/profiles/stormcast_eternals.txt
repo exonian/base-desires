@@ -7,6 +7,7 @@ Gavriel Sureheart                                                      || 40mm
 Ionus Cryptborn, Warden of Lost Souls                                  || 100mm
 Karazai the Scarred                                                    || 160mm
 Knight-Arcanum                                                         || 40mm
+Knight-Azyros                                                          || 50mm
 Knight-Draconis                                                        || 105 x 70mm
 Knight-Heraldor                                                        || 40mm
 Knight-Incantor                                                        || 40mm
@@ -24,7 +25,6 @@ Lord-Arcanum on Gryph-charger                                          || 90 x 5
 Lord-Arcanum on Tauralon                                               || 100mm
 Lord-Castellant                                                        || 40mm
 Lord-Celestant                                                         || 40mm
-Lord-Celestant on Dracoth                                              || 90 x 52mm
 Aetherwings                                                            || 32mm
 Annihilators                                                           || 40mm
 Annihilators with Meteoric Grandhammers                                || 40mm
@@ -33,8 +33,7 @@ Celestar Ballista                                                      || 60mm [
 Decimators                                                             || 40mm
 Dracothian Guard Concussors                                            || 90 x 52mm
 Dracothian Guard Desolators                                            || 90 x 52mm
-Dracothian Guard Fulminators                                           || 90 x 52mm
-Dracothian Guard Tempestors                                            || 90 x 52mm
+Lord-Celestant on Dracoth                                              || 90 x 52mm
 Lord-Celestant on Stardrake                                            || 170 x 105mm
 Lord-Commander Bastian Carthalos                                       || 50mm
 Lord-Exorcist                                                          || 40mm
@@ -44,10 +43,15 @@ Lord-Relictor                                                          || 40mm
 Lord-Terminos                                                          || 40mm [1], 25mm [1]
 Lord-Veritant                                                          || 40mm
 Lord-Vigilant on Gryph-stalker                                         || 90 x 52mm
+Lord-Vigilant on Morrgryph                                             || 120 x 92mm
+Iridan the Witness                                                     || 120 x 92mm
 Neave Blacktalon                                                       || 40mm
 Lorai, Child of the Abyss                                              || 40mm
+Tornus the Redeemed                                                    || 50mm
 Vandus Hammerhand                                                      || 90 x 52mm
 Yndrasta, the Celestial Spear                                          || 60mm
+Dracothian Guard Fulminators                                           || 90 x 52mm
+Dracothian Guard Tempestors                                            || 90 x 52mm
 Evocators                                                              || 40mm
 Evocators on Celestial Dracolines                                      || 90 x 52mm
 Gryph-hounds                                                           || 40mm
@@ -62,8 +66,10 @@ Questor Soulsworn                                                      || 40mm
 Reclusians                                                             || 40mm
 Retributors                                                            || 40mm
 Sequitors                                                              || 40mm
+Stormcoven                                                             || 40mm
 Stormdrake Guard                                                       || 105 x 70mm
 Stormstrike Chariot                                                    || 120 x 92mm
+Stormstrike Palladors                                                  || 90 x 52mm
 Vanguard-Hunters                                                       || 40mm
 Vanguard-Palladors with Shock Handaxes                                 || 75 x 42mm
 Vanguard-Palladors with Starstrike Javelins                            || 75 x 42mm
