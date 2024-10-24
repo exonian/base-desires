@@ -59,11 +59,20 @@ function parse_text(pageData: TPageData) :Promise<string> {
 
 
 function clean_text(text: string) :string {
+    text = text.replace(/\s+/g,' ')  // nbsps, which interfere with searching, and extraneous spaces
     text = text.replaceAll("×", "x")  // for searching
     text = text.replaceAll("’", "'")  // for searching
     text = text.replaceAll("�", ".")  // for display and search
-    text = text.replace(/(\d) {0,1}(\d) {0,1}m {0,1}m/g, "$1$2mm")  // remove spaces in simple sizes
-    text = text.replace(/\s+/g,' ')  // nbsps, which interfere with searching, and extraneous spaces
+    text = text.replace(/(\w)/g, "$1th")  // weird th. In word, so lowercase
+    text = text.replaceAll("", "Th")  // weird Th otherwise
+    text = text.replaceAll("", "fi")  // weird character
+    text = text.replaceAll("", "ff")  // weird character
+    text = text.replaceAll("", "ffl")  // weird character
+    text = text.replaceAll("", "fl")  // weird character
+    text = text.replaceAll("", "ft")  // weird character
+    text = text.replaceAll("", "-")  // weird character
+
+    text = text.replace(/(\d)? {0,1}(\d) {0,1}m {0,1}m/g, "$1$2mm")  // remove spaces in simple sizes
     return text
 }
 
