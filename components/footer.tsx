@@ -1,12 +1,11 @@
 import Link from 'next/link'
-import { FaGithub, FaTwitter } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
 import { game } from '../utils/env'
 
 export const Footer: React.FC = () => {
   return (
     <footer className="footer text-center">
       <p>By Michael Blatherwick
-        <a className="social-link" href="https://twitter.com/rogue_michael"><FaTwitter /> @rogue_michael</a>
         <a className="social-link" href="https://github.com/exonian"><FaGithub /> exonian</a>
         { game === 'tow' ?
           <Link className="social-link" href="https://basedesires.com">Base Desires</Link>
