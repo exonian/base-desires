@@ -1,3 +1,6 @@
+Chaos Lord on Manticore                                                || 120 x 92mm
+Chaos Sorcerer Lord on Manticore                                       || 120 x 92mm
+Chaos Warshrine                                                        || 120 x 92mm
 Corvus Cabal                                                           || 40mm [1], 28.5mm [3], 25mm [5]
 Cypher Lords                                                           || 32mm [1], 28.5mm [4], 25mm [3]
 Godsworn Hunt                                                          || 32mm [5], 25mm [1]
@@ -5,6 +8,7 @@ Horns of Hashut                                                        || 32mm [
 Iron Golem                                                             || 40mm [1], 32mm [3], 28.5mm [4]
 Khagra's Ravagers                                                      || 32mm
 Scions of the Flame                                                    || 32mm [3], 28.5mm [3], 25mm [2]
+Soul Grinder                                                           || 160mm
 Spire Tyrants                                                          || 32mm [3], 28.5mm [4], 25mm [2]
 Splintered Fang                                                        || 32mm [3], 28.5mm [2], 25mm [5]
 Tarantulos Brood                                                       || 32mm [1], 28.5mm [2], 25mm [10]

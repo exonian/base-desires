@@ -5,10 +5,7 @@ Centaurion Marshal                                                     || 80mm
 Chaos Lord                                                             || 40mm
 Chaos Lord on Daemonic Mount                                           || 90 x 52mm (Now correct in PDF)
 Chaos Lord on Karkadrak                                                || 90 x 52mm
-Chaos Lord on Manticore                                                || 120 x 92mm
 Chaos Sorcerer Lord                                                    || 32mm
-Chaos Sorcerer Lord on Manticore                                       || 120 x 92mm
-Chaos Warshrine                                                        || 120 x 92mm
 Daemon Prince                                                          || 60mm
 Darkoath Chieftain                                                     || 32mm
 Darkoath Chieftain on Warsteed                                         || 75 x 42mm
@@ -33,11 +30,18 @@ Darkoath Savagers                                                      || 32mm [
 Darkoath Wilderfiend                                                   || 60mm
 Fomoroid Crusher                                                       || 60mm
 Gorebeast Chariot                                                      || 120 x 92mm
+Legion of the First Prince Beasts of Nurgle                            || 60mm
+Legion of the First Prince Bloodcrushers                               || 90 x 52mm
+Legion of the First Prince Bloodletters                                || 32mm
+Legion of the First Prince Fiends                                      || 75 x 42mm
+Legion of the First Prince Flamers of Tzeentch                         || 32mm
+Legion of the First Prince Hellflayer                                  || 120 x 92mm
+Legion of the First Prince Plaguebearers                               || 32mm
+Legion of the First Prince Screamers of Tzeentch                       || 32mm
 Mindstealer Sphiranx                                                   || 90 x 52mm
 Mutalith Vortex Beast                                                  || 120 x 92mm
 Ogroid Theridons                                                       || 50mm
 Raptoryx                                                               || 60 x 35mm
 Slaughterbrute                                                         || 120 x 92mm
-Soul Grinder                                                           || 160mm
 The Oathsworn Kin                                                      || 32mm
 Varanguard                                                             || 75 x 42mm
