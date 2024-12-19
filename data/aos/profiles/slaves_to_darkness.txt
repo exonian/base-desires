@@ -5,7 +5,7 @@ Centaurion Marshal                                                     || 80mm
 Chaos Lord                                                             || 40mm
 Chaos Lord on Daemonic Mount                                           || 90 x 52mm
 Chaos Lord on Karkadrak                                                || 90 x 52mm
-Chaos Sorcerer Lord                                                    || 40mm (Now correct in PDF)
+Chaos Sorcerer Lord                                                    || 40mm (Old one was 32mm)
 Daemon Prince                                                          || 60mm
 Darkoath Chieftain                                                     || 32mm
 Darkoath Chieftain on Warsteed                                         || 75 x 42mm
