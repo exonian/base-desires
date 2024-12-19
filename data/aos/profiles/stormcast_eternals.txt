@@ -25,14 +25,6 @@ Lord-Arcanum on Gryph-charger                                          || 90 x 5
 Lord-Arcanum on Tauralon                                               || 100mm
 Lord-Castellant                                                        || 40mm
 Lord-Celestant                                                         || 40mm
-Aetherwings                                                            || 32mm
-Annihilators                                                           || 40mm
-Annihilators with Meteoric Grandhammers                                || 40mm
-Castigators                                                            || 40mm
-Celestar Ballista                                                      || 60mm [1], 40mm [2]
-Decimators                                                             || 40mm
-Dracothian Guard Concussors                                            || 90 x 52mm
-Dracothian Guard Desolators                                            || 90 x 52mm
 Lord-Celestant on Dracoth                                              || 90 x 52mm
 Lord-Celestant on Stardrake                                            || 170 x 105mm
 Lord-Commander Bastian Carthalos                                       || 50mm
@@ -50,6 +42,14 @@ Lorai, Child of the Abyss                                              || 40mm
 Tornus the Redeemed                                                    || 50mm
 Vandus Hammerhand                                                      || 90 x 52mm
 Yndrasta, the Celestial Spear                                          || 60mm
+Aetherwings                                                            || 32mm
+Annihilators                                                           || 40mm
+Annihilators with Meteoric Grandhammers                                || 40mm
+Castigators                                                            || 40mm
+Celestar Ballista                                                      || 60mm [1], 40mm [2]
+Decimators                                                             || 40mm
+Dracothian Guard Concussors                                            || 90 x 52mm
+Dracothian Guard Desolators                                            || 90 x 52mm
 Dracothian Guard Fulminators                                           || 90 x 52mm
 Dracothian Guard Tempestors                                            || 90 x 52mm
 Evocators                                                              || 40mm
@@ -74,7 +74,7 @@ Vanguard-Hunters                                                       || 40mm
 Vanguard-Palladors with Shock Handaxes                                 || 75 x 42mm
 Vanguard-Palladors with Starstrike Javelins                            || 75 x 42mm
 Vanguard-Raptors with Hurricane Crossbows                              || 40mm
-Vanguard-Raptors with Longstrike Crossbows                             || 60 x 35mm [2], 40mm [1]
+Vanguard-Raptors with Longstrike Crossbows                             || 60 x 35mm. Champion is 40mm.
 Vanquishers                                                            || 40mm
 Vigilors                                                               || 40mm
 Vindictors                                                             || 40mm

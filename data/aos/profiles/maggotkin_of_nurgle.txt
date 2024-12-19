@@ -4,7 +4,7 @@ Plague Drones                                                          || 60mm
 Plaguebearers                                                          || 32mm
 Pusgoyle Blightlords                                                   || 60mm
 Putrid Blightkings                                                     || 40mm
-Rotmire Creed                                                          || 32mm [2], 28.5mm [2], 25mm [6] (Now correct in PDF)
+Rotmire Creed                                                          || 32mm [2], 28.5mm [2], 25mm [6]
 Bloab Rotspawned                                                       || 100mm
 Great Unclean One                                                      || 130mm
 Gutrot Spume                                                           || 40mm
