@@ -71,6 +71,7 @@ function clean_text(text: string) :string {
     text = text.replaceAll("", "fl")  // weird character
     text = text.replaceAll("", "ft")  // weird character
     text = text.replaceAll("", "-")  // weird character
+    text = text.replaceAll("✹", "")  // star character indicating change
 
     text = text.replace(/(\d)? {0,1}(\d) {0,1}m {0,1}m/g, "$1$2mm")  // remove spaces in simple sizes
     return text
@@ -121,10 +122,12 @@ const import_bases = (path: string) => {
 
         output.split('\n').every(line => {
             const lineNoSpaces = line.replaceAll(' ', '')
-
-            // Break out of the loop if we encounter REGIMENTS once we've got some profiles
+            // Break out of the loop if we encounter ADDENDA
             // (ie we're not still on the contents page)
             if (lineNoSpaces.startsWith('ADDENDA')) return false
+
+            // Skip this line if it's blank
+            if (line.trim().length == 0) return true
 
             // Detect we're into Legends
             if (Object.keys(profiles).length > 0 && lineNoSpaces.startsWith('WARHAMMERLEGENDS')) inLegends = true
