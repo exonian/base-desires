@@ -33,7 +33,6 @@ Lord-Imperatant                                                        || 40mm [
 Lord-Ordinator                                                         || 40mm
 Lord-Relictor                                                          || 40mm
 Lord-Terminos                                                          || 40mm [1], 25mm [1]
-Lord-Veritant                                                          || 40mm
 Lord-Vigilant on Gryph-stalker                                         || 90 x 52mm
 Lord-Vigilant on Morrgryph                                             || 120 x 92mm
 Iridan the Witness                                                     || 120 x 92mm
@@ -63,7 +62,6 @@ Praetors                                                               || 40mm
 Prosecutors                                                            || 40mm
 Protectors                                                             || 40mm
 Questor Soulsworn                                                      || 40mm
-Reclusians                                                             || 40mm
 Retributors                                                            || 40mm
 Sequitors                                                              || 40mm
 Stormcoven                                                             || 40mm
