@@ -72,6 +72,7 @@ function clean_text(text: string) :string {
     text = text.replaceAll("", "ft")  // weird character
     text = text.replaceAll("", "-")  // weird character
     text = text.replaceAll("✹", "")  // star character indicating change
+    text = text.replaceAll(String.fromCharCode(7), "")  // invisible control character
 
     text = text.replace(/(\d)? {0,1}(\d) {0,1}m {0,1}m/g, "$1$2mm")  // remove spaces in simple sizes
     return text
