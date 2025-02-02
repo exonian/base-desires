@@ -22,7 +22,7 @@
     "react-dom": "18.2.0",
     "react-ga": "^3.3.1",
     "react-icons": "^4.4.0",
-    "sass": "^1.53.0"
+    "sass": "^1.83.4"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.182",
