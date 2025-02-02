@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "parse-pdf": "npx tsx utils/dev/parse_pdf.ts",
-    "alphabetize-data": "npx tsx utils/dev/alphabetize_data.ts"
+    "alphabetize-data": "npx tsx utils/dev/alphabetize_data.ts",
+    "list-legends": "npx tsx utils/dev/list_legends.ts"
   },
   "dependencies": {
     "@types/pdf-parse": "^1.1.4",
