@@ -150,7 +150,7 @@ const import_bases = (path: string) => {
                     let renderedLine = render_warscroll_line(line)
                     let name = renderedLine.split('||')[0].trim()
                     if (inLegends == true) {
-                        legends[name] = renderedLine
+                        if (!lineNoSpaces.startsWith('LEGENDS')) legends[name] = renderedLine
                     }
                     else {
                         if (!(name in profiles[currentFaction]) && !ignore_profile(name)) {
