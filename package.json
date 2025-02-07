@@ -9,6 +9,7 @@
     "lint": "next lint",
     "parse-pdf": "npx tsx utils/dev/parse_pdf.ts",
     "alphabetize-data": "npx tsx utils/dev/alphabetize_data.ts",
+    "check-legends": "npx tsx utils/dev/check_legends.ts",
     "list-legends": "npx tsx utils/dev/list_legends.ts"
   },
   "dependencies": {
