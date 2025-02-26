@@ -1,38 +1,38 @@
-Dankhold Troggboss                                                     || 60mm {Gloomspite Gitz Battle Profiles February 2025}
-Fungoid Cave-Shaman                                                    || 32mm {Gloomspite Gitz Battle Profiles February 2025}
-Kragnos, the End of Empires                                            || 130mm {Gloomspite Gitz Battle Profiles February 2025}
-Loonboss                                                               || 32mm {Gloomspite Gitz Battle Profiles February 2025}
-Loonboss on Giant Cave Squig                                           || 40mm {Gloomspite Gitz Battle Profiles February 2025}
-Loonboss on Mangler Squigs                                             || 80mm {Gloomspite Gitz Battle Profiles February 2025}
-Rabble-Rowza                                                           || 32mm {Gloomspite Gitz Battle Profiles February 2025}
-Skragrott, the Loonking                                                || 60 x 35mm {Gloomspite Gitz Battle Profiles February 2025}
-Squigboss with Gnasha-squig                                            || 32mm {Gloomspite Gitz Battle Profiles February 2025}
-Trugg, the Troggoth King                                               || 100mm {Gloomspite Gitz Battle Profiles February 2025}
-Webspinner Shaman                                                      || 25mm {Gloomspite Gitz Battle Profiles February 2025}
-Webspinner Shaman on Arachnarok Spider                                 || 160mm {Gloomspite Gitz Battle Profiles February 2025}
-Arachnarok Spider with Flinger                                         || 160mm {Gloomspite Gitz Battle Profiles February 2025}
-Arachnarok Spider with Spiderfang Warparty                             || 160mm {Gloomspite Gitz Battle Profiles February 2025}
-Boingrot Bounderz                                                      || 32mm {Gloomspite Gitz Battle Profiles February 2025}
-Dankhold Troggoth                                                      || 60mm {Gloomspite Gitz Battle Profiles February 2025}
-Fellwater Troggoths                                                    || 50mm {Gloomspite Gitz Battle Profiles February 2025}
-Gobbapalooza                                                           || 32mm {Gloomspite Gitz Battle Profiles February 2025}
-Loonsmasha Fanatics                                                    || 32mm {Gloomspite Gitz Battle Profiles February 2025}
-Mangler Squigs                                                         || 80mm {Gloomspite Gitz Battle Profiles February 2025}
-Moonclan Shootas                                                       || 25mm {Gloomspite Gitz Battle Profiles February 2025}
-Moonclan Stabbas                                                       || 25mm {Gloomspite Gitz Battle Profiles February 2025}
-Rockgut Troggoths                                                      || 50mm {Gloomspite Gitz Battle Profiles February 2025}
-Skitterstrand Arachnarok                                               || 160mm {Gloomspite Gitz Battle Profiles February 2025}
-Snarlfang Riders                                                       || 60 x 35mm {Gloomspite Gitz Battle Profiles February 2025}
-Sneaky Snufflers                                                       || 32mm {Gloomspite Gitz Battle Profiles February 2025}
-Spider Riders                                                          || 60 x 35mm {Gloomspite Gitz Battle Profiles February 2025}
-Sporesplatta Fanatics                                                  || 32mm {Gloomspite Gitz Battle Profiles February 2025}
-Squig Herd                                                             || 25mm {Gloomspite Gitz Battle Profiles February 2025}
-Squig Hoppers                                                          || 32mm {Gloomspite Gitz Battle Profiles February 2025}
-Droggz da Sunchompa                                                    || 60mm {Gloomspite Gitz Battle Profiles February 2025}
-Frazzlegit Shaman on War-Wheela                                        || 150 x 95mm {Gloomspite Gitz Battle Profiles February 2025}
-Snarlboss on War-Wheela                                                || 150 x 95mm {Gloomspite Gitz Battle Profiles February 2025}
-Snarlboss                                                              || 60 x 35mm {Gloomspite Gitz Battle Profiles February 2025}
-Wolfgit Retinue                                                        || 60 x 35mm {Gloomspite Gitz Battle Profiles February 2025}
-Sunsteala Wheelas                                                      || 105 x 70mm {Gloomspite Gitz Battle Profiles February 2025}
-Doom Diver Catapult                                                    || 170 x 105mm {Gloomspite Gitz Battle Profiles February 2025}
-Snarlpack Cavalry                                                      || 75 x 42mm {Gloomspite Gitz Battle Profiles February 2025}
+Dankhold Troggboss                                                     || 60mm
+Fungoid Cave-Shaman                                                    || 32mm
+Kragnos, the End of Empires                                            || 130mm
+Loonboss                                                               || 32mm
+Loonboss on Giant Cave Squig                                           || 40mm
+Loonboss on Mangler Squigs                                             || 80mm
+Rabble-Rowza                                                           || 32mm
+Skragrott, the Loonking                                                || 60 x 35mm
+Squigboss with Gnasha-squig                                            || 32mm
+Trugg, the Troggoth King                                               || 100mm
+Webspinner Shaman                                                      || 25mm
+Webspinner Shaman on Arachnarok Spider                                 || 160mm
+Arachnarok Spider with Flinger                                         || 160mm
+Arachnarok Spider with Spiderfang Warparty                             || 160mm
+Boingrot Bounderz                                                      || 32mm
+Dankhold Troggoth                                                      || 60mm
+Fellwater Troggoths                                                    || 50mm
+Gobbapalooza                                                           || 32mm
+Loonsmasha Fanatics                                                    || 32mm
+Mangler Squigs                                                         || 80mm
+Moonclan Shootas                                                       || 25mm
+Moonclan Stabbas                                                       || 25mm
+Rockgut Troggoths                                                      || 50mm
+Skitterstrand Arachnarok                                               || 160mm
+Snarlfang Riders                                                       || 60 x 35mm
+Sneaky Snufflers                                                       || 32mm
+Spider Riders                                                          || 60 x 35mm
+Sporesplatta Fanatics                                                  || 32mm
+Squig Herd                                                             || 25mm
+Squig Hoppers                                                          || 32mm
+Droggz da Sunchompa                                                    || 60mm
+Frazzlegit Shaman on War-Wheela                                        || 150 x 95mm
+Snarlboss on War-Wheela                                                || 150 x 95mm
+Snarlboss                                                              || 60 x 35mm
+Wolfgit Retinue                                                        || 60 x 35mm
+Sunsteala Wheelas                                                      || 105 x 70mm
+Doom Diver Catapult                                                    || 170 x 105mm
+Snarlpack Cavalry                                                      || 75 x 42mm
