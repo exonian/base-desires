@@ -10,6 +10,10 @@ Squigboss with Gnasha-squig                                            || 32mm
 Trugg, the Troggoth King                                               || 100mm
 Webspinner Shaman                                                      || 25mm
 Webspinner Shaman on Arachnarok Spider                                 || 160mm
+Droggz Da Sunchompa                                                    || 60mm
+Frazzlegit Shaman on Wa r-Wheela                                       || 150 x 95mm
+Snarlboss on War-Wheela                                                || 150 x 95mm
+Snarlboss                                                              || 60 x 35mm
 Arachnarok Spider with Flinger                                         || 160mm
 Arachnarok Spider with Spiderfang Warparty                             || 160mm
 Boingrot Bounderz                                                      || 32mm
@@ -28,10 +32,6 @@ Spider Riders                                                          || 60 x 3
 Sporesplatta Fanatics                                                  || 32mm
 Squig Herd                                                             || 25mm
 Squig Hoppers                                                          || 32mm
-Droggz da Sunchompa                                                    || 60mm
-Frazzlegit Shaman on War-Wheela                                        || 150 x 95mm
-Snarlboss on War-Wheela                                                || 150 x 95mm
-Snarlboss                                                              || 60 x 35mm
 Wolfgit Retinue                                                        || 60 x 35mm
 Sunsteala Wheelas                                                      || 105 x 70mm
 Doom Diver Catapult                                                    || 170 x 105mm
