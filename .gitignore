@@ -5,3 +5,4 @@ legends.txt
 .next/
 .vscode/
 .env.local
+*Zone.Identifier
