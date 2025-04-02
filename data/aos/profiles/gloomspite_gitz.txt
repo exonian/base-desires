@@ -11,8 +11,8 @@ Trugg, the Troggoth King                                               || 100mm
 Webspinner Shaman                                                      || 25mm
 Webspinner Shaman on Arachnarok Spider                                 || 160mm
 Droggz Da Sunchompa                                                    || 60mm
-Frazzlegit Shaman on Wa r-Wheela                                       || 150 x 95mm
-Snarlboss on War-Wheela                                                || 150 x 95mm
+Frazzlegit Shaman on War-Wheela                                        || 120 x 92mm (Now correct in PDF)
+Snarlboss on War-Wheela                                                || 120 x 92mm (Now correct in PDF)
 Snarlboss                                                              || 60 x 35mm
 Arachnarok Spider with Flinger                                         || 160mm
 Arachnarok Spider with Spiderfang Warparty                             || 160mm

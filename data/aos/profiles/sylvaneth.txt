@@ -16,5 +16,5 @@ Kurnoth Hunters with Kurnoth Scythe                                    || 50mm
 Revenant Seekers                                                       || 60mm
 Spite-Revenants                                                        || 32mm
 Spiterider Lancers                                                     || 60mm
-The Twistweald                                                         || 40mm [1], 32mm [4], 28.5mm [3]
+The Twistweald                                                         || 40mm [2], 32mm [3], 28.5mm [3] (Now correct in PDF)
 Tree-Revenants                                                         || 32mm
