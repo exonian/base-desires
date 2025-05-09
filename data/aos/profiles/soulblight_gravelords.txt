@@ -1,4 +1,5 @@
 Belladamma Volga, First of the Vyrkos                                  || 60mm
+Blades of the Hollow King                                              || 50mm [1], 40mm [2]
 Bloodseeker Palanquin                                                  || 120 x 92mm
 Cado Ezechiar, the Hollow King                                         || 40mm
 Coven Throne                                                           || 120 x 92mm
@@ -12,29 +13,29 @@ Mortis Engine                                                          || 120 x 
 Nagash, Supreme Lord of the Undead                                     || 130mm
 Necromancer                                                            || 32mm
 Neferata, Mortarch of Blood                                            || 120 x 92mm
-Prince Vhordrai                                                        || 130mm
+Prince Vhordrai                                                        || 160mm (Old one was 130mm)
 Radukar the Beast                                                      || 60mm
 Radukar the Wolf                                                       || 40mm
 Sekhar, Fang of Nulahmia                                               || 60 x 35mm
 Torgillius the Chamberlain                                             || 40mm
 Vampire Lord                                                           || 40mm
+Vampire Lord on Nightmare Steed                                        || 80mm
 Vampire Lord on Zombie Dragon                                          || 130mm
 Vengorian Lord                                                         || 80mm
 Watch Captain Halgrim                                                  || 32mm
 Wight King                                                             || 32mm
-Wight King on Skeletal Steed                                           || 75 x 42mm (New one is on 80mm)
+Wight King on Skeletal Steed                                           || 80mm (Old one was on 75 x 42mm)
+Wight Lord on Skeletal Steed                                           || 80mm
 Askurgan Trueblades                                                    || 40mm [1], 32mm [4], 28.5mm [3]
-Black Knights                                                          || 60 x 35mm
 Blood Knights                                                          || 75 x 42mm
 Corpse Cart                                                            || 105 x 70mm
 Deadwalker Zombies                                                     || 25mm
 Deathrattle Skeletons                                                  || 25mm
 Dire Wolves                                                            || 60 x 35mm
 Fell Bats                                                              || 40mm
-Grave Guard                                                            || 25mm
 Kosargi Nightguard                                                     || 40mm
+Revenant Draconith                                                     || 160mm
 Terrorgheist                                                           || 130mm
 Vargheists                                                             || 50mm
 Vargskyr                                                               || 50mm
 Vyrkos Blood-born                                                      || 32mm
-Zombie Dragon                                                          || 130mm
