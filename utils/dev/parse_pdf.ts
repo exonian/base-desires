@@ -130,6 +130,9 @@ const import_bases = (path: string) => {
             // Skip this line if it's blank
             if (line.trim().length == 0) return true
 
+            // Skip this line if it's the "new" or "updated" badges
+            if (lineNoSpaces.startsWith('UPDATED') || lineNoSpaces.startsWith('NEW')) return true
+
             // Detect we're into Legends
             if (Object.keys(profiles).length > 0 && lineNoSpaces.startsWith('WARHAMMERLEGENDS')) inLegends = true
 
@@ -183,6 +186,7 @@ const ignore_profile = (name: string) :boolean => {
 const warscroll_name_typos: Record<string, string> = {
     'A rch-Wa rlock': 'Arch-Warlock',
     'Darkoath Chieftain on Wa rsteed': 'Darkoath Chieftain on Warsteed',
+    'Frazzlegit Shaman on Wa r-W heela': 'Frazzlegit Shaman on War-Wheela',
     "Hed k ra k k a's Mad mob": "Hedkrakka's Madmob",
     "K a i na n's Reapers": "Kainan's Reapers",
     'K l a q -Tr o k': 'Klaq-Trok',
