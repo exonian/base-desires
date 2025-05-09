@@ -27,6 +27,8 @@ Wight King                                                             || 32mm
 Wight King on Skeletal Steed                                           || 80mm (Old one was on 75 x 42mm)
 Wight Lord on Skeletal Steed                                           || 80mm
 Askurgan Trueblades                                                    || 40mm [1], 32mm [4], 28.5mm [3]
+Barrow Guard                                                           || 28.5mm
+Barrow Knights                                                         || 60 x 35mm
 Blood Knights                                                          || 75 x 42mm
 Corpse Cart                                                            || 105 x 70mm
 Deadwalker Zombies                                                     || 25mm
