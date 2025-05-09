@@ -24,7 +24,7 @@ Vampire Lord on Zombie Dragon                                          || 130mm
 Vengorian Lord                                                         || 80mm
 Watch Captain Halgrim                                                  || 32mm
 Wight King                                                             || 32mm
-Wight King on Skeletal Steed                                           || 80mm (Old one was on 75 x 42mm)
+Wight King on Skeletal Steed                                           || 80mm (Old one was 75 x 42mm)
 Wight Lord on Skeletal Steed                                           || 80mm
 Askurgan Trueblades                                                    || 40mm [1], 32mm [4], 28.5mm [3]
 Barrow Guard                                                           || 28.5mm
