@@ -9,8 +9,21 @@ const splitLine = (line: string): { name: string, size: string } => {
     return { name: parts[0].trim(), size: parts[1].trim() }
 }
 
+const getOverrideData = (file: 'notes' | 'corrections'): Record<string, string> => {
+    const filePath = path.join(dataDirectory, file + '.txt')
+    const fileContents = fs.readFileSync(filePath, 'utf8')
+    const lines = fileContents.split('\n')
+    return lines.reduce((accum, line) => {
+        if (line.length == 0) return accum
+        let { name, size } = splitLine(line)
+        return {...accum, [name]: size}
+    }, {})
+}
+
 const loadWarscrolls = () :TWarscrolls => {
-    const directoryNames: string[] = ['profiles', 'legends', 'unlisted', 'corrected', 'fan-made']
+    const directoryNames: string[] = ['profiles', 'legends', 'unlisted']
+    const notesData: Record<string, string> = getOverrideData('notes')
+    const correctionsData: Record<string, string> = getOverrideData('corrections')
     let warscrolls: TWarscrolls = {}
 
     directoryNames.forEach(directoryName => {
@@ -29,8 +42,9 @@ const loadWarscrolls = () :TWarscrolls => {
                 if (line.length == 0) return warscrolls
 
                 let { name, size } = splitLine(line)
-                let source_override = ''
-                let notes = ''
+                size = correctionsData[name] || size
+                let source_override = correctionsData[name] ? 'corrected' : ''
+                let notes = notesData[name]? "(" + notesData[name] +")" : ''
 
                 const opening_curly_brace_position = size.indexOf('{')
                 const closing_curly_brace_position = size.indexOf('}')

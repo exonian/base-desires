@@ -24,6 +24,5 @@ export const aosSources :any = {
     'profiles': 'Battle Profiles April (End) 2025',
     'legends': 'Legends April (End) 2025',
     'unlisted': 'Unlisted',
-    'corrected': 'Corrected',
-    'fan-made': 'Fan-made faction',
+    'corrected': 'Unofficial correction',
 }
