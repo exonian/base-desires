@@ -11,7 +11,10 @@ const splitLine = (line: string): { name: string, size: string } => {
 
 const getOverrideData = (file: 'notes' | 'corrections'): Record<string, string> => {
     const filePath = path.join(dataDirectory, file + '.txt')
-    const fileContents = fs.readFileSync(filePath, 'utf8')
+    let fileContents = ''
+    try { fileContents = fs.readFileSync(filePath, 'utf8') }
+    catch(ENOENT) { return {} }
+
     const lines = fileContents.split('\n')
     return lines.reduce((accum, line) => {
         if (line.length == 0) return accum
