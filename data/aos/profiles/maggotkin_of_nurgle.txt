@@ -8,7 +8,7 @@ Rotmire Creed                                                          || 32mm [
 Bloab Rotspawned                                                       || 100mm
 Great Unclean One                                                      || 130mm
 Gutrot Spume                                                           || 40mm
-Harbinger of Decay                                                     || 90 x 52mm (Now correct in PDF)
+Harbinger of Decay                                                     || 90 x 52mm
 Horticulous Slimux                                                     || 105 x 70mm
 Lord of Afflictions                                                    || 60mm
 Lord of Blights                                                        || 40mm

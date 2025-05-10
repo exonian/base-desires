@@ -13,7 +13,7 @@ Mortis Engine                                                          || 120 x 
 Nagash, Supreme Lord of the Undead                                     || 130mm
 Necromancer                                                            || 32mm
 Neferata, Mortarch of Blood                                            || 120 x 92mm
-Prince Vhordrai                                                        || 160mm (Old one was 130mm)
+Prince Vhordrai                                                        || 160mm
 Radukar the Beast                                                      || 60mm
 Radukar the Wolf                                                       || 40mm
 Sekhar, Fang of Nulahmia                                               || 60 x 35mm
@@ -24,7 +24,7 @@ Vampire Lord on Zombie Dragon                                          || 130mm
 Vengorian Lord                                                         || 80mm
 Watch Captain Halgrim                                                  || 32mm
 Wight King                                                             || 32mm
-Wight King on Skeletal Steed                                           || 80mm (Old one was 75 x 42mm)
+Wight King on Skeletal Steed                                           || 80mm
 Wight Lord on Skeletal Steed                                           || 80mm
 Askurgan Trueblades                                                    || 40mm [1], 32mm [4], 28.5mm [3]
 Barrow Guard                                                           || 28.5mm
