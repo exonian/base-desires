@@ -41,6 +41,7 @@ const loadWarscrolls = () :TWarscrolls => {
             const lines = fileContents.split('\n')
 
             const factionName = toDisplay(filename.split('.')[0].replace('_', ' '))
+            console.log(factionName)
             return lines.reduce((warscrolls, line) => {
                 if (line.length == 0) return warscrolls
 

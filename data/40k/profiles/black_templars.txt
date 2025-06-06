@@ -1,0 +1,18 @@
+Black Templars Gladiator Lancer                                        || 100mm
+Black Templars Gladiator Reaper                                        || 100mm
+Black Templars Gladiator Valiant                                       || 100mm
+Black Templars Impulsor                                                || 100mm
+Black Templars Repulsor                                                || 100mm
+Black Templars Repulsor Executioner                                    || 100mm
+Castellan                                                              || 40mm
+Chaplain Grimaldus                                                     || 40mm
+Chaplain Grimaldus: Cenobyte Servitors                                 || 28.5mm
+Crusader Squad: Neophytes                                              || 28.5mm
+Crusader Squad: Sword Brother/Initiates                                || 32mm
+High Marshal Helbrecht                                                 || 60mm
+Marshal                                                                || 40mm
+Primaris Crusader Squad: Initiates                                     || 32mm
+Primaris Crusader Squad: Neophytes                                     || 28.5mm
+Primaris Crusader Squad: Sword Brother                                 || 40mm
+Primaris Sword Brethren                                                || 40mm
+The Emperor's Champion                                                 || 40mm

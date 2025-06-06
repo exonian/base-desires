@@ -1,0 +1,57 @@
+Battlewagon                                                            || Hull
+Beast Snagga Boyz                                                      || 32mm
+Beastboss                                                              || 50mm
+Beastboss on Squigosaur                                                || 80mm
+Big Mek                                                                || 50mm
+Big Mek in Mega Armour                                                 || 40mm
+Big Mek with Shokk Attack Gun                                          || 40mm
+Big'ed Bossbunka                                                       || Hull
+Blitza-bommer                                                          || 120x92mm Oval Base
+Boomdakka Snazzwagon                                                   || 150x95mm Oval Base
+Boss Snikrot                                                           || 40mm
+Boyz                                                                   || 32mm
+Breaka Boyz                                                            || 32mm
+Breaka Boyz: Boss Nob                                                  || 40mm
+Burna Boyz                                                             || 32mm
+Burna-bommer                                                           || 120x92mm Oval Base
+Dakkajet                                                               || 120x92mm Oval Base
+Deff Dread                                                             || 60mm
+Deffkilla Wartrike                                                     || 150x95mm Oval Base
+Deffkoptas                                                             || 75x42mm Oval Base
+Flash Gitz                                                             || 40mm
+Ghazghkull Thraka                                                      || 80mm
+Ghazghkull Thraka: Makari                                              || 25mm
+Gorkanaut                                                              || 170x109mm Oval Base
+Gretchin                                                               || 25mm
+Gretchin: Runtherd                                                     || 32mm
+Hunta Rig                                                              || 170x109mm Oval Base
+Kill Rig                                                               || 170x109mm Oval Base
+Killa Kans                                                             || 60mm
+Kommandos                                                              || 32mm
+Kustom Boosta-blasta                                                   || 150x95mm Oval Base
+Lootas                                                                 || 32mm
+Meganobz                                                               || 40mm
+Megatrakk Scrapjet                                                     || 150x95mm Oval Base
+Mek                                                                    || 32mm
+Mek Gunz                                                               || Hull
+Morkanaut                                                              || 170x109mm Oval Base
+Mozrog Skragbad                                                        || 80mm
+Nobz                                                                   || 32mm
+Painboss                                                               || 40mm
+Painboy                                                                || 32mm
+Rukkatrukk Squigbuggy                                                  || 150x95mm Oval Base
+Shokkjump Dragsta                                                      || 150x95mm Oval Base
+Squighog Boyz                                                          || 75x42mm Oval Base
+Squighog Boyz: Nob on Smasha Squig                                     || 90x52.5mm Oval Base
+Stompa                                                                 || Hull
+Stormboyz                                                              || 32mm
+Tankbustas                                                             || 32mm
+Tankbustas: Boss Nob                                                   || 40mm
+Trukk                                                                  || Hull
+Warbikers                                                              || 75x42mm Oval Base
+Warboss                                                                || 40mm
+Warboss in Mega Armour                                                 || 50mm
+Wazbom Blastajet                                                       || 150x95mm Oval Base
+Weirdboy                                                               || 40mm
+Wurrboy                                                                || 32mm
+Zodgrod Wortsnagga                                                     || 50mm
