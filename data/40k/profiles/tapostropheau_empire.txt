@@ -1,0 +1,40 @@
+Breacher Team                                                          || 25mm
+Broadside Battlesuits                                                  || 60mm
+Cadre Fireblade                                                        || 25mm
+Commander Farsight                                                     || 60mm
+Commander in Coldstar Battlesuit                                       || 60mm
+Commander in Enforcer Battlesuit                                       || 60mm
+Commander Shadowsun                                                    || 50mm
+Crisis Fireknife Battlesuits                                           || 50mm
+Crisis Starscythe Battlesuits                                          || 50mm
+Crisis Sunforge Battlesuits                                            || 50mm
+Darkstrider                                                            || 32mm
+Devilfish                                                              || Large Flying Base
+Ethereal                                                               || 40mm
+Firesight Team                                                         || 40mm
+Ghostkeel Battlesuit                                                   || 105x70mm Oval Base
+Hammerhead Gunship                                                     || Large Flying Base
+Kroot Carnivores                                                       || 28.5mm
+Kroot Farstalkers                                                      || 28.5mm
+Kroot Farstalkers: Kroot Kill-broker                                   || 32mm
+Kroot Flesh Shaper                                                     || 32mm
+Kroot Hounds                                                           || 28.5mm
+Kroot Lone-spear                                                       || 90x52.5mm Oval Base
+Kroot Trail Shaper                                                     || 32mm
+Kroot War Shaper                                                       || 32mm
+Krootox Rampagers                                                      || 50mm
+Krootox Riders                                                         || 50mm
+Pathfinder Team                                                        || 25mm
+Piranhas                                                               || Large Flying Base
+Razorshark Strike Fighter                                              || 120x92mm Oval Base
+Riptide Battlesuit                                                     || 120x92mm Oval Base
+Sky Ray Gunship                                                        || Large Flying Base
+Stealth Battlesuits                                                    || 32mm
+Stormsurge                                                             || 170x109mm Oval Base
+Strike Team                                                            || 25mm
+Sun Shark Bomber                                                       || 120x92mm Oval Base
+Tidewall Defence Platform                                              || Hull
+Tidewall Droneport                                                     || Hull
+Tidewall Gunrig                                                        || Hull
+Tidewall Shieldline                                                    || Hull
+Vespid Stingwings                                                      || 28.5mm

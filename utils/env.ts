@@ -14,11 +14,32 @@ export const isDev = process.env.NODE_ENV === 'development'
 export const isTest = process.env.NODE_ENV === 'test'
 export const isProd = process.env.NODE_ENV === 'production'
 
-export const game = process.env.NEXT_PUBLIC_GAME
-const gameDirectory = game === 'tow' ? 'tow' : 'aos'
+const gameFromEnv = process.env.NEXT_PUBLIC_GAME
+
+let gameDirectory: string
+export let siteName: string, game: string
+
+switch (gameFromEnv) {
+    case 'tow': {
+        game = 'tow'
+        gameDirectory = 'tow'
+        siteName = 'Base Desires²'
+        break
+    }
+    case '40k': {
+        game = '40k'
+        gameDirectory = '40k'
+        siteName = 'Space Desires'
+        break
+    }
+    default: {
+        game = 'aos'
+        gameDirectory = 'aos'
+        siteName = 'Base Desires'
+    }
+}
 export const dataDirectory = path.join(process.cwd(), 'data', gameDirectory)
 export const profilesDirectory = path.join(dataDirectory, 'profiles')
-export const siteName = game === 'tow' ? 'Base Desires²' : 'Base Desires'
 
 export const aosSources :any = {
     'profiles': 'Battle Profiles April (End) 2025',

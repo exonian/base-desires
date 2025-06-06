@@ -1,0 +1,17 @@
+Chaos Land Raider                                                      || Hull
+Chaos Rhino                                                            || Hull
+Chaos Spawn                                                            || 50mm
+Chaos Terminators                                                      || 40mm
+Daemon Prince of Slaanesh                                              || 60mm
+Daemon Prince of Slaanesh with Wings                                   || 60mm
+Flawless Blades                                                        || 40mm
+Fulgrim                                                                || 130mm
+Heldrake                                                               || 120x92mm Oval Base
+Infractors                                                             || 32mm
+Lord Exultant                                                          || 40mm
+Lord Kakophonist                                                       || 40mm
+Lucius the Eternal                                                     || 50mm
+Maulerfiend                                                            || 120x92mm Oval Base
+Noise Marines                                                          || 40mm
+Sorcerer                                                               || 40mm
+Tormentors                                                             || 32mm

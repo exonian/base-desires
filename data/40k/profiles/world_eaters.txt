@@ -1,0 +1,26 @@
+Angron                                                                 || 100mm
+Chaos Land Raider                                                      || Hull
+Chaos Predator Annihilator                                             || Hull
+Chaos Predator Destructor                                              || Hull
+Chaos Rhino                                                            || Hull
+Chaos Spawn                                                            || 50mm
+Daemon Prince of Khorne                                                || 60mm
+Daemon Prince of Khorne with Wings                                     || 60mm
+Defiler                                                                || 160mm
+Eightbound                                                             || 40mm
+Exalted Eightbound                                                     || 40mm
+Forgefiend                                                             || 120x92mm Oval Base
+Goremongers                                                            || 32mm
+Helbrute                                                               || 60mm
+Heldrake                                                               || 120x92mm Oval Base
+Jakhals                                                                || 28.5mm
+Jakhals: Dishonoured                                                   || 40mm
+Khârn the Betrayer                                                     || 40mm
+Khorne Berzerkers                                                      || 32mm
+Khorne Lord of Skulls                                                  || Hull
+Lord Invocatus                                                         || 90x52.5mm Oval Base
+Lord on Juggernaut                                                     || 90x52.5mm Oval Base
+Master of Executions                                                   || 40mm
+Maulerfiend                                                            || 120x92mm Oval Base
+Slaughterbound                                                         || 50mm
+Terminator Squad                                                       || 40mm

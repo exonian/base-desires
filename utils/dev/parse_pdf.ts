@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import PdfParse from 'pdf-parse';
 import pdf  from 'pdf-parse';
-import { profilesDirectory, dataDirectory } from '../env';
+import { game, profilesDirectory, dataDirectory } from '../env';
 import { toStandard } from '../text';
 
 
@@ -112,8 +112,8 @@ const faction_name_typos: Record<string, string> = {
     'S Y LVA N E T H': 'SYLVANETH',
 }
 
-const import_bases = (path: string) => {
-    console.log('Importing')
+const import_bases_aos = (path: string) => {
+    console.log('Importing aos bases')
     parse_pdf(path).then(function(output: string) {
         let currentFaction: string = ''
         let potentialFactionLine: string = ''
@@ -169,6 +169,67 @@ const import_bases = (path: string) => {
     })
 }
 
+const import_bases_40k = (path: string) => {
+    console.log('Importing 40k bases')
+    parse_pdf(path).then(function(output: string) {
+        let currentFaction: string = ''
+        let potentialFactionLine: string = ''
+        let profiles: Record<string, Record<string, string>> = {}
+        let inBaseSizes: boolean = false
+
+        output.split('\n').every(line => {
+            const lineNoSpaces = line.replaceAll(' ', '')
+
+            // Detect once we reach the Base Size Guide
+            if (line.trim() === 'BASE SIZE GUIDE') inBaseSizes = true
+
+            // Skip this line if we haven't reached the Base Size Guide yet
+            if (!inBaseSizes) return true
+
+            // Skip this line if it's blank or only a couple of characters
+            if (line.trim().length < 3) return true
+
+            // Detect we're into Imperial Armour for the current faction
+            if (Object.keys(profiles).length > 0 && lineNoSpaces.startsWith('IMPERIALARMOUR')) {
+                currentFaction = currentFaction + ' imperial armour'
+                if (!(currentFaction in profiles)) profiles[currentFaction] = {}
+            }
+
+            // Detect we're into Daemons for the current faction
+            if (Object.keys(profiles).length > 0 && lineNoSpaces.startsWith('DAEMONS')) {
+                currentFaction = currentFaction + ' daemons'
+                if (!(currentFaction in profiles)) profiles[currentFaction] = {}
+            }
+
+            // Make note of every line that isn't in a table as potentially the next faction name
+            if (!line.includes('||') && !lineNoSpaces.startsWith('IMPERIALARMOUR') && !lineNoSpaces.startsWith('DAEMONS')) {
+                potentialFactionLine = line
+                currentFaction = ''
+            }
+
+            // Detect the start of a table, so set the faction name and add it to profiles dict if needed
+            // Unset inImperialArmour
+            if (line.trim().startsWith('UNIT||BASE SIZE')) {
+                currentFaction = potentialFactionLine.toLowerCase().replace("'", 'apostrophe')
+                if (!(currentFaction in profiles)) profiles[currentFaction] = {}
+            }
+            else {
+                // Detect a table line that isn't the headers and parse it as a unit
+                if (line.includes('||') && (currentFaction !== '' )) {
+                    let renderedLine = render_warscroll_line(line)
+                    let name = renderedLine.split('||')[0].trim()
+                    if (!(name in profiles[currentFaction]) && !ignore_profile(name)) {
+                        profiles[currentFaction][name] = renderedLine
+                    }
+                }
+            }
+            // Return true to keep the loop going
+            return true
+        })
+        write_text_files(profiles)
+    })
+}
+
 const parse_pdf = (path: string) => {
     let dataBuffer = fs.readFileSync(path)
     let parsed = pdf(dataBuffer, options).then(function(data) {
@@ -217,7 +278,7 @@ const render_warscroll_line = (line: string) :string => {
     return (normalisedName?.padEnd(70, ' ') + ' || ' + size).trim()
 }
 
-const write_text_files = (profiles: Record<string, Record<string, string>>, legends: Record<string, string>) => {
+const write_text_files = (profiles: Record<string, Record<string, string>>, legends?: Record<string, string>) => {
     const safeFilenamePattern = new RegExp(/^[\w ]+$/);
 
     Object.entries(profiles).forEach(([faction, warscrolls]) => {
@@ -239,15 +300,19 @@ const write_text_files = (profiles: Record<string, Record<string, string>>, lege
         });
     })
 
-    let legendsData = Object.values(legends).join('\n') + '\n'
-    fs.writeFile(path.join(dataDirectory, 'legends.txt'), legendsData, err => {
-        if (err) {
-            console.error(err);
-        }
-        else {
-            console.log('Legends written')
-        }
-    })
+    if (legends) {
+        let legendsData = Object.values(legends).join('\n') + '\n'
+        fs.writeFile(path.join(dataDirectory, 'legends.txt'), legendsData, err => {
+            if (err) {
+                console.error(err);
+            }
+            else {
+                console.log('Legends written')
+            }
+        })
+    }
 }
 
-import_bases('profiles.pdf')
+if (game === 'aos') import_bases_aos('profiles.pdf')
+else if (game === '40k') import_bases_40k('40k.pdf')
+else console.log('Cannot import for ' + game)
