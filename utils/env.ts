@@ -17,24 +17,27 @@ export const isProd = process.env.NODE_ENV === 'production'
 const gameFromEnv = process.env.NEXT_PUBLIC_GAME
 
 let gameDirectory: string
-export let siteName: string, game: string
+export let siteName: string, game: string, gameNameHuman: string
 
 switch (gameFromEnv) {
     case 'tow': {
         game = 'tow'
         gameDirectory = 'tow'
+        gameNameHuman = 'TOW'
         siteName = 'Base Desires²'
         break
     }
     case '40k': {
         game = '40k'
         gameDirectory = '40k'
+        gameNameHuman = '40k'
         siteName = 'Space Desires'
         break
     }
     default: {
         game = 'aos'
         gameDirectory = 'aos'
+        gameNameHuman = 'AoS'
         siteName = 'Base Desires'
     }
 }
