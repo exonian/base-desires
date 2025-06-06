@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 import { TWarscroll } from '../data/types';
-import { toDisplay, toStandard } from '../utils/text';
+import { toStandard } from '../utils/text';
 import { BaseSize } from './base_size';
 import { Links, TPart } from './links';
 import { game, aosSources } from '../utils/env';
@@ -15,9 +15,8 @@ interface ICardProps {
 
 export const Card: React.FC<ICardProps> = props => {
   const { name, warscroll, link } = props
-  let factions = warscroll.factions.map((faction) => toDisplay(faction))
 
-  const factionParts: TPart[] = factions.reduce((accum, text, index) => {
+  const factionParts: TPart[] = warscroll.factions.reduce((accum, text, index) => {
     if (index > 0) accum.push({ text: ', ', element: 'text' })
     accum.push({ text: text, element: 'link' })
 
