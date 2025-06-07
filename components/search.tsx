@@ -3,7 +3,6 @@ import { FaSearch } from "react-icons/fa"
 import { MdClear } from "react-icons/md"
 import { useRouter } from 'next/router'
 
-import { logToGA } from "../utils/analytics"
 import { toStandard, withoutHyphens } from "../utils/text"
 import { usePathname, useSearchParams } from 'next/navigation';
 import { useSearchContext, SearchContextType } from '../context/search';
@@ -39,36 +38,11 @@ export const SearchBox: React.FC = () => {
     router.push(newPath, undefined, { shallow: true })
   }
 
-  const handleBlur = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const value = event.target.value
-    logToGA({
-      category: `Unit name`,
-      action: `Search blur`,
-      label: `${value}`,
-    })
-  }
-
-  const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
-    if (event.key === 'Enter') {
-      const target = event.target as HTMLInputElement
-      logToGA({
-        category: `Unit name`,
-        action: `Search enter`,
-        label: `${target.value}`,
-      })
-    }
-  }
-
   const handleClear = () => {
     setSearchTerm('')
     setSearchBoxHasPriority(true)
     inputElement?.current?.focus()
     router.push('')
-    logToGA({
-      category: `Unit name`,
-      action: `Search clear`,
-      label: ``,
-    })
   }
 
   return (
@@ -77,7 +51,7 @@ export const SearchBox: React.FC = () => {
       <div className="col-8">
         <div className="input-group mb-3 mt-3">
           <span className="input-group-text"><FaSearch /></span>
-          <input className="form-control" ref={inputElement} value={searchVal} onChange={handleChange} onBlur={handleBlur} onKeyDown={handleKeyDown} autoFocus />
+          <input className="form-control" ref={inputElement} value={searchVal} onChange={handleChange} autoFocus />
           { searchVal && (
             <div className="input-group-append">
               <button className="input-group-text btn btn-outline-secondary" type="button" onClick={handleClear} ><MdClear /></button>

@@ -13,15 +13,15 @@
     "list-legends": "npx tsx utils/dev/list_legends.ts"
   },
   "dependencies": {
+    "@next/third-parties": "^15.3.3",
     "@types/pdf-parse": "^1.1.4",
     "bootstrap": "^5.3.3",
     "bootswatch": "^5.1.3",
     "lodash": "^4.17.21",
-    "next": "^15.1.6",
+    "next": "^15.3.3",
     "pdf-parse": "^1.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-ga4": "^2.1.0",
     "react-icons": "^5.4.0",
     "sass": "^1.84.0"
   },
