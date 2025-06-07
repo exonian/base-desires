@@ -1,22 +1,10 @@
-import ReactGA from 'react-ga'
+import ReactGA from 'react-ga4'
 import { isProd, isTest, isDev } from "./env";
 
 if (!isTest && process.env.REACT_APP_GA_ID) {
-  ReactGA.initialize(process.env.REACT_APP_GA_ID, {
-    titleCase: false,
-    gaOptions: { siteSpeedSampleRate: 100 },
-  })
+  ReactGA.initialize(process.env.REACT_APP_GA_ID)
 }
   
-/**
- * Sends a Google Analytics page view event
- */
-export const logPageView = () => {
-  if (isProd) {
-    ReactGA.pageview(window.location.pathname + window.location.search)
-  }
-}
-
 /**
  * Generic wrapper for logging events
  * Will print to console in dev, will actually log in prod
