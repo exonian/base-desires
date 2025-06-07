@@ -5,7 +5,7 @@ import { TWarscroll } from '../data/types';
 import { toStandard } from '../utils/text';
 import { BaseSize } from './base_size';
 import { Links, TPart } from './links';
-import { game, aosSources } from '../utils/env';
+import { game, aosSources, fortykSources } from '../utils/env';
 
 interface ICardProps {
   name: string
@@ -23,7 +23,8 @@ export const Card: React.FC<ICardProps> = props => {
     return accum
   }, [] as TPart[])
 
-  const source = (game === 'aos' && aosSources[warscroll.source] || warscroll.source )
+  const showSource = game === 'aos' || game === '40k'
+  const source = (game === 'aos' && aosSources[warscroll.source] || game === '40k' && fortykSources[warscroll.source] || warscroll.source )
 
   return (
     <div className="card warscroll-card mb-3">
@@ -35,7 +36,7 @@ export const Card: React.FC<ICardProps> = props => {
       <div className="card-footer">
         <p className="card-text text-center card-faction">
           <Links parts={ factionParts } />
-          { game === 'aos' && <> ({ source })</>}
+          { showSource && <> ({ source })</>}
         </p>
       </div>
     </div>
