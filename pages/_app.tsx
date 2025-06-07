@@ -8,8 +8,8 @@ const ga_ID = process.env.REACT_APP_GA_ID || ""
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <SearchProvider>
-      <GoogleAnalytics gaId={ ga_ID } />
       <Component {...pageProps} />
+      <GoogleAnalytics gaId={ ga_ID } />
     </SearchProvider>
   )
 }
