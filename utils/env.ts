@@ -45,8 +45,8 @@ export const dataDirectory = path.join(process.cwd(), 'data', gameDirectory)
 export const profilesDirectory = path.join(dataDirectory, 'profiles')
 
 export const aosSources :any = {
-    'profiles': 'Battle Profiles April (End) 2025',
-    'legends': 'Legends April (End) 2025',
+    'profiles': 'Battle Profiles May 2025',
+    'legends': 'Legends May 2025',
     'unlisted': 'Unlisted',
     'corrected': 'Unofficial correction',
 }
