@@ -7,10 +7,12 @@ const ga_ID = process.env.REACT_APP_GA_ID || ""
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <SearchProvider>
-      <Component {...pageProps} />
+    <>
+      <SearchProvider>
+        <Component {...pageProps} />
+      </SearchProvider>
       <GoogleAnalytics gaId={ ga_ID } />
-    </SearchProvider>
+    </>
   )
 }
 
