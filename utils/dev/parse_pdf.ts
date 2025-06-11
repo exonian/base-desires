@@ -112,6 +112,10 @@ const faction_name_typos: Record<string, string> = {
     'S Y LVA N E T H': 'SYLVANETH',
 }
 
+const alt_profile_prefixes: string[] = [
+    'Scourge of Ghyran',
+]
+
 const import_bases_aos = (path: string) => {
     console.log('Importing aos bases')
     parse_pdf(path).then(function(output: string) {
@@ -129,6 +133,13 @@ const import_bases_aos = (path: string) => {
 
             // Skip this line if it's blank
             if (line.trim().length == 0) return true
+
+            // Skip this line if it's an alternative profile per Scourge of Ghyran etc
+            let profileIsAlt = false
+            alt_profile_prefixes.forEach(prefix => {
+                if (lineNoSpaces.startsWith(prefix.replaceAll(' ', ''))) profileIsAlt = true
+            })
+            if (profileIsAlt) return true
 
             // Skip this line if it's the "new" or "updated" badges
             if (lineNoSpaces.startsWith('UPDATED') || lineNoSpaces.startsWith('NEW')) return true
