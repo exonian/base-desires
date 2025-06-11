@@ -53,6 +53,7 @@ function parse_text(pageData: TPageData) :Promise<string> {
             lastWidth = item.width;
             lastHeight = item.height;
         }
+        text = text.replaceAll("  ", " ");
         return text;
     });
 }
