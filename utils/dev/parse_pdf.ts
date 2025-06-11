@@ -124,12 +124,16 @@ const import_bases_aos = (path: string) => {
         let profiles: Record<string, Record<string, string>> = {}
         let inLegends: boolean = false
         let legends: Record<string, string> = {}
+        let inEnhancements: boolean = false
 
         output.split('\n').every(line => {
             const lineNoSpaces = line.replaceAll(' ', '')
             // Break out of the loop if we encounter ADDENDA
             // (ie we're not still on the contents page)
             if (lineNoSpaces.startsWith('ADDENDA')) return false
+
+            // Detect when we reach an enhancements points table
+            if (lineNoSpaces.startsWith('TYPE')) inEnhancements = true
 
             // Skip this line if it's blank
             if (line.trim().length == 0) return true
@@ -155,11 +159,15 @@ const import_bases_aos = (path: string) => {
 
             // Detect the start of a table, so set the faction name and add it to profiles dict if needed
             if (lineNoSpaces.startsWith('HEROES') || lineNoSpaces.startsWith('UNITS')) {
+                inEnhancements = false
                 currentFaction = make_faction_name(potentialFactionLine)
                 if (!(currentFaction in profiles)) profiles[currentFaction] = {}
             }
             else {
-                // Detect a table line that isn't the headers and parse it as a unit
+                // Skip the line if we're in an enhancements table
+                if (inEnhancements) return true
+
+                // Otherwise, detect a table line that isn't the headers and parse it as a unit
                 if (line.includes('||') && (currentFaction !== '' || inLegends == true)) {
                     let renderedLine = render_warscroll_line(line)
                     let name = renderedLine.split('||')[0].trim()
