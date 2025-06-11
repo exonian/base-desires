@@ -1,3 +1,16 @@
+Lord Kroak                                                             || 80mm
+Ripperdactyl Chief                                                     || 50mm
+Saurus Astrolith Bearer                                                || 40mm
+Saurus Oldblood                                                        || 32mm
+Saurus Oldblood on Carnosaur                                           || 120 x 92mm
+Saurus Scar-Veteran on Aggradon                                        || 90 x 52mm
+Saurus Scar-Veteran on Carnosaur                                       || 120 x 92mm
+Skink Oracle on Troglodon                                              || 120 x 92mm
+Skink Starpriest                                                       || 25mm
+Skink Starseer                                                         || 50mm
+Slann Starmaster                                                       || 80mm
+Stegadon Chief                                                         || 120 x 92mm
+Terradon Chief                                                         || 50mm
 Aggradon Lancers                                                       || 75 x 42mm
 Bastiladon with Ark of Sotek                                           || 120 x 92mm
 Bastiladon with Solar Engine                                           || 120 x 92mm
@@ -16,16 +29,3 @@ Spawn of Chotec                                                        || 90 x 5
 Stegadon                                                               || 120 x 92mm
 Terradon Riders                                                        || 50mm
 Terrawings                                                             || 32mm
-Lord Kroak                                                             || 80mm
-Ripperdactyl Chief                                                     || 50mm
-Saurus Astrolith Bearer                                                || 40mm
-Saurus Oldblood                                                        || 32mm
-Saurus Oldblood on Carnosaur                                           || 120 x 92mm
-Saurus Scar-Veteran on Aggradon                                        || 90 x 52mm
-Saurus Scar-Veteran on Carnosaur                                       || 120 x 92mm
-Skink Oracle on Troglodon                                              || 120 x 92mm
-Skink Starpriest                                                       || 25mm
-Skink Starseer                                                         || 50mm
-Slann Starmaster                                                       || 80mm
-Stegadon Chief                                                         || 120 x 92mm
-Terradon Chief                                                         || 50mm

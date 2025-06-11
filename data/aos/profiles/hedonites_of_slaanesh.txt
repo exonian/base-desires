@@ -1,15 +1,3 @@
-Blissbarb Archers                                                      || 28.5mm [10], 25mm [1]
-Blissbarb Seekers                                                      || 75 x 42mm
-Daemonettes                                                            || 25mm
-Fiends                                                                 || 75 x 42mm
-Hellflayer                                                             || 120 x 92mm
-Hellstriders                                                           || 60 x 35mm
-Myrmidesh Painbringers                                                 || 32mm
-Seeker Chariot                                                         || 120 x 92mm
-Seekers                                                                || 60 x 35mm
-Slaangor Fiendbloods                                                   || 40mm
-Slickblade Seekers                                                     || 75 x 42mm
-Symbaresh Twinsouls                                                    || 32mm
 Bladebringer, Herald on Exalted Chariot                                || 120 x 92mm
 Contorted Epitome                                                      || 75 x 42mm
 Dexcessa, the Talon of Slaanesh                                        || 105 x 70mm
@@ -24,3 +12,15 @@ Sigvald, Prince of Slaanesh                                            || 60mm
 Syll'Esske, the Vengeful Allegiance                                    || 50mm
 Synessa, the Voice of Slaanesh                                         || 105 x 70mm
 The Masque                                                             || 32mm
+Blissbarb Archers                                                      || 28.5mm [10], 25mm [1]
+Blissbarb Seekers                                                      || 75 x 42mm
+Daemonettes                                                            || 25mm
+Fiends                                                                 || 75 x 42mm
+Hellflayer                                                             || 120 x 92mm
+Hellstriders                                                           || 60 x 35mm
+Myrmidesh Painbringers                                                 || 32mm
+Seeker Chariot                                                         || 120 x 92mm
+Seekers                                                                || 60 x 35mm
+Slaangor Fiendbloods                                                   || 40mm
+Slickblade Seekers                                                     || 75 x 42mm
+Symbaresh Twinsouls                                                    || 32mm
