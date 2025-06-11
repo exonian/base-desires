@@ -149,7 +149,10 @@ const import_bases_aos = (path: string) => {
             if (lineNoSpaces.startsWith('UPDATED') || lineNoSpaces.startsWith('NEW')) return true
 
             // Detect we're into Legends
-            if (Object.keys(profiles).length > 0 && lineNoSpaces.startsWith('WARHAMMERLEGENDS')) inLegends = true
+            if (Object.keys(profiles).length > 0 && lineNoSpaces.startsWith('WARHAMMERLEGENDS')) {
+                inLegends = true
+                inEnhancements = false
+            }
 
             // Make note of every line that isn't in a table as potentially the next faction name
             if (!line.includes('||')) {
