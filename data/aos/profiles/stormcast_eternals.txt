@@ -2,6 +2,7 @@ Celestant-Prime, Hammer of Sigmar                                      || 100mm
 Drakesworn Templar                                                     || 170 x 105mm
 Gardus Steel Soul                                                      || 50mm
 Ionus Cryptborn, Warden of Lost Souls                                  || 100mm
+Iridan the Witness                                                     || 120 x 92mm
 Karazai the Scarred                                                    || 160mm
 Knight-Arcanum                                                         || 40mm
 Knight-Azyros                                                          || 50mm
@@ -11,6 +12,7 @@ Knight-Questor                                                         || 40mm
 Knight-Relictor                                                        || 40mm
 Knight-Vexillor                                                        || 40mm
 Krondys, Son of Dracothion                                             || 160mm
+Lorai, Child of the Abyss                                              || 40mm
 Lord-Aquilor                                                           || 90 x 52mm
 Lord-Celestant                                                         || 40mm
 Lord-Celestant on Dracoth                                              || 90 x 52mm
@@ -22,9 +24,7 @@ Lord-Terminos                                                          || 40mm [
 Lord-Veritant                                                          || 40mm
 Lord-Vigilant on Gryph-stalker                                         || 90 x 52mm
 Lord-Vigilant on Morrgryph                                             || 120 x 92mm
-Iridan the Witness                                                     || 120 x 92mm
 Neave Blacktalon                                                       || 40mm
-Lorai, Child of the Abyss                                              || 40mm
 Tornus the Redeemed                                                    || 50mm
 Vandus Hammerhand                                                      || 90 x 52mm
 Yndrasta, the Celestial Spear                                          || 60mm
