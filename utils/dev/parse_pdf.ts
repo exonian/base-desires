@@ -175,6 +175,7 @@ const import_bases_aos = (path: string) => {
                 if (line.includes('||') && (currentFaction !== '' || inLegends == true)) {
                     let renderedLine = render_warscroll_line(line)
                     let name = renderedLine.split('||')[0].trim()
+                    if (name.length == 0) return true
                     if (inLegends == true) {
                         if (!lineNoSpaces.startsWith('LEGENDS')) legends[name] = renderedLine
                     }
