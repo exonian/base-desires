@@ -149,6 +149,9 @@ const import_bases_aos = (path: string) => {
             // Skip this line if it's the "new" or "updated" badges
             if (lineNoSpaces.startsWith('UPDATED') || lineNoSpaces.startsWith('NEW')) return true
 
+            // Skip this line if it's a notice about things going to legends
+            if (line.trim().startsWith('The following units no longer')) return true
+
             // Detect we're into Legends
             if (Object.keys(profiles).length > 0 && lineNoSpaces.startsWith('WARHAMMERLEGENDS')) {
                 inLegends = true
