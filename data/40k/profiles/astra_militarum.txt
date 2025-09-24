@@ -49,6 +49,7 @@ Ogryn Bodyguard                                                        || 40mm
 Ogryn squad                                                            || 40mm
 Primaris Psyker                                                        || 32mm
 Ratlings                                                               || 25mm
+Ratlings: Tankstopper Rifle                                            || 28.5mm
 Rogal Dorn Battle Tank                                                 || Hull
 Rogal Dorn Commander                                                   || Hull
 Scout Sentinels                                                        || 80mm

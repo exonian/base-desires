@@ -14,7 +14,7 @@ Foetid Bloat-drone with Heavy Blight Launcher                          || 60mm
 Foul Blightspawn                                                       || 40mm
 Helbrute                                                               || 60mm
 Icon Bearer                                                            || 32mm
-Lord of Contagion                                                      || 50mm
+Lord of Contagion                                                      || 40mm
 Lord of Poxes                                                          || 40mm
 Lord of Virulence                                                      || 50mm
 Malignant Plaguecaster                                                 || 32mm

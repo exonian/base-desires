@@ -10,7 +10,7 @@ Harpy                                                                  || 120x92
 Haruspex                                                               || 120x92mm Oval Base
 Hive Crone                                                             || 120x92mm Oval Base
 Hive Guard                                                             || 50mm
-Hive Tyrant                                                            || 50mm
+Hive Tyrant                                                            || 60mm
 Hormagaunts                                                            || 28.5mm
 Lictor                                                                 || 50mm
 Maleceptor                                                             || 120x92mm Oval Base

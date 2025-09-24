@@ -20,7 +20,7 @@ Mutalith Vortex Beast                                                  || 120x92
 Rubric Marines                                                         || 32mm
 Scarab Occult Terminators                                              || 40mm
 Sekhetar Robots                                                        || 40mm
-Sorcerer                                                               || 40mm
+Sorcerer                                                               || 32mm
 Sorcerer in Terminator Armour                                          || 40mm
 Tzaangor Enlightened                                                   || 40mm
 Tzaangor Enlightened with Fatecaster Greatbows                         || 40mm
