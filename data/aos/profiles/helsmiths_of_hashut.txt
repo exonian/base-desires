@@ -3,8 +3,7 @@ Daemonsmith                                                            || 32mm
 Daemonsmith on Infernal Taurus                                         || 130mm
 Urak Taar, the First Daemonsmith                                       || 130mm
 War Despot                                                             || 32mm
-
-Anoninted Sentinels                                                    || 75 x 42mm
+Anointed Sentinels                                                     || 75 x 42mm
 Bull Centaurs                                                          || 75 x 42mm
 Deathshrieker Rocket Battery                                           || 100mm
 Dominator Engine with Bane Maces                                       || 80mm

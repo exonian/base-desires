@@ -2,8 +2,8 @@ Akhelian King                                                          || 60mm
 Akhelian Thrallmaster                                                  || 32mm
 Eidolon of Mathlann, Aspect of the Sea                                 || 100mm
 Eidolon of Mathlann, Aspect of the Storm                               || 100mm
-Ikon of the Storm                                                      || 32mm
-Ikon of the Sea                                                        || 32mm
+Ikon of the Storm                                                      || 40mm
+Ikon of the Sea                                                        || 40mm
 Isharann Soulrender                                                    || 40mm
 Isharann Soulscryer                                                    || 32mm
 Isharann Tidecaster                                                    || 32mm
