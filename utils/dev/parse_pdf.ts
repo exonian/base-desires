@@ -153,7 +153,7 @@ const import_bases_aos = (path: string) => {
             if (line.trim().startsWith('The following units no longer')) return true
 
             // Detect we're into Legends
-            if (Object.keys(profiles).length > 0 && lineNoSpaces.startsWith('WARHAMMERLEGENDS')) {
+            if (Object.keys(profiles).length > 0 && lineNoSpaces.startsWith('LEGENDS')) {
                 inLegends = true
                 inEnhancements = false
             }
