@@ -278,6 +278,7 @@ const warscroll_name_typos: Record<string, string> = {
     "Hed k ra k k a's Mad mob": "Hedkrakka's Madmob",
     'Hobg rot Va nd a l z': 'Hobgrot Vandalz',
     "K a i na n's Reapers": "Kainan's Reapers",
+    "K a ma ndora's Blades": "Kamandora's Blades",
     "Killaboss on Corpse-rippa Vu lcha": "Killaboss on Corpse-rippa Vulcha",
     'K l a q -Tr o k': 'Klaq-Trok',
     'L o r d -Te r m i n o s': 'Lord-Terminos',
