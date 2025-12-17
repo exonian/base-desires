@@ -3,6 +3,7 @@ Armiger Warglaive                                                      || 100mm
 Canis Rex                                                              || 170x109mm Oval Base
 Knight Castellan                                                       || 170x109mm Oval Base
 Knight Crusader                                                        || 170x109mm Oval Base
+Knight Defender                                                        || 170x109mm Oval Base
 Knight Errant                                                          || 170x109mm Oval Base
 Knight Gallant                                                         || 170x109mm Oval Base
 Knight Paladin                                                         || 170x109mm Oval Base

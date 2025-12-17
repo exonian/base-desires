@@ -3,9 +3,11 @@ C'tan Shard of the Deceiver                                            || 40mm
 C'tan Shard of the Nightbringer                                        || 40mm
 C'tan Shard of the Void Dragon                                         || 80mm
 Canoptek Doomstalker                                                   || 90mm
+Canoptek Macrocytes                                                    || 28.5mm
 Canoptek Reanimator                                                    || 60mm
 Canoptek Scarab Swarms                                                 || 40mm
 Canoptek Spyders                                                       || 60mm
+Canoptek Tomb Crawlers                                                 || 50mm
 Canoptek Wraiths                                                       || 50mm
 Catacomb Command Barge                                                 || Large Flying Base
 Chronomancer                                                           || 40mm
@@ -15,6 +17,7 @@ Deathmarks                                                             || 32mm
 Doom Scythe                                                            || 120x92mm Oval Base
 Doomsday Ark                                                           || Large Flying Base
 Flayed Ones                                                            || 28.5mm
+Geomancer                                                              || 50mm
 Ghost Ark                                                              || Large Flying Base
 Hexmark Destroyer                                                      || 50mm
 Illuminor Szeras                                                       || 80mm

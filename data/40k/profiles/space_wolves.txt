@@ -16,6 +16,8 @@ Wolf Guard Headtakers                                                  || 40mm
 Wolf Guard Headtakers: Hunting Wolves                                  || 60x35.5mm Oval Base
 Wolf Guard Terminators                                                 || 40mm
 Wolf Priest                                                            || 40mm
+Wolf Scouts                                                            || 32mm
+Wolf Scouts: Hunting Wolves                                            || 60x35.5mm Oval Base
 Wulfen                                                                 || 40mm
 Wulfen Dreadnought                                                     || 60mm
 Wulfen with Storm Shields                                              || 40mm

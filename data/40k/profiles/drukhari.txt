@@ -1,22 +1,20 @@
-Archon                                                                 || 25mm
-Beastmaster                                                            || Small Flying Base
-Beastmaster: Clawed Fiends, Khymerae, Razorwing Flocks                 || 40mm
-Court of the Archon: Sslyth                                            || 40mm
-Court of the Archon: Ur-Ghul, Lhamaean, Medusae                        || 25mm
+Archon                                                                 || 32mm
 Cronos                                                                 || Large Flying Base
 Drazhar                                                                || 40mm
-Grotesques                                                             || 40mm
 Haemonculus                                                            || 25mm
+Hand of the Archon                                                     || 25mm
 Hellions                                                               || Small Flying Base
 Incubi                                                                 || 28.5mm
 Kabalite Warriors                                                      || 25mm
+Lady Malys                                                             || 32mm
 Lelith Hesperax                                                        || 32mm
 Mandrakes                                                              || 28.5mm
 Raider                                                                 || Large Flying Base
 Ravager                                                                || Large Flying Base
 Razorwing Jetfighter                                                   || 120x92mm Oval Base
 Reavers                                                                || Small Flying Base
-Scourges                                                               || 32mm
+Scourges with Heavy Weapons                                            || 32mm
+Scourges with Shardcarbines                                            || 32mm
 Succubus                                                               || 25mm
 Talos                                                                  || Large Flying Base
 Urien Rakarth                                                          || 25mm
