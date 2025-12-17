@@ -274,6 +274,7 @@ const ignore_profile = (name: string) :boolean => {
 const warscroll_name_typos: Record<string, string> = {
     'A rch-Wa rlock': 'Arch-Warlock',
     'Darkoath Chieftain on Wa rsteed': 'Darkoath Chieftain on Warsteed',
+    'Daemonsmith on Infernal Tau r u s': 'Daemonsmith on Infernal Taurus',
     'Frazzlegit Shaman on Wa r-W heela': 'Frazzlegit Shaman on War-Wheela',
     "Hed k ra k k a's Mad mob": "Hedkrakka's Madmob",
     'Hobg rot Va nd a l z': 'Hobgrot Vandalz',
