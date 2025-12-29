@@ -13,7 +13,7 @@
     "list-legends": "npx tsx utils/dev/list_legends.ts"
   },
   "dependencies": {
-    "@next/third-parties": "^16.0.7",
+    "@next/third-parties": "^16.1.0",
     "@types/pdf-parse": "^1.1.4",
     "bootstrap": "^5.3.8",
     "bootswatch": "^5.1.3",
