@@ -5,6 +5,7 @@ Battle Sisters Squad                                                   || 32mm
 Canoness                                                               || 32mm
 Canoness with Jump Pack                                                || 32mm
 Castigator                                                             || Hull
+Celestian Insidiants                                                   || 32mm
 Celestian Sacresants                                                   || 32mm
 Daemonifuge                                                            || 32mm
 Dialogus                                                               || 40mm
@@ -13,7 +14,7 @@ Dominion Squad                                                         || 32mm
 Exorcist                                                               || Hull
 Hospitaller                                                            || 50mm
 Imagifier                                                              || 32mm
-Immolator                                                              || Hull
+Immolator [Adepta_Sororitas]                                           || Hull
 Junith Eruita                                                          || 50mm
 Ministorum Priest                                                      || 32mm
 Mortifiers                                                             || 50mm

@@ -17,6 +17,7 @@ Captain in Gravis Armour                                               || 40mm
 Captain in Phobos Armour                                               || 40mm
 Captain in Terminator Armour                                           || 50mm
 Captain Sicarius                                                       || 32mm
+Captain Titus                                                          || 40mm
 Captain with Jump Pack                                                 || 40mm
 Cato Sicarius                                                          || 40mm
 Centurion Assault Squad                                                || 50mm
@@ -98,4 +99,6 @@ Vanguard Veteran Squad with Jump Packs                                 || 32mm
 Victrix Honour Guard                                                   || 40mm
 Vindicator                                                             || Hull
 Vulkan He'stan                                                         || 40mm
+Wardens of Ultramar: Ancient Gadriel, Veteran Sergeant Metaurus        || 40mm
+Wardens of Ultramar: Gaius Silva, Aemelia Minervas, Dainal Kornelius, Lucia Vestha || 28.5mm
 Whirlwind                                                              || Hull

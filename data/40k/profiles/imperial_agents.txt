@@ -29,6 +29,6 @@ Subductor Squad: Cyber-mastiff                                         || 25mm
 Vigilant Squad                                                         || 28.5mm
 Vigilant Squad: Cyber-mastiff                                          || 25mm
 Vindicare Assassin                                                     || 32mm
-Voidsmen-at-Arms                                                       || 32mm
+Voidsmen-at-Arms                                                       || 25mm
 Watch Captain Artemis                                                  || 32mm
 Watch Master                                                           || 32mm

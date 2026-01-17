@@ -18,8 +18,8 @@ Hernkyn Yaegirs                                                        || 28.5mm
 Ironkin Steeljacks with Heavy Volkanite Disintegrators                 || 40mm
 Ironkin Steeljacks with Melee Weapons                                  || 40mm
 Kâhl                                                                   || 40mm
-Kapricus Carrier                                                       || 105x70 Oval Base
-Kapricus Defenders                                                     || 105x70 Oval Base
+Kapricus Carrier                                                       || 105x70mm Oval Base
+Kapricus Defenders                                                     || 105x70mm Oval Base
 Memnyr Strategist                                                      || 32mm
 Sagitaur                                                               || Hull
 Ûthar the Destined                                                     || 40mm

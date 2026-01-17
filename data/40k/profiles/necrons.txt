@@ -1,6 +1,6 @@
 Annihilation Barge                                                     || Large Flying Base
 C'tan Shard of the Deceiver                                            || 40mm
-C'tan Shard of the Nightbringer                                        || 40mm
+C'tan Shard of the Nightbringer                                        || 90mm
 C'tan Shard of the Void Dragon                                         || 80mm
 Canoptek Doomstalker                                                   || 90mm
 Canoptek Macrocytes                                                    || 28.5mm
@@ -29,6 +29,7 @@ Lokhust Lord                                                           || Large 
 Lychguard                                                              || 32mm
 Monolith                                                               || 160mm
 Necron Warriors                                                        || 32mm
+Nekrosor Ammentar                                                      || 80mm
 Night Scythe                                                           || 120x92mm Oval Base
 Obelisk                                                                || 120x92mm Oval Base
 Ophydian Destroyers                                                    || 50mm

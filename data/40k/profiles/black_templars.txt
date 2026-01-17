@@ -1,9 +1,3 @@
-Black Templars Gladiator Lancer                                        || 100mm
-Black Templars Gladiator Reaper                                        || 100mm
-Black Templars Gladiator Valiant                                       || 100mm
-Black Templars Impulsor                                                || 100mm
-Black Templars Repulsor                                                || 100mm
-Black Templars Repulsor Executioner                                    || 100mm
 Castellan                                                              || 40mm
 Chaplain Grimaldus                                                     || 40mm
 Chaplain Grimaldus: Cenobyte Servitors                                 || 28.5mm
