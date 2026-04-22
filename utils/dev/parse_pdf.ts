@@ -76,6 +76,7 @@ function clean_text(text: string) :string {
     text = text.replaceAll(String.fromCharCode(7), "")  // invisible control character
 
     text = text.replace(/(\d)? {0,1}(\d) {0,1}m {0,1}m/g, "$1$2mm")  // remove spaces in simple sizes
+    text = text.replaceAll("NEW", "")  // NEW badge
     return text
 }
 
@@ -283,6 +284,7 @@ const warscroll_name_typos: Record<string, string> = {
     "Killaboss on Corpse-rippa Vu lcha": "Killaboss on Corpse-rippa Vulcha",
     'K l a q -Tr o k': 'Klaq-Trok',
     'L o r d -Te r m i n o s': 'Lord-Terminos',
+    'Mor tek Tria xes': 'Mortek Triaxes',
     'S p i r e Ty r a nt s': 'Spire Tyrants',
     'Stea m Ta n k': 'Steam Tank',
     'Ta r a nt u los Brood': 'Tarantulos Brood',

@@ -11,3 +11,7 @@ Clawlord on Gnaw-beast                                                 || Correc
 Ikon of the Storm                                                      || Correct in PDF since November 2025
 Ikon of the Sea                                                        || Correct in PDF since November 2025
 Festus the Leechlord                                                   || Old one was 32mm
+Fatemaster on Disc of Tzeentch                                         || Previously called 'Fatemaster'
+Tzaangor Enlightened                                                   || Previously called 'Tzaangor Enlightened on Discs of Tzeentch'
+Tzaangor Enlightened on Foot                                           || Previously called 'Tzaangor Enlightened'
+Vanari Lord Regent on Lightcourser                                     || Previously called 'Vanari Lord Regent'

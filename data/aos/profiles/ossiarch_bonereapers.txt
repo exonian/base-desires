@@ -2,6 +2,8 @@ Arch-Kavalos Zandtos                                                   || 80mm
 Arkhan the Black, Mortarch of Sacrament                                || 120 x 92mm
 Katakros, Mortarch of the Necropolis                                   || 120 x 92mm
 Liege-Kavalos                                                          || 80mm
+Liege-Kavalos on War Chariot                                           || 120 x 92mm
+Liege-Mortek                                                           || 32mm
 Mortisan Boneshaper                                                    || 32mm
 Mortisan Ossifector                                                    || 32mm
 Mortisan Soulmason                                                     || 40mm
@@ -11,9 +13,12 @@ Vokmortian, Master of the Bone-tithe                                   || 40mm
 Gothizzar Harvester                                                    || 105 x 70mm
 Immortis Guard                                                         || 50mm
 Kavalos Deathriders                                                    || 60 x 35mm
+Kavalos War Chariot                                                    || 120 x 92mm
 Morghast Archai                                                        || 60mm
 Morghast Harbingers                                                    || 60mm
 Mortek Crawler                                                         || 170 x 105mm
 Mortek Guard                                                           || 25mm
+Mortis Reapers                                                         || 32mm
+Mortek Triaxes                                                         || 25mm
 Necropolis Stalkers                                                    || 50mm
 Teratic Cohort                                                         || 60 x 35mm [1], 32mm [2], 28.5mm [5]

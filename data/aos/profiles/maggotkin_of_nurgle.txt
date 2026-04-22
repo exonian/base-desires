@@ -1,8 +1,8 @@
-Belga the Cystwitch                                                    || 40mm {Maggotkin of Nurgle Battle Profiles January 2026}
+Belga the Cystwitch                                                    || 40mm
 Bloab Rotspawned                                                       || 100mm
-Cankerborn                                                             || 40mm {Maggotkin of Nurgle Battle Profiles January 2026}
-Festus the Leechlord                                                   || 150 x 95mm {Maggotkin of Nurgle Battle Profiles January 2026}
-Gelgus Pust, the Prince of Sores                                       || 50mm {Maggotkin of Nurgle Battle Profiles January 2026}
+Cankerborn                                                             || 40mm
+Festus the Leechlord                                                   || 150 x 95mm
+Gelgus Pust, the Prince of Sores                                       || 50mm
 Great Unclean One                                                      || 130mm
 Gutrot Spume                                                           || 40mm
 Harbinger of Decay                                                     || 90 x 52mm
@@ -15,17 +15,18 @@ Orghotts Daemonspew                                                    || 100mm
 Poxbringer, Herald of Nurgle                                           || 32mm
 Rotbringer Sorcerer                                                    || 32mm
 Rotigus                                                                || 130mm
-Shaman Foulhoof                                                        || 32mm {Maggotkin of Nurgle Battle Profiles January 2026}
+Shaman Foulhoof                                                        || 32mm
 Sloppity Bilepiper, Herald of Nurgle                                   || 32mm
 Spoilpox Scrivener, Herald of Nurgle                                   || 40mm
 The Glottkin                                                           || 130mm
-Beasts of Nurgle                                                       || 60mm
+Beast of Nurgle                                                        || 60mm
 Nurglings                                                              || 40mm
-Pestigors                                                              || 32mm {Maggotkin of Nurgle Battle Profiles January 2026}
+Pestigors                                                              || 32mm
 Plague Drones                                                          || 60mm
 Plaguebearers                                                          || 32mm
+Pox-Wretches                                                           || 25mm
 Pusgoyle Blightlords                                                   || 60mm
 Putrid Blightkings                                                     || 40mm
 Rotmire Creed                                                          || 32mm [2], 28.5mm [2], 25mm [6]
-Rotswords                                                              || 32mm {Maggotkin of Nurgle Battle Profiles January 2026}
-Sloven Knights                                                         || 75 x 42mm {Maggotkin of Nurgle Battle Profiles January 2026}
+Rotswords                                                              || 32mm
+Sloven Knights                                                         || 75 x 42mm
