@@ -1,4 +1,6 @@
 Alchemite Warforger                                                    || 32mm
+Amethyst Knellmage                                                     || 32mm {Cities of Sigmar Battle Profiles April 2026}
+Aqshian Pyrocaster                                                     || 32mm {Cities of Sigmar Battle Profiles April 2026}
 Assassin                                                               || 25mm
 Battlemage                                                             || 25mm
 Battlemage on Celestial Hurricanum                                     || 120 x 92mm
@@ -6,14 +8,22 @@ Battlemage on Griffon                                                  || 120 x 
 Battlemage on Luminark of Hysh                                         || 120 x 92mm
 Black Ark Fleetmaster                                                  || 25mm
 Callis and Toll                                                        || 28.5mm
+Cannonade Cogfort                                                      || 160mm {Cities of Sigmar Battle Profiles April 2026}
 Cogsmith                                                               || 25mm
+Conqueror Cogfort                                                      || 160mm {Cities of Sigmar Battle Profiles April 2026}
 Dreadlord on Black Dragon                                              || 105 x 70mm
+Erasmus Zonn, the Enlightened One                                      || 75 x 42mm {Cities of Sigmar Battle Profiles April 2026}
 Freeguild Cavalier-Marshal                                             || 75 x 42mm
 Freeguild Marshal and Relic Envoy                                      || 32mm [1], 28.5mm [1]
 Freeguild Marshal on Griffon                                           || 120 x 92mm
 Fusil-Major on Ogor Warhulk                                            || 50mm
 Galen ven Denst                                                        || 28.5mm
 Doralia ven Denst                                                      || 28.5mm
+Galen and Doralia ven Denst                                            || 28.5mm {Cities of Sigmar Battle Profiles April 2026}
+Immolator Cogfort                                                      || 160mm {Cities of Sigmar Battle Profiles April 2026}
+Jorvan Kreel, Heir of the Kraken                                       || 32mm [1], 25mm [1] {Cities of Sigmar Battle Profiles April 2026}
+Linebreaker Cogfort                                                    || 160mm {Cities of Sigmar Battle Profiles April 2026}
+Mallus Forgepriest                                                     || 28.5mm {Cities of Sigmar Battle Profiles April 2026}
 Pontifex Zenestra, Matriarch of the Great Wheel                        || 90 x 52mm
 Runelord                                                               || 25mm
 Sorceress                                                              || 25mm
@@ -34,8 +44,14 @@ Executioners                                                           || 25mm
 Flagellants                                                            || 25mm
 Freeguild Cavaliers                                                    || 60 x 35mm
 Freeguild Command Corps                                                || 40mm [1], 32mm [1], 28.5mm [4]
+Freeguild Command Corps Adjutants                                      || 32mm [1], 28.5mm [2] {Cities of Sigmar Battle Profiles April 2026}
+Freeguild Command Corps Auxiliaries                                    || 40mm [1], 28.5mm [1] {Cities of Sigmar Battle Profiles April 2026}
+Freeguild Command Corps Whisperblade                                   || 28.5mm {Cities of Sigmar Battle Profiles April 2026}
 Freeguild Fusiliers                                                    || 28.5mm
+Freeguild Gallants                                                     || 28.5mm {Cities of Sigmar Battle Profiles April 2026}
+Freeguild Grenadiers                                                   || 28.5mm {Cities of Sigmar Battle Profiles April 2026}
 Freeguild Steelhelms                                                   || 25mm
+Gate Gargants                                                          || 80mm {Cities of Sigmar Battle Profiles April 2026}
 Gyrobomber                                                             || 50mm
 Gyrocopter                                                             || 50mm
 Hammerers                                                              || 25mm
