@@ -31,18 +31,22 @@ Helbrute                                                               || 60mm
 Heldrake                                                               || 120x92mm Oval Base
 Heretic Astartes Daemon Prince                                         || 60mm
 Heretic Astartes Daemon Prince with Wings                              || 60mm
-Huron Blackheart                                                       || 32mm
+Huron Blackheart                                                       || 50mm
 Khorne Lord of Skulls                                                  || Hull
 Legionaries                                                            || 32mm
 Lord Discordant on Helstalker                                          || 120x92mm Oval Base
 Master of Executions                                                   || 40mm
 Master of Possession                                                   || 40mm
+Masters of the Maelstrom: Garlon Souleater, Garreon the Corpsemaster, Katar Garrix, Captain Sargotta || 40mm
+Masters of the Maelstrom: The Enforcer                                 || 32mm
 Maulerfiend                                                            || 120x92mm Oval Base
 Nemesis Claw                                                           || 32mm
 Noctilith Crown                                                        || Hull
 Obliterators                                                           || 50mm
 Possessed                                                              || 40mm
 Raptors                                                                || 32mm
+Red Corsairs Raiders                                                   || 40mm
+Red Corsairs Reave-Captain                                             || 32mm
 Sorcerer                                                               || 40mm
 Sorcerer in Terminator Armour                                          || 40mm
 Traitor Enforcer                                                       || 32mm
