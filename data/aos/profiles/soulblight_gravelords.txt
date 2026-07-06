@@ -1,9 +1,6 @@
 Belladamma Volga, First of the Vyrkos                                  || 60mm
 Blades of the Hollow King                                              || 50mm [1], 40mm [2]
-Bloodseeker Palanquin                                                  || 120 x 92mm
-Cado Ezechiar, the Hollow King                                         || 40mm
 Coven Throne                                                           || 120 x 92mm
-Gorslav the Gravekeeper                                                || 40mm
 Ivya Volga, the Outcast                                                || 32mm
 Kritza, the Rat Prince                                                 || 60 x 35mm
 Lady Annika, the Thirsting Blade                                       || 60 x 35mm
@@ -17,12 +14,9 @@ Prince Vhordrai                                                        || 160mm
 Radukar the Beast                                                      || 60mm
 Radukar the Wolf                                                       || 40mm
 Sekhar, Fang of Nulahmia                                               || 60 x 35mm
-Torgillius the Chamberlain                                             || 40mm
 Vampire Lord                                                           || 40mm
 Vampire Lord on Nightmare Steed                                        || 80mm
-Vampire Lord on Zombie Dragon                                          || 130mm
 Vengorian Lord                                                         || 80mm
-Watch Captain Halgrim                                                  || 32mm
 Wight King                                                             || 32mm
 Wight King on Skeletal Steed                                           || 80mm
 Wight Lord on Skeletal Steed                                           || 80mm
@@ -35,9 +29,5 @@ Deadwalker Zombies                                                     || 25mm
 Deathrattle Skeletons                                                  || 25mm
 Dire Wolves                                                            || 60 x 35mm
 Fell Bats                                                              || 40mm
-Kosargi Nightguard                                                     || 40mm
 Revenant Draconith                                                     || 160mm
-Terrorgheist                                                           || 130mm
 Vargheists                                                             || 50mm
-Vargskyr                                                               || 50mm
-Vyrkos Blood-born                                                      || 32mm

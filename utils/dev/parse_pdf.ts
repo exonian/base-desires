@@ -116,6 +116,8 @@ const faction_name_typos: Record<string, string> = {
 
 const alt_profile_prefixes: string[] = [
     'Scourge of Ghyran',
+    'Scourge of Aqshy',
+    'Allies of the Free Cities',
 ]
 
 const import_bases_aos = (path: string) => {
