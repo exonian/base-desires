@@ -13,25 +13,25 @@
     "list-legends": "npx tsx utils/dev/list_legends.ts"
   },
   "dependencies": {
-    "@next/third-parties": "^16.2.9",
+    "@next/third-parties": "^16.2.10",
     "@types/pdf-parse": "^1.1.4",
     "bootstrap": "^5.3.8",
     "bootswatch": "^5.3.8",
     "lodash": "^4.18.1",
-    "next": "^16.2.9",
+    "next": "^16.2.10",
     "pdf-parse": "^1.1.4",
     "react": "19.2.7",
     "react-dom": "19.2.7",
-    "react-icons": "^5.6.0",
+    "react-icons": "^5.7.0",
     "sass": "^1.101.0"
   },
   "devDependencies": {
     "@types/lodash": "^4.17.24",
-    "@types/node": "26.0.1",
+    "@types/node": "26.1.0",
     "@types/react": "19.2.17",
     "@types/react-dom": "19.2.3",
     "eslint": "9.39.2",
-    "eslint-config-next": "16.2.9",
+    "eslint-config-next": "16.2.10",
     "typescript": "5.9.3"
   }
 }
