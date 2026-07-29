@@ -17,7 +17,6 @@ Scourges with Heavy Weapons                                            || 32mm
 Scourges with Shardcarbines                                            || 32mm
 Succubus                                                               || 25mm
 Talos                                                                  || Large Flying Base
-Urien Rakarth                                                          || 25mm
 Venom                                                                  || Large Flying Base
 Voidraven Bomber                                                       || 120x92mm Oval Base
 Wracks                                                                 || 25mm

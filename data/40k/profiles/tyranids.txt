@@ -12,6 +12,7 @@ Hive Crone                                                             || 120x92
 Hive Guard                                                             || 50mm
 Hive Tyrant                                                            || 60mm
 Hormagaunts                                                            || 28.5mm
+Hyperadapted Raveners                                                  || 40mm
 Lictor                                                                 || 50mm
 Maleceptor                                                             || 120x92mm Oval Base
 Mawloc                                                                 || 120x92mm Oval Base
@@ -33,9 +34,11 @@ Spore MInes                                                            || 25mm
 Sporocyst                                                              || Hull
 Termagants                                                             || 28.5mm
 Tervigon                                                               || 120x92mm Oval Base
+The Red Terror                                                         || 100mm
 The Swarmlord                                                          || 60mm
 Toxicrene                                                              || 120x92mm Oval Base
 Trygon                                                                 || 120x92mm Oval Base
+Tyranid Prime with Lash Whip                                           || 50mm
 Tyranid Warriors with Melee Bio-weapons                                || 50mm
 Tyranid Warriors with Ranged Bio-weapons                               || 50mm
 Tyrannocyte                                                            || 100mm

@@ -33,6 +33,7 @@ Heretic Astartes Daemon Prince                                         || 60mm
 Heretic Astartes Daemon Prince with Wings                              || 60mm
 Huron Blackheart                                                       || 50mm
 Khorne Lord of Skulls                                                  || Hull
+Kravek Morne                                                           || 50mm
 Legionaries                                                            || 32mm
 Lord Discordant on Helstalker                                          || 120x92mm Oval Base
 Master of Executions                                                   || 40mm
@@ -40,6 +41,7 @@ Master of Possession                                                   || 40mm
 Masters of the Maelstrom: Garlon Souleater, Garreon the Corpsemaster, Katar Garrix, Captain Sargotta || 40mm
 Masters of the Maelstrom: The Enforcer                                 || 32mm
 Maulerfiend                                                            || 120x92mm Oval Base
+Mutilators                                                             || 50mm
 Nemesis Claw                                                           || 32mm
 Noctilith Crown                                                        || Hull
 Obliterators                                                           || 50mm

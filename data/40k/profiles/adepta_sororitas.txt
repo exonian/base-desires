@@ -16,6 +16,7 @@ Hospitaller                                                            || 50mm
 Imagifier                                                              || 32mm
 Immolator [Adepta_Sororitas]                                           || Hull
 Junith Eruita                                                          || 50mm
+Intranzia Fraye                                                        || 60mm
 Ministorum Priest                                                      || 32mm
 Mortifiers                                                             || 50mm
 Morvenn Vahl                                                           || 60mm

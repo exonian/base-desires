@@ -33,7 +33,8 @@ Stealth Battlesuits                                                    || 32mm
 Stormsurge                                                             || 170x109mm Oval Base
 Strike Team                                                            || 25mm
 Sun Shark Bomber                                                       || 120x92mm Oval Base
-Tidewall Defence Platform                                              || Hull
+The Twin Lance: Ri'Lantar / Ri'Locai                                   || 60mm
+The Twin Lance: MV15 Gun Drone                                         || 32mm
 Tidewall Droneport                                                     || Hull
 Tidewall Gunrig                                                        || Hull
 Tidewall Shieldline                                                    || Hull

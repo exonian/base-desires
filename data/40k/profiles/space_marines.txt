@@ -26,6 +26,7 @@ Chaplain                                                               || 40mm
 Chaplain in Terminator Armour                                          || 40mm
 Chaplain on Bike                                                       || 90x52.5mm Oval Base
 Chaplain with Jump Pack                                                || 32mm
+Chaplain with Jump Pack (Armageddon)                                   || 40mm
 Chief Librarian Tigurius                                               || 40mm
 Company Heroes                                                         || 40mm
 Darnath Lysander                                                       || 50mm
@@ -35,6 +36,7 @@ Dreadnought                                                            || 60mm
 Drop Pod                                                               || Hull
 Eliminator Squad                                                       || 40mm
 Eradicator Squad                                                       || 40mm
+Eradicator Squad with Heavy Bolters                                    || 40mm
 Firestrike Servo-turrets                                               || 80mm
 Gladiator Lancer                                                       || 100mm
 Gladiator Reaper                                                       || 100mm
@@ -57,16 +59,14 @@ Kor'sarro Khan                                                         || 40mm
 Land Raider                                                            || Hull
 Land Raider Crusader                                                   || Hull
 Land Raider Redeemer                                                   || Hull
+Land Speeder                                                           || 105x70mm Oval Base
 Librarian                                                              || 40mm
 Librarian in Phobos Armour                                             || 40mm
 Librarian in Terminator Armour                                         || 40mm
 Lieutenant                                                             || 40mm
 Lieutenant in Phobos Armour                                            || 40mm
 Lieutenant in Reiver Armour                                            || 40mm
-Lieutenant Titus                                                       || 40mm
 Lieutenant with Combi-weapon                                           || 40mm
-Marneus Calgar                                                         || 50mm
-Marneus Calgar: Victrix Honour Guard                                   || 40mm
 Marneus Calgar in Armour of Antilochus                                 || 50mm
 Outrider Squad                                                         || 90x52.5mm Oval Base
 Pedro Kantor                                                           || 32mm

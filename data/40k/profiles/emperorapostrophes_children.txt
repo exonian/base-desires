@@ -4,6 +4,7 @@ Chaos Spawn                                                            || 50mm
 Chaos Terminators                                                      || 40mm
 Daemon Prince of Slaanesh                                              || 60mm
 Daemon Prince of Slaanesh with Wings                                   || 60mm
+Defiler                                                                || 160mm
 Flawless Blades                                                        || 40mm
 Fulgrim                                                                || 130mm
 Heldrake                                                               || 120x92mm Oval Base

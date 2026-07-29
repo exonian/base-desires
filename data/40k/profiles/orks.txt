@@ -1,8 +1,11 @@
+Bannernob                                                              || 40mm
 Battlewagon                                                            || Hull
 Beast Snagga Boyz                                                      || 32mm
 Beastboss                                                              || 50mm
 Beastboss on Squigosaur                                                || 80mm
+Bigboss                                                                || 40mm
 Big Mek                                                                || 50mm
+Big Mek Dakkarig                                                       || 90mm
 Big Mek in Mega Armour                                                 || 40mm
 Big Mek with Shokk Attack Gun                                          || 40mm
 Big'ed Bossbunka                                                       || Hull
@@ -10,6 +13,7 @@ Blitza-bommer                                                          || 120x92
 Boomdakka Snazzwagon                                                   || 150x95mm Oval Base
 Boss Snikrot                                                           || 40mm
 Boyz                                                                   || 32mm
+Boyz: Boss Nob (Armageddon)                                            || 40mm
 Breaka Boyz                                                            || 32mm
 Breaka Boyz: Boss Nob                                                  || 40mm
 Burna Boyz                                                             || 32mm
@@ -50,8 +54,12 @@ Tankbustas: Boss Nob                                                   || 40mm
 Trukk                                                                  || Hull
 Warbikers                                                              || 75x42mm Oval Base
 Warboss                                                                || 40mm
+Warboss (Armageddon)                                                   || 50mm
 Warboss in Mega Armour                                                 || 50mm
+Wartrakk                                                               || 105x70mm Oval Base
+Wazdakka Gutsmek                                                       || 120mm
 Wazbom Blastajet                                                       || 150x95mm Oval Base
 Weirdboy                                                               || 40mm
+Weirdboy (Armageddon)                                                  || 50mm
 Wurrboy                                                                || 32mm
 Zodgrod Wortsnagga                                                     || 50mm

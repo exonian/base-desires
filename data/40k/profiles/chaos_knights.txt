@@ -2,6 +2,7 @@ Knight Abominant                                                       || 170x10
 Knight Desecrator                                                      || 170x109mm Oval Base
 Knight Despoiler                                                       || 170x109mm Oval Base
 Knight Rampager                                                        || 170x109mm Oval Base
+Knight Ruinator                                                        || 170x109mm Oval Base
 Knight Tyrant                                                          || 170x109mm Oval Base
 War Dog Brigand                                                        || 100mm
 War Dog Executioner                                                    || 100mm

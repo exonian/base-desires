@@ -15,6 +15,7 @@ Inquisitor                                                             || 32mm
 Inquisitor Coteaz                                                      || 40mm
 Inquisitor Draxus                                                      || 32mm
 Inquisitor Greyfax                                                     || 32mm
+Inquisitor Kroyle                                                      || 60mm
 Inquisitorial Agents                                                   || 25mm
 Inquisitorial Agents: Gun Servitors                                    || 32mm
 Inquisitorial Chimera                                                  || Hull

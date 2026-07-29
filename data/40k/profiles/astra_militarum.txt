@@ -10,12 +10,17 @@ Bullgryn squad                                                         || 40mm
 Cadian Castellan                                                       || 28.5mm
 Cadian Command Squad                                                   || 28.5mm
 Cadian Heavy Weapons Squad                                             || 50mm
+Cadian Recon Squad                                                     || 28.5mm
 Cadian Shock Troops                                                    || 25mm
 Catachan Command Squad                                                 || 25mm
 Catachan Heavy Weapons Squad                                           || 60mm
 Catachan Jungle Fighters                                               || 25mm
+Centaur RSV                                                            || Hull
 Chimera                                                                || Hull
 Commissar                                                              || 28.5mm
+Commissar Graves                                                       || Hull
+Commissar Graves on Foot                                               || 32mm
+Commissar Yarrick                                                      || 32mm
 Death Korps of Krieg                                                   || 25mm
 Death Riders                                                           || 60x35.5mm Oval Base
 Deathstrike                                                            || Hull
@@ -24,6 +29,7 @@ Field Ordnance Battery                                                 || 100mm
 Gaunt's Ghosts                                                         || 28.5mm
 Hellhammer                                                             || Hull
 Hellhound                                                              || Hull
+Hippogriff AFV                                                         || Hull
 Hydra                                                                  || Hull
 Kasrkin                                                                || 28.5mm
 Krieg Combat Engineers                                                 || 25mm

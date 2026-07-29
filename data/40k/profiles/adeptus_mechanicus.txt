@@ -5,6 +5,8 @@ Belisarius Cawl                                                        || 105x70
 Corpuscarii Electro-Priests                                            || 32mm
 Cybernetica Datasmith                                                  || 32mm
 Fulgurite Electro-Priests                                              || 32mm
+Hastarii Exterminators                                                 || 32mm
+Hastarii Fusiliers                                                     || 32mm
 Ironstrider Ballistarii                                                || 105x70mm Oval Base
 Kastelan Robots                                                        || 60mm
 Kataphron Breachers                                                    || 60mm
@@ -14,6 +16,8 @@ Pteraxii Skystalkers                                                   || 40mm
 Pteraxii Sterylizors                                                   || 40mm
 Serberys Raiders                                                       || 60x35.5mm Oval Base
 Serberys Sulphurhounds                                                 || 60x35.5mm Oval Base
+Servitor Battleclade: Servitor Underseer / Gun Servitors               || 32mm
+Servitor Battleclade: Combat Servitors                                 || 25mm
 Sicarian Infiltrators                                                  || 40mm
 Sicarian Ruststalkers                                                  || 40mm
 Skitarii Marshal                                                       || 32mm
@@ -29,3 +33,4 @@ Tech-Priest Dominus                                                    || 50mm
 Tech-Priest Enginseer                                                  || 32mm
 Tech-Priest Manipulus                                                  || 50mm
 Technoarcheologist                                                     || 32mm
+Thulia Ghuld                                                           || 80mm
