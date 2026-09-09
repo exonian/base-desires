@@ -3,6 +3,9 @@ Gatebreaker Mega-Gargant                                               || 130mm
 King Brodd                                                             || 130mm
 Kragnos, the End of Empires                                            || 130mm
 Kraken-eater Mega-Gargant                                              || 130mm
+Ma Maegran, Chooser of the Mighty                                      || 90mm {Sons of Behemat Battle Profiles September 2026}
 Warstomper Mega-Gargant                                                || 130mm
+Ancient Ghyrochs                                                       || 105 x 70mm {Sons of Behemat Battle Profiles September 2026}
+Boss-stompers                                                          || 80mm {Sons of Behemat Battle Profiles September 2026}
 Mancrusher Gargant                                                     || 90 x 52mm
-Mancrusher Mob                                                         || 90 x 52mm
+Rock-hurlers                                                           || 80mm {Sons of Behemat Battle Profiles September 2026}
