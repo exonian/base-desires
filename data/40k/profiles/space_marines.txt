@@ -16,7 +16,6 @@ Captain                                                                || 40mm
 Captain in Gravis Armour                                               || 40mm
 Captain in Phobos Armour                                               || 40mm
 Captain in Terminator Armour                                           || 50mm
-Captain Sicarius                                                       || 32mm
 Captain Titus                                                          || 40mm
 Captain with Jump Pack                                                 || 40mm
 Cato Sicarius                                                          || 40mm

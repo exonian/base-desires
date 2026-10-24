@@ -52,7 +52,7 @@ export const aosSources :any = {
 }
 
 export const fortykSources :any = {
-    'profiles': 'Tournament Companion June 2026',
+    'profiles': 'Tournament Companion October 2026',
     'unlisted': 'Unlisted',
     'corrected': 'Unofficial correction',
 }
