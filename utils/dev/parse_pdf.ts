@@ -120,6 +120,7 @@ const alt_profile_prefixes: string[] = [
     'Scourge of Ghyran',
     'Scourge of Aqshy',
     'Allies of the Free Cities',
+    'Pyrofane',
 ]
 
 const import_bases_aos = (path: string) => {
