@@ -18,8 +18,8 @@ Runewright                                                             || 32mm
 Thrynn                                                                 || 32mm
 Thrynn on War Throne                                                   || 170 x 105mm
 Auric Hearthguard                                                      || 32mm
-Clangunners with Thundrok Rifles                                       || 28.5mm
-Clangunners with Thundrin Shotcannons                                  || 28.5mm
+Clangunners with Thrundok Rifles                                       || 28.5mm
+Clangunners with Thrundrin Shotcannons                                 || 28.5mm
 Clanshields                                                            || 28.5mm
 Gholems of Gazul                                                       || 50mm
 Gholems of Valaya                                                      || 50mm
